@@ -1,0 +1,35 @@
+{
+  "slug": "challenger-series-newcastle-2027",
+  "name": "WSL Challenger Series – Newcastle",
+  "series": "WSL Challenger Series",
+  "category": [
+    "shortboard",
+    "contest"
+  ],
+  "level": "pro",
+  "startDate": "2027-03-01T07:00:00+11:00",
+  "endDate": "2027-03-07T17:00:00+11:00",
+  "timezone": "Australia/Sydney",
+  "location": {
+    "venue": "TBD",
+    "city": "Newcastle, NSW",
+    "country": "Australia",
+    "countryCode": "AU",
+    "continent": "oceania",
+    "lat": -32.9283,
+    "lng": 151.7817
+  },
+  "description": {
+    "sv": "Sista deltävlingen i Challenger Series 2026/27 – här avgörs vilka som tar steget upp till Championship Tour.",
+    "en": "The final stop of the 2026/27 Challenger Series – where the step up to the Championship Tour is decided."
+  },
+  "organizer": "World Surf League",
+  "disciplines": [
+    "Shortboard"
+  ],
+  "source": {
+    "note": "Maui Now (2 mar 2026) om WSL:s schema: Newcastle, NSW, 1–7 mar 2027. Att det är sista deltävlingen följer av listan (5 stopp, Newcastle sist).",
+    "url": "https://mauinow.com/2026/03/02/world-surf-league-announces-challenger-series-schedule-and-qs-6000-events/",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 import { SECTIONS, SECTION_COLORS, type SectionId } from '@/lib/sections';
-import { Logo } from './Logo';
+import { Logo, SectionMark } from './Logo';
 import { LanguageSwitcher } from './LanguageSwitcher';
 
 /** Vilken sektion besökaren är i, utifrån sökvägen (/surfing/... osv). */
@@ -30,8 +30,8 @@ export function Header() {
         {t('nav.skip')}
       </a>
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-6 px-4 sm:px-6">
-        <Link href="/" aria-label="ElementAction" className="shrink-0">
-          <Logo />
+        <Link href="/" aria-label="Elementaction" className="shrink-0">
+          <Logo size={40} />
         </Link>
 
         <nav aria-label={t('nav.sections')} className="hidden md:block">
@@ -45,11 +45,7 @@ export function Header() {
                     aria-current={isActive ? 'page' : undefined}
                     className="group relative flex items-center gap-2 rounded-full px-3.5 py-2 text-[15px] text-white/75 transition hover:text-white aria-[current=page]:text-white"
                   >
-                    <span
-                      className="h-2.5 w-2.5 rounded-full ring-1 ring-white/30"
-                      style={{ background: SECTION_COLORS[s].main }}
-                      aria-hidden
-                    />
+                    <SectionMark section={s} size={18} />
                     {t(`sections.${s}.name`)}
                     <span
                       className="absolute inset-x-3.5 -bottom-[13px] h-[3px] origin-left scale-x-0 rounded-full transition group-hover:scale-x-100 group-aria-[current=page]:scale-x-100"

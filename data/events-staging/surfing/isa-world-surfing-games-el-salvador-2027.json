@@ -1,0 +1,35 @@
+{
+  "slug": "isa-world-surfing-games-el-salvador-2027",
+  "name": "ISA World Surfing Games 2027",
+  "series": "ISA World Surfing Games",
+  "category": [
+    "shortboard",
+    "contest"
+  ],
+  "level": "pro",
+  "startDate": "2027-05-22T07:00:00-06:00",
+  "endDate": "2027-05-30T17:00:00-06:00",
+  "timezone": "America/El_Salvador",
+  "location": {
+    "venue": "La Bocana & El Sunzal",
+    "city": "Surf City El Salvador",
+    "country": "El Salvador",
+    "countryCode": "SV",
+    "continent": "north-america",
+    "lat": 13.4917,
+    "lng": -89.3833
+  },
+  "description": {
+    "sv": "Landslags-VM i surf – det första ISA-evenemanget som delar ut namngivna OS-platser till Los Angeles 2028.",
+    "en": "The team world championship of surfing – the first ISA event to award named Olympic spots for Los Angeles 2028."
+  },
+  "organizer": "International Surfing Association (ISA)",
+  "disciplines": [
+    "Shortboard"
+  ],
+  "source": {
+    "note": "ISA:s officiella nyhet (27 jul 2026): 22–30 maj 2027, La Bocana och El Sunzal, Surf City El Salvador.",
+    "url": "https://isasurf.org/isa-and-surf-city-el-salvador-announce-dates-for-2027-world-surfing-games/",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

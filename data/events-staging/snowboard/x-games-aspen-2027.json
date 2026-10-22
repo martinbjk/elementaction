@@ -1,0 +1,35 @@
+{
+  "slug": "x-games-aspen-2027",
+  "name": "X Games Aspen 2027",
+  "series": "X Games League",
+  "category": [
+    "contest"
+  ],
+  "level": "pro",
+  "startDate": "2027-01-29T09:00:00-07:00",
+  "endDate": "2027-01-31T18:00:00-07:00",
+  "timezone": "America/Denver",
+  "location": {
+    "venue": "Buttermilk",
+    "city": "Aspen, CO",
+    "country": "USA",
+    "countryCode": "US",
+    "continent": "north-america",
+    "lat": 39.2058,
+    "lng": -106.8608
+  },
+  "description": {
+    "sv": "X Games vid foten av Buttermilk i Aspen: tre dagar skid- och snowboardtävlingar med konserter på kvällarna. Fri entré före kl. 17.",
+    "en": "X Games at the base of Buttermilk in Aspen: three days of ski and snowboard competition with evening concerts. Free entry before 5 pm."
+  },
+  "organizer": "X Games",
+  "disciplines": [
+    "Snowboard",
+    "Ski"
+  ],
+  "source": {
+    "note": "Aspen Snowmass officiella eventsida: 29–31 jan 2027, Buttermilk. Grenarna har inte annonserats än.",
+    "url": "https://www.aspensnowmass.com/visit/events/x-games-aspen",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

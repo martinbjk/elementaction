@@ -2,7 +2,7 @@
   "name": "elementaction",
   "version": "0.1.0",
   "private": true,
-  "description": "ElementAction — surf, skateboard, snowboard och inspiration: kalendrar, artiklar, design och video.",
+  "description": "Elementaction — surf, skateboard, snowboard och inspiration: kalendrar, artiklar, design och video.",
   "scripts": {
     "dev": "next dev",
     "prebuild": "tsx scripts/extract-skateparks.ts --build",

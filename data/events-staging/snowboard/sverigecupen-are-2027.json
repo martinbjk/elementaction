@@ -1,0 +1,36 @@
+{
+  "slug": "sverigecupen-are-2027",
+  "name": "Sverigecupen Snowboard & Freeski – Åre",
+  "series": "Sverigecupen",
+  "category": [
+    "bigair",
+    "slopestyle"
+  ],
+  "level": "open",
+  "startDate": "2027-04-16T09:00:00+02:00",
+  "endDate": "2027-04-18T18:00:00+02:00",
+  "timezone": "Europe/Stockholm",
+  "location": {
+    "venue": "Åre",
+    "city": "Åre",
+    "country": "Sweden",
+    "countryCode": "SE",
+    "continent": "europe",
+    "lat": 63.399,
+    "lng": 13.0815
+  },
+  "description": {
+    "sv": "Säsongens sista deltävling i Sverigecupen, big air och slopestyle i Åre.",
+    "en": "The last Swedish Cup stop of the season, big air and slopestyle in Åre."
+  },
+  "organizer": "Åre Freeriders Club",
+  "disciplines": [
+    "Big Air",
+    "Slopestyle"
+  ],
+  "source": {
+    "note": "Svenska Skidförbundets kalender 2026/27: Åre 16–18 apr (v. 15).",
+    "url": "https://www.skidor.com/idrotter/freeski/tavling/tavla-i-sverige/Kalender",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

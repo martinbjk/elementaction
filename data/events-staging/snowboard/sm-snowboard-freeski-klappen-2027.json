@@ -1,0 +1,36 @@
+{
+  "slug": "sm-snowboard-freeski-klappen-2027",
+  "name": "SM i snowboard & freeski 2027",
+  "series": "Svenska mästerskapen",
+  "category": [
+    "bigair",
+    "slopestyle"
+  ],
+  "level": "open",
+  "startDate": "2027-03-31T09:00:00+02:00",
+  "endDate": "2027-04-04T18:00:00+02:00",
+  "timezone": "Europe/Stockholm",
+  "location": {
+    "venue": "Kläppen Ski Resort",
+    "city": "Sälen",
+    "country": "Sweden",
+    "countryCode": "SE",
+    "continent": "europe",
+    "lat": 61.0322,
+    "lng": 13.329
+  },
+  "description": {
+    "sv": "Svenska mästerskapen i Kläppen: big air och slopestyle, med snowboardfinalen i slopestyle på söndagen.",
+    "en": "Swedish Championships at Kläppen: big air and slopestyle, with the snowboard slopestyle final on Sunday."
+  },
+  "organizer": "Svenska Skidförbundet",
+  "disciplines": [
+    "Big Air",
+    "Slopestyle"
+  ],
+  "source": {
+    "note": "Svenska Skidförbundets kalender 2026/27: SM Kläppen 31 mar–4 apr (v. 13), slopestyle-final snowboard sön 4 apr.",
+    "url": "https://www.skidor.com/idrotter/freeski/tavling/tavla-i-sverige/Kalender",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

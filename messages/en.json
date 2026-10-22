@@ -1,7 +1,7 @@
 {
   "meta": {
-    "siteName": "ElementAction",
-    "siteTitle": "ElementAction – Surf, Skateboard, Snowboard & Inspiration",
+    "siteName": "Elementaction",
+    "siteTitle": "Elementaction – Surf, Skateboard, Snowboard & Inspiration",
     "siteDescription": "Event calendars, articles, design and videos for surfing, skateboarding and snowboarding — plus design, photography and travel for inspiration."
   },
   "nav": {
@@ -15,25 +15,29 @@
       "name": "Surfing",
       "element": "Water",
       "tagline": "Cold water, long swells and the hunt for the next wave.",
-      "intro": "Surf contests, spot guides, wave pools and forecasting — from the Swedish west coast to the open ocean."
+      "intro": "Surf contests, spot guides, wave pools and forecasting — from the Swedish west coast to the open ocean.",
+      "action": "Water action"
     },
     "skateboard": {
       "name": "Skateboard",
       "element": "Concrete",
       "tagline": "Street, park, vert and slalom — every contest on the planet.",
-      "intro": "The global skateboard event calendar, now with its own home: contests, reports, guides and the videos that shaped the culture."
+      "intro": "The global skateboard event calendar, now with its own home: contests, reports, guides and the videos that shaped the culture.",
+      "action": "Concrete action"
     },
     "snowboard": {
       "name": "Snowboard",
       "element": "Snow",
       "tagline": "Halfpipe, slopestyle and big mountain lines.",
-      "intro": "Snowboard events, mountain stories and the design behind the boards — built for the winter season."
+      "intro": "Snowboard events, mountain stories and the design behind the boards — built for the winter season.",
+      "action": "Snow action"
     },
     "inspiration": {
       "name": "Inspiration",
-      "element": "Fire",
+      "element": "Mind",
       "tagline": "Design, photography and travel — the spark behind the ride.",
-      "intro": "Exhibitions, photography, design and journeys. The ideas and places that fuel board culture."
+      "intro": "Exhibitions, photography, design and journeys. The ideas and places that fuel board culture.",
+      "action": "Mind action"
     }
   },
   "tabs": {
@@ -45,7 +49,7 @@
   },
   "home": {
     "kicker": "Four elements. One action.",
-    "title": "Water. Concrete. Snow. Fire.",
+    "title": "Water. Concrete. Snow. Mind.",
     "lead": "Calendars, articles, design and videos for surfing, skateboarding and snowboarding — and the inspiration that drives them.",
     "enter": "Enter",
     "nextUp": "Next up",

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "siteName": "ElementAction",
-    "siteTitle": "ElementAction – Surf, skateboard, snowboard e inspiración",
+    "siteName": "Elementaction",
+    "siteTitle": "Elementaction – Surf, skateboard, snowboard e inspiración",
     "siteDescription": "Calendarios de eventos, artículos, diseño y vídeos de surf, skateboard y snowboard — además de diseño, fotografía y viajes como inspiración."
   },
   "nav": {
@@ -15,25 +15,29 @@
       "name": "Surf",
       "element": "Agua",
       "tagline": "Agua fría, mares de fondo largos y la caza de la próxima ola.",
-      "intro": "Campeonatos de surf, guías de spots, piscinas de olas y previsiones — de la costa oeste sueca al océano abierto."
+      "intro": "Campeonatos de surf, guías de spots, piscinas de olas y previsiones — de la costa oeste sueca al océano abierto.",
+      "action": "Water action"
     },
     "skateboard": {
       "name": "Skateboard",
       "element": "Hormigón",
       "tagline": "Street, park, vert y slalom — todas las competiciones del planeta.",
-      "intro": "El calendario mundial de skateboard tiene un nuevo hogar: competiciones, reportajes, guías y los vídeos que formaron la cultura."
+      "intro": "El calendario mundial de skateboard tiene un nuevo hogar: competiciones, reportajes, guías y los vídeos que formaron la cultura.",
+      "action": "Concrete action"
     },
     "snowboard": {
       "name": "Snowboard",
       "element": "Nieve",
       "tagline": "Halfpipe, slopestyle y líneas en la gran montaña.",
-      "intro": "Eventos de snowboard, historias de montaña y el diseño detrás de las tablas — hecho para el invierno."
+      "intro": "Eventos de snowboard, historias de montaña y el diseño detrás de las tablas — hecho para el invierno.",
+      "action": "Snow action"
     },
     "inspiration": {
       "name": "Inspiración",
-      "element": "Fuego",
+      "element": "Mente",
       "tagline": "Diseño, fotografía y viajes — la chispa detrás de cada sesión.",
-      "intro": "Exposiciones, fotografía, diseño y viajes. Las ideas y los lugares que alimentan la cultura de la tabla."
+      "intro": "Exposiciones, fotografía, diseño y viajes. Las ideas y los lugares que alimentan la cultura de la tabla.",
+      "action": "Mind action"
     }
   },
   "tabs": {
@@ -45,7 +49,7 @@
   },
   "home": {
     "kicker": "Cuatro elementos. Una acción.",
-    "title": "Agua. Hormigón. Nieve. Fuego.",
+    "title": "Agua. Hormigón. Nieve. Mente.",
     "lead": "Calendarios, artículos, diseño y vídeos de surf, skateboard y snowboard — y la inspiración que los impulsa.",
     "enter": "Entrar",
     "nextUp": "Próximamente",

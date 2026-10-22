@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "stockholm-design-week-2027",
+    "name": "Stockholm Design Week 2027",
+    "category": ["design", "festival"], "level": "open",
+    "start": "2027-02-08", "end": "2027-02-14", "timezone": "Europe/Stockholm",
+    "startTime": "10:00", "endTime": "20:00",
+    "location": {"venue": "Hela stan – utställningar och showrooms", "city": "Stockholm", "country": "Sweden", "countryCode": "SE", "continent": "europe", "lat": 59.3293, "lng": 18.0686},
+    "description": {"sv": "En vecka med utställningar och öppna showrooms över hela Stockholm, grupperade i stadsdelskluster. Arrangeras av Stockholm Furniture Fair.", "en": "A week of exhibitions and open showrooms across Stockholm, grouped in neighbourhood clusters. Organised by Stockholm Furniture Fair."},
+    "officialUrl": "https://stockholmdesignweek.com/",
+    "organizer": "Stockholm Furniture Fair", "disciplines": ["Design", "Interior", "Furniture"],
+    "note": "Stockholm Design Weeks officiella sida: 8–14 feb 2027.",
+    "sourceUrl": "https://stockholmdesignweek.com/"
+  },
+  {
+    "slug": "salone-del-mobile-milano-2027",
+    "name": "Salone del Mobile.Milano 2027",
+    "category": ["design", "fair"], "level": "open",
+    "start": "2027-04-13", "end": "2027-04-18", "timezone": "Europe/Rome",
+    "startTime": "09:30", "endTime": "18:30",
+    "location": {"venue": "Fiera Milano", "city": "Rho (Milano)", "country": "Italy", "countryCode": "IT", "continent": "europe", "lat": 45.5200, "lng": 9.0820},
+    "description": {"sv": "Världens största möbel- och designmässa, på Fiera Milano i Rho. Samtidigt pågår designveckan i hela Milano.", "en": "The world's largest furniture and design fair, at Fiera Milano in Rho, alongside the city-wide Milan Design Week."},
+    "organizer": "Salone del Mobile.Milano", "disciplines": ["Design", "Furniture"],
+    "note": "Salone del Mobiles officiella sida: 13–18 april 2027, Fiera Milano Rho. Öppettiderna är ungefärliga.",
+    "sourceUrl": "https://www.salonemilano.it/en/articles/salone-del-mobile-2027-dates"
+  },
+  {
+    "slug": "venice-architecture-biennale-2027",
+    "name": "Venice Architecture Biennale 2027",
+    "series": "La Biennale di Venezia",
+    "category": ["exhibition", "design", "travel"], "level": "open",
+    "start": "2027-05-08", "end": "2027-11-21", "timezone": "Europe/Rome",
+    "startTime": "10:00", "endTime": "18:00",
+    "location": {"venue": "Giardini & Arsenale", "city": "Venice", "country": "Italy", "countryCode": "IT", "continent": "europe", "lat": 45.4290, "lng": 12.3570},
+    "description": {"sv": "20:e internationella arkitekturutställningen, kurerad av Wang Shu och Lu Wenyu (Amateur Architecture Studio) – arkitektur som praktik, förankrad i platser, material och människor.", "en": "The 20th International Architecture Exhibition, curated by Wang Shu and Lu Wenyu (Amateur Architecture Studio) – architecture as a practice rooted in places, materials and communities."},
+    "organizer": "La Biennale di Venezia", "disciplines": ["Architecture"],
+    "note": "Archinfo Finland (25 maj 2026) och Visit Lido: 8 maj–21 nov 2027, förhandsvisning 6–7 maj. Platsen 'Giardini & Arsenale' är biennalens ordinarie platser men inte uttryckligen nämnd i källorna.",
+    "sourceUrl": "https://www.archinfo.fi/en/articles/venice-architecture-biennale-unveils-its-2027-exhibition-theme"
+  },
+  {
+    "slug": "3daysofdesign-copenhagen-2027",
+    "name": "3daysofdesign 2027",
+    "category": ["design", "festival"], "level": "open",
+    "start": "2027-06-09", "end": "2027-06-11", "timezone": "Europe/Copenhagen",
+    "startTime": "10:00", "endTime": "19:00",
+    "location": {"venue": "Hela stan", "city": "Copenhagen", "country": "Denmark", "countryCode": "DK", "continent": "europe", "lat": 55.6761, "lng": 12.5683},
+    "description": {"sv": "Köpenhamns designfestival – tre dagar då utställare öppnar showrooms och utställningar över hela staden.", "en": "Copenhagen's design festival – three days of showrooms and exhibitions across the city."},
+    "disciplines": ["Design", "Interior"],
+    "note": "VisitCopenhagen (officiell turistsida): 9–11 juni 2027.",
+    "sourceUrl": "https://www.visitcopenhagen.com/copenhagen/planning/3-days-of-design-gdk1000129"
+  },
+  {
+    "slug": "grande-fete-photographie-arles-2027",
+    "name": "Grande Fête de la Photographie – Arles 2027",
+    "series": "Les Rencontres d'Arles",
+    "category": ["photography", "festival"], "level": "open",
+    "start": "2027-07-05", "end": "2027-07-06", "timezone": "Europe/Paris",
+    "startTime": "19:00", "endTime": "02:00",
+    "location": {"venue": "Offentliga platser i Arles", "city": "Arles", "country": "France", "countryCode": "FR", "continent": "europe", "lat": 43.6768, "lng": 4.6303},
+    "description": {"sv": "Gratis nattfest med projektioner, workshops och konserter som avslutar fotografins 200-årsjubileum, under öppningsveckan av fotofestivalen Rencontres d'Arles.", "en": "Free all-night celebration with projections, workshops and concerts closing the bicentenary of photography, during the opening week of the Rencontres d'Arles photo festival."},
+    "disciplines": ["Photography"],
+    "note": "Unidivers eventlistning: 5 juli kl. 19 – 6 juli kl. 02, 2027. Festivalens egna datum för 2027 är inte publicerade än.",
+    "sourceUrl": "https://unidivers.fr/event/grande-fete-de-la-photographie-cloture-du-bicentenaire-vaste-espace-public-darles-arles-2027-07-05t1900000200/"
+  }
+]

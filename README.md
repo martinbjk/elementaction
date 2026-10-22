@@ -1,13 +1,17 @@
-# ElementAction
+# Elementaction
 
 **elementaction.com** — fortsättningen på skateboardeventcalendar.com, nu med fyra sektioner:
 
-| Sektion | Element | Färg | Rubrikfont | Bildvärld |
+| Sektion | Märke | Färg | Rubrikfont | Bildvärld |
 |---|---|---|---|---|
-| Surfing | Vatten | blå | Fraunces | dyningslinjer och en brytande våg |
-| Skateboard | Betong | grå | Archivo Black | betongfogar, bowl och bräda |
-| Snowboard | Snö | vit | Space Grotesk | berg i lager med fallande snö |
-| Inspiration | Eld | röd på titan | Syne | böjda titanvolymer, som Guggenheim i Bilbao |
+| Surfing | Water action (våg) | blå | Fraunces | dyningslinjer och en brytande våg |
+| Skateboard | Concrete action (quarterpipe) | grå | Archivo Black | betongfogar, bowl och bräda |
+| Snowboard | Snow action (bergstopp) | vit | Space Grotesk | berg i lager med fallande snö |
+| Inspiration | Mind action (spiral) | röd på titan | Syne | böjda titanvolymer, som Guggenheim i Bilbao |
+
+Logotypen är helt grafisk: de fyra sektionsmärkena i ett 2×2-rutnät. Namnet skrivs alltid
+som ett ord, **Elementaction**. Märkena finns som SVG i `public/brand/`
+(`mark.svg`, `mark-water.svg`, `mark-concrete.svg`, `mark-snow.svg`, `mark-mind.svg`).
 
 Varje sektion har samma fyra flikar: **Kalender, Artiklar, Design, Videos**.
 
@@ -26,8 +30,8 @@ messages/<språk>.json                  All text i gränssnittet, 7 språk
 src/lib/sections.ts                    De fyra sektionerna + tillåtna eventkategorier
 src/app/globals.css                    Färger och typsnitt per sektion
 src/components/SectionArt.tsx          Bildvärlden (SVG) för varje sektion
-src/components/Logo.tsx                Logotypen
-public/brand/                          Logotyp som SVG, ikon, delningsbild (og-image.png)
+src/components/Logo.tsx                Huvudmärket och de fyra sektionsmärkena
+public/brand/                          Märken som SVG, ikon, delningsbild (og-image.png)
 ```
 
 `<sektion>` är alltid en av: `surfing`, `skateboard`, `snowboard`, `inspiration`.

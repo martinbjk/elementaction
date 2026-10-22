@@ -1,7 +1,7 @@
 {
   "meta": {
-    "siteName": "ElementAction",
-    "siteTitle": "ElementAction – Surf, skateboard, snowboard & inspiration",
+    "siteName": "Elementaction",
+    "siteTitle": "Elementaction – Surf, skateboard, snowboard & inspiration",
     "siteDescription": "Eventkalendrar, artiklar, design och video för surfing, skateboard och snowboard — plus design, fotografi och resor som inspiration."
   },
   "nav": {
@@ -15,25 +15,29 @@
       "name": "Surfing",
       "element": "Vatten",
       "tagline": "Kallt vatten, långa dyningar och jakten på nästa våg.",
-      "intro": "Surftävlingar, spotguider, vågpooler och prognoser — från svenska västkusten till öppet hav."
+      "intro": "Surftävlingar, spotguider, vågpooler och prognoser — från svenska västkusten till öppet hav.",
+      "action": "Water action"
     },
     "skateboard": {
       "name": "Skateboard",
       "element": "Betong",
       "tagline": "Street, park, vert och slalom — varje tävling på planeten.",
-      "intro": "Den globala skateboardkalendern har fått ett nytt hem: tävlingar, reportage, guider och videorna som formade kulturen."
+      "intro": "Den globala skateboardkalendern har fått ett nytt hem: tävlingar, reportage, guider och videorna som formade kulturen.",
+      "action": "Concrete action"
     },
     "snowboard": {
       "name": "Snowboard",
       "element": "Snö",
       "tagline": "Halfpipe, slopestyle och linjer i stora berg.",
-      "intro": "Snowboardevent, berättelser från bergen och designen bakom brädorna — byggt för vintersäsongen."
+      "intro": "Snowboardevent, berättelser från bergen och designen bakom brädorna — byggt för vintersäsongen.",
+      "action": "Snow action"
     },
     "inspiration": {
       "name": "Inspiration",
-      "element": "Eld",
+      "element": "Sinne",
       "tagline": "Design, fotografi och resor — gnistan bakom åkningen.",
-      "intro": "Utställningar, fotografi, design och resor. Idéerna och platserna som driver brädkulturen."
+      "intro": "Utställningar, fotografi, design och resor. Idéerna och platserna som driver brädkulturen.",
+      "action": "Mind action"
     }
   },
   "tabs": {
@@ -45,7 +49,7 @@
   },
   "home": {
     "kicker": "Fyra element. En rörelse.",
-    "title": "Vatten. Betong. Snö. Eld.",
+    "title": "Vatten. Betong. Snö. Sinne.",
     "lead": "Kalendrar, artiklar, design och video för surfing, skateboard och snowboard — och inspirationen som driver dem.",
     "enter": "Gå in",
     "nextUp": "Härnäst",

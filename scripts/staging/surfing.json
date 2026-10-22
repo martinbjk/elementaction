@@ -1,0 +1,66 @@
+[
+  {
+    "slug": "nazare-big-wave-challenge-2026-27",
+    "name": "TUDOR Nazaré Big Wave Challenge 2026/27",
+    "series": "WSL Big Wave",
+    "category": ["bigwave"], "level": "pro",
+    "start": "2026-11-01", "end": "2027-03-31", "timezone": "Europe/Lisbon",
+    "startTime": "08:00", "endTime": "18:00",
+    "location": {"venue": "Praia do Norte", "city": "Nazaré", "country": "Portugal", "countryCode": "PT", "continent": "europe", "lat": 39.6046, "lng": -9.0853},
+    "description": {"sv": "Storvågstävlingen vid Praia do Norte. Datumen är en väntperiod – tävlingen körs på en enda dag när det kommer en tillräckligt stor dyning.", "en": "The big wave contest at Praia do Norte. The dates are a waiting period – the contest runs on a single day when a big enough swell arrives."},
+    "organizer": "World Surf League", "disciplines": ["Big Wave (tow-in)"],
+    "note": "NSC Total (19 okt 2026) om WSL:s bekräftelse: väntperiod 1 nov 2026–31 mar 2027, Praia do Norte. worldsurfleague.com blockerar automatisk läsning, så WSL:s egen sida kunde inte kontrolleras direkt.",
+    "sourceUrl": "https://www.nsctotal.com.br/esportes/ondas-gigantes-wsl-confirma-janela-de-nazare-big-wave-challenge-2026-27"
+  },
+  {
+    "slug": "qs-6000-jinzun-harbor-taiwan-2026",
+    "name": "WSL QS 6,000 – Jinzun Harbor, Taiwan",
+    "series": "WSL Qualifying Series",
+    "category": ["shortboard", "contest"], "level": "pro",
+    "start": "2026-11-14", "end": "2026-11-22", "timezone": "Asia/Taipei",
+    "startTime": "07:00", "endTime": "17:00",
+    "location": {"venue": "Jinzun Harbor", "city": "Taitung County", "country": "Taiwan", "countryCode": "TW", "continent": "asia", "lat": 22.9330, "lng": 121.2850},
+    "description": {"sv": "Internationell QS 6000-tävling vid Jinzun Harbor på Taiwans östkust – poäng som räknas mot Challenger Series.", "en": "International QS 6,000 event at Jinzun Harbor on Taiwan's east coast – points count towards the Challenger Series."},
+    "organizer": "World Surf League", "disciplines": ["Shortboard"],
+    "note": "Maui Now (2 mar 2026) om WSL:s schema: Jinzun Harbor, Taitung, 14–22 nov 2026.",
+    "sourceUrl": "https://mauinow.com/2026/03/02/world-surf-league-announces-challenger-series-schedule-and-qs-6000-events/"
+  },
+  {
+    "slug": "challenger-series-newcastle-2027",
+    "name": "WSL Challenger Series – Newcastle",
+    "series": "WSL Challenger Series",
+    "category": ["shortboard", "contest"], "level": "pro",
+    "start": "2027-03-01", "end": "2027-03-07", "timezone": "Australia/Sydney",
+    "startTime": "07:00", "endTime": "17:00",
+    "location": {"venue": "TBD", "city": "Newcastle, NSW", "country": "Australia", "countryCode": "AU", "continent": "oceania", "lat": -32.9283, "lng": 151.7817},
+    "description": {"sv": "Sista deltävlingen i Challenger Series 2026/27 – här avgörs vilka som tar steget upp till Championship Tour.", "en": "The final stop of the 2026/27 Challenger Series – where the step up to the Championship Tour is decided."},
+    "organizer": "World Surf League", "disciplines": ["Shortboard"],
+    "note": "Maui Now (2 mar 2026) om WSL:s schema: Newcastle, NSW, 1–7 mar 2027. Att det är sista deltävlingen följer av listan (5 stopp, Newcastle sist).",
+    "sourceUrl": "https://mauinow.com/2026/03/02/world-surf-league-announces-challenger-series-schedule-and-qs-6000-events/"
+  },
+  {
+    "slug": "isa-world-surfing-games-el-salvador-2027",
+    "name": "ISA World Surfing Games 2027",
+    "series": "ISA World Surfing Games",
+    "category": ["shortboard", "contest"], "level": "pro",
+    "start": "2027-05-22", "end": "2027-05-30", "timezone": "America/El_Salvador",
+    "startTime": "07:00", "endTime": "17:00",
+    "location": {"venue": "La Bocana & El Sunzal", "city": "Surf City El Salvador", "country": "El Salvador", "countryCode": "SV", "continent": "north-america", "lat": 13.4917, "lng": -89.3833},
+    "description": {"sv": "Landslags-VM i surf – det första ISA-evenemanget som delar ut namngivna OS-platser till Los Angeles 2028.", "en": "The team world championship of surfing – the first ISA event to award named Olympic spots for Los Angeles 2028."},
+    "organizer": "International Surfing Association (ISA)", "disciplines": ["Shortboard"],
+    "note": "ISA:s officiella nyhet (27 jul 2026): 22–30 maj 2027, La Bocana och El Sunzal, Surf City El Salvador.",
+    "sourceUrl": "https://isasurf.org/isa-and-surf-city-el-salvador-announce-dates-for-2027-world-surfing-games/"
+  },
+  {
+    "slug": "boardmasters-2027",
+    "name": "Boardmasters 2027",
+    "category": ["festival", "contest"], "level": "open",
+    "start": "2027-08-04", "end": "2027-08-08", "timezone": "Europe/London",
+    "startTime": "10:00", "endTime": "23:00",
+    "location": {"venue": "Watergate Bay & Fistral Beach", "city": "Newquay", "country": "United Kingdom", "countryCode": "GB", "continent": "europe", "lat": 50.4155, "lng": -5.0730},
+    "description": {"sv": "Surf- och musikfestival i Newquay, Cornwall. 2026 hölls surftävlingen Boardmasters Open på Fistral Beach.", "en": "Surf and music festival in Newquay, Cornwall. In 2026 the Boardmasters Open surf contest was held at Fistral Beach."},
+    "disciplines": ["Surf", "Music"],
+    "note": "TicketNews (19 aug 2026): 4–8 aug 2027 i Newquay. Arenorna för 2027 är inte bekräftade (2026: Watergate Bay + Fistral).",
+    "sourceUrl": "https://www.ticketnews.com/2026/08/boardmasters-draws-158000-fans-2027-return-cornwall/"
+  }
+]

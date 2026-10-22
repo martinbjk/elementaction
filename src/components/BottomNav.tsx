@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { SECTIONS, SECTION_COLORS } from '@/lib/sections';
-import { LogoMark } from './Logo';
+import { LogoMark, SectionMark } from './Logo';
 import { useActiveSection } from './Header';
 
 /**
@@ -33,11 +33,7 @@ export function BottomNav() {
               aria-current={s === active ? 'page' : undefined}
               className="relative flex h-full flex-col items-center justify-center gap-1 text-[11px] text-white/70 aria-[current=page]:text-white"
             >
-              <span
-                className="h-5 w-5 rounded-md ring-1 ring-white/30"
-                style={{ background: SECTION_COLORS[s].main }}
-                aria-hidden
-              />
+              <SectionMark section={s} size={22} />
               <span className="max-w-full truncate px-1">{t(`sections.${s}.name`)}</span>
               {s === active && (
                 <span className="absolute inset-x-4 top-0 h-[3px] rounded-b" style={{ background: SECTION_COLORS[s].main }} />

@@ -1,0 +1,34 @@
+{
+  "slug": "grande-fete-photographie-arles-2027",
+  "name": "Grande Fête de la Photographie – Arles 2027",
+  "series": "Les Rencontres d'Arles",
+  "category": [
+    "photography",
+    "festival"
+  ],
+  "level": "open",
+  "startDate": "2027-07-05T19:00:00+02:00",
+  "endDate": "2027-07-06T02:00:00+02:00",
+  "timezone": "Europe/Paris",
+  "location": {
+    "venue": "Offentliga platser i Arles",
+    "city": "Arles",
+    "country": "France",
+    "countryCode": "FR",
+    "continent": "europe",
+    "lat": 43.6768,
+    "lng": 4.6303
+  },
+  "description": {
+    "sv": "Gratis nattfest med projektioner, workshops och konserter som avslutar fotografins 200-årsjubileum, under öppningsveckan av fotofestivalen Rencontres d'Arles.",
+    "en": "Free all-night celebration with projections, workshops and concerts closing the bicentenary of photography, during the opening week of the Rencontres d'Arles photo festival."
+  },
+  "disciplines": [
+    "Photography"
+  ],
+  "source": {
+    "note": "Unidivers eventlistning: 5 juli kl. 19 – 6 juli kl. 02, 2027. Festivalens egna datum för 2027 är inte publicerade än.",
+    "url": "https://unidivers.fr/event/grande-fete-de-la-photographie-cloture-du-bicentenaire-vaste-espace-public-darles-arles-2027-07-05t1900000200/",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

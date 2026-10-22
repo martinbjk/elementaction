@@ -1,0 +1,36 @@
+{
+  "slug": "venice-architecture-biennale-2027",
+  "name": "Venice Architecture Biennale 2027",
+  "series": "La Biennale di Venezia",
+  "category": [
+    "exhibition",
+    "design",
+    "travel"
+  ],
+  "level": "open",
+  "startDate": "2027-05-08T10:00:00+02:00",
+  "endDate": "2027-11-21T18:00:00+01:00",
+  "timezone": "Europe/Rome",
+  "location": {
+    "venue": "Giardini & Arsenale",
+    "city": "Venice",
+    "country": "Italy",
+    "countryCode": "IT",
+    "continent": "europe",
+    "lat": 45.429,
+    "lng": 12.357
+  },
+  "description": {
+    "sv": "20:e internationella arkitekturutställningen, kurerad av Wang Shu och Lu Wenyu (Amateur Architecture Studio) – arkitektur som praktik, förankrad i platser, material och människor.",
+    "en": "The 20th International Architecture Exhibition, curated by Wang Shu and Lu Wenyu (Amateur Architecture Studio) – architecture as a practice rooted in places, materials and communities."
+  },
+  "organizer": "La Biennale di Venezia",
+  "disciplines": [
+    "Architecture"
+  ],
+  "source": {
+    "note": "Archinfo Finland (25 maj 2026) och Visit Lido: 8 maj–21 nov 2027, förhandsvisning 6–7 maj. Platsen 'Giardini & Arsenale' är biennalens ordinarie platser men inte uttryckligen nämnd i källorna.",
+    "url": "https://www.archinfo.fi/en/articles/venice-architecture-biennale-unveils-its-2027-exhibition-theme",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

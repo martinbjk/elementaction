@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { SECTIONS, TABS, type SectionId } from '@/lib/sections';
 import { SectionArt } from './SectionArt';
+import { SectionMark } from './Logo';
 
 /**
  * STARTSIDANS FYRA BLOCK.
@@ -30,7 +31,10 @@ export async function ElementPanels({ locale, counts }: { locale: string; counts
           <Link href={`/${s}`} className="absolute inset-0 z-10" aria-label={t(`sections.${s}.name`)} />
 
           <div className="relative z-20 p-6 lg:p-8 pointer-events-none">
-            <p className="text-sm font-medium text-sec-ink/80">{t(`sections.${s}.element`)}</p>
+            <p className="flex items-center gap-2 text-sm font-semibold text-sec-ink">
+              <SectionMark section={s} size={26} />
+              {t(`sections.${s}.action`)}
+            </p>
             <h2 className="panel-title mt-1 font-head leading-[0.95] tracking-tight">
               {t(`sections.${s}.name`)}
             </h2>

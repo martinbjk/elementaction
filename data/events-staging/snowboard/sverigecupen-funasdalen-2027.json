@@ -1,0 +1,36 @@
+{
+  "slug": "sverigecupen-funasdalen-2027",
+  "name": "Sverigecupen Snowboard & Freeski – Funäsdalen",
+  "series": "Sverigecupen",
+  "category": [
+    "bigair",
+    "slopestyle"
+  ],
+  "level": "open",
+  "startDate": "2027-01-29T09:00:00+01:00",
+  "endDate": "2027-01-31T18:00:00+01:00",
+  "timezone": "Europe/Stockholm",
+  "location": {
+    "venue": "Funäsdalen",
+    "city": "Funäsdalen",
+    "country": "Sweden",
+    "countryCode": "SE",
+    "continent": "europe",
+    "lat": 62.5374,
+    "lng": 12.549
+  },
+  "description": {
+    "sv": "Sverigecupen i Funäsdalen: big air på fredagen, slopestyle på lördag och söndag.",
+    "en": "Swedish Cup in Funäsdalen: big air on Friday, slopestyle on Saturday and Sunday."
+  },
+  "organizer": "Funäs Snowboard Freeski Klubb",
+  "disciplines": [
+    "Big Air",
+    "Slopestyle"
+  ],
+  "source": {
+    "note": "Svenska Skidförbundets kalender 2026/27: Funäsdalen 29–31 jan (v. 4).",
+    "url": "https://www.skidor.com/idrotter/freeski/tavling/tavla-i-sverige/Kalender",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

@@ -1,53 +1,110 @@
+import type { SectionId } from '@/lib/sections';
+
 /**
- * ELEMENTACTION-LOGOTYP
+ * ELEMENTACTIONS MÄRKEN — helt grafiska, ingen text.
  *
- * Märket är fyra rutor — en per element/sektion, i sektionens färg:
- *   uppe vänster  vatten  (blå)   en våg som bryter
- *   uppe höger    betong  (grå)   en quarterpipe i profil
- *   nere vänster  snö     (vit)   en bergstopp
- *   nere höger    eld     (röd)   en låga
- * Ordmärket står i två rader, ELEMENT / ACTION, och ärver textfärgen
- * (currentColor) så att det fungerar på både mörk och ljus bakgrund.
+ * Fyra sektionsmärken, ett per "action":
+ *   Water action     blå ruta, en våg som bryter
+ *   Concrete action  grå ruta, en quarterpipe i profil med coping
+ *   Snow action      isvit ruta, en bergstopp med snötäcke
+ *   Mind action      röd ruta, en spiral (tanken som vecklar ut sig)
  *
- * Fristående SVG-filer för profilbilder, favicon m.m. finns i
- * public/brand/ (genereras inte — de är handskrivna kopior av detta).
+ * Huvudmärket är de fyra sektionsmärkena satta i ett 2×2-rutnät.
+ * Fristående SVG-filer finns i public/brand/ (mark.svg, mark-water.svg …)
+ * för profilbilder, favicon och tryck.
  */
-export function LogoMark({ size = 40, className }: { size?: number; className?: string }) {
+
+type MarkProps = { size?: number; className?: string; title?: string };
+
+const TILE = 22; // rutans storlek i huvudmärkets 48×48-rutnät
+
+/** Symbolerna ritas i en 22×22-ruta så att de kan återanvändas i båda storlekarna. */
+function Symbol({ section }: { section: SectionId }) {
+  switch (section) {
+    case 'surfing':
+      return (
+        <>
+          <rect width={TILE} height={TILE} rx="4" fill="#1d6fe0" />
+          {/* vågen: bred front som rullar över i en läpp */}
+          <path
+            d="M2 17c2.5 0 4.5-1.5 6-4.5C9.6 9.3 11.6 7 14.6 7c2.8 0 4.6 2 4.4 4.3-.2 1.9-1.8 3-3.3 2.5 1.2-.8 1.4-2.4.4-3.3-1.4-1.3-3.8-.6-5 1.9C9.6 15.8 8 18.8 5 20H2z"
+            fill="#f5f8fb"
+          />
+        </>
+      );
+    case 'skateboard':
+      return (
+        <>
+          <rect width={TILE} height={TILE} rx="4" fill="#8a8f94" />
+          {/* quarterpipe: transition från flat upp till lodrät vägg */}
+          <path d="M3 19v-3h5.2c4.3 0 6.8-2.5 6.8-6.8V4.5h3.5V19z" fill="#1c1d1f" />
+          <circle cx="16.75" cy="4.5" r="1.75" fill="#f5f8fb" />
+        </>
+      );
+    case 'snowboard':
+      return (
+        <>
+          <rect width={TILE} height={TILE} rx="4" fill="#dce8f3" />
+          <path d="M2.5 18.5 9 7l3.4 5 2.4-3.2 4.7 9.7z" fill="#0d2240" />
+          {/* snötäcket på toppen */}
+          <path d="M9 7 6.6 11.2l1.7-.7 1.1 1.2 1.2-1.4 1.4.5z" fill="#ffffff" />
+          <path d="M14.8 8.8 13.6 10.4l.8-.2.5.6.6-.5.6.1z" fill="#ffffff" />
+        </>
+      );
+    case 'inspiration':
+      return (
+        <>
+          <rect width={TILE} height={TILE} rx="4" fill="#e0242f" />
+          {/* spiral som vecklar ut sig från mitten */}
+          <path
+            d="M11 11.2c.9 0 1.3-.9.8-1.6-.7-.9-2.3-.6-2.7.6-.5 1.6.9 3.1 2.6 3 2.2-.1 3.4-2.4 2.7-4.4-.9-2.6-4-3.5-6.3-2.2-2.8 1.6-3.1 5.6-1 7.9 2.4 2.6 6.8 2.4 9.1-.3"
+            fill="none"
+            stroke="#f5f8fb"
+            strokeWidth="1.9"
+            strokeLinecap="round"
+          />
+        </>
+      );
+  }
+}
+
+/** Ett sektionsmärke för sig (Water action, Concrete action …). */
+export function SectionMark({ section, size = 32, className, title }: MarkProps & { section: SectionId }) {
   return (
     <svg
       width={size}
       height={size}
-      viewBox="0 0 48 48"
+      viewBox={`0 0 ${TILE} ${TILE}`}
       className={className}
-      role="img"
-      aria-label="ElementAction"
+      role={title ? 'img' : undefined}
+      aria-label={title}
+      aria-hidden={title ? undefined : true}
     >
-      {/* vatten */}
-      <rect x="0" y="0" width="22" height="22" rx="3" fill="#1d6fe0" />
-      <path d="M2 15c3-1 4-6 8-6 3 0 4 3 2 5-1 1 1 2 3 1 2-1 3-1 5 0v7H2z" fill="#f5f8fb" />
-      {/* betong */}
-      <rect x="26" y="0" width="22" height="22" rx="3" fill="#8a8f94" />
-      <path d="M30 4v14h14v-1c-7 0-11-4-11-11V4z" fill="#2a2c2f" />
-      <rect x="29" y="3" width="5" height="1.6" fill="#f5f8fb" />
-      {/* snö */}
-      <rect x="0" y="26" width="22" height="22" rx="3" fill="#f5f8fb" />
-      <path d="M2 45l7-12 3 4 3-6 5 14z" fill="#0d2240" />
-      <path d="M9 33l1.6 2.7-1.6 1-1.4-1z M15 31l1.7 3.4-1.7-.8-1.4 1.2z" fill="#f5f8fb" />
-      {/* eld */}
-      <rect x="26" y="26" width="22" height="22" rx="3" fill="#e0242f" />
-      <path d="M37 29c1 4 6 6 6 11a6 6 0 0 1-12 0c0-3 2-4 2-7 2 1 2 3 2 4 2-2 2-5 2-8z" fill="#f5f8fb" />
+      <Symbol section={section} />
     </svg>
   );
 }
 
-export function Logo({ className }: { className?: string }) {
+/** Huvudmärket: alla fyra i ett 2×2-rutnät. */
+export function LogoMark({ size = 40, className, title = 'Elementaction' }: MarkProps) {
+  const cells: [SectionId, number, number][] = [
+    ['surfing', 0, 0],
+    ['skateboard', 26, 0],
+    ['snowboard', 0, 26],
+    ['inspiration', 26, 26]
+  ];
   return (
-    <span className={`inline-flex items-center gap-2.5 ${className ?? ''}`}>
-      <LogoMark size={34} />
-      <span className="flex flex-col font-skate text-[13px] leading-[0.95] tracking-[0.08em]">
-        <span>ELEMENT</span>
-        <span>ACTION</span>
-      </span>
-    </span>
+    <svg width={size} height={size} viewBox="0 0 48 48" className={className} role="img" aria-label={title}>
+      {cells.map(([s, x, y]) => (
+        <g key={s} transform={`translate(${x} ${y})`}>
+          <Symbol section={s} />
+        </g>
+      ))}
+    </svg>
   );
+}
+
+/** Används i sidhuvud och sidfot. Bara märket — namnet finns i aria-label och sidtiteln. */
+export function Logo({ className, size = 40 }: { className?: string; size?: number }) {
+  return <LogoMark size={size} className={className} />;
 }

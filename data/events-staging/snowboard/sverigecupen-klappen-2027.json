@@ -1,0 +1,36 @@
+{
+  "slug": "sverigecupen-klappen-2027",
+  "name": "Sverigecupen Snowboard & Freeski – Kläppen",
+  "series": "Sverigecupen",
+  "category": [
+    "bigair",
+    "slopestyle"
+  ],
+  "level": "open",
+  "startDate": "2027-02-12T09:00:00+01:00",
+  "endDate": "2027-02-14T18:00:00+01:00",
+  "timezone": "Europe/Stockholm",
+  "location": {
+    "venue": "Kläppen Ski Resort",
+    "city": "Sälen",
+    "country": "Sweden",
+    "countryCode": "SE",
+    "continent": "europe",
+    "lat": 61.0322,
+    "lng": 13.329
+  },
+  "description": {
+    "sv": "Sverigecupen i Kläppen: big air på fredagen, slopestyle på lördag och söndag.",
+    "en": "Swedish Cup at Kläppen: big air on Friday, slopestyle on Saturday and Sunday."
+  },
+  "organizer": "Sälens Idrottsförening",
+  "disciplines": [
+    "Big Air",
+    "Slopestyle"
+  ],
+  "source": {
+    "note": "Svenska Skidförbundets kalender 2026/27: Kläppen 12–14 feb (v. 6).",
+    "url": "https://www.skidor.com/idrotter/freeski/tavling/tavla-i-sverige/Kalender",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

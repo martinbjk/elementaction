@@ -11,7 +11,7 @@ export async function Footer({ locale }: { locale: string }) {
     <footer className="border-t border-white/10 bg-[#0e0f11] text-white/70">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-[1.4fr_repeat(4,1fr)]">
         <div className="max-w-xs">
-          <Logo className="text-white" />
+          <Logo size={56} />
           <p className="mt-4 text-sm leading-relaxed">{t('footer.tagline')}</p>
           <p className="mt-3 text-sm leading-relaxed">
             <a href="https://skateboardeventcalendar.com" className="underline decoration-white/30 underline-offset-4 hover:text-white">
@@ -37,7 +37,7 @@ export async function Footer({ locale }: { locale: string }) {
         ))}
       </div>
       <p className="mx-auto max-w-7xl px-4 pb-10 text-xs text-white/45 sm:px-6">
-        © {year} ElementAction. {t('footer.rights')}
+        © {year} Elementaction. {t('footer.rights')}
       </p>
     </footer>
   );

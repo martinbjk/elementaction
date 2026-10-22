@@ -65,7 +65,7 @@ function jsonLd(article: Article, locale: string) {
     image: [`${SITE_URL}${article.ogImage}`],
     url,
     mainEntityOfPage: url,
-    publisher: { '@type': 'Organization', name: 'ElementAction', url: SITE_URL }
+    publisher: { '@type': 'Organization', name: 'Elementaction', url: SITE_URL }
   };
 }
 

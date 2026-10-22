@@ -1,0 +1,34 @@
+{
+  "slug": "us-grand-prix-copper-mountain-2026",
+  "name": "Toyota U.S. Grand Prix – Halfpipe Copper Mountain",
+  "series": "FIS Snowboard Park & Pipe World Cup",
+  "category": [
+    "halfpipe"
+  ],
+  "level": "pro",
+  "startDate": "2026-12-19T09:00:00-07:00",
+  "endDate": "2026-12-20T18:00:00-07:00",
+  "timezone": "America/Denver",
+  "location": {
+    "venue": "Copper Mountain",
+    "city": "Copper Mountain, CO",
+    "country": "USA",
+    "countryCode": "US",
+    "continent": "north-america",
+    "lat": 39.5022,
+    "lng": -106.1511
+  },
+  "description": {
+    "sv": "Halfpipe i Copper Mountain, andra deltävlingen i U.S. Grand Prix.",
+    "en": "Halfpipe at Copper Mountain, the second stop of the U.S. Grand Prix."
+  },
+  "organizer": "U.S. Ski & Snowboard / FIS",
+  "disciplines": [
+    "Halfpipe"
+  ],
+  "source": {
+    "note": "U.S. Ski & Snowboards officiella schema (17 jun 2026): 19–20 dec, Copper Mountain, halfpipe.",
+    "url": "https://www.usskiandsnowboard.org/news/us-ski-snowboard-announces-2026-27-fis-domestic-world-cup-schedule",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

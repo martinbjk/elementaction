@@ -1,0 +1,34 @@
+{
+  "slug": "nazare-big-wave-challenge-2026-27",
+  "name": "TUDOR Nazaré Big Wave Challenge 2026/27",
+  "series": "WSL Big Wave",
+  "category": [
+    "bigwave"
+  ],
+  "level": "pro",
+  "startDate": "2026-11-01T08:00:00+00:00",
+  "endDate": "2027-03-31T18:00:00+01:00",
+  "timezone": "Europe/Lisbon",
+  "location": {
+    "venue": "Praia do Norte",
+    "city": "Nazaré",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "continent": "europe",
+    "lat": 39.6046,
+    "lng": -9.0853
+  },
+  "description": {
+    "sv": "Storvågstävlingen vid Praia do Norte. Datumen är en väntperiod – tävlingen körs på en enda dag när det kommer en tillräckligt stor dyning.",
+    "en": "The big wave contest at Praia do Norte. The dates are a waiting period – the contest runs on a single day when a big enough swell arrives."
+  },
+  "organizer": "World Surf League",
+  "disciplines": [
+    "Big Wave (tow-in)"
+  ],
+  "source": {
+    "note": "NSC Total (19 okt 2026) om WSL:s bekräftelse: väntperiod 1 nov 2026–31 mar 2027, Praia do Norte. worldsurfleague.com blockerar automatisk läsning, så WSL:s egen sida kunde inte kontrolleras direkt.",
+    "url": "https://www.nsctotal.com.br/esportes/ondas-gigantes-wsl-confirma-janela-de-nazare-big-wave-challenge-2026-27",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

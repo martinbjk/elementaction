@@ -1,0 +1,34 @@
+{
+  "slug": "fis-big-air-beijing-2026",
+  "name": "FIS Snowboard World Cup – Big Air Beijing",
+  "series": "FIS Snowboard Park & Pipe World Cup",
+  "category": [
+    "bigair"
+  ],
+  "level": "pro",
+  "startDate": "2026-12-03T09:00:00+08:00",
+  "endDate": "2026-12-06T18:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "location": {
+    "venue": "Beijing Big Air",
+    "city": "Beijing",
+    "country": "China",
+    "countryCode": "CN",
+    "continent": "asia",
+    "lat": 39.9042,
+    "lng": 116.4074
+  },
+  "description": {
+    "sv": "Världscupens big air-tävling i Peking, i den stadsbelägna big air-backen.",
+    "en": "World Cup big air contest in Beijing, on the city's big air jump."
+  },
+  "organizer": "FIS",
+  "disciplines": [
+    "Big Air"
+  ],
+  "source": {
+    "note": "FIS officiella säsongsöversikt (publicerad 18 aug 2026): Beijing Big Air 3–6 dec.",
+    "url": "https://www.fis-ski.com/snowboard-park-and-pipe/news/2026-27/park-pipe-world-cup-2026-27-100-days-to-go",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

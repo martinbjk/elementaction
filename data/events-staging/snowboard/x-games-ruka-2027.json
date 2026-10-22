@@ -1,0 +1,35 @@
+{
+  "slug": "x-games-ruka-2027",
+  "name": "X Games Ruka 2027",
+  "series": "X Games League",
+  "category": [
+    "contest"
+  ],
+  "level": "pro",
+  "startDate": "2027-04-09T09:00:00+03:00",
+  "endDate": "2027-04-11T18:00:00+03:00",
+  "timezone": "Europe/Helsinki",
+  "location": {
+    "venue": "Ruka Ski Resort",
+    "city": "Kuusamo",
+    "country": "Finland",
+    "countryCode": "FI",
+    "continent": "europe",
+    "lat": 66.1667,
+    "lng": 29.1333
+  },
+  "description": {
+    "sv": "X Games säsongsavslutning i Ruka i finska Lappland.",
+    "en": "The X Games season finale at Ruka in Finnish Lapland."
+  },
+  "organizer": "X Games",
+  "disciplines": [
+    "Snowboard",
+    "Ski"
+  ],
+  "source": {
+    "note": "Unofficial Networks (14 sep 2026): Ruka 9–11 apr. Grenar ej annonserade. Helst bör en officiell X Games-sida bekräfta.",
+    "url": "https://unofficialnetworks.com/2026/09/14/x-games-three-winter-stops/",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

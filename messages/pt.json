@@ -1,7 +1,7 @@
 {
   "meta": {
-    "siteName": "ElementAction",
-    "siteTitle": "ElementAction – Surf, skate, snowboard e inspiração",
+    "siteName": "Elementaction",
+    "siteTitle": "Elementaction – Surf, skate, snowboard e inspiração",
     "siteDescription": "Calendários de eventos, artigos, design e vídeos de surf, skate e snowboard — além de design, fotografia e viagens como inspiração."
   },
   "nav": {
@@ -15,25 +15,29 @@
       "name": "Surf",
       "element": "Água",
       "tagline": "Água fria, ondulações longas e a caça à próxima onda.",
-      "intro": "Campeonatos de surf, guias de picos, piscinas de ondas e previsões — da costa oeste sueca ao oceano aberto."
+      "intro": "Campeonatos de surf, guias de picos, piscinas de ondas e previsões — da costa oeste sueca ao oceano aberto.",
+      "action": "Water action"
     },
     "skateboard": {
       "name": "Skate",
       "element": "Concreto",
       "tagline": "Street, park, vert e slalom — todos os campeonatos do planeta.",
-      "intro": "O calendário mundial de skate ganhou uma nova casa: campeonatos, reportagens, guias e os vídeos que moldaram a cultura."
+      "intro": "O calendário mundial de skate ganhou uma nova casa: campeonatos, reportagens, guias e os vídeos que moldaram a cultura.",
+      "action": "Concrete action"
     },
     "snowboard": {
       "name": "Snowboard",
       "element": "Neve",
       "tagline": "Halfpipe, slopestyle e linhas nas grandes montanhas.",
-      "intro": "Eventos de snowboard, histórias da montanha e o design por trás das pranchas — feito para o inverno."
+      "intro": "Eventos de snowboard, histórias da montanha e o design por trás das pranchas — feito para o inverno.",
+      "action": "Snow action"
     },
     "inspiration": {
       "name": "Inspiração",
-      "element": "Fogo",
+      "element": "Mente",
       "tagline": "Design, fotografia e viagens — a faísca por trás de cada sessão.",
-      "intro": "Exposições, fotografia, design e viagens. As ideias e os lugares que alimentam a cultura da prancha."
+      "intro": "Exposições, fotografia, design e viagens. As ideias e os lugares que alimentam a cultura da prancha.",
+      "action": "Mind action"
     }
   },
   "tabs": {
@@ -45,7 +49,7 @@
   },
   "home": {
     "kicker": "Quatro elementos. Uma ação.",
-    "title": "Água. Concreto. Neve. Fogo.",
+    "title": "Água. Concreto. Neve. Mente.",
     "lead": "Calendários, artigos, design e vídeos de surf, skate e snowboard — e a inspiração que os move.",
     "enter": "Entrar",
     "nextUp": "Em breve",
