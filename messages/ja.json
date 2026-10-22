@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "siteName": "ElementAction",
+    "siteTitle": "ElementAction – サーフィン、スケートボード、スノーボード＆インスピレーション",
+    "siteDescription": "サーフィン、スケートボード、スノーボードのイベントカレンダー、記事、デザイン、動画。そしてデザイン・写真・旅のインスピレーション。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "sections": "セクション",
+    "language": "言語",
+    "skip": "本文へスキップ"
+  },
+  "sections": {
+    "surfing": {
+      "name": "サーフィン",
+      "element": "水",
+      "tagline": "冷たい海、長いうねり、そして次の波を追いかけて。",
+      "intro": "サーフィン大会、スポットガイド、ウェーブプール、波予報 — スウェーデン西海岸から外洋まで。"
+    },
+    "skateboard": {
+      "name": "スケートボード",
+      "element": "コンクリート",
+      "tagline": "ストリート、パーク、バート、スラローム — 世界中の大会を。",
+      "intro": "世界のスケートボードイベントカレンダーが新しい拠点へ。大会、レポート、ガイド、そしてカルチャーを形づくった映像。"
+    },
+    "snowboard": {
+      "name": "スノーボード",
+      "element": "雪",
+      "tagline": "ハーフパイプ、スロープスタイル、そして大きな山のライン。",
+      "intro": "スノーボードのイベント、山の物語、ボードの裏にあるデザイン — 冬のために。"
+    },
+    "inspiration": {
+      "name": "インスピレーション",
+      "element": "火",
+      "tagline": "デザイン、写真、旅 — ライドの原動力となる火花。",
+      "intro": "展覧会、写真、デザイン、旅。ボードカルチャーを動かすアイデアと場所。"
+    }
+  },
+  "tabs": {
+    "overview": "概要",
+    "calendar": "カレンダー",
+    "articles": "記事",
+    "design": "デザイン",
+    "videos": "動画"
+  },
+  "home": {
+    "kicker": "四つのエレメント。ひとつのアクション。",
+    "title": "水。コンクリート。雪。火。",
+    "lead": "サーフィン、スケートボード、スノーボードのカレンダー、記事、デザイン、動画 — そしてそれを動かすインスピレーション。",
+    "enter": "入る",
+    "nextUp": "次のイベント",
+    "latest": "最新記事",
+    "allIn": "{section}のすべて",
+    "events": "{count, plural, =0 {イベントはまだありません} other {# 件のイベント}}",
+    "articles": "{count, plural, =0 {記事はまだありません} other {# 本の記事}}"
+  },
+  "calendar": {
+    "title": "{section} カレンダー",
+    "upcoming": "今後",
+    "past": "過去",
+    "all": "すべて",
+    "search": "イベント、都市、国を検索",
+    "noResults": "条件に合うイベントはありません。",
+    "emptyTitle": "カレンダーは準備中です",
+    "emptyBody": "主催者の公式情報で確認したイベントのみ掲載しています。{section}の最初のイベントを準備中です。",
+    "seeAll": "カレンダーをすべて見る",
+    "count": "{count, plural, other {# 件}}"
+  },
+  "articles": {
+    "title": "{section} の記事",
+    "readMore": "記事を読む",
+    "onlyInEnglish": "英語のみ",
+    "onlyInEnglishNote": "この記事は現在英語のみで公開しています。",
+    "backToArticles": "すべての記事",
+    "emptyTitle": "最初の記事は近日公開",
+    "emptyBody": "すべての記述に出典を付けたファクトチェック済みの記事。このセクションの最初の記事を執筆中です。",
+    "seeAll": "すべての記事"
+  },
+  "design": {
+    "title": "{section} のデザイン",
+    "intro": "記事のために制作したグラフィック、地図、ポスター。すべて確認済みのデータに基づいています。",
+    "fromArticle": "掲載記事",
+    "emptyTitle": "デザインウォールはまだ空です",
+    "emptyBody": "ポスター、ボードグラフィック、ビジュアル作品をここに掲載します。",
+    "seeAll": "デザインウォールを開く"
+  },
+  "videos": {
+    "title": "{section} の動画",
+    "intro": "厳選した映像とクリップ。それぞれに短い紹介文付き。",
+    "watch": "YouTubeで見る",
+    "emptyTitle": "まだ動画は選ばれていません",
+    "emptyBody": "動画は一本ずつ選んでいます。このセクションの最初の動画を準備中です。",
+    "seeAll": "すべての動画"
+  },
+  "status": {
+    "upcoming": "開催予定",
+    "live": "開催中",
+    "finished": "終了",
+    "cancelled": "中止",
+    "postponed": "延期",
+    "inDays": "#日後",
+    "inHours": "#時間後",
+    "liveNow": "ただいま開催中",
+    "tomorrow": "明日"
+  },
+  "category": {
+    "street": "Street",
+    "park": "Park",
+    "vert": "Vert",
+    "bowl": "Bowl",
+    "freestyle": "Freestyle",
+    "downhill": "Downhill",
+    "slalom": "Slalom",
+    "demo": "Demo",
+    "contest": "Contest",
+    "shortboard": "ショートボード",
+    "longboard": "ロングボード",
+    "bigwave": "ビッグウェーブ",
+    "wavepool": "ウェーブプール",
+    "bodyboard": "ボディボード",
+    "sup": "SUP",
+    "festival": "フェスティバル",
+    "halfpipe": "ハーフパイプ",
+    "slopestyle": "スロープスタイル",
+    "bigair": "ビッグエア",
+    "boardercross": "スノーボードクロス",
+    "freeride": "フリーライド",
+    "rail": "レールジャム",
+    "exhibition": "展覧会",
+    "design": "デザイン",
+    "photography": "写真",
+    "travel": "旅",
+    "fair": "見本市",
+    "workshop": "ワークショップ"
+  },
+  "level": {
+    "amateur": "アマチュア",
+    "pro": "プロ",
+    "open": "オープン",
+    "youth": "ユース"
+  },
+  "event": {
+    "officialSite": "公式サイト",
+    "register": "登録",
+    "tickets": "チケット",
+    "addToCalendar": "カレンダーに追加",
+    "addToGoogle": "Googleカレンダー",
+    "downloadIcs": ".icsをダウンロード",
+    "organizer": "主催者",
+    "disciplines": "種目",
+    "venue": "会場",
+    "backToCalendar": "カレンダーに戻る",
+    "source": "情報源",
+    "share": "共有",
+    "linkCopied": "リンクをコピーしました",
+    "map": "地図で見る",
+    "localTime": "時刻はすべて開催地の現地時間です。"
+  },
+  "footer": {
+    "tagline": "四つのエレメントで描くボードカルチャー。すべての事実を出典で確認。",
+    "legacy": "スケートボードカレンダーは skateboardeventcalendar.com から始まりました。",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "ワイプアウト。",
+    "body": "このページは存在しないか、波にさらわれました。",
+    "home": "トップへ戻る"
+  }
+}

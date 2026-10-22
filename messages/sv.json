@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "siteName": "ElementAction",
+    "siteTitle": "ElementAction – Surf, skateboard, snowboard & inspiration",
+    "siteDescription": "Eventkalendrar, artiklar, design och video för surfing, skateboard och snowboard — plus design, fotografi och resor som inspiration."
+  },
+  "nav": {
+    "home": "Hem",
+    "sections": "Sektioner",
+    "language": "Språk",
+    "skip": "Hoppa till innehållet"
+  },
+  "sections": {
+    "surfing": {
+      "name": "Surfing",
+      "element": "Vatten",
+      "tagline": "Kallt vatten, långa dyningar och jakten på nästa våg.",
+      "intro": "Surftävlingar, spotguider, vågpooler och prognoser — från svenska västkusten till öppet hav."
+    },
+    "skateboard": {
+      "name": "Skateboard",
+      "element": "Betong",
+      "tagline": "Street, park, vert och slalom — varje tävling på planeten.",
+      "intro": "Den globala skateboardkalendern har fått ett nytt hem: tävlingar, reportage, guider och videorna som formade kulturen."
+    },
+    "snowboard": {
+      "name": "Snowboard",
+      "element": "Snö",
+      "tagline": "Halfpipe, slopestyle och linjer i stora berg.",
+      "intro": "Snowboardevent, berättelser från bergen och designen bakom brädorna — byggt för vintersäsongen."
+    },
+    "inspiration": {
+      "name": "Inspiration",
+      "element": "Eld",
+      "tagline": "Design, fotografi och resor — gnistan bakom åkningen.",
+      "intro": "Utställningar, fotografi, design och resor. Idéerna och platserna som driver brädkulturen."
+    }
+  },
+  "tabs": {
+    "overview": "Översikt",
+    "calendar": "Kalender",
+    "articles": "Artiklar",
+    "design": "Design",
+    "videos": "Videos"
+  },
+  "home": {
+    "kicker": "Fyra element. En rörelse.",
+    "title": "Vatten. Betong. Snö. Eld.",
+    "lead": "Kalendrar, artiklar, design och video för surfing, skateboard och snowboard — och inspirationen som driver dem.",
+    "enter": "Gå in",
+    "nextUp": "Härnäst",
+    "latest": "Senaste artiklarna",
+    "allIn": "Allt inom {section}",
+    "events": "{count, plural, =0 {inga event än} one {# event} other {# event}}",
+    "articles": "{count, plural, =0 {inga artiklar än} one {# artikel} other {# artiklar}}"
+  },
+  "calendar": {
+    "title": "Kalender: {section}",
+    "upcoming": "Kommande",
+    "past": "Tidigare",
+    "all": "Alla",
+    "search": "Sök event, stad eller land",
+    "noResults": "Inga event matchar dina filter.",
+    "emptyTitle": "Kalendern byggs just nu",
+    "emptyBody": "Vi listar bara event som vi har kontrollerat mot arrangörens egen källa. De första eventen för {section} är på väg.",
+    "seeAll": "Se hela kalendern",
+    "count": "{count, plural, one {# event} other {# event}}"
+  },
+  "articles": {
+    "title": "Artiklar: {section}",
+    "readMore": "Läs artikeln",
+    "onlyInEnglish": "Bara på engelska",
+    "onlyInEnglishNote": "Den här artikeln finns bara på engelska än så länge.",
+    "backToArticles": "Alla artiklar",
+    "emptyTitle": "De första artiklarna kommer snart",
+    "emptyBody": "Faktagranskade artiklar med en källa för varje påstående. De första för den här sektionen skrivs nu.",
+    "seeAll": "Alla artiklar"
+  },
+  "design": {
+    "title": "Design: {section}",
+    "intro": "Grafik, kartor, affischer och bildarbete gjort för våra artiklar — allt byggt på kontrollerad data.",
+    "fromArticle": "Från artikeln",
+    "emptyTitle": "Designväggen är tom — än så länge",
+    "emptyBody": "Affischer, brädgrafik och visuellt arbete kommer att visas här.",
+    "seeAll": "Öppna designväggen"
+  },
+  "videos": {
+    "title": "Videos: {section}",
+    "intro": "Handplockade filmer och klipp, var och en med en kort text om varför den spelar roll.",
+    "watch": "Se på YouTube",
+    "emptyTitle": "Inga videos valda än",
+    "emptyBody": "Vi väljer videos för hand — de första för den här sektionen står på listan.",
+    "seeAll": "Alla videos"
+  },
+  "status": {
+    "upcoming": "Kommande",
+    "live": "Live",
+    "finished": "Avslutat",
+    "cancelled": "Inställt",
+    "postponed": "Uppskjutet",
+    "inDays": "{days, plural, one {Om # dag} other {Om # dagar}}",
+    "inHours": "{hours, plural, one {Om # timme} other {Om # timmar}}",
+    "liveNow": "Live nu",
+    "tomorrow": "Imorgon"
+  },
+  "category": {
+    "street": "Street",
+    "park": "Park",
+    "vert": "Vert",
+    "bowl": "Bowl",
+    "freestyle": "Freestyle",
+    "downhill": "Downhill",
+    "slalom": "Slalom",
+    "demo": "Demo",
+    "contest": "Contest",
+    "shortboard": "Shortboard",
+    "longboard": "Longboard",
+    "bigwave": "Storvåg",
+    "wavepool": "Vågpool",
+    "bodyboard": "Bodyboard",
+    "sup": "SUP",
+    "festival": "Festival",
+    "halfpipe": "Halfpipe",
+    "slopestyle": "Slopestyle",
+    "bigair": "Big Air",
+    "boardercross": "Boardercross",
+    "freeride": "Freeride",
+    "rail": "Rail jam",
+    "exhibition": "Utställning",
+    "design": "Design",
+    "photography": "Fotografi",
+    "travel": "Resor",
+    "fair": "Mässa",
+    "workshop": "Workshop"
+  },
+  "level": {
+    "amateur": "Amatör",
+    "pro": "Pro",
+    "open": "Open",
+    "youth": "Youth"
+  },
+  "event": {
+    "officialSite": "Officiell sajt",
+    "register": "Anmäl dig",
+    "tickets": "Biljetter",
+    "addToCalendar": "Lägg till i kalender",
+    "addToGoogle": "Google Calendar",
+    "downloadIcs": "Ladda ner .ics",
+    "organizer": "Arrangör",
+    "disciplines": "Grenar",
+    "venue": "Arena",
+    "backToCalendar": "Tillbaka till kalendern",
+    "source": "Källa",
+    "share": "Dela",
+    "linkCopied": "Länk kopierad",
+    "map": "Visa på karta",
+    "localTime": "Alla tider är lokal tid på platsen."
+  },
+  "footer": {
+    "tagline": "Brädkultur i fyra element. Varje fakta kontrollerad mot sin källa.",
+    "legacy": "Skateboardkalendern startade på skateboardeventcalendar.com.",
+    "rights": "Alla rättigheter förbehållna."
+  },
+  "notFound": {
+    "title": "Wipeout.",
+    "body": "Sidan finns inte — eller så spolades den bort.",
+    "home": "Tillbaka till start"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "siteName": "ElementAction",
+    "siteTitle": "ElementAction – Surf, skateboard, snowboard e inspiración",
+    "siteDescription": "Calendarios de eventos, artículos, diseño y vídeos de surf, skateboard y snowboard — además de diseño, fotografía y viajes como inspiración."
+  },
+  "nav": {
+    "home": "Inicio",
+    "sections": "Secciones",
+    "language": "Idioma",
+    "skip": "Saltar al contenido"
+  },
+  "sections": {
+    "surfing": {
+      "name": "Surf",
+      "element": "Agua",
+      "tagline": "Agua fría, mares de fondo largos y la caza de la próxima ola.",
+      "intro": "Campeonatos de surf, guías de spots, piscinas de olas y previsiones — de la costa oeste sueca al océano abierto."
+    },
+    "skateboard": {
+      "name": "Skateboard",
+      "element": "Hormigón",
+      "tagline": "Street, park, vert y slalom — todas las competiciones del planeta.",
+      "intro": "El calendario mundial de skateboard tiene un nuevo hogar: competiciones, reportajes, guías y los vídeos que formaron la cultura."
+    },
+    "snowboard": {
+      "name": "Snowboard",
+      "element": "Nieve",
+      "tagline": "Halfpipe, slopestyle y líneas en la gran montaña.",
+      "intro": "Eventos de snowboard, historias de montaña y el diseño detrás de las tablas — hecho para el invierno."
+    },
+    "inspiration": {
+      "name": "Inspiración",
+      "element": "Fuego",
+      "tagline": "Diseño, fotografía y viajes — la chispa detrás de cada sesión.",
+      "intro": "Exposiciones, fotografía, diseño y viajes. Las ideas y los lugares que alimentan la cultura de la tabla."
+    }
+  },
+  "tabs": {
+    "overview": "Resumen",
+    "calendar": "Calendario",
+    "articles": "Artículos",
+    "design": "Diseño",
+    "videos": "Vídeos"
+  },
+  "home": {
+    "kicker": "Cuatro elementos. Una acción.",
+    "title": "Agua. Hormigón. Nieve. Fuego.",
+    "lead": "Calendarios, artículos, diseño y vídeos de surf, skateboard y snowboard — y la inspiración que los impulsa.",
+    "enter": "Entrar",
+    "nextUp": "Próximamente",
+    "latest": "Últimos artículos",
+    "allIn": "Todo sobre {section}",
+    "events": "{count, plural, =0 {aún no hay eventos} one {# evento} other {# eventos}}",
+    "articles": "{count, plural, =0 {aún no hay artículos} one {# artículo} other {# artículos}}"
+  },
+  "calendar": {
+    "title": "Calendario: {section}",
+    "upcoming": "Próximos",
+    "past": "Pasados",
+    "all": "Todos",
+    "search": "Buscar evento, ciudad o país",
+    "noResults": "Ningún evento coincide con tus filtros.",
+    "emptyTitle": "El calendario se está construyendo",
+    "emptyBody": "Solo publicamos eventos verificados con la fuente del organizador. Los primeros eventos de {section} están en camino.",
+    "seeAll": "Ver el calendario completo",
+    "count": "{count, plural, one {# evento} other {# eventos}}"
+  },
+  "articles": {
+    "title": "Artículos: {section}",
+    "readMore": "Leer artículo",
+    "onlyInEnglish": "Solo en inglés",
+    "onlyInEnglishNote": "Este artículo solo está disponible en inglés por ahora.",
+    "backToArticles": "Todos los artículos",
+    "emptyTitle": "Pronto, los primeros artículos",
+    "emptyBody": "Artículos verificados, con una fuente para cada dato. Los primeros de esta sección se están escribiendo.",
+    "seeAll": "Todos los artículos"
+  },
+  "design": {
+    "title": "Diseño: {section}",
+    "intro": "Gráficos, mapas, carteles y trabajo visual hecho para nuestros artículos — todo basado en datos verificados.",
+    "fromArticle": "Del artículo",
+    "emptyTitle": "El muro de diseño está vacío — por ahora",
+    "emptyBody": "Aquí aparecerán carteles, gráficos de tablas y trabajo visual.",
+    "seeAll": "Abrir el muro de diseño"
+  },
+  "videos": {
+    "title": "Vídeos: {section}",
+    "intro": "Películas y clips elegidos a mano, cada uno con una breve nota sobre por qué importa.",
+    "watch": "Ver en YouTube",
+    "emptyTitle": "Aún no hay vídeos elegidos",
+    "emptyBody": "Elegimos los vídeos a mano — los primeros de esta sección están en la lista.",
+    "seeAll": "Todos los vídeos"
+  },
+  "status": {
+    "upcoming": "Próximo",
+    "live": "En vivo",
+    "finished": "Finalizado",
+    "cancelled": "Cancelado",
+    "postponed": "Aplazado",
+    "inDays": "{days, plural, one {En # día} other {En # días}}",
+    "inHours": "{hours, plural, one {En # hora} other {En # horas}}",
+    "liveNow": "En vivo ahora",
+    "tomorrow": "Mañana"
+  },
+  "category": {
+    "street": "Street",
+    "park": "Park",
+    "vert": "Vert",
+    "bowl": "Bowl",
+    "freestyle": "Freestyle",
+    "downhill": "Downhill",
+    "slalom": "Slalom",
+    "demo": "Demo",
+    "contest": "Contest",
+    "shortboard": "Shortboard",
+    "longboard": "Longboard",
+    "bigwave": "Olas grandes",
+    "wavepool": "Piscina de olas",
+    "bodyboard": "Bodyboard",
+    "sup": "SUP",
+    "festival": "Festival",
+    "halfpipe": "Halfpipe",
+    "slopestyle": "Slopestyle",
+    "bigair": "Big Air",
+    "boardercross": "Boardercross",
+    "freeride": "Freeride",
+    "rail": "Rail jam",
+    "exhibition": "Exposición",
+    "design": "Diseño",
+    "photography": "Fotografía",
+    "travel": "Viajes",
+    "fair": "Feria",
+    "workshop": "Taller"
+  },
+  "level": {
+    "amateur": "Amateur",
+    "pro": "Pro",
+    "open": "Abierto",
+    "youth": "Juvenil"
+  },
+  "event": {
+    "officialSite": "Sitio oficial",
+    "register": "Inscribirse",
+    "tickets": "Entradas",
+    "addToCalendar": "Añadir al calendario",
+    "addToGoogle": "Google Calendar",
+    "downloadIcs": "Descargar .ics",
+    "organizer": "Organizador",
+    "disciplines": "Disciplinas",
+    "venue": "Sede",
+    "backToCalendar": "Volver al calendario",
+    "source": "Fuente",
+    "share": "Compartir",
+    "linkCopied": "Enlace copiado",
+    "map": "Ver en el mapa",
+    "localTime": "Todas las horas son la hora local del lugar."
+  },
+  "footer": {
+    "tagline": "La cultura de la tabla en cuatro elementos. Cada dato comprobado en su fuente.",
+    "legacy": "El calendario de skateboard empezó en skateboardeventcalendar.com.",
+    "rights": "Todos los derechos reservados."
+  },
+  "notFound": {
+    "title": "Wipeout.",
+    "body": "Esta página no existe — o se la llevó la ola.",
+    "home": "Volver al inicio"
+  }
+}

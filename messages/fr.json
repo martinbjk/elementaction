@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "siteName": "ElementAction",
+    "siteTitle": "ElementAction – Surf, skateboard, snowboard & inspiration",
+    "siteDescription": "Calendriers d’événements, articles, design et vidéos pour le surf, le skateboard et le snowboard — plus design, photographie et voyages pour l’inspiration."
+  },
+  "nav": {
+    "home": "Accueil",
+    "sections": "Sections",
+    "language": "Langue",
+    "skip": "Aller au contenu"
+  },
+  "sections": {
+    "surfing": {
+      "name": "Surf",
+      "element": "Eau",
+      "tagline": "Eau froide, longues houles et la chasse à la prochaine vague.",
+      "intro": "Compétitions de surf, guides de spots, piscines à vagues et prévisions — de la côte ouest suédoise à l’océan."
+    },
+    "skateboard": {
+      "name": "Skateboard",
+      "element": "Béton",
+      "tagline": "Street, park, vert et slalom — toutes les compétitions de la planète.",
+      "intro": "Le calendrier mondial du skateboard a un nouveau foyer : compétitions, reportages, guides et les vidéos qui ont façonné la culture."
+    },
+    "snowboard": {
+      "name": "Snowboard",
+      "element": "Neige",
+      "tagline": "Halfpipe, slopestyle et grandes lignes en montagne.",
+      "intro": "Événements de snowboard, récits de montagne et le design derrière les planches — pensé pour l’hiver."
+    },
+    "inspiration": {
+      "name": "Inspiration",
+      "element": "Feu",
+      "tagline": "Design, photographie et voyages — l’étincelle derrière la glisse.",
+      "intro": "Expositions, photographie, design et voyages. Les idées et les lieux qui nourrissent la culture de la glisse."
+    }
+  },
+  "tabs": {
+    "overview": "Aperçu",
+    "calendar": "Calendrier",
+    "articles": "Articles",
+    "design": "Design",
+    "videos": "Vidéos"
+  },
+  "home": {
+    "kicker": "Quatre éléments. Une action.",
+    "title": "Eau. Béton. Neige. Feu.",
+    "lead": "Calendriers, articles, design et vidéos pour le surf, le skateboard et le snowboard — et l’inspiration qui les anime.",
+    "enter": "Entrer",
+    "nextUp": "À venir",
+    "latest": "Derniers articles",
+    "allIn": "Tout sur {section}",
+    "events": "{count, plural, =0 {aucun événement pour l’instant} one {# événement} other {# événements}}",
+    "articles": "{count, plural, =0 {aucun article pour l’instant} one {# article} other {# articles}}"
+  },
+  "calendar": {
+    "title": "Calendrier : {section}",
+    "upcoming": "À venir",
+    "past": "Passés",
+    "all": "Tous",
+    "search": "Chercher un événement, une ville ou un pays",
+    "noResults": "Aucun événement ne correspond à vos filtres.",
+    "emptyTitle": "Le calendrier est en construction",
+    "emptyBody": "Nous ne listons que des événements vérifiés auprès de la source de l’organisateur. Les premiers événements {section} arrivent.",
+    "seeAll": "Voir tout le calendrier",
+    "count": "{count, plural, one {# événement} other {# événements}}"
+  },
+  "articles": {
+    "title": "Articles : {section}",
+    "readMore": "Lire l’article",
+    "onlyInEnglish": "Anglais uniquement",
+    "onlyInEnglishNote": "Cet article n’est disponible qu’en anglais pour le moment.",
+    "backToArticles": "Tous les articles",
+    "emptyTitle": "Premiers articles bientôt",
+    "emptyBody": "Des articles vérifiés, avec une source pour chaque affirmation. Les premiers de cette section sont en cours d’écriture.",
+    "seeAll": "Tous les articles"
+  },
+  "design": {
+    "title": "Design : {section}",
+    "intro": "Graphismes, cartes, affiches et travaux visuels créés pour nos articles — tous fondés sur des données vérifiées.",
+    "fromArticle": "Tiré de l’article",
+    "emptyTitle": "Le mur design est vide — pour l’instant",
+    "emptyBody": "Affiches, graphismes de planches et travaux visuels apparaîtront ici.",
+    "seeAll": "Ouvrir le mur design"
+  },
+  "videos": {
+    "title": "Vidéos : {section}",
+    "intro": "Films et clips choisis à la main, chacun avec une courte note sur son importance.",
+    "watch": "Voir sur YouTube",
+    "emptyTitle": "Aucune vidéo choisie pour l’instant",
+    "emptyBody": "Nous choisissons les vidéos à la main — les premières pour cette section sont sur la liste.",
+    "seeAll": "Toutes les vidéos"
+  },
+  "status": {
+    "upcoming": "À venir",
+    "live": "En direct",
+    "finished": "Terminé",
+    "cancelled": "Annulé",
+    "postponed": "Reporté",
+    "inDays": "{days, plural, one {Dans # jour} other {Dans # jours}}",
+    "inHours": "{hours, plural, one {Dans # heure} other {Dans # heures}}",
+    "liveNow": "En direct maintenant",
+    "tomorrow": "Demain"
+  },
+  "category": {
+    "street": "Street",
+    "park": "Park",
+    "vert": "Vert",
+    "bowl": "Bowl",
+    "freestyle": "Freestyle",
+    "downhill": "Downhill",
+    "slalom": "Slalom",
+    "demo": "Demo",
+    "contest": "Contest",
+    "shortboard": "Shortboard",
+    "longboard": "Longboard",
+    "bigwave": "Grosses vagues",
+    "wavepool": "Piscine à vagues",
+    "bodyboard": "Bodyboard",
+    "sup": "SUP",
+    "festival": "Festival",
+    "halfpipe": "Halfpipe",
+    "slopestyle": "Slopestyle",
+    "bigair": "Big Air",
+    "boardercross": "Boardercross",
+    "freeride": "Freeride",
+    "rail": "Rail jam",
+    "exhibition": "Exposition",
+    "design": "Design",
+    "photography": "Photographie",
+    "travel": "Voyage",
+    "fair": "Salon",
+    "workshop": "Atelier"
+  },
+  "level": {
+    "amateur": "Amateur",
+    "pro": "Pro",
+    "open": "Ouvert",
+    "youth": "Jeunes"
+  },
+  "event": {
+    "officialSite": "Site officiel",
+    "register": "S'inscrire",
+    "tickets": "Billets",
+    "addToCalendar": "Ajouter au calendrier",
+    "addToGoogle": "Google Agenda",
+    "downloadIcs": "Télécharger .ics",
+    "organizer": "Organisateur",
+    "disciplines": "Disciplines",
+    "venue": "Lieu",
+    "backToCalendar": "Retour au calendrier",
+    "source": "Source",
+    "share": "Partager",
+    "linkCopied": "Lien copié",
+    "map": "Voir sur la carte",
+    "localTime": "Toutes les heures sont en heure locale du lieu."
+  },
+  "footer": {
+    "tagline": "La culture de la glisse en quatre éléments. Chaque fait vérifié à sa source.",
+    "legacy": "Le calendrier skateboard a commencé sur skateboardeventcalendar.com.",
+    "rights": "Tous droits réservés."
+  },
+  "notFound": {
+    "title": "Wipeout.",
+    "body": "Cette page n’existe pas — ou elle a été emportée par la vague.",
+    "home": "Retour à l’accueil"
+  }
+}

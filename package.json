@@ -1,0 +1,49 @@
+{
+  "name": "elementaction",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ElementAction — surf, skateboard, snowboard och inspiration: kalendrar, artiklar, design och video.",
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "tsx scripts/extract-skateparks.ts --build",
+    "build": "next build",
+    "postbuild": "node scripts/fix-html-lang.mjs",
+    "start": "npx serve out",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "validate-events": "tsx scripts/validate-events.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/fraunces": "^5.1.0",
+    "@fontsource-variable/inter": "^5.1.0",
+    "@fontsource-variable/space-grotesk": "^5.1.0",
+    "@fontsource-variable/syne": "^5.1.0",
+    "@fontsource/archivo-black": "^5.1.0",
+    "@fontsource/ibm-plex-mono": "^5.1.0",
+    "clsx": "^2.1.1",
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^0.446.0",
+    "next": "14.2.35",
+    "next-intl": "^3.19.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.1.0",
+    "remark-gfm": "^4.0.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.5",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.35",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}

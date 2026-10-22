@@ -1,0 +1,182 @@
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/fraunces';
+@import '@fontsource-variable/space-grotesk';
+@import '@fontsource-variable/syne';
+@import '@fontsource/archivo-black';
+@import '@fontsource/ibm-plex-mono/400.css';
+@import '@fontsource/ibm-plex-mono/600.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * SEKTIONSTEMAN. Varje sektion sätter samma variabler; komponenterna
+ * använder bara sec-*-klasserna (se tailwind.config.ts). Färgerna är
+ * RGB-tripletter så att Tailwinds opacitet (bg-sec-accent/20) fungerar.
+ *
+ *   Startsidan / neutral : grafit + vitt
+ *   Surfing   (vatten)   : djuphavsblått, skumvitt
+ *   Skateboard (betong)  : betonggrått, kritvitt, röd spraytagg
+ *   Snowboard (snö)      : snövitt, isblått, bläckblått
+ *   Inspiration (eld)    : titan (Guggenheim Bilbao), signalrött
+ */
+:root,
+[data-section='home'] {
+  --sec-bg: 22 24 27;
+  --sec-deep: 14 15 17;
+  --sec-ink: 244 245 246;
+  --sec-muted: 160 166 172;
+  --sec-accent: 244 245 246;
+  --sec-accent-ink: 22 24 27;
+  --sec-line: 255 255 255;
+  --sec-card: 32 35 39;
+  --sec-font: 'Inter Variable';
+  --sec-paper-accent: 29 111 224;
+  --sec-weight: 600;
+}
+
+[data-section='surfing'] {
+  --sec-bg: 6 33 63;
+  --sec-deep: 3 20 40;
+  --sec-ink: 236 245 255;
+  --sec-muted: 150 186 222;
+  --sec-accent: 92 182 255;
+  --sec-accent-ink: 3 20 40;
+  --sec-line: 160 205 255;
+  --sec-card: 11 52 96;
+  --sec-font: 'Fraunces Variable';
+  --sec-paper-accent: 21 92 196;
+  --sec-weight: 560;
+}
+
+[data-section='skateboard'] {
+  --sec-bg: 42 44 47;
+  --sec-deep: 28 29 31;
+  --sec-ink: 238 238 236;
+  --sec-muted: 160 164 168;
+  --sec-accent: 224 36 47;
+  --sec-accent-ink: 255 255 255;
+  --sec-line: 220 222 224;
+  --sec-card: 58 61 65;
+  --sec-font: 'Archivo Black';
+  --sec-paper-accent: 200 29 39;
+  --sec-weight: 400;
+}
+
+[data-section='snowboard'] {
+  --sec-bg: 245 248 251;
+  --sec-deep: 220 232 243;
+  --sec-ink: 13 34 64;
+  --sec-muted: 84 106 134;
+  --sec-accent: 29 111 224;
+  --sec-accent-ink: 255 255 255;
+  --sec-line: 13 34 64;
+  --sec-card: 255 255 255;
+  --sec-font: 'Space Grotesk Variable';
+  --sec-paper-accent: 21 92 196;
+  --sec-weight: 500;
+}
+
+[data-section='inspiration'] {
+  --sec-bg: 216 220 224;
+  --sec-deep: 180 187 194;
+  --sec-ink: 24 25 27;
+  --sec-muted: 84 90 97;
+  --sec-accent: 224 36 47;
+  --sec-accent-ink: 255 255 255;
+  --sec-line: 24 25 27;
+  --sec-card: 238 240 242;
+  --sec-font: 'Syne Variable';
+  --sec-paper-accent: 200 29 39;
+  --sec-weight: 760;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: 'Inter Variable', system-ui, sans-serif;
+  background: rgb(14 15 17);
+  color: rgb(var(--sec-ink));
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer utilities {
+  /* Rubrikfonten får sektionens egen vikt (Syne extra fet, Archivo Black regular …) */
+  .font-head {
+    font-weight: var(--sec-weight);
+  }
+  /* Panelrubriker skalar med panelens bredd, inte skärmens */
+  .panel-title {
+    font-size: clamp(1.9rem, 12.5cqi, 3.75rem);
+  }
+  /* Syne är ett brett typsnitt — lite mindre så att ordet ryms i en smal panel */
+  [data-section='inspiration'] .panel-title {
+    font-size: clamp(1.6rem, 10.5cqi, 3.4rem);
+  }
+}
+
+/* Sektionernas bakgrundsmaterial ----------------------------------- */
+
+.surface-home {
+  background: rgb(14 15 17);
+}
+
+.surface-surfing {
+  background:
+    radial-gradient(120% 70% at 80% -10%, rgb(29 111 224 / 0.45), transparent 60%),
+    linear-gradient(180deg, rgb(6 33 63), rgb(3 20 40));
+}
+
+/* Betong: fint brus via SVG-turbulens + formgjutningsfogar */
+.surface-skateboard {
+  background-color: rgb(42 44 47);
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"),
+    linear-gradient(90deg, rgb(255 255 255 / 0.05) 1px, transparent 1px),
+    linear-gradient(0deg, rgb(255 255 255 / 0.05) 1px, transparent 1px);
+  background-size: 220px 220px, 240px 240px, 240px 240px;
+}
+
+.surface-snowboard {
+  background:
+    radial-gradient(90% 60% at 20% 0%, rgb(255 255 255), transparent 70%),
+    linear-gradient(180deg, rgb(245 248 251), rgb(220 232 243));
+}
+
+/* Titan: borstad metall med kurvig reflex, som Gehrys fasad i Bilbao */
+.surface-inspiration {
+  background:
+    radial-gradient(140% 90% at 110% 10%, rgb(255 255 255 / 0.85), transparent 45%),
+    radial-gradient(90% 120% at -20% 110%, rgb(141 149 157 / 0.9), transparent 55%),
+    repeating-linear-gradient(100deg, rgb(255 255 255 / 0.12) 0 2px, transparent 2px 7px),
+    linear-gradient(160deg, rgb(226 229 232), rgb(178 185 192));
+}
+
+/* Tillgänglighet ---------------------------------------------------- */
+
+:focus-visible {
+  outline: 2px solid rgb(var(--sec-accent));
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}

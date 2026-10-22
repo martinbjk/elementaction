@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "siteName": "ElementAction",
+    "siteTitle": "ElementAction – Surf, Skateboard, Snowboard & Inspiration",
+    "siteDescription": "Event calendars, articles, design and videos for surfing, skateboarding and snowboarding — plus design, photography and travel for inspiration."
+  },
+  "nav": {
+    "home": "Home",
+    "sections": "Sections",
+    "language": "Language",
+    "skip": "Skip to content"
+  },
+  "sections": {
+    "surfing": {
+      "name": "Surfing",
+      "element": "Water",
+      "tagline": "Cold water, long swells and the hunt for the next wave.",
+      "intro": "Surf contests, spot guides, wave pools and forecasting — from the Swedish west coast to the open ocean."
+    },
+    "skateboard": {
+      "name": "Skateboard",
+      "element": "Concrete",
+      "tagline": "Street, park, vert and slalom — every contest on the planet.",
+      "intro": "The global skateboard event calendar, now with its own home: contests, reports, guides and the videos that shaped the culture."
+    },
+    "snowboard": {
+      "name": "Snowboard",
+      "element": "Snow",
+      "tagline": "Halfpipe, slopestyle and big mountain lines.",
+      "intro": "Snowboard events, mountain stories and the design behind the boards — built for the winter season."
+    },
+    "inspiration": {
+      "name": "Inspiration",
+      "element": "Fire",
+      "tagline": "Design, photography and travel — the spark behind the ride.",
+      "intro": "Exhibitions, photography, design and journeys. The ideas and places that fuel board culture."
+    }
+  },
+  "tabs": {
+    "overview": "Overview",
+    "calendar": "Calendar",
+    "articles": "Articles",
+    "design": "Design",
+    "videos": "Videos"
+  },
+  "home": {
+    "kicker": "Four elements. One action.",
+    "title": "Water. Concrete. Snow. Fire.",
+    "lead": "Calendars, articles, design and videos for surfing, skateboarding and snowboarding — and the inspiration that drives them.",
+    "enter": "Enter",
+    "nextUp": "Next up",
+    "latest": "Latest stories",
+    "allIn": "All in {section}",
+    "events": "{count, plural, =0 {no events yet} one {# event} other {# events}}",
+    "articles": "{count, plural, =0 {no articles yet} one {# article} other {# articles}}"
+  },
+  "calendar": {
+    "title": "{section} calendar",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "all": "All",
+    "search": "Search event, city or country",
+    "noResults": "No events match your filters.",
+    "emptyTitle": "The calendar is being built",
+    "emptyBody": "We only list events we have verified against the organizer's own source. The first {section} events are on their way.",
+    "seeAll": "See full calendar",
+    "count": "{count, plural, one {# event} other {# events}}"
+  },
+  "articles": {
+    "title": "{section} articles",
+    "readMore": "Read article",
+    "onlyInEnglish": "English only",
+    "onlyInEnglishNote": "This article is only available in English for now.",
+    "backToArticles": "All articles",
+    "emptyTitle": "First stories coming soon",
+    "emptyBody": "Fact-checked articles with a source for every claim. The first ones for this section are being written.",
+    "seeAll": "All articles"
+  },
+  "design": {
+    "title": "{section} design",
+    "intro": "Graphics, maps, posters and visual work made for our stories — every piece drawn from verified data.",
+    "fromArticle": "From the article",
+    "emptyTitle": "The design wall is empty — for now",
+    "emptyBody": "Posters, board graphics and visual work will appear here.",
+    "seeAll": "Open the design wall"
+  },
+  "videos": {
+    "title": "{section} videos",
+    "intro": "Handpicked films and clips, each with a short note on why it matters.",
+    "watch": "Watch on YouTube",
+    "emptyTitle": "No videos picked yet",
+    "emptyBody": "We pick videos by hand — the first ones for this section are on the list.",
+    "seeAll": "All videos"
+  },
+  "status": {
+    "upcoming": "Upcoming",
+    "live": "Live",
+    "finished": "Finished",
+    "cancelled": "Cancelled",
+    "postponed": "Postponed",
+    "inDays": "{days, plural, one {In # day} other {In # days}}",
+    "inHours": "{hours, plural, one {In # hour} other {In # hours}}",
+    "liveNow": "Live now",
+    "tomorrow": "Tomorrow"
+  },
+  "category": {
+    "street": "Street",
+    "park": "Park",
+    "vert": "Vert",
+    "bowl": "Bowl",
+    "freestyle": "Freestyle",
+    "downhill": "Downhill",
+    "slalom": "Slalom",
+    "demo": "Demo",
+    "contest": "Contest",
+    "shortboard": "Shortboard",
+    "longboard": "Longboard",
+    "bigwave": "Big wave",
+    "wavepool": "Wave pool",
+    "bodyboard": "Bodyboard",
+    "sup": "SUP",
+    "festival": "Festival",
+    "halfpipe": "Halfpipe",
+    "slopestyle": "Slopestyle",
+    "bigair": "Big Air",
+    "boardercross": "Boardercross",
+    "freeride": "Freeride",
+    "rail": "Rail jam",
+    "exhibition": "Exhibition",
+    "design": "Design",
+    "photography": "Photography",
+    "travel": "Travel",
+    "fair": "Fair",
+    "workshop": "Workshop"
+  },
+  "level": {
+    "amateur": "Amateur",
+    "pro": "Pro",
+    "open": "Open",
+    "youth": "Youth"
+  },
+  "event": {
+    "officialSite": "Official site",
+    "register": "Register",
+    "tickets": "Tickets",
+    "addToCalendar": "Add to calendar",
+    "addToGoogle": "Google Calendar",
+    "downloadIcs": "Download .ics",
+    "organizer": "Organizer",
+    "disciplines": "Disciplines",
+    "venue": "Venue",
+    "backToCalendar": "Back to calendar",
+    "source": "Source",
+    "share": "Share",
+    "linkCopied": "Link copied",
+    "map": "Show on map",
+    "localTime": "All times are local venue time."
+  },
+  "footer": {
+    "tagline": "Board culture in four elements. Every fact checked against its source.",
+    "legacy": "The skateboard calendar started at skateboardeventcalendar.com.",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "title": "Wiped out.",
+    "body": "This page doesn't exist — or it washed away.",
+    "home": "Back to start"
+  }
+}

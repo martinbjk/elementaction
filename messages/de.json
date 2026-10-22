@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "siteName": "ElementAction",
+    "siteTitle": "ElementAction – Surfen, Skateboard, Snowboard & Inspiration",
+    "siteDescription": "Eventkalender, Artikel, Design und Videos für Surfen, Skateboarden und Snowboarden — dazu Design, Fotografie und Reisen als Inspiration."
+  },
+  "nav": {
+    "home": "Start",
+    "sections": "Bereiche",
+    "language": "Sprache",
+    "skip": "Zum Inhalt springen"
+  },
+  "sections": {
+    "surfing": {
+      "name": "Surfen",
+      "element": "Wasser",
+      "tagline": "Kaltes Wasser, lange Dünung und die Jagd nach der nächsten Welle.",
+      "intro": "Surfcontests, Spot-Guides, Wellenbäder und Vorhersagen — von der schwedischen Westküste bis aufs offene Meer."
+    },
+    "skateboard": {
+      "name": "Skateboard",
+      "element": "Beton",
+      "tagline": "Street, Park, Vert und Slalom — jeder Contest weltweit.",
+      "intro": "Der weltweite Skateboard-Eventkalender hat ein neues Zuhause: Contests, Reportagen, Guides und die Videos, die die Kultur geprägt haben."
+    },
+    "snowboard": {
+      "name": "Snowboard",
+      "element": "Schnee",
+      "tagline": "Halfpipe, Slopestyle und Lines in großen Bergen.",
+      "intro": "Snowboard-Events, Geschichten aus den Bergen und das Design hinter den Boards — gemacht für den Winter."
+    },
+    "inspiration": {
+      "name": "Inspiration",
+      "element": "Feuer",
+      "tagline": "Design, Fotografie und Reisen — der Funke hinter dem Fahren.",
+      "intro": "Ausstellungen, Fotografie, Design und Reisen. Die Ideen und Orte, die die Board-Kultur antreiben."
+    }
+  },
+  "tabs": {
+    "overview": "Übersicht",
+    "calendar": "Kalender",
+    "articles": "Artikel",
+    "design": "Design",
+    "videos": "Videos"
+  },
+  "home": {
+    "kicker": "Vier Elemente. Eine Bewegung.",
+    "title": "Wasser. Beton. Schnee. Feuer.",
+    "lead": "Kalender, Artikel, Design und Videos für Surfen, Skateboarden und Snowboarden — und die Inspiration dahinter.",
+    "enter": "Eintreten",
+    "nextUp": "Als Nächstes",
+    "latest": "Neueste Artikel",
+    "allIn": "Alles zu {section}",
+    "events": "{count, plural, =0 {noch keine Events} one {# Event} other {# Events}}",
+    "articles": "{count, plural, =0 {noch keine Artikel} one {# Artikel} other {# Artikel}}"
+  },
+  "calendar": {
+    "title": "Kalender: {section}",
+    "upcoming": "Bevorstehend",
+    "past": "Vergangen",
+    "all": "Alle",
+    "search": "Event, Stadt oder Land suchen",
+    "noResults": "Keine Events passen zu deinen Filtern.",
+    "emptyTitle": "Der Kalender wird gerade aufgebaut",
+    "emptyBody": "Wir listen nur Events, die wir an der Quelle des Veranstalters geprüft haben. Die ersten Events für {section} sind unterwegs.",
+    "seeAll": "Ganzen Kalender ansehen",
+    "count": "{count, plural, one {# Event} other {# Events}}"
+  },
+  "articles": {
+    "title": "Artikel: {section}",
+    "readMore": "Artikel lesen",
+    "onlyInEnglish": "Nur auf Englisch",
+    "onlyInEnglishNote": "Dieser Artikel ist vorerst nur auf Englisch verfügbar.",
+    "backToArticles": "Alle Artikel",
+    "emptyTitle": "Erste Geschichten folgen bald",
+    "emptyBody": "Faktengeprüfte Artikel mit einer Quelle für jede Aussage. Die ersten für diesen Bereich entstehen gerade.",
+    "seeAll": "Alle Artikel"
+  },
+  "design": {
+    "title": "Design: {section}",
+    "intro": "Grafiken, Karten, Poster und visuelle Arbeiten für unsere Artikel — alles auf Basis geprüfter Daten.",
+    "fromArticle": "Aus dem Artikel",
+    "emptyTitle": "Die Design-Wand ist noch leer",
+    "emptyBody": "Poster, Board-Grafiken und visuelle Arbeiten erscheinen hier.",
+    "seeAll": "Design-Wand öffnen"
+  },
+  "videos": {
+    "title": "Videos: {section}",
+    "intro": "Handverlesene Filme und Clips, jeweils mit einer kurzen Notiz, warum sie wichtig sind.",
+    "watch": "Auf YouTube ansehen",
+    "emptyTitle": "Noch keine Videos ausgewählt",
+    "emptyBody": "Wir wählen Videos von Hand aus — die ersten für diesen Bereich stehen auf der Liste.",
+    "seeAll": "Alle Videos"
+  },
+  "status": {
+    "upcoming": "Bevorstehend",
+    "live": "Live",
+    "finished": "Beendet",
+    "cancelled": "Abgesagt",
+    "postponed": "Verschoben",
+    "inDays": "{days, plural, one {In # Tag} other {In # Tagen}}",
+    "inHours": "{hours, plural, one {In # Stunde} other {In # Stunden}}",
+    "liveNow": "Jetzt live",
+    "tomorrow": "Morgen"
+  },
+  "category": {
+    "street": "Street",
+    "park": "Park",
+    "vert": "Vert",
+    "bowl": "Bowl",
+    "freestyle": "Freestyle",
+    "downhill": "Downhill",
+    "slalom": "Slalom",
+    "demo": "Demo",
+    "contest": "Contest",
+    "shortboard": "Shortboard",
+    "longboard": "Longboard",
+    "bigwave": "Big Wave",
+    "wavepool": "Wellenbad",
+    "bodyboard": "Bodyboard",
+    "sup": "SUP",
+    "festival": "Festival",
+    "halfpipe": "Halfpipe",
+    "slopestyle": "Slopestyle",
+    "bigair": "Big Air",
+    "boardercross": "Boardercross",
+    "freeride": "Freeride",
+    "rail": "Rail Jam",
+    "exhibition": "Ausstellung",
+    "design": "Design",
+    "photography": "Fotografie",
+    "travel": "Reisen",
+    "fair": "Messe",
+    "workshop": "Workshop"
+  },
+  "level": {
+    "amateur": "Amateur",
+    "pro": "Profi",
+    "open": "Offen",
+    "youth": "Jugend"
+  },
+  "event": {
+    "officialSite": "Offizielle Website",
+    "register": "Anmelden",
+    "tickets": "Tickets",
+    "addToCalendar": "Zum Kalender hinzufügen",
+    "addToGoogle": "Google Kalender",
+    "downloadIcs": ".ics herunterladen",
+    "organizer": "Veranstalter",
+    "disciplines": "Disziplinen",
+    "venue": "Austragungsort",
+    "backToCalendar": "Zurück zum Kalender",
+    "source": "Quelle",
+    "share": "Teilen",
+    "linkCopied": "Link kopiert",
+    "map": "Auf der Karte zeigen",
+    "localTime": "Alle Zeiten in Ortszeit des Veranstaltungsorts."
+  },
+  "footer": {
+    "tagline": "Board-Kultur in vier Elementen. Jede Angabe an ihrer Quelle geprüft.",
+    "legacy": "Der Skateboard-Kalender begann auf skateboardeventcalendar.com.",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "notFound": {
+    "title": "Wipeout.",
+    "body": "Diese Seite gibt es nicht — oder sie wurde weggespült.",
+    "home": "Zurück zum Start"
+  }
+}

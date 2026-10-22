@@ -1,0 +1,35 @@
+{
+  "slug": "world-skate-games-asuncion-park-2026",
+  "name": "World Skate Games – Park World Championships",
+  "series": "World Skate Games",
+  "category": [
+    "park"
+  ],
+  "level": "pro",
+  "startDate": "2026-10-03T09:00:00-04:00",
+  "endDate": "2026-10-10T20:00:00-04:00",
+  "timezone": "America/Asuncion",
+  "location": {
+    "venue": "TBD",
+    "city": "Asunción",
+    "country": "Paraguay",
+    "countryCode": "PY",
+    "continent": "south-america",
+    "lat": -25.2637,
+    "lng": -57.5759
+  },
+  "description": {
+    "sv": "Park-VM inom ramen för World Skate Games i Asunción.",
+    "en": "Park World Championships held as part of the World Skate Games in Asunción."
+  },
+  "officialUrl": "https://worldskate.org",
+  "organizer": "World Skate",
+  "disciplines": [
+    "Park"
+  ],
+  "source": {
+    "note": "Datum bekräftat direkt på World Skates officiella eventkalender (event #488): 3–10 okt 2026.",
+    "url": "https://www.worldskate.org/events/upcoming-events/event/488.html",
+    "retrievedAt": "2026-08-14T00:00:00+02:00"
+  }
+}

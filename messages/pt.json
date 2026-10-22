@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "siteName": "ElementAction",
+    "siteTitle": "ElementAction – Surf, skate, snowboard e inspiração",
+    "siteDescription": "Calendários de eventos, artigos, design e vídeos de surf, skate e snowboard — além de design, fotografia e viagens como inspiração."
+  },
+  "nav": {
+    "home": "Início",
+    "sections": "Seções",
+    "language": "Idioma",
+    "skip": "Ir para o conteúdo"
+  },
+  "sections": {
+    "surfing": {
+      "name": "Surf",
+      "element": "Água",
+      "tagline": "Água fria, ondulações longas e a caça à próxima onda.",
+      "intro": "Campeonatos de surf, guias de picos, piscinas de ondas e previsões — da costa oeste sueca ao oceano aberto."
+    },
+    "skateboard": {
+      "name": "Skate",
+      "element": "Concreto",
+      "tagline": "Street, park, vert e slalom — todos os campeonatos do planeta.",
+      "intro": "O calendário mundial de skate ganhou uma nova casa: campeonatos, reportagens, guias e os vídeos que moldaram a cultura."
+    },
+    "snowboard": {
+      "name": "Snowboard",
+      "element": "Neve",
+      "tagline": "Halfpipe, slopestyle e linhas nas grandes montanhas.",
+      "intro": "Eventos de snowboard, histórias da montanha e o design por trás das pranchas — feito para o inverno."
+    },
+    "inspiration": {
+      "name": "Inspiração",
+      "element": "Fogo",
+      "tagline": "Design, fotografia e viagens — a faísca por trás de cada sessão.",
+      "intro": "Exposições, fotografia, design e viagens. As ideias e os lugares que alimentam a cultura da prancha."
+    }
+  },
+  "tabs": {
+    "overview": "Visão geral",
+    "calendar": "Calendário",
+    "articles": "Artigos",
+    "design": "Design",
+    "videos": "Vídeos"
+  },
+  "home": {
+    "kicker": "Quatro elementos. Uma ação.",
+    "title": "Água. Concreto. Neve. Fogo.",
+    "lead": "Calendários, artigos, design e vídeos de surf, skate e snowboard — e a inspiração que os move.",
+    "enter": "Entrar",
+    "nextUp": "Em breve",
+    "latest": "Últimos artigos",
+    "allIn": "Tudo sobre {section}",
+    "events": "{count, plural, =0 {ainda sem eventos} one {# evento} other {# eventos}}",
+    "articles": "{count, plural, =0 {ainda sem artigos} one {# artigo} other {# artigos}}"
+  },
+  "calendar": {
+    "title": "Calendário: {section}",
+    "upcoming": "Próximos",
+    "past": "Anteriores",
+    "all": "Todos",
+    "search": "Buscar evento, cidade ou país",
+    "noResults": "Nenhum evento corresponde aos seus filtros.",
+    "emptyTitle": "O calendário está sendo construído",
+    "emptyBody": "Só listamos eventos verificados na fonte do organizador. Os primeiros eventos de {section} estão a caminho.",
+    "seeAll": "Ver o calendário completo",
+    "count": "{count, plural, one {# evento} other {# eventos}}"
+  },
+  "articles": {
+    "title": "Artigos: {section}",
+    "readMore": "Ler artigo",
+    "onlyInEnglish": "Só em inglês",
+    "onlyInEnglishNote": "Este artigo está disponível apenas em inglês por enquanto.",
+    "backToArticles": "Todos os artigos",
+    "emptyTitle": "Primeiros artigos em breve",
+    "emptyBody": "Artigos checados, com uma fonte para cada afirmação. Os primeiros desta seção estão sendo escritos.",
+    "seeAll": "Todos os artigos"
+  },
+  "design": {
+    "title": "Design: {section}",
+    "intro": "Gráficos, mapas, pôsteres e trabalho visual feitos para nossos artigos — tudo baseado em dados verificados.",
+    "fromArticle": "Do artigo",
+    "emptyTitle": "O mural de design está vazio — por enquanto",
+    "emptyBody": "Pôsteres, gráficos de prancha e trabalho visual aparecerão aqui.",
+    "seeAll": "Abrir o mural de design"
+  },
+  "videos": {
+    "title": "Vídeos: {section}",
+    "intro": "Filmes e clipes escolhidos a dedo, cada um com uma nota curta sobre por que importa.",
+    "watch": "Assistir no YouTube",
+    "emptyTitle": "Nenhum vídeo escolhido ainda",
+    "emptyBody": "Escolhemos os vídeos a dedo — os primeiros desta seção estão na lista.",
+    "seeAll": "Todos os vídeos"
+  },
+  "status": {
+    "upcoming": "Em breve",
+    "live": "Ao vivo",
+    "finished": "Encerrado",
+    "cancelled": "Cancelado",
+    "postponed": "Adiado",
+    "inDays": "{days, plural, one {Em # dia} other {Em # dias}}",
+    "inHours": "{hours, plural, one {Em # hora} other {Em # horas}}",
+    "liveNow": "Ao vivo agora",
+    "tomorrow": "Amanhã"
+  },
+  "category": {
+    "street": "Street",
+    "park": "Park",
+    "vert": "Vert",
+    "bowl": "Bowl",
+    "freestyle": "Freestyle",
+    "downhill": "Downhill",
+    "slalom": "Slalom",
+    "demo": "Demo",
+    "contest": "Contest",
+    "shortboard": "Shortboard",
+    "longboard": "Longboard",
+    "bigwave": "Ondas gigantes",
+    "wavepool": "Piscina de ondas",
+    "bodyboard": "Bodyboard",
+    "sup": "SUP",
+    "festival": "Festival",
+    "halfpipe": "Halfpipe",
+    "slopestyle": "Slopestyle",
+    "bigair": "Big Air",
+    "boardercross": "Boardercross",
+    "freeride": "Freeride",
+    "rail": "Rail jam",
+    "exhibition": "Exposição",
+    "design": "Design",
+    "photography": "Fotografia",
+    "travel": "Viagem",
+    "fair": "Feira",
+    "workshop": "Oficina"
+  },
+  "level": {
+    "amateur": "Amador",
+    "pro": "Profissional",
+    "open": "Aberto",
+    "youth": "Juvenil"
+  },
+  "event": {
+    "officialSite": "Site oficial",
+    "register": "Inscrever-se",
+    "tickets": "Ingressos",
+    "addToCalendar": "Adicionar ao calendário",
+    "addToGoogle": "Google Agenda",
+    "downloadIcs": "Baixar .ics",
+    "organizer": "Organizador",
+    "disciplines": "Modalidades",
+    "venue": "Local",
+    "backToCalendar": "Voltar ao calendário",
+    "source": "Fonte",
+    "share": "Compartilhar",
+    "linkCopied": "Link copiado",
+    "map": "Ver no mapa",
+    "localTime": "Todos os horários estão no horário local do evento."
+  },
+  "footer": {
+    "tagline": "Cultura da prancha em quatro elementos. Cada fato checado na fonte.",
+    "legacy": "O calendário de skate começou em skateboardeventcalendar.com.",
+    "rights": "Todos os direitos reservados."
+  },
+  "notFound": {
+    "title": "Wipeout.",
+    "body": "Esta página não existe — ou a onda levou.",
+    "home": "Voltar ao início"
+  }
+}

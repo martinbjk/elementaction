@@ -1,0 +1,35 @@
+{
+  "slug": "world-skate-games-asuncion-downhill-2026",
+  "name": "World Skate Games – Downhill World Championships",
+  "series": "World Skate Games",
+  "category": [
+    "downhill"
+  ],
+  "level": "pro",
+  "startDate": "2026-10-01T09:00:00-04:00",
+  "endDate": "2026-11-05T20:00:00-04:00",
+  "timezone": "America/Asuncion",
+  "location": {
+    "venue": "TBD",
+    "city": "Asunción",
+    "country": "Paraguay",
+    "countryCode": "PY",
+    "continent": "south-america",
+    "lat": -25.2637,
+    "lng": -57.5759
+  },
+  "description": {
+    "sv": "Downhill-VM inom ramen för World Skate Games i Asunción.",
+    "en": "Downhill World Championships held as part of the World Skate Games in Asunción."
+  },
+  "officialUrl": "https://worldskate.org",
+  "organizer": "World Skate",
+  "disciplines": [
+    "Downhill"
+  ],
+  "source": {
+    "note": "Datum enligt World Skates officiella eventkalender (event #487): 1 okt–5 nov 2026. OBS: ovanligt lång period (över en månad) för en enskild VM-gren — kan innebära flera kvalomgångar/etapper snarare än en sammanhållen tävlingshelg. Dubbelkolla gärna exakt tävlingsdag när mer info publiceras.",
+    "url": "https://www.worldskate.org/events/upcoming-events/event/487.html",
+    "retrievedAt": "2026-08-14T00:00:00+02:00"
+  }
+}
