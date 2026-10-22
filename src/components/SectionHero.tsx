@@ -19,9 +19,9 @@ export async function SectionHero({ section, locale }: { section: SectionId; loc
         <div className="absolute inset-0 bg-sec-bg/85 md:bg-transparent md:bg-gradient-to-r md:from-sec-bg md:via-transparent md:via-35% md:to-transparent" />
       </div>
       <div className="relative mx-auto flex max-w-7xl flex-col justify-end px-4 pb-12 pt-14 sm:px-6 md:min-h-[360px] md:pb-14 md:pt-16">
-        <p className="flex items-center gap-2.5 text-[15px] font-semibold text-sec-ink">
-          <SectionMark section={section} size={30} />
-          {t('action')}
+        <p className="flex items-center gap-3 text-base font-semibold text-sec-ink">
+          <SectionMark section={section} size={76} title={t('action')} />
+          <span className="sr-only">{t('action')}</span>
         </p>
         <h1 className="mt-2 max-w-3xl font-head text-[clamp(2.75rem,7vw,5.5rem)] leading-[0.92] tracking-tight text-sec-ink">
           {t('name')}
