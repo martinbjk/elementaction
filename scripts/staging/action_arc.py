@@ -29,7 +29,7 @@ def arc(text, r, cap_h, track, cx=50, cy=50):
     d = ' '.join(out)
     return re.sub(r'-?\d+\.\d+', lambda m: ('%.2f' % float(m.group())).rstrip('0').rstrip('.'), d)
 
-ring = arc("ACTION", 37.4, 9.4, 2.6)
+ring = arc("ACTION", 30.5, 10.6, 3.0)
 badge = arc('ACTION', 33.5, 8.6, 2.2)
 open('src/components/brand-paths.ts', 'w').write(
     '// Genererad av scripts/staging/action_arc.py — ordet ACTION som banor längs en övre båge.\n'

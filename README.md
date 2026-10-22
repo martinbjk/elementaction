@@ -4,10 +4,10 @@
 
 | Sektion | Märke | Färg | Rubrikfont | Bildvärld |
 |---|---|---|---|---|
-| Surfing | Water action (surfare i våg) | blå | Fraunces | dyningslinjer och en brytande våg |
+| Surfing | Water action (surfare i våg, Martins utkast) | blå | Fraunces | dyningslinjer och en brytande våg |
 | Skateboard | Concrete action (skejtare i quarterpipe) | grå | Archivo Black | betongfogar, bowl och bräda |
 | Snowboard | Snow action (åkare under bergstopp) | vit | Space Grotesk | berg i lager med fallande snö |
-| Inspiration | Mind action (huvud med spiral) | röd på titan | Syne | böjda titanvolymer, som Guggenheim i Bilbao |
+| Inspiration | Mind action (huvud med spiral, Martins utkast) | röd på titan | Syne | böjda titanvolymer, som Guggenheim i Bilbao |
 
 Huvudmärket är en cirkel delad i de fyra sektionsfärgerna med ACTION längs övre bågen. Sektionsmärkena är runda brickor med ACTION överst och ett motiv; i menyn används förenklade varianter utan text. Namnet skrivs alltid
 som ett ord, **Elementaction**. Märkena finns som SVG i `public/brand/`

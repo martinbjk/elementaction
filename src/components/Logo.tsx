@@ -1,20 +1,22 @@
 import type { SectionId } from '@/lib/sections';
 import { ACTION_ARC_BADGE, ACTION_ARC_RING } from './brand-paths';
+import { MIND_HEAD, WATER_RIDER, WATER_WAVE } from './brand-traced';
 
 /**
  * ELEMENTACTIONS MÄRKEN — ritade efter Martins egna utkast.
  *
- * Huvudmärket: en cirkel delad i fyra färgfält (vatten blått, betong
- * grått, snö isvitt, mind rött) med en smal glipa emellan, och ordet
- * ACTION längs övre bågen. Ingen ytterring. Ordet "Element" står aldrig
- * i märket.
+ * Huvudmärket (efter Martins utkast): en cirkel delad i fyra färgfält
+ * (vatten blått, betong grått, snö isvitt, mind rött) med en glipa
+ * emellan. De övre fälten är mindre, och ordet ACTION ligger i bågen
+ * ovanför dem. Ordet "Element" står aldrig i märket.
  *
  * Sektionsmärkena: en rund bricka i sektionens färg, ACTION överst och
- * ett motiv i mitten:
- *   Water action     surfare i en brytande våg
- *   Concrete action  skejtare på väg upp i en quarterpipe
- *   Snow action      snowboardåkare som carvar under en bergstopp
- *   Mind action      huvud i profil med en spiral (tanken)
+ * ett motiv i mitten. Water och Mind är spårade från Martins utkast; samma
+ * åkarfigur används i Concrete och Snow så att alla fyra hänger ihop:
+ *   Water action     surfare i en brytande våg (Martins utkast)
+ *   Concrete action  åkaren på väg upp i en quarterpipe
+ *   Snow action      åkaren mot en bergssida med snötoppar
+ *   Mind action      huvud i profil med en spiral (Martins utkast)
  *
  * I små storlekar (menyn, mobilens bottenrad) går detaljerna inte att
  * se, så där används en förenklad variant: samma bricka utan text, med
@@ -35,82 +37,50 @@ export const BADGE: Record<SectionId, { bg: string; ink: string; text: string }>
   inspiration: { bg: '#e0242f', ink: WHITE, text: WHITE }
 };
 
-/** Detaljerade motiv i en 100×100-bricka, under ACTION-bågen. */
+/**
+ * Detaljerade motiv i en 100×100-bricka, under ACTION-bågen.
+ * Vågen, surfaren och huvudet är spårade direkt från Martins utkast
+ * (brand-traced.ts). Samma åkarfigur används i Concrete och Snow så att
+ * alla fyra märken har samma teckning.
+ */
+const BELOW_TEXT = 'translate(50 57) scale(0.8) translate(-50 -50)';
+
 function Motif({ section }: { section: SectionId }) {
   const { ink, bg } = BADGE[section];
-  const limb = { fill: 'none', stroke: ink, strokeWidth: 4.6, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const };
   switch (section) {
     case 'surfing':
       return (
-        <>
-          {/* vågen: en bred skärva som reser sig och rullar över */}
-          <path
-            d="M18 88C12 66 22 42 46 34c18-6 36 2 42 18-9-7-21-9-30-4-14 7-20 22-17 40z"
-            fill={ink}
-          />
-          {/* surfaren i tuben */}
-          <ellipse cx="63" cy="80" rx="17" ry="3.2" transform="rotate(-18 63 80)" fill={ink} />
-          <circle cx="66" cy="52" r="4.2" fill={ink} />
-          <path d="M64 58l-5 9" {...limb} />
-          <path d="M59 67l7 3 1 7M59 67l-7 4 3 6" {...limb} />
-          <path d="M63 60l-11-1M64 60l9 6" {...limb} />
-        </>
+        <g transform={BELOW_TEXT}>
+          <path d={WATER_WAVE} fill={ink} fillRule="evenodd" />
+          <path d={WATER_RIDER} fill={ink} fillRule="evenodd" />
+        </g>
       );
     case 'skateboard':
       return (
         <>
           {/* quarterpipe: flat, transition, lodrät vägg och coping */}
-          <path d="M12 88V80h32c17 0 30-13 30-30V38h12v50z" fill={ink} />
-          <circle cx="80" cy="38" r="4.8" fill={bg} stroke={ink} strokeWidth="3" />
-          {/* skejtaren på väg upp i transitionen: brädan längs ytan, kroppen lutad in mot rampen */}
-          <path d="M56 76.5l13-13" stroke="#1c1d1f" strokeWidth="4.4" strokeLinecap="round" />
-          <circle cx="58.6" cy="76.4" r="2" fill="#1c1d1f" />
-          <circle cx="68.6" cy="66.4" r="2" fill="#1c1d1f" />
-          <circle cx="45" cy="50" r="4.4" fill={ink} />
-          <path d="M49 55l6 6" {...limb} />
-          <path d="M55 61l-2 7 6 4M55 61l6-1 4 3" {...limb} />
-          <path d="M51 57l-9 7M51 57l9-6" {...limb} />
+          <path d="M10 92V82h28c20 0 34-14 34-34V42h14v50z" fill={ink} />
+          <circle cx="79" cy="42" r="5.2" fill={bg} stroke={ink} strokeWidth="3.4" />
+          {/* åkaren på väg upp i transitionen, lutad mot rampen */}
+          <g transform="translate(50 57) rotate(-30) scale(0.66) translate(-63 -66)">
+            <path d={WATER_RIDER} fill={ink} fillRule="evenodd" />
+          </g>
         </>
       );
     case 'snowboard':
       return (
         <>
-          <defs>
-            <clipPath id="ea-snow-clip">
-              <circle cx="50" cy="50" r="49" />
-            </clipPath>
-          </defs>
-          {/* bergskedjan med snötäcke, fyller brickans nedre del */}
-          <g clipPath="url(#ea-snow-clip)">
-            <path d="M0 82 30 42l10 12 14-20 46 52v20H0z" fill={ink} />
+          {/* bergskedjan med snötäcke */}
+          <path d="M-2 78 28 38l11 13 15-21 48 50v28H-2z" fill={ink} />
+          <path d="M28 38l-8 10.4 4.6-1.6 3.4 3.4 3.6-4zM54 30l-9.2 12.8 5-1.8 3.8 3.4 4-4.2 4.2 1.4z" fill={bg} />
+          {/* åkaren i ljust mot bergssidan */}
+          <g transform="translate(53 72) rotate(-8) scale(0.56) translate(-60 -62)">
+            <path d={WATER_RIDER} fill={bg} fillRule="evenodd" />
           </g>
-          <path d="M30 42l-7.5 10 4.4-1.6 3.3 3.2 3.4-3.8zM54 34l-8.6 12.3 4.8-1.8 3.6 3.2 3.8-4 4 1.4z" fill={bg} />
-          {/* åkaren i vitt mot bergssidan, carvar åt vänster */}
-          <ellipse cx="56" cy="85" rx="15" ry="3" transform="rotate(-12 56 85)" fill={bg} />
-          <circle cx="58" cy="62" r="4" fill={bg} />
-          <path d="M57 67l-3 8" stroke={bg} strokeWidth="4.6" strokeLinecap="round" fill="none" />
-          <path d="M54 75l7 3 0 5M54 75l-6 4 0 4" stroke={bg} strokeWidth="4.6" strokeLinecap="round" strokeLinejoin="round" fill="none" />
-          <path d="M56 69l-10-3M57 69l10 2" stroke={bg} strokeWidth="4.6" strokeLinecap="round" fill="none" />
         </>
       );
     case 'inspiration':
-      return (
-        <>
-          {/* huvud i profil som tittar åt höger, med nacke */}
-          <path
-            d="M34 92c1-9-4-14-6-22-3-12 0-26 11-34 10-7 26-8 36 0 7 6 9 14 8 21l5 8c1 2 0 3-2 3h-3v6c0 4-3 6-7 6h-6l-2 12z"
-            fill={ink}
-          />
-          {/* spiralen: tanken som vecklar ut sig */}
-          <path
-            d="M57 54c1.6 0 2.4-1.6 1.4-2.9-1.3-1.7-4.2-1.1-4.9 1-.9 2.9 1.6 5.6 4.7 5.4 4-.2 6.2-4.3 4.9-8-1.6-4.7-7.3-6.4-11.4-4-5.1 2.9-5.6 10.2-1.8 14.3 4.4 4.7 12.3 4.3 16.5-.6"
-            fill="none"
-            stroke={bg}
-            strokeWidth="3.6"
-            strokeLinecap="round"
-          />
-        </>
-      );
+      return <path d={MIND_HEAD} fill={ink} fillRule="evenodd" />;
   }
 }
 
@@ -164,11 +134,18 @@ export function SectionMark({ section, size = 32, className, title, detail }: Ma
       aria-label={title}
       aria-hidden={title ? undefined : true}
     >
+      <defs>
+        <clipPath id={`ea-badge-${section}`}>
+          <circle cx="50" cy="50" r="49" />
+        </clipPath>
+      </defs>
       <circle cx="50" cy="50" r="49" fill={bg} />
       {full ? (
         <>
           <path d={ACTION_ARC_BADGE} fill={text} />
-          <Motif section={section} />
+          <g clipPath={`url(#ea-badge-${section})`}>
+            <Motif section={section} />
+          </g>
         </>
       ) : (
         <SimpleMotif section={section} />
@@ -177,13 +154,17 @@ export function SectionMark({ section, size = 32, className, title, detail }: Ma
   );
 }
 
-const R = 33.5; // färgcirkelns radie
-const GAP = 1.6; // halva glipan mellan fälten
-const E = Math.sqrt(R * R - GAP * GAP); // där glipans kant möter cirkeln
+// Efter Martins utkast: de nedre fälten har full radie, de övre är mindre
+// så att ACTION får plats i bågen ovanför dem.
+const R_LOW = 40;
+const R_TOP = 27;
+const GAP = 1.7; // halva glipan mellan fälten
 const f = (n: number) => n.toFixed(2);
 
 /** Ett kvartsfält med glipa. sx/sy = riktning (−1 vänster/upp, +1 höger/ned). */
 function quadrant(sx: number, sy: number) {
+  const R = sy < 0 ? R_TOP : R_LOW;
+  const E = Math.sqrt(R * R - GAP * GAP);
   const x0 = 50 + sx * GAP;
   const y0 = 50 + sy * GAP;
   const sweep = sx * sy < 0 ? 1 : 0;
