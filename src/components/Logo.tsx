@@ -1,22 +1,29 @@
 import type { SectionId } from '@/lib/sections';
 
+import { ACTION_ARC_PATH } from './brand-paths';
+
 /**
- * ELEMENTACTIONS MÄRKEN — helt grafiska, ingen text.
+ * ELEMENTACTIONS MÄRKEN
+ *
+ * Huvudmärket är en rund bricka: en mörk ring med ordet ACTION längs
+ * övre bågen, och en inre cirkel delad i fyra fält i sektionernas färger
+ * (vatten blått, betong grått, snö isvitt, mind rött) med en smal glipa
+ * emellan. Ordet "Element" står aldrig i märket.
  *
  * Fyra sektionsmärken, ett per "action":
  *   Water action     blå ruta, en våg som bryter
  *   Concrete action  grå ruta, en quarterpipe i profil med coping
  *   Snow action      isvit ruta, en bergstopp med snötäcke
- *   Mind action      röd ruta, en spiral (tanken som vecklar ut sig)
+ *   Mind action      röd ruta, en sinuskurva
  *
- * Huvudmärket är de fyra sektionsmärkena satta i ett 2×2-rutnät.
- * Fristående SVG-filer finns i public/brand/ (mark.svg, mark-water.svg …)
- * för profilbilder, favicon och tryck.
+ * ACTION-texten är färdiga banor (brand-paths.ts), så märket ser likadant
+ * ut överallt utan att typsnittet behöver laddas. Fristående SVG-filer
+ * finns i public/brand/ (mark.svg, mark-water.svg …).
  */
 
 type MarkProps = { size?: number; className?: string; title?: string };
 
-const TILE = 22; // rutans storlek i huvudmärkets 48×48-rutnät
+const TILE = 22; // sektionsmärkets ruta (viewBox 22×22)
 
 /** Symbolerna ritas i en 22×22-ruta så att de kan återanvändas i båda storlekarna. */
 function Symbol({ section }: { section: SectionId }) {
@@ -55,12 +62,12 @@ function Symbol({ section }: { section: SectionId }) {
       return (
         <>
           <rect width={TILE} height={TILE} rx="4" fill="#e0242f" />
-          {/* spiral som vecklar ut sig från mitten */}
+          {/* sinuskurva: en och en halv period över rutan */}
           <path
-            d="M11 11.2c.9 0 1.3-.9.8-1.6-.7-.9-2.3-.6-2.7.6-.5 1.6.9 3.1 2.6 3 2.2-.1 3.4-2.4 2.7-4.4-.9-2.6-4-3.5-6.3-2.2-2.8 1.6-3.1 5.6-1 7.9 2.4 2.6 6.8 2.4 9.1-.3"
+            d="M3 11C4.9 4.6 6.4 4.6 8.33 11S11.7 17.4 13.67 11 17.1 4.6 19 11"
             fill="none"
             stroke="#f5f8fb"
-            strokeWidth="1.9"
+            strokeWidth="2.2"
             strokeLinecap="round"
           />
         </>
@@ -85,21 +92,30 @@ export function SectionMark({ section, size = 32, className, title }: MarkProps 
   );
 }
 
-/** Huvudmärket: alla fyra i ett 2×2-rutnät. */
+const QUADRANTS: [string, string][] = [
+  ['#1d6fe0', 'M50 50V15A35 35 0 0 0 15 50z'], // uppe vänster: vatten
+  ['#8a8f94', 'M50 50V15A35 35 0 0 1 85 50z'], // uppe höger: betong
+  ['#dce8f3', 'M50 50H15A35 35 0 0 0 50 85z'], // nere vänster: snö
+  ['#e0242f', 'M50 50H85A35 35 0 0 1 50 85z'] // nere höger: mind
+];
+
+/** Huvudmärket: ring med ACTION överst, fyra färgfält i mitten. */
 export function LogoMark({ size = 40, className, title = 'Elementaction' }: MarkProps) {
-  const cells: [SectionId, number, number][] = [
-    ['surfing', 0, 0],
-    ['skateboard', 26, 0],
-    ['snowboard', 0, 26],
-    ['inspiration', 26, 26]
-  ];
   return (
-    <svg width={size} height={size} viewBox="0 0 48 48" className={className} role="img" aria-label={title}>
-      {cells.map(([s, x, y]) => (
-        <g key={s} transform={`translate(${x} ${y})`}>
-          <Symbol section={s} />
-        </g>
+    <svg width={size} height={size} viewBox="0 0 100 100" className={className} role="img" aria-label={title}>
+      <circle cx="50" cy="50" r="49.5" fill="#16181b" />
+      <circle cx="50" cy="50" r="48.6" fill="none" stroke="#4a4e53" strokeWidth=".9" />
+      <circle cx="50" cy="50" r="36.6" fill="none" stroke="#4a4e53" strokeWidth=".6" />
+      <path d={ACTION_ARC_PATH} fill="#f5f8fb" />
+      {/* små markeringar där bågtexten slutar */}
+      <circle cx="10.6" cy="58.5" r="1.6" fill="#5c6166" />
+      <circle cx="89.4" cy="58.5" r="1.6" fill="#5c6166" />
+      {QUADRANTS.map(([fill, d]) => (
+        <path key={fill} d={d} fill={fill} />
       ))}
+      {/* glipan mellan fälten */}
+      <rect x="48.6" y="14" width="2.8" height="72" fill="#16181b" />
+      <rect x="14" y="48.6" width="72" height="2.8" fill="#16181b" />
     </svg>
   );
 }

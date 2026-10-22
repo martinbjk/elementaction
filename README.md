@@ -7,9 +7,9 @@
 | Surfing | Water action (våg) | blå | Fraunces | dyningslinjer och en brytande våg |
 | Skateboard | Concrete action (quarterpipe) | grå | Archivo Black | betongfogar, bowl och bräda |
 | Snowboard | Snow action (bergstopp) | vit | Space Grotesk | berg i lager med fallande snö |
-| Inspiration | Mind action (spiral) | röd på titan | Syne | böjda titanvolymer, som Guggenheim i Bilbao |
+| Inspiration | Mind action (sinuskurva) | röd på titan | Syne | böjda titanvolymer, som Guggenheim i Bilbao |
 
-Logotypen är helt grafisk: de fyra sektionsmärkena i ett 2×2-rutnät. Namnet skrivs alltid
+Huvudmärket är en rund bricka: ACTION längs ringens övre båge och en inre cirkel delad i de fyra sektionsfärgerna. Namnet skrivs alltid
 som ett ord, **Elementaction**. Märkena finns som SVG i `public/brand/`
 (`mark.svg`, `mark-water.svg`, `mark-concrete.svg`, `mark-snow.svg`, `mark-mind.svg`).
 
