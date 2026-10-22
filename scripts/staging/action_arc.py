@@ -11,7 +11,7 @@ font = TTFont('node_modules/@fontsource/archivo-black/files/archivo-black-latin-
 gs = font.getGlyphSet(); cmap = font.getBestCmap()
 CAP = font['OS/2'].sCapHeight
 
-def arc(text, r, cap_h, track, cx=50, cy=50):
+def arc(text, r, cap_h, track, cx=50, cy=50, gs=gs, cmap=cmap, CAP=CAP, split=False):
     s = cap_h / CAP
     widths = [gs[cmap[ord(c)]].width * s for c in text]
     total = sum(widths) + track * (len(text) - 1)
@@ -26,14 +26,24 @@ def arc(text, r, cap_h, track, cx=50, cy=50):
         gs[cmap[ord(c)]].draw(t)
         out.append(pen.getCommands())
         a += (w + track) / r
+    rnd = lambda d: re.sub(r'-?\d+\.\d+', lambda m: ('%.2f' % float(m.group())).rstrip('0').rstrip('.'), d)
+    if split:
+        h = len(out) // 2
+        return rnd(' '.join(out[:h])), rnd(' '.join(out[h:]))
     d = ' '.join(out)
     return re.sub(r'-?\d+\.\d+', lambda m: ('%.2f' % float(m.group())).rstrip('0').rstrip('.'), d)
 
-ring = arc("ACTION", 30.5, 10.6, 3.0)
+# Rundmärkets text i Audiowide (rundat, likt Martins utkast), delad i två
+# halvor: ACT (blå, över det blå fältet) och ION (grå, över det grå).
+aw = TTFont('node_modules/@fontsource/audiowide/files/audiowide-latin-400-normal.woff')
+aw_gs = aw.getGlyphSet(); aw_cmap = aw.getBestCmap()
+aw_cap = aw['OS/2'].sCapHeight or 0.7 * aw['head'].unitsPerEm
+ring_left, ring_right = arc('ACTION', 38.4, 11.6, 2.2, gs=aw_gs, cmap=aw_cmap, CAP=aw_cap, split=True)
 badge = arc('ACTION', 33.5, 8.6, 2.2)
 open('src/components/brand-paths.ts', 'w').write(
     '// Genererad av scripts/staging/action_arc.py — ordet ACTION som banor längs en övre båge.\n'
-    '// RING: runt rundmärkets färgcirkel. BADGE: inuti ett sektionsmärke.\n'
-    f'export const ACTION_ARC_RING = "{ring}";\n\n'
+    '// RING_LEFT/RIGHT: ACT och ION runt rundmärket. BADGE: inuti ett sektionsmärke.\n'
+    f'export const ACTION_ARC_RING_LEFT = "{ring_left}";\n\n'
+    f'export const ACTION_ARC_RING_RIGHT = "{ring_right}";\n\n'
     f'export const ACTION_ARC_BADGE = "{badge}";\n')
 print('ok')

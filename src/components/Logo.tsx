@@ -1,14 +1,14 @@
 import type { SectionId } from '@/lib/sections';
-import { ACTION_ARC_BADGE, ACTION_ARC_RING } from './brand-paths';
+import { ACTION_ARC_BADGE, ACTION_ARC_RING_LEFT, ACTION_ARC_RING_RIGHT } from './brand-paths';
 import { MIND_HEAD, WATER_RIDER, WATER_WAVE } from './brand-traced';
 
 /**
  * ELEMENTACTIONS MÄRKEN — ritade efter Martins egna utkast.
  *
- * Huvudmärket (efter Martins utkast): en cirkel delad i fyra färgfält
- * (vatten blått, betong grått, snö isvitt, mind rött) med en glipa
- * emellan. De övre fälten är mindre, och ordet ACTION ligger i bågen
- * ovanför dem. Ordet "Element" står aldrig i märket.
+ * Huvudmärket (efter Martins utkast): en cirkel delad i fyra lika stora
+ * färgfält med rundade hörn (vatten blått, betong grått, snö isvitt, mind
+ * rött) och ordet ACTION i bågen ovanför — ACT blått, ION grått.
+ * Ordet "Element" står aldrig i märket.
  *
  * Sektionsmärkena: en rund bricka i sektionens färg, ACTION överst och
  * ett motiv i mitten. Water och Mind är spårade från Martins utkast; samma
@@ -154,41 +154,48 @@ export function SectionMark({ section, size = 32, className, title, detail }: Ma
   );
 }
 
-// Efter Martins utkast: de nedre fälten har full radie, de övre är mindre
-// så att ACTION får plats i bågen ovanför dem.
-const R_LOW = 40;
-const R_TOP = 27;
-const GAP = 1.7; // halva glipan mellan fälten
+// Efter Martins utkast: fyra lika stora fält med rundade hörn och en glipa
+// emellan. Rundningen görs genom att rita ett något mindre fält med en
+// kantlinje i samma färg och rundade hörn (strokeLinejoin round).
+const R = 35; // fältens ytterradie
+const GAP = 1.9; // halva glipan mellan fälten
+const RC = 2.6; // hörnens rundning
 const f = (n: number) => n.toFixed(2);
 
-/** Ett kvartsfält med glipa. sx/sy = riktning (−1 vänster/upp, +1 höger/ned). */
+/** Ett kvartsfält (insatt med RC). sx/sy = riktning (−1 vänster/upp, +1 höger/ned). */
 function quadrant(sx: number, sy: number) {
-  const R = sy < 0 ? R_TOP : R_LOW;
-  const E = Math.sqrt(R * R - GAP * GAP);
-  const x0 = 50 + sx * GAP;
-  const y0 = 50 + sy * GAP;
+  const g = GAP + RC;
+  const r = R - RC;
+  const E = Math.sqrt(r * r - g * g);
+  const x0 = 50 + sx * g;
+  const y0 = 50 + sy * g;
   const sweep = sx * sy < 0 ? 1 : 0;
-  return `M${f(x0)} ${f(y0)}V${f(50 + sy * E)}A${R} ${R} 0 0 ${sweep} ${f(50 + sx * E)} ${f(y0)}z`;
+  return `M${f(x0)} ${f(y0)}V${f(50 + sy * E)}A${r} ${r} 0 0 ${sweep} ${f(50 + sx * E)} ${f(y0)}z`;
 }
 
+const BLUE = '#1d6fe0';
+const GREY = '#8a8f94';
 const QUADRANTS: [string, string][] = [
-  ['#1d6fe0', quadrant(-1, -1)], // uppe vänster: vatten
-  ['#8a8f94', quadrant(1, -1)], // uppe höger: betong
+  [BLUE, quadrant(-1, -1)], // uppe vänster: vatten
+  [GREY, quadrant(1, -1)], // uppe höger: betong
   ['#dce8f3', quadrant(-1, 1)], // nere vänster: snö
   ['#e0242f', quadrant(1, 1)] // nere höger: mind
 ];
 
 /**
- * Huvudmärket. `text` är färgen på ACTION — vit på mörk bakgrund (standard),
- * mörk på ljus. Glipan mellan fälten är genomskinlig, så bakgrunden syns.
+ * Huvudmärket: fyra lika fält och ACTION i bågen ovanför — ACT i blått
+ * över det blå fältet, ION i grått över det grå. Fungerar på både mörk
+ * och ljus bakgrund; glipan är genomskinlig.
  */
-export function LogoMark({ size = 40, className, title = 'Elementaction', text = WHITE }: MarkProps & { text?: string }) {
+export function LogoMark({ size = 40, className, title = 'Elementaction' }: MarkProps) {
   return (
     <svg width={size} height={size} viewBox="0 0 100 100" className={className} role="img" aria-label={title}>
       {QUADRANTS.map(([fill, d]) => (
-        <path key={fill} d={d} fill={fill} />
+        <path key={fill} d={d} fill={fill} stroke={fill} strokeWidth={RC * 2} strokeLinejoin="round" />
       ))}
-      <path d={ACTION_ARC_RING} fill={text} />
+      {/* kantlinjen i samma färg gör Audiowide lika fet som i utkastet */}
+      <path d={ACTION_ARC_RING_LEFT} fill={BLUE} stroke={BLUE} strokeWidth="1.3" strokeLinejoin="round" />
+      <path d={ACTION_ARC_RING_RIGHT} fill={GREY} stroke={GREY} strokeWidth="1.3" strokeLinejoin="round" />
     </svg>
   );
 }
