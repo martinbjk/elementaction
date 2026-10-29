@@ -1,18 +1,12 @@
 name: Bygg och publicera till GitHub Pages
 
-# Bygger sajten som statiska filer och publicerar dem till GitHub Pages
-# vid varje push till main. Kräver INGET externt konto (ingen Vercel,
-# inga secrets) — bara att GitHub Pages är påslaget för repot, se
-# README.md, avsnittet "Publicera på GitHub Pages".
+# Bygger sajten som statiska filer och publicerar till GitHub Pages
+# vid varje push till main. Inga hemligheter eller externa konton behövs.
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
-  # Varje natt kl. 04:17 (svensk vintertid 05:17): bygg om så att nya
-  # skateevent från elementaction.com kommer med, se steget nedan.
-  schedule:
-    - cron: "17 3 * * *"
 
 permissions:
   contents: read
@@ -28,17 +22,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # SKATEEVENTEN HÄMTAS FRÅN ELEMENTACTION
-      # Kalendern underhålls på ett ställe: data/events/skateboard/ i
-      # martinbjk/elementaction. Här ersätts data/events/ med de filerna
-      # före varje bygge, så att båda sajterna alltid visar samma event.
-      # Lägg alltså in nya event i elementaction, inte här.
-      - name: Hämta skateevent från Elementaction
-        run: |
-          git clone --depth 1 https://github.com/martinbjk/elementaction.git /tmp/elementaction
-          rm -f data/events/*.json
-          cp /tmp/elementaction/data/events/skateboard/*.json data/events/
-          echo "Hämtade $(ls data/events/*.json | wc -l) event från Elementaction"
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
@@ -54,44 +37,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      # SKATEEVENTEN HÄMTAS FRÅN ELEMENTACTION
-      # Kalendern underhålls på ett ställe: data/events/skateboard/ i
-      # martinbjk/elementaction. Här ersätts data/events/ med de filerna
-      # före varje bygge, så att båda sajterna alltid visar samma event.
-      # Lägg alltså in nya event i elementaction, inte här.
-      - name: Hämta skateevent från Elementaction
-        run: |
-          git clone --depth 1 https://github.com/martinbjk/elementaction.git /tmp/elementaction
-          rm -f data/events/*.json
-          cp /tmp/elementaction/data/events/skateboard/*.json data/events/
-          echo "Hämtade $(ls data/events/*.json | wc -l) event från Elementaction"
-
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: "npm"
-
-      - name: Installera dependencies
-        run: npm ci
-
+      - run: npm ci
       - name: Bygg statisk export
         run: npm run build
         env:
-          # Ger sidan rätt sökväg när den ligger på
-          # https://<user>.github.io/<repo-namn>/ istället för rot-domänen.
-          # Ta bort denna rad (eller sätt den till tom sträng) om du
-          # istället publicerar på en egen domän eller en user/org
-          # root-sajt (<user>.github.io utan repo-namn i URL:en).
+          # Tom = sajten ligger på roten av en egen domän (elementaction.com).
           NEXT_PUBLIC_BASE_PATH: ""
-          NEXT_PUBLIC_SITE_URL: https://skateboardeventcalendar.com
-
-      - name: Förbered GitHub Pages
-        uses: actions/configure-pages@v5
-
-      - name: Ladda upp byggartefakt
-        uses: actions/upload-pages-artifact@v3
+          NEXT_PUBLIC_SITE_URL: https://elementaction.com
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: out
 
   deploy:
     needs: build
@@ -100,6 +60,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Publicera till GitHub Pages
-        id: deployment
+      - id: deployment
         uses: actions/deploy-pages@v4
