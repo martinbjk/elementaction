@@ -23,7 +23,16 @@ export async function generateMetadata({ params: { locale } }: { params: { local
     description: t('siteDescription'),
     // Appikon: manifestet gör att sajten kan läggas på hemskärmen som en app.
     manifest: '/manifest.webmanifest',
-    icons: { icon: '/brand/icon.svg', apple: '/brand/apple-touch-icon.png' },
+    // Favicon: Google visar den i sökresultaten. Den vill ha favicon.ico eller
+    // en bild i en multipel av 48 px; webbläsare tar helst SVG:n.
+    icons: {
+      icon: [
+        { url: '/favicon.ico', sizes: '48x48' },
+        { url: '/brand/icon-192.png', sizes: '192x192', type: 'image/png' },
+        { url: '/brand/icon.svg', type: 'image/svg+xml' }
+      ],
+      apple: '/brand/apple-touch-icon.png'
+    },
     appleWebApp: { capable: true, title: 'Elementaction', statusBarStyle: 'black' },
     openGraph: {
       title: t('siteTitle'),
