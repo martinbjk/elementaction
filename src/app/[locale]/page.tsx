@@ -8,6 +8,14 @@ import { withBase } from '@/lib/base-path';
 import { ElementPanels } from '@/components/ElementPanels';
 import { EventPreview } from '@/components/EventPreview';
 
+/** Rubrikens färger: sektionsfärgerna, något ljusare där det behövs för att läsas på mörk botten. */
+const HEADLINE_COLORS: Record<SectionId, string> = {
+  surfing: '#4a90f0',
+  skateboard: '#a3a8ad',
+  snowboard: '#dce8f3',
+  inspiration: '#ef3b45'
+};
+
 export default async function HomePage({ params: { locale } }: { params: { locale: string } }) {
   setRequestLocale(locale);
   const t = await getTranslations({ locale });
@@ -25,9 +33,10 @@ export default async function HomePage({ params: { locale } }: { params: { local
     <div data-section="home" className="surface-home">
       <div className="mx-auto max-w-7xl px-4 pb-10 pt-10 sm:px-6 md:pt-12">
         <p className="text-white/60">{t('home.kicker')}</p>
-        <h1 className="mt-2 max-w-4xl text-[clamp(2.4rem,6vw,4.6rem)] leading-[0.98] tracking-[-0.03em] text-white">
+        {/* Ett typsnitt för alla fyra orden; varje ord i sin sektionsfärg, som i logotypen. */}
+        <h1 className="mt-2 max-w-5xl text-[clamp(2.3rem,5.6vw,4.4rem)] font-bold leading-[1.02] tracking-[-0.035em]">
           {SECTIONS.map((s, i) => (
-            <span key={s} className={['font-surf font-medium', 'font-skate', 'font-snow font-medium', 'font-fire font-extrabold'][i]}>
+            <span key={s} style={{ color: HEADLINE_COLORS[s] }}>
               {t(`sections.${s}.element`)}.{i < SECTIONS.length - 1 ? ' ' : ''}
             </span>
           ))}
