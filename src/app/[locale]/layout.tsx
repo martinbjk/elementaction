@@ -21,7 +21,10 @@ export async function generateMetadata({ params: { locale } }: { params: { local
     metadataBase: new URL(SITE_URL),
     title: { default: t('siteTitle'), template: `%s | ${t('siteName')}` },
     description: t('siteDescription'),
+    // Appikon: manifestet gör att sajten kan läggas på hemskärmen som en app.
+    manifest: '/manifest.webmanifest',
     icons: { icon: '/brand/icon.svg', apple: '/brand/apple-touch-icon.png' },
+    appleWebApp: { capable: true, title: 'Elementaction', statusBarStyle: 'black' },
     openGraph: {
       title: t('siteTitle'),
       description: t('siteDescription'),
