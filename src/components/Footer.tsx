@@ -36,9 +36,17 @@ export async function Footer({ locale }: { locale: string }) {
           </div>
         ))}
       </div>
-      <p className="mx-auto max-w-7xl px-4 pb-10 text-xs text-white/45 sm:px-6">
-        © {year} Elementaction. {t('footer.rights')}
-      </p>
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-6 gap-y-2 px-4 pb-10 text-sm text-white/55 sm:px-6">
+        <Link href="/about" className="hover:text-white">
+          {t('nav.about')}
+        </Link>
+        <Link href="/privacy" className="hover:text-white">
+          {t('nav.privacy')}
+        </Link>
+        <span className="text-xs text-white/40">
+          © {year} Elementaction. {t('footer.rights')}
+        </span>
+      </div>
     </footer>
   );
 }

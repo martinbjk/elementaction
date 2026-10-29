@@ -8,7 +8,9 @@
     "home": "ホーム",
     "sections": "セクション",
     "language": "言語",
-    "skip": "本文へスキップ"
+    "skip": "本文へスキップ",
+    "about": "サイトについて",
+    "privacy": "プライバシー"
   },
   "sections": {
     "surfing": {
@@ -163,11 +165,26 @@
   "footer": {
     "tagline": "四つのエレメントで描くボードカルチャー。すべての事実を出典で確認。",
     "legacy": "スケートボードカレンダーは skateboardeventcalendar.com から始まりました。",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "info": "情報"
   },
   "notFound": {
     "title": "ワイプアウト。",
     "body": "このページは存在しないか、波にさらわれました。",
     "home": "トップへ戻る"
+  },
+  "about": {
+    "title": "Elementactionについて",
+    "p1": "Elementactionはボードスポーツをひとつの場所に集めたサイトです。サーフィン、スケートボード、スノーボードのイベントカレンダー、記事、デザイン、動画、そしてインスピレーションのセクションではデザイン、写真、旅を扱います。",
+    "p2": "始まりは、世界のスケートボード大会をまとめたskateboardeventcalendar.comでした。スケートボードのカレンダーはここで続き、サーフィンと雪が加わりました。",
+    "p3": "すべてのイベントは、主催者の公式サイト、公式カレンダー、ニュース記事などの実在する情報源で確認してから掲載しています。情報源は各イベントページの下部にリンクしています。記事にも出典を記載しています。",
+    "p4": "Elementactionはスウェーデン・ヘルシンボリのMartin Björckが制作・運営しています。",
+    "contactTitle": "お問い合わせ",
+    "contactBody": "誤りを見つけた、イベントが載っていない、質問がある場合は、GitHubでissueを作成してください。それが最も早い連絡方法です。",
+    "contactCta": "GitHubでissueを作成"
+  },
+  "privacy": {
+    "title": "プライバシーポリシー",
+    "englishNote": "このページはスウェーデン語と英語で提供しています。以下は英語版です。"
   }
 }

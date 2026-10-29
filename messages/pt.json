@@ -8,7 +8,9 @@
     "home": "Início",
     "sections": "Seções",
     "language": "Idioma",
-    "skip": "Ir para o conteúdo"
+    "skip": "Ir para o conteúdo",
+    "about": "Sobre",
+    "privacy": "Privacidade"
   },
   "sections": {
     "surfing": {
@@ -163,11 +165,26 @@
   "footer": {
     "tagline": "Cultura da prancha em quatro elementos. Cada fato checado na fonte.",
     "legacy": "O calendário de skate começou em skateboardeventcalendar.com.",
-    "rights": "Todos os direitos reservados."
+    "rights": "Todos os direitos reservados.",
+    "info": "Info"
   },
   "notFound": {
     "title": "Wipeout.",
     "body": "Esta página não existe — ou a onda levou.",
     "home": "Voltar ao início"
+  },
+  "about": {
+    "title": "Sobre o Elementaction",
+    "p1": "O Elementaction reúne os esportes de prancha em um só lugar: calendários de eventos, artigos, design e vídeos de surf, skate e snowboard, além de design, fotografia e viagens na seção Inspiração.",
+    "p2": "Começou como skateboardeventcalendar.com, um calendário mundial de campeonatos de skate. O calendário de skate continua aqui, agora junto com o surf e a neve.",
+    "p3": "Cada evento é conferido em uma fonte real antes de ser adicionado: o site do organizador, um calendário oficial ou uma notícia. A fonte aparece no fim de cada página de evento. Os artigos também citam suas fontes.",
+    "p4": "O Elementaction é criado e mantido por Martin Björck em Helsingborg, Suécia.",
+    "contactTitle": "Contato",
+    "contactBody": "Achou um erro, falta um evento ou tem uma pergunta? Abra uma issue no GitHub. É o jeito mais rápido de falar conosco.",
+    "contactCta": "Abrir uma issue no GitHub"
+  },
+  "privacy": {
+    "title": "Política de privacidade",
+    "englishNote": "Esta página está disponível em sueco e inglês. Abaixo, a versão em inglês."
   }
 }

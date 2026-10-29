@@ -9,7 +9,7 @@ export const dynamic = 'force-static';
 
 /** Alla sidor × alla språk, med hreflang-alternativ per sida. */
 export default function sitemap(): MetadataRoute.Sitemap {
-  const paths: string[] = [''];
+  const paths: string[] = ['', 'about/', 'privacy/'];
   for (const s of SECTIONS) {
     paths.push(`${s}/`);
     for (const tab of TABS) paths.push(`${s}/${tab}/`);

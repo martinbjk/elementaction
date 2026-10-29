@@ -8,7 +8,9 @@
     "home": "Inicio",
     "sections": "Secciones",
     "language": "Idioma",
-    "skip": "Saltar al contenido"
+    "skip": "Saltar al contenido",
+    "about": "Acerca de",
+    "privacy": "Privacidad"
   },
   "sections": {
     "surfing": {
@@ -163,11 +165,26 @@
   "footer": {
     "tagline": "La cultura de la tabla en cuatro elementos. Cada dato comprobado en su fuente.",
     "legacy": "El calendario de skateboard empezó en skateboardeventcalendar.com.",
-    "rights": "Todos los derechos reservados."
+    "rights": "Todos los derechos reservados.",
+    "info": "Info"
   },
   "notFound": {
     "title": "Wipeout.",
     "body": "Esta página no existe — o se la llevó la ola.",
     "home": "Volver al inicio"
+  },
+  "about": {
+    "title": "Acerca de Elementaction",
+    "p1": "Elementaction reúne los deportes de tabla en un solo lugar: calendarios de eventos, artículos, diseño y vídeos de surf, skateboard y snowboard, además de diseño, fotografía y viajes en la sección Inspiración.",
+    "p2": "Empezó como skateboardeventcalendar.com, un calendario mundial de competiciones de skateboard. El calendario de skate sigue aquí, ahora junto al surf y la nieve.",
+    "p3": "Cada evento se comprueba con una fuente real antes de añadirlo: la web del organizador, un calendario oficial o una noticia. La fuente aparece al final de cada página de evento. Los artículos también citan sus fuentes.",
+    "p4": "Elementaction lo crea y gestiona Martin Björck en Helsingborg, Suecia.",
+    "contactTitle": "Contacto",
+    "contactBody": "¿Has visto un error, falta un evento o tienes una pregunta? Abre un issue en GitHub. Es la forma más rápida de contactarnos.",
+    "contactCta": "Abrir un issue en GitHub"
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "englishNote": "Esta página está disponible en sueco e inglés. A continuación, la versión en inglés."
   }
 }

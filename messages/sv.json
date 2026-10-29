@@ -8,7 +8,9 @@
     "home": "Hem",
     "sections": "Sektioner",
     "language": "Språk",
-    "skip": "Hoppa till innehållet"
+    "skip": "Hoppa till innehållet",
+    "about": "Om sajten",
+    "privacy": "Integritet"
   },
   "sections": {
     "surfing": {
@@ -163,11 +165,26 @@
   "footer": {
     "tagline": "Brädkultur i fyra element. Varje fakta kontrollerad mot sin källa.",
     "legacy": "Skateboardkalendern startade på skateboardeventcalendar.com.",
-    "rights": "Alla rättigheter förbehållna."
+    "rights": "Alla rättigheter förbehållna.",
+    "info": "Info"
   },
   "notFound": {
     "title": "Wipeout.",
     "body": "Sidan finns inte — eller så spolades den bort.",
     "home": "Tillbaka till start"
+  },
+  "about": {
+    "title": "Om Elementaction",
+    "p1": "Elementaction samlar brädsporterna på ett ställe: eventkalendrar, artiklar, design och video för surfing, skateboard och snowboard, plus design, fotografi och resor i sektionen Inspiration.",
+    "p2": "Det började som skateboardeventcalendar.com, en global kalender för skateboardtävlingar. Skatekalendern lever vidare här, nu tillsammans med surf och snö.",
+    "p3": "Varje event kontrolleras mot en riktig källa innan det läggs in: arrangörens egen sajt, en officiell kalender eller en nyhetsartikel. Källan länkas längst ner på varje eventsida. Artiklarna listar också sina källor.",
+    "p4": "Elementaction byggs och drivs av Martin Björck i Helsingborg.",
+    "contactTitle": "Kontakt",
+    "contactBody": "Hittat ett fel, saknar ett event eller har en fråga? Öppna ett ärende (issue) på GitHub. Det är det snabbaste sättet att nå oss.",
+    "contactCta": "Öppna ett ärende på GitHub"
+  },
+  "privacy": {
+    "title": "Integritetspolicy",
+    "englishNote": ""
   }
 }

@@ -8,7 +8,9 @@
     "home": "Home",
     "sections": "Sections",
     "language": "Language",
-    "skip": "Skip to content"
+    "skip": "Skip to content",
+    "about": "About",
+    "privacy": "Privacy"
   },
   "sections": {
     "surfing": {
@@ -163,11 +165,26 @@
   "footer": {
     "tagline": "Board culture in four elements. Every fact checked against its source.",
     "legacy": "The skateboard calendar started at skateboardeventcalendar.com.",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "info": "Info"
   },
   "notFound": {
     "title": "Wiped out.",
     "body": "This page doesn't exist — or it washed away.",
     "home": "Back to start"
+  },
+  "about": {
+    "title": "About Elementaction",
+    "p1": "Elementaction gathers board sports in one place: event calendars, articles, design and videos for surfing, skateboarding and snowboarding, plus design, photography and travel in the Inspiration section.",
+    "p2": "It started as skateboardeventcalendar.com, a global calendar of skateboard contests. The skateboard calendar lives on here, now joined by surf and snow.",
+    "p3": "Every event is checked against a real source before it is added: the organizer's own site, an official calendar or a news report. The source is linked at the bottom of each event page. Articles list their sources too.",
+    "p4": "Elementaction is built and run by Martin Björck in Helsingborg, Sweden.",
+    "contactTitle": "Contact",
+    "contactBody": "Found an error, missing an event or have a question? Open an issue on GitHub. It is the fastest way to reach us.",
+    "contactCta": "Open an issue on GitHub"
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "englishNote": "This page is available in Swedish and English. You are reading the English version."
   }
 }

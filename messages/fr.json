@@ -8,7 +8,9 @@
     "home": "Accueil",
     "sections": "Sections",
     "language": "Langue",
-    "skip": "Aller au contenu"
+    "skip": "Aller au contenu",
+    "about": "À propos",
+    "privacy": "Confidentialité"
   },
   "sections": {
     "surfing": {
@@ -163,11 +165,26 @@
   "footer": {
     "tagline": "La culture de la glisse en quatre éléments. Chaque fait vérifié à sa source.",
     "legacy": "Le calendrier skateboard a commencé sur skateboardeventcalendar.com.",
-    "rights": "Tous droits réservés."
+    "rights": "Tous droits réservés.",
+    "info": "Infos"
   },
   "notFound": {
     "title": "Wipeout.",
     "body": "Cette page n’existe pas — ou elle a été emportée par la vague.",
     "home": "Retour à l’accueil"
+  },
+  "about": {
+    "title": "À propos d’Elementaction",
+    "p1": "Elementaction réunit les sports de glisse en un seul endroit : calendriers d’événements, articles, design et vidéos pour le surf, le skateboard et le snowboard, plus design, photographie et voyages dans la section Inspiration.",
+    "p2": "Tout a commencé avec skateboardeventcalendar.com, un calendrier mondial des compétitions de skateboard. Le calendrier skateboard continue ici, désormais avec le surf et la neige.",
+    "p3": "Chaque événement est vérifié auprès d’une vraie source avant d’être ajouté : le site de l’organisateur, un calendrier officiel ou un article de presse. La source est indiquée en bas de chaque page d’événement. Les articles citent aussi leurs sources.",
+    "p4": "Elementaction est conçu et géré par Martin Björck à Helsingborg, en Suède.",
+    "contactTitle": "Contact",
+    "contactBody": "Une erreur, un événement manquant ou une question ? Ouvrez une issue sur GitHub. C’est le moyen le plus rapide de nous joindre.",
+    "contactCta": "Ouvrir une issue sur GitHub"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "englishNote": "Cette page existe en suédois et en anglais. Voici la version anglaise."
   }
 }
