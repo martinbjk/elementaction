@@ -12,7 +12,7 @@ ogImage: "/images/articles/flying-with-a-surfboard/og-image.png"
 
 A surfboard is the awkward cousin of the skateboard: it's too long for any cabin, it's fragile in exactly the places baggage handlers are rough on, and airlines can't agree on whether it's sports equipment, oversize luggage or something they'd rather not carry at all. The good news is that nearly every major airline will take one. The bad news is that the rules, fees and liability terms differ a lot, and some airlines don't mention surfboards on their official pages at all.
 
-This guide follows the same approach as our [skateboard article](/en/articles/flying-with-a-skateboard/): every airline rule below is taken from the airline's own wording and linked at the bottom — more than fifty airlines across four regions, with the ones we could not read marked as such. Where we couldn't read an official page — several airline sites block automated readers or hide their fee tables behind JavaScript — we say "not verified" rather than guess. Policies change often, so everything here was checked in October 2026 and should be confirmed with your airline before you book.
+This guide follows the same approach as our [skateboard article](/en/skateboard/articles/flying-with-a-skateboard/): every airline rule below is taken from the airline's own wording and linked at the bottom — more than fifty airlines across four regions, with the ones we could not read marked as such. Where we couldn't read an official page — several airline sites block automated readers or hide their fee tables behind JavaScript — we say "not verified" rather than guess. Policies change often, so everything here was checked in October 2026 and should be confirmed with your airline before you book.
 
 ## Quick overview
 

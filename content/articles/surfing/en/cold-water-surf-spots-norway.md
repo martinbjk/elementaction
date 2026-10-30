@@ -11,7 +11,7 @@ ogImage: "/images/articles/cold-water-surf-spots-norway/og-image.png"
 
 ## Intro
 
-Norway has one of the longest, wildest coastlines in Europe, and almost none of it has been mapped for surfing the way Portugal or France has. What exists instead is a handful of tightly-documented hubs — a beginner beach near Stavanger, a storm-battered peninsula in the fjords, a bay above the Arctic Circle that's become a minor pilgrimage site — separated by hundreds of kilometres of coast nobody's written up. This is a companion piece to our [map of Sweden and Denmark](/en/articles/cold-water-surf-spots-sweden-denmark/): same approach, same rule — every spot below is backed by at least one independent source, and every gap in the map is named as a gap rather than papered over with a guess.
+Norway has one of the longest, wildest coastlines in Europe, and almost none of it has been mapped for surfing the way Portugal or France has. What exists instead is a handful of tightly-documented hubs — a beginner beach near Stavanger, a storm-battered peninsula in the fjords, a bay above the Arctic Circle that's become a minor pilgrimage site — separated by hundreds of kilometres of coast nobody's written up. This is a companion piece to our [map of Sweden and Denmark](/en/surfing/articles/cold-water-surf-spots-sweden-denmark/): same approach, same rule — every spot below is backed by at least one independent source, and every gap in the map is named as a gap rather than papered over with a guess.
 
 Before the region-by-region detail, here's the whole coast at once — where each of the five sections below actually sits, end to end from the Skagerrak to the Arctic:
 
