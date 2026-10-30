@@ -4,12 +4,12 @@
 
 | Sektion | Märke | Färg | Rubrikfont | Bildvärld |
 |---|---|---|---|---|
-| Surfing | Water action (surfare i våg, Martins utkast) | blå | Fraunces | dyningslinjer och en brytande våg |
+| Surfing | Water action (surfare i våg, Martins utkast) | blå (Pantone 2728) | Fraunces | dyningslinjer och en brytande våg |
 | Skateboard | Concrete action (skejtare i quarterpipe) | grå | Archivo Black | betongfogar, bowl och bräda |
 | Snowboard | Snow action (åkare under bergstopp) | vit | Space Grotesk | berg i lager med fallande snö |
-| Inspiration | Mind action (huvud med spiral, Martins utkast) | röd på titan | Syne | böjda titanvolymer, som Guggenheim i Bilbao |
+| Inspiration | Mind action (huvud med spiral, Martins utkast) | grön (Pantone 802) på titan | Syne | böjda titanvolymer, som Guggenheim i Bilbao |
 
-Huvudmärket är en cirkel delad i fyra lika stora fält i sektionsfärgerna, med rundade hörn, och ACTION i bågen ovanför (ACT blått, ION grått, typsnitt Audiowide). Sektionsmärkena är runda brickor med ACTION överst och ett motiv; i menyn används förenklade varianter utan text. Namnet skrivs alltid
+Huvudmärket är en cirkel delad i fyra lika stora fält i sektionsfärgerna, med rundade hörn, och ACTION i bågen ovanför (ACT blått (Pantone 2728 C), ION grått, typsnitt Audiowide; Mind-fältet grönt (Pantone 802 C)). Sektionsmärkena är runda brickor med ACTION överst och ett motiv; i menyn används förenklade varianter utan text. Namnet skrivs alltid
 som ett ord, **Elementaction**. Märkena finns som SVG i `public/brand/`
 (`mark.svg`, `mark-water.svg`, `mark-concrete.svg`, `mark-snow.svg`, `mark-mind.svg`).
 

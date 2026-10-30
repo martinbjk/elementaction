@@ -191,9 +191,9 @@ function FireArt(props: SvgProps) {
           <stop offset="1" stopColor="#5f6871" />
         </linearGradient>
         <linearGradient id="ti-red" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stopColor="#ff5a62" />
-          <stop offset=".55" stopColor="#e0242f" />
-          <stop offset="1" stopColor="#8f0d15" />
+          <stop offset="0" stopColor="#8af276" />
+          <stop offset=".55" stopColor="#44d62c" />
+          <stop offset="1" stopColor="#1a7a10" />
         </linearGradient>
       </defs>
       <rect width="600" height="600" fill="url(#ti-sky)" />
@@ -207,7 +207,7 @@ function FireArt(props: SvgProps) {
       <path d="M340 600c20-170 110-290 300-330v330z" fill="url(#ti-a)" />
       {/* mittvolym */}
       <path d="M190 600c-30-180 20-370 160-490 60-50 120-60 160-40-80 50-140 150-150 290-8 100 10 180 30 240z" fill="url(#ti-b)" />
-      {/* den röda volymen — eld */}
+      {/* den gröna volymen — mind (Pantone 802) */}
       <path d="M290 340c30-130 120-225 290-270-75 75-115 170-120 300-55-17-110-27-170-30z" fill="url(#ti-red)" />
       <path d="M300 335c40-120 130-210 270-255" fill="none" stroke="#ffffff" strokeOpacity=".45" strokeWidth="1.2" />
       {/* vänster volym */}

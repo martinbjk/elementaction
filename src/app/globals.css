@@ -19,7 +19,7 @@
  *   Surfing   (vatten)   : djuphavsblått, skumvitt
  *   Skateboard (betong)  : betonggrått, kritvitt, röd spraytagg
  *   Snowboard (snö)      : snövitt, isblått, bläckblått
- *   Inspiration (eld)    : titan (Guggenheim Bilbao), signalrött
+ *   Inspiration (mind)   : titan (Guggenheim Bilbao), grönt (Pantone 802)
  */
 :root,
 [data-section='home'] {
@@ -83,12 +83,12 @@
   --sec-deep: 180 187 194;
   --sec-ink: 24 25 27;
   --sec-muted: 84 90 97;
-  --sec-accent: 224 36 47;
+  --sec-accent: 23 128 15; /* mörkare grön av Pantone 802 så att text och knappar går att läsa på titanbotten */
   --sec-accent-ink: 255 255 255;
   --sec-line: 24 25 27;
   --sec-card: 238 240 242;
   --sec-font: 'Syne Variable';
-  --sec-paper-accent: 200 29 39;
+  --sec-paper-accent: 23 128 15;
   --sec-weight: 760;
 }
 

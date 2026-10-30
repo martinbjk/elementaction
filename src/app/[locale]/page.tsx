@@ -13,7 +13,7 @@ const HEADLINE_COLORS: Record<SectionId, string> = {
   surfing: '#4a90f0',
   skateboard: '#a3a8ad',
   snowboard: '#dce8f3',
-  inspiration: '#ef3b45'
+  inspiration: '#44d62c'
 };
 
 export default async function HomePage({ params: { locale } }: { params: { locale: string } }) {

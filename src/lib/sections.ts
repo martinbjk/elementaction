@@ -30,10 +30,10 @@ export const SECTION_CATEGORIES: Record<SectionId, readonly string[]> = {
 
 /** Färg per sektion — samma värden som i globals.css, för SVG/inline-bruk. */
 export const SECTION_COLORS: Record<SectionId, { main: string; ink: string }> = {
-  surfing: { main: '#1d6fe0', ink: '#06213f' },
+  surfing: { main: '#0047bb', ink: '#06213f' }, // Pantone 2728 C (ungefär)
   skateboard: { main: '#8a8f94', ink: '#1c1d1f' },
   snowboard: { main: '#f5f8fb', ink: '#0d2240' },
-  inspiration: { main: '#e0242f', ink: '#2a0a0d' }
+  inspiration: { main: '#44d62c', ink: '#0b2a08' } // Pantone 802 C (ungefär)
 };
 
 /** Statiska params för sidor under /[section] (krävs per sida av statisk export i `next dev`). */

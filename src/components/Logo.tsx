@@ -6,8 +6,8 @@ import { MIND_HEAD, WATER_RIDER, WATER_WAVE } from './brand-traced';
  * ELEMENTACTIONS MÄRKEN — ritade efter Martins egna utkast.
  *
  * Huvudmärket (efter Martins utkast): en cirkel delad i fyra lika stora
- * färgfält med rundade hörn (vatten blått, betong grått, snö isvitt, mind
- * rött) och ordet ACTION i bågen ovanför — ACT blått, ION grått.
+ * färgfält med rundade hörn (vatten blått Pantone 2728 C, betong grått, snö isvitt, mind
+ * grönt Pantone 802 C) och ordet ACTION i bågen ovanför — ACT blått, ION grått.
  * Ordet "Element" står aldrig i märket.
  *
  * Sektionsmärkena: en rund bricka i sektionens färg, ACTION överst och
@@ -31,10 +31,10 @@ type MarkProps = { size?: number; className?: string; title?: string };
 const WHITE = '#f5f8fb';
 
 export const BADGE: Record<SectionId, { bg: string; ink: string; text: string }> = {
-  surfing: { bg: '#1d6fe0', ink: WHITE, text: WHITE },
+  surfing: { bg: '#0047bb', ink: WHITE, text: WHITE },
   skateboard: { bg: '#8a8f94', ink: WHITE, text: WHITE },
   snowboard: { bg: '#dce8f3', ink: '#0d2240', text: '#0d2240' },
-  inspiration: { bg: '#e0242f', ink: WHITE, text: WHITE }
+  inspiration: { bg: '#44d62c', ink: WHITE, text: WHITE }
 };
 
 /**
@@ -173,13 +173,13 @@ function quadrant(sx: number, sy: number) {
   return `M${f(x0)} ${f(y0)}V${f(50 + sy * E)}A${r} ${r} 0 0 ${sweep} ${f(50 + sx * E)} ${f(y0)}z`;
 }
 
-const BLUE = '#1d6fe0';
+const BLUE = '#0047bb'; // Pantone 2728 C (ungefär)
 const GREY = '#8a8f94';
 const QUADRANTS: [string, string][] = [
   [BLUE, quadrant(-1, -1)], // uppe vänster: vatten
   [GREY, quadrant(1, -1)], // uppe höger: betong
   ['#dce8f3', quadrant(-1, 1)], // nere vänster: snö
-  ['#e0242f', quadrant(1, 1)] // nere höger: mind
+  ['#44d62c', quadrant(1, 1)] // nere höger: mind, Pantone 802 C (ungefär)
 ];
 
 /**
