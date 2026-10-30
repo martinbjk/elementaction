@@ -1,0 +1,35 @@
+{
+  "slug": "salone-del-mobile-milano-2027",
+  "name": "Salone del Mobile.Milano 2027",
+  "category": [
+    "design",
+    "fair"
+  ],
+  "level": "open",
+  "startDate": "2027-04-13T09:30:00+02:00",
+  "endDate": "2027-04-18T18:30:00+02:00",
+  "timezone": "Europe/Rome",
+  "location": {
+    "venue": "Fiera Milano",
+    "city": "Rho (Milano)",
+    "country": "Italy",
+    "countryCode": "IT",
+    "continent": "europe",
+    "lat": 45.52,
+    "lng": 9.082
+  },
+  "description": {
+    "sv": "Världens största möbel- och designmässa, på Fiera Milano i Rho. Samtidigt pågår designveckan i hela Milano.",
+    "en": "The world's largest furniture and design fair, at Fiera Milano in Rho, alongside the city-wide Milan Design Week."
+  },
+  "organizer": "Salone del Mobile.Milano",
+  "disciplines": [
+    "Design",
+    "Furniture"
+  ],
+  "source": {
+    "note": "Salone del Mobiles officiella sida: 13–18 april 2027, Fiera Milano Rho. Öppettiderna är ungefärliga.",
+    "url": "https://www.salonemilano.it/en/articles/salone-del-mobile-2027-dates",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

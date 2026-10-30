@@ -1,0 +1,34 @@
+{
+  "slug": "mountain-shaker-tignes-2027",
+  "name": "Mountain Shaker – Big Air Tignes",
+  "series": "FIS Snowboard Park & Pipe World Cup",
+  "category": [
+    "bigair"
+  ],
+  "level": "pro",
+  "startDate": "2027-01-20T09:00:00+01:00",
+  "endDate": "2027-01-22T18:00:00+01:00",
+  "timezone": "Europe/Paris",
+  "location": {
+    "venue": "Tignes",
+    "city": "Tignes",
+    "country": "France",
+    "countryCode": "FR",
+    "continent": "europe",
+    "lat": 45.4685,
+    "lng": 6.906
+  },
+  "description": {
+    "sv": "Världscupens big air under Mountain Shaker i Tignes.",
+    "en": "World Cup big air at the Mountain Shaker in Tignes."
+  },
+  "organizer": "FIS",
+  "disciplines": [
+    "Big Air"
+  ],
+  "source": {
+    "note": "FIS (18 aug 2026): Tignes Mountain Shaker 20–22 jan.",
+    "url": "https://www.fis-ski.com/snowboard-park-and-pipe/news/2026-27/park-pipe-world-cup-2026-27-100-days-to-go",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

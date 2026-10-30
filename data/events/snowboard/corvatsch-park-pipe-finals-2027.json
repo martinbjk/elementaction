@@ -1,0 +1,36 @@
+{
+  "slug": "corvatsch-park-pipe-finals-2027",
+  "name": "Corvatsch Park & Pipe Finals 2027",
+  "series": "FIS Snowboard Park & Pipe World Cup",
+  "category": [
+    "slopestyle",
+    "halfpipe"
+  ],
+  "level": "pro",
+  "startDate": "2027-04-01T09:00:00+02:00",
+  "endDate": "2027-04-04T18:00:00+02:00",
+  "timezone": "Europe/Zurich",
+  "location": {
+    "venue": "Corvatsch",
+    "city": "Silvaplana",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "continent": "europe",
+    "lat": 46.4581,
+    "lng": 9.795
+  },
+  "description": {
+    "sv": "Världscupfinalen i slopestyle och halfpipe på Corvatsch i Engadin.",
+    "en": "The World Cup finals in slopestyle and halfpipe at Corvatsch in the Engadin."
+  },
+  "organizer": "FIS",
+  "disciplines": [
+    "Slopestyle",
+    "Halfpipe"
+  ],
+  "source": {
+    "note": "FIS (18 aug 2026): Silvaplana (Corvatsch) 1–4 apr 2027.",
+    "url": "https://www.fis-ski.com/snowboard-park-and-pipe/news/2026-27/park-pipe-world-cup-2026-27-100-days-to-go",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

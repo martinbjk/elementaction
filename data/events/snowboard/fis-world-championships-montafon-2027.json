@@ -1,0 +1,42 @@
+{
+  "slug": "fis-world-championships-montafon-2027",
+  "name": "FIS Snowboard, Freestyle & Freeski World Championships Montafon 2027",
+  "series": "FIS World Championships",
+  "category": [
+    "halfpipe",
+    "slopestyle",
+    "bigair",
+    "boardercross"
+  ],
+  "level": "pro",
+  "startDate": "2027-03-06T09:00:00+01:00",
+  "endDate": "2027-03-21T18:00:00+01:00",
+  "timezone": "Europe/Vienna",
+  "location": {
+    "venue": "Montafon (flera arenor)",
+    "city": "Montafon",
+    "country": "Austria",
+    "countryCode": "AT",
+    "continent": "europe",
+    "lat": 47.0786,
+    "lng": 9.9182
+  },
+  "description": {
+    "sv": "Säsongens VM i Vorarlberg: halfpipe, slopestyle, big air, snowboardcross och parallellgrenar på olika arenor i Montafon med omnejd.",
+    "en": "The season's World Championships in Vorarlberg: halfpipe, slopestyle, big air, snowboard cross and parallel events at venues across Montafon."
+  },
+  "organizer": "FIS",
+  "disciplines": [
+    "Halfpipe",
+    "Slopestyle",
+    "Big Air",
+    "Snowboard Cross",
+    "Parallel Giant Slalom",
+    "Parallel Slalom"
+  ],
+  "source": {
+    "note": "FIS (18 aug 2026) och Montafons officiella program: 6–21 mars 2027. Schemat är preliminärt; halfpipe i Kühtai, PGS i Gargellen, SBX vid Grasjoch.",
+    "url": "https://www.montafon.at/fis-ski-snowboard-wm-2027/en/program",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "stockholm-design-week-2027",
+  "name": "Stockholm Design Week 2027",
+  "category": [
+    "design",
+    "festival"
+  ],
+  "level": "open",
+  "startDate": "2027-02-08T10:00:00+01:00",
+  "endDate": "2027-02-14T20:00:00+01:00",
+  "timezone": "Europe/Stockholm",
+  "location": {
+    "venue": "Hela stan – utställningar och showrooms",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "countryCode": "SE",
+    "continent": "europe",
+    "lat": 59.3293,
+    "lng": 18.0686
+  },
+  "description": {
+    "sv": "En vecka med utställningar och öppna showrooms över hela Stockholm, grupperade i stadsdelskluster. Arrangeras av Stockholm Furniture Fair.",
+    "en": "A week of exhibitions and open showrooms across Stockholm, grouped in neighbourhood clusters. Organised by Stockholm Furniture Fair."
+  },
+  "officialUrl": "https://stockholmdesignweek.com/",
+  "organizer": "Stockholm Furniture Fair",
+  "disciplines": [
+    "Design",
+    "Interior",
+    "Furniture"
+  ],
+  "source": {
+    "note": "Stockholm Design Weeks officiella sida: 8–14 feb 2027.",
+    "url": "https://stockholmdesignweek.com/",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

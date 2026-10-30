@@ -1,0 +1,36 @@
+{
+  "slug": "sverigecupen-kiruna-2026",
+  "name": "Sverigecupen Snowboard & Freeski – Kiruna",
+  "series": "Sverigecupen",
+  "category": [
+    "slopestyle",
+    "bigair"
+  ],
+  "level": "open",
+  "startDate": "2026-12-18T09:00:00+01:00",
+  "endDate": "2026-12-20T18:00:00+01:00",
+  "timezone": "Europe/Stockholm",
+  "location": {
+    "venue": "Kiruna",
+    "city": "Kiruna",
+    "country": "Sweden",
+    "countryCode": "SE",
+    "continent": "europe",
+    "lat": 67.8558,
+    "lng": 20.2253
+  },
+  "description": {
+    "sv": "Säsongens första deltävling i Sverigecupen: slopestyle, med big air som reservgren om vädret ställer till det.",
+    "en": "First stop of the Swedish Cup: slopestyle, with big air as the backup format if the weather intervenes."
+  },
+  "organizer": "RISK",
+  "disciplines": [
+    "Slopestyle",
+    "Big Air"
+  ],
+  "source": {
+    "note": "Svenska Skidförbundets tävlingskalender 2026/27: Kiruna 18–20 dec (v. 51), arrangör RISK.",
+    "url": "https://www.skidor.com/idrotter/freeski/tavling/tavla-i-sverige/Kalender",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

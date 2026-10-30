@@ -6,8 +6,7 @@
  * Exempel: https://www.youtube.com/watch?v=EXeTwQWrcwY  ->  id: "EXeTwQWrcwY"
  *
  * Skateboard-listan är flyttad oförändrad från skateboardeventcalendar.com.
- * Surfing, snowboard och inspiration är tomma tills du handplockat videos —
- * sidan visar då ett snyggt "kommer snart"-läge i stället för tomma rutor.
+ * Surfing, snowboard och inspiration: handplockade och godkända av Martin 2026-10-30.
  */
 import type { SectionId } from '@/lib/sections';
 
@@ -70,9 +69,63 @@ const skateboard: FeaturedVideo[] = [] = [
   },
 ];
 
+const surfing: FeaturedVideo[] = [
+  {
+    id: "aHM2BzDeo_8",
+    title: "Nazaré's Biggest Swell in Years | Mountains of the Sea",
+    intro: "Nic Von Rupp and the Mountains of the Sea crew on one of the longest, most powerful swells at Nazaré in years – waves around nine metres and strong wind.",
+  },
+  {
+    id: "XW2bUznKNmM",
+    title: "Unstad Arctic Surf - Norway",
+    intro: "A short film about Unstad in Lofoten – the surf school and the waves above the Arctic Circle, on the same coast our Norway article maps.",
+  },
+  {
+    id: "zwgsG92j_Es",
+    title: "Cold Hawaii - Life is better when you surf",
+    intro: "Seven minutes along the Danish coast between Agger and Hanstholm – Cold Hawaii in its element.",
+  },
+];
+
+const snowboard: FeaturedVideo[] = [
+  {
+    id: "2JHE2zkRfW4",
+    title: "The Fourth Phase | Official Trailer",
+    intro: "Travis Rice follows the water cycle around the North Pacific – from Wyoming via Japan and Russia to Alaska. Official trailer from Red Bull.",
+  },
+  {
+    id: "uk8TiKqJUdY",
+    title: "The Art of Flight (Full Film) with Travis Rice",
+    intro: "The full Art of Flight – the film that set a new standard for snowboard movies, with Travis Rice and crew in some of the wildest mountains on earth.",
+  },
+  {
+    id: "9CfCej-ii2A",
+    title: "2023 Natural Selection Tour – Revelstoke Highlights",
+    intro: "Highlights and interviews from the 2023 Natural Selection Tour in Revelstoke, won by Zoi Sadowski-Synnott and Travis Rice.",
+  },
+];
+
+const inspiration: FeaturedVideo[] = [
+  {
+    id: "FnrPZuN0m-0",
+    title: "How Frank Gehry's Guggenheim Bilbao Changed Architecture Forever",
+    intro: "How the Guggenheim Bilbao was designed and built – the titanium skin, the engineering and the building that changed architecture. The model for our Inspiration section.",
+  },
+  {
+    id: "2yldY5KmX28",
+    title: "Guggenheim Bilbao: how one building changed a city's future",
+    intro: "Travel and architecture in one: how a single museum turned Bilbao into a destination.",
+  },
+  {
+    id: "iL9YnY4UJsM",
+    title: "Meet Sebastião Salgado",
+    intro: "A portrait of photographer Sebastião Salgado, recipient of the Sony World Photography Awards' Outstanding Contribution to Photography award in 2024.",
+  },
+];
+
 export const videos: Record<SectionId, FeaturedVideo[]> = {
-  surfing: [],
+  surfing,
   skateboard,
-  snowboard: [],
-  inspiration: []
+  snowboard,
+  inspiration
 };

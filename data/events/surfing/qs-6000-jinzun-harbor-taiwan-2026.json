@@ -1,0 +1,35 @@
+{
+  "slug": "qs-6000-jinzun-harbor-taiwan-2026",
+  "name": "WSL QS 6,000 – Jinzun Harbor, Taiwan",
+  "series": "WSL Qualifying Series",
+  "category": [
+    "shortboard",
+    "contest"
+  ],
+  "level": "pro",
+  "startDate": "2026-11-14T07:00:00+08:00",
+  "endDate": "2026-11-22T17:00:00+08:00",
+  "timezone": "Asia/Taipei",
+  "location": {
+    "venue": "Jinzun Harbor",
+    "city": "Taitung County",
+    "country": "Taiwan",
+    "countryCode": "TW",
+    "continent": "asia",
+    "lat": 22.933,
+    "lng": 121.285
+  },
+  "description": {
+    "sv": "Internationell QS 6000-tävling vid Jinzun Harbor på Taiwans östkust – poäng som räknas mot Challenger Series.",
+    "en": "International QS 6,000 event at Jinzun Harbor on Taiwan's east coast – points count towards the Challenger Series."
+  },
+  "organizer": "World Surf League",
+  "disciplines": [
+    "Shortboard"
+  ],
+  "source": {
+    "note": "Maui Now (2 mar 2026) om WSL:s schema: Jinzun Harbor, Taitung, 14–22 nov 2026.",
+    "url": "https://mauinow.com/2026/03/02/world-surf-league-announces-challenger-series-schedule-and-qs-6000-events/",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

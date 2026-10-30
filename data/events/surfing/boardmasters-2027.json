@@ -1,0 +1,34 @@
+{
+  "slug": "boardmasters-2027",
+  "name": "Boardmasters 2027",
+  "category": [
+    "festival",
+    "contest"
+  ],
+  "level": "open",
+  "startDate": "2027-08-04T10:00:00+01:00",
+  "endDate": "2027-08-08T23:00:00+01:00",
+  "timezone": "Europe/London",
+  "location": {
+    "venue": "Watergate Bay & Fistral Beach",
+    "city": "Newquay",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "continent": "europe",
+    "lat": 50.4155,
+    "lng": -5.073
+  },
+  "description": {
+    "sv": "Surf- och musikfestival i Newquay, Cornwall. 2026 hölls surftävlingen Boardmasters Open på Fistral Beach.",
+    "en": "Surf and music festival in Newquay, Cornwall. In 2026 the Boardmasters Open surf contest was held at Fistral Beach."
+  },
+  "disciplines": [
+    "Surf",
+    "Music"
+  ],
+  "source": {
+    "note": "TicketNews (19 aug 2026): 4–8 aug 2027 i Newquay. Arenorna för 2027 är inte bekräftade (2026: Watergate Bay + Fistral).",
+    "url": "https://www.ticketnews.com/2026/08/boardmasters-draws-158000-fans-2027-return-cornwall/",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "x-games-calgary-2027",
+  "name": "X Games Calgary 2027",
+  "series": "X Games League",
+  "category": [
+    "contest"
+  ],
+  "level": "pro",
+  "startDate": "2027-02-19T09:00:00-06:00",
+  "endDate": "2027-02-21T18:00:00-06:00",
+  "timezone": "America/Edmonton",
+  "location": {
+    "venue": "WinSport's Canada Olympic Park",
+    "city": "Calgary",
+    "country": "Canada",
+    "countryCode": "CA",
+    "continent": "north-america",
+    "lat": 51.0823,
+    "lng": -114.2152
+  },
+  "description": {
+    "sv": "X Games andra vinterstopp, i Canada Olympic Park i Calgary.",
+    "en": "The second X Games winter stop, at Canada Olympic Park in Calgary."
+  },
+  "organizer": "X Games",
+  "disciplines": [
+    "Snowboard",
+    "Ski"
+  ],
+  "source": {
+    "note": "Unofficial Networks (14 sep 2026) om X Games vintersäsong: Calgary 19–21 feb. Grenar ej annonserade. Helst bör en officiell X Games-sida bekräfta.",
+    "url": "https://unofficialnetworks.com/2026/09/14/x-games-three-winter-stops/",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

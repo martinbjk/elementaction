@@ -1,0 +1,34 @@
+{
+  "slug": "3daysofdesign-copenhagen-2027",
+  "name": "3daysofdesign 2027",
+  "category": [
+    "design",
+    "festival"
+  ],
+  "level": "open",
+  "startDate": "2027-06-09T10:00:00+02:00",
+  "endDate": "2027-06-11T19:00:00+02:00",
+  "timezone": "Europe/Copenhagen",
+  "location": {
+    "venue": "Hela stan",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "countryCode": "DK",
+    "continent": "europe",
+    "lat": 55.6761,
+    "lng": 12.5683
+  },
+  "description": {
+    "sv": "Köpenhamns designfestival – tre dagar då utställare öppnar showrooms och utställningar över hela staden.",
+    "en": "Copenhagen's design festival – three days of showrooms and exhibitions across the city."
+  },
+  "disciplines": [
+    "Design",
+    "Interior"
+  ],
+  "source": {
+    "note": "VisitCopenhagen (officiell turistsida): 9–11 juni 2027.",
+    "url": "https://www.visitcopenhagen.com/copenhagen/planning/3-days-of-design-gdk1000129",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

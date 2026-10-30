@@ -1,0 +1,33 @@
+{
+  "slug": "freeride-world-tour-val-thorens-2027",
+  "name": "Freeride World Tour – Val Thorens Pro",
+  "series": "FIS Freeride World Tour",
+  "category": [
+    "freeride"
+  ],
+  "level": "pro",
+  "startDate": "2027-01-24T09:00:00+01:00",
+  "endDate": "2027-01-30T18:00:00+01:00",
+  "timezone": "Europe/Paris",
+  "location": {
+    "venue": "Val Thorens",
+    "city": "Val Thorens",
+    "country": "France",
+    "countryCode": "FR",
+    "continent": "europe",
+    "lat": 45.2979,
+    "lng": 6.58
+  },
+  "description": {
+    "sv": "Freeride i Val Thorens. Datumen är ett tävlingsfönster – själva tävlingsdagen bestäms med 48 timmars varsel efter vädret.",
+    "en": "Freeride in Val Thorens. The dates are a competition window – the contest day is set 48 hours ahead depending on the weather."
+  },
+  "disciplines": [
+    "Freeride"
+  ],
+  "source": {
+    "note": "Les 3 Vallées officiella sida: 24–30 jan 2027. Sidan anger inte uttryckligen snowboardklassen – kontrollera innan publicering.",
+    "url": "https://www.les3vallees.com/en/news/freeride-world-tour",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

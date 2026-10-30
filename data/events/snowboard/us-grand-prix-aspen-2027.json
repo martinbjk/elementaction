@@ -1,0 +1,36 @@
+{
+  "slug": "us-grand-prix-aspen-2027",
+  "name": "Toyota U.S. Grand Prix – Aspen Snowmass",
+  "series": "FIS Snowboard Park & Pipe World Cup",
+  "category": [
+    "slopestyle",
+    "halfpipe"
+  ],
+  "level": "pro",
+  "startDate": "2027-02-27T09:00:00-07:00",
+  "endDate": "2027-02-28T18:00:00-07:00",
+  "timezone": "America/Denver",
+  "location": {
+    "venue": "Buttermilk",
+    "city": "Aspen, CO",
+    "country": "USA",
+    "countryCode": "US",
+    "continent": "north-america",
+    "lat": 39.2058,
+    "lng": -106.8608
+  },
+  "description": {
+    "sv": "Avslutningen på U.S. Grand Prix: slopestyle och halfpipe i Aspen Snowmass.",
+    "en": "The U.S. Grand Prix finale: slopestyle and halfpipe at Aspen Snowmass."
+  },
+  "organizer": "U.S. Ski & Snowboard / FIS",
+  "disciplines": [
+    "Slopestyle",
+    "Halfpipe"
+  ],
+  "source": {
+    "note": "U.S. Ski & Snowboard (17 jun 2026): 27–28 feb, Aspen Snowmass. FIS anger Aspen Buttermilk i februari.",
+    "url": "https://www.usskiandsnowboard.org/news/us-ski-snowboard-announces-2026-27-fis-domestic-world-cup-schedule",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

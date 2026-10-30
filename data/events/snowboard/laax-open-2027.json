@@ -1,0 +1,35 @@
+{
+  "slug": "laax-open-2027",
+  "name": "LAAX Open 2027",
+  "series": "FIS Snowboard Park & Pipe World Cup",
+  "category": [
+    "slopestyle",
+    "halfpipe"
+  ],
+  "level": "pro",
+  "startDate": "2027-01-14T09:00:00+01:00",
+  "endDate": "2027-01-16T18:00:00+01:00",
+  "timezone": "Europe/Zurich",
+  "location": {
+    "venue": "LAAX",
+    "city": "Laax",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "continent": "europe",
+    "lat": 46.8076,
+    "lng": 9.258
+  },
+  "description": {
+    "sv": "En av säsongens största snowboardtävlingar, slopestyle och halfpipe i Laax.",
+    "en": "One of the season's biggest snowboard contests, slopestyle and halfpipe in Laax."
+  },
+  "disciplines": [
+    "Slopestyle",
+    "Halfpipe"
+  ],
+  "source": {
+    "note": "FIS (18 aug 2026): 14–16 jan. Graubündens turistsida anger 13–16 jan (troligen inkl. träning). Tävlingsdagarna enligt FIS används.",
+    "url": "https://www.fis-ski.com/snowboard-park-and-pipe/news/2026-27/park-pipe-world-cup-2026-27-100-days-to-go",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}

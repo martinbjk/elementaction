@@ -1,0 +1,34 @@
+{
+  "slug": "us-grand-prix-breckenridge-2026",
+  "name": "Toyota U.S. Grand Prix – Slopestyle Breckenridge",
+  "series": "FIS Snowboard Park & Pipe World Cup",
+  "category": [
+    "slopestyle"
+  ],
+  "level": "pro",
+  "startDate": "2026-12-10T09:00:00-07:00",
+  "endDate": "2026-12-13T18:00:00-07:00",
+  "timezone": "America/Denver",
+  "location": {
+    "venue": "Breckenridge Ski Resort",
+    "city": "Breckenridge, CO",
+    "country": "USA",
+    "countryCode": "US",
+    "continent": "north-america",
+    "lat": 39.4817,
+    "lng": -106.0384
+  },
+  "description": {
+    "sv": "Första deltävlingen i U.S. Grand Prix och världscupens slopestyle-premiär i USA.",
+    "en": "First stop of the U.S. Grand Prix and the World Cup's slopestyle opener in the USA."
+  },
+  "organizer": "U.S. Ski & Snowboard / FIS",
+  "disciplines": [
+    "Slopestyle"
+  ],
+  "source": {
+    "note": "FIS (18 aug 2026) anger Breckenridge 10–13 dec. U.S. Ski & Snowboard (17 jun 2026) angav 10–12 dec med ort TBD – FIS är nyare och anger ort.",
+    "url": "https://www.fis-ski.com/snowboard-park-and-pipe/news/2026-27/park-pipe-world-cup-2026-27-100-days-to-go",
+    "retrievedAt": "2026-10-22T00:00:00+02:00"
+  }
+}
