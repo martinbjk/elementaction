@@ -40,8 +40,13 @@ export async function generateMetadata({ params: { locale, section, slug } }: Pa
   };
 }
 
+/**
+ * Strukturerad data (schema.org) för Google.
+ * Inget `offers`-block: vi har inga priser, och ett offers utan pris,
+ * valuta och säljstart ger varningar i Search Console. Biljett- och
+ * anmälningslänkarna finns kvar som knappar på sidan.
+ */
 function jsonLd(event: ElementEvent, section: SectionId, locale: string) {
-  const url = event.ticketsUrl ?? event.registrationUrl ?? event.officialUrl;
   return {
     '@context': 'https://schema.org',
     '@type': section === 'inspiration' ? 'Event' : 'SportsEvent',
@@ -63,8 +68,7 @@ function jsonLd(event: ElementEvent, section: SectionId, locale: string) {
       name: event.location.venue || event.location.city,
       address: { '@type': 'PostalAddress', addressLocality: event.location.city, addressCountry: event.location.countryCode }
     },
-    ...(event.organizer ? { organizer: { '@type': 'Organization', name: event.organizer, url: event.officialUrl ?? SITE_URL } } : {}),
-    ...(url ? { offers: { '@type': 'Offer', url, availability: 'https://schema.org/InStock' } } : {})
+    ...(event.organizer ? { organizer: { '@type': 'Organization', name: event.organizer, url: event.officialUrl ?? SITE_URL } } : {})
   };
 }
 
