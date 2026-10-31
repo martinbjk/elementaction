@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { sectionParams, isSection } from '@/lib/sections';
 import { localeAlternates } from '@/lib/seo';
-import { videos } from '@/data/videos';
+import { designVideos, videos } from '@/data/videos';
 import { BlockHeader, EmptyState } from '@/components/Blocks';
 import { VideoGrid } from '@/components/VideoGrid';
 
@@ -19,7 +19,8 @@ export default async function VideosPage({ params: { locale, section } }: Params
   setRequestLocale(locale);
   if (!isSection(section)) return null;
   const t = await getTranslations({ locale });
-  const list = videos[section];
+  // Videos-fliken visar både sektionens videor och designvideorna (som också ligger på designsidan).
+  const list = [...videos[section], ...designVideos[section]];
   return (
     <div>
       <BlockHeader as="h1" title={t('videos.title', { section: t(`sections.${section}.name`) })} />
