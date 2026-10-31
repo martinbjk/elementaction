@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { sectionParams, isSection } from '@/lib/sections';
+import { SECTIONS, sectionParams, isSection } from '@/lib/sections';
 import { getDesignWall } from '@/lib/design-wall';
 import { getDesignPieces } from '@/lib/articles';
+import { designVideos } from '@/data/videos';
+import { VideoGrid } from '@/components/VideoGrid';
 import { localeAlternates } from '@/lib/seo';
 import { ArticleCard, BlockHeader, DesignWall, EmptyState } from '@/components/Blocks';
 
@@ -20,7 +22,12 @@ export default async function DesignPage({ params: { locale, section } }: Params
   if (!isSection(section)) return null;
   const t = await getTranslations({ locale });
   // Designinläggen visas som kort överst; väggen under visar bilderna från övriga artiklar.
-  const pieces = getDesignPieces(section, locale);
+  // Inspiration är navet för all design: där visas designinläggen från alla
+  // fyra sektionerna (korten länkar till artikeln i dess egen sektion).
+  const pieces =
+    section === 'inspiration'
+      ? SECTIONS.flatMap((s) => getDesignPieces(s, locale)).sort((a, b) => b.date.localeCompare(a.date))
+      : getDesignPieces(section, locale);
   const items = getDesignWall(section, locale).filter((i) => i.article.kind !== 'design');
   return (
     <div>
@@ -33,11 +40,19 @@ export default async function DesignPage({ params: { locale, section } }: Params
           ))}
         </div>
       )}
-      <div className="mt-10">
+      {designVideos[section].length > 0 && (
+        <section className="mt-12">
+          <BlockHeader title={t('design.videosTitle')} />
+          <div className="mt-6">
+            <VideoGrid videos={designVideos[section]} />
+          </div>
+        </section>
+      )}
+      <div className="mt-12">
         {items.length ? (
           <DesignWall items={items} fromArticle={t('design.fromArticle')} />
         ) : (
-          !pieces.length && <EmptyState title={t('design.emptyTitle')} body={t('design.emptyBody')} />
+          !pieces.length && !designVideos[section].length && <EmptyState title={t('design.emptyTitle')} body={t('design.emptyBody')} />
         )}
       </div>
     </div>
