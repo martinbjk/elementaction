@@ -24,7 +24,7 @@ export function isSection(value: string): value is SectionId {
 export const SECTION_CATEGORIES: Record<SectionId, readonly string[]> = {
   skateboard: ['street', 'park', 'vert', 'bowl', 'freestyle', 'downhill', 'slalom', 'demo', 'contest'],
   surfing: ['shortboard', 'longboard', 'bigwave', 'wavepool', 'bodyboard', 'sup', 'festival', 'contest'],
-  snowboard: ['halfpipe', 'slopestyle', 'bigair', 'boardercross', 'freeride', 'rail', 'festival', 'contest'],
+  snowboard: ['halfpipe', 'slopestyle', 'bigair', 'boardercross', 'parallel', 'freeride', 'rail', 'festival', 'contest'],
   inspiration: ['exhibition', 'design', 'photography', 'travel', 'festival', 'fair', 'workshop']
 };
 

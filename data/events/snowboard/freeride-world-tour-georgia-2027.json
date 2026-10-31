@@ -1,0 +1,33 @@
+{
+  "slug": "freeride-world-tour-georgia-2027",
+  "name": "Freeride World Tour – Georgia Pro",
+  "series": "FIS Freeride World Tour",
+  "category": [
+    "freeride"
+  ],
+  "level": "pro",
+  "startDate": "2027-02-20T09:00:00+04:00",
+  "endDate": "2027-02-26T18:00:00+04:00",
+  "timezone": "Asia/Tbilisi",
+  "location": {
+    "venue": "Mestia",
+    "city": "Mestia",
+    "country": "Georgia",
+    "countryCode": "GE",
+    "continent": "asia"
+  },
+  "description": {
+    "sv": "Freeride i Kaukasus, i Mestia i Svanetien. Tävlingsdagarna är 20–21 feb; resten av datumen är ett väderfönster.",
+    "en": "Freeride in the Caucasus, in Mestia, Svaneti. Contest days 20–21 Feb; the rest of the dates are a weather window."
+  },
+  "officialUrl": "https://www.freerideworldtour.com",
+  "organizer": "Freeride World Tour",
+  "disciplines": [
+    "Freeride"
+  ],
+  "source": {
+    "note": "FIS/Freeride World Tour (29 okt 2026), kalendern för 2027: Mestia 20–21 feb, väderfönster 20–26 feb.",
+    "url": "https://www.fis-ski.com/freeride/news/2026-27/freeride-world-tour-disclose-2027-calendar-for-landmark-20th-season",
+    "retrievedAt": "2026-10-31T00:00:00+01:00"
+  }
+}

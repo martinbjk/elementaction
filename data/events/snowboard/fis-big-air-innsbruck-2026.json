@@ -1,0 +1,34 @@
+{
+  "slug": "fis-big-air-innsbruck-2026",
+  "name": "AIRDRENALINE Innsbruck Big Air – FIS World Cup",
+  "series": "FIS Snowboard Park & Pipe World Cup",
+  "category": [
+    "bigair"
+  ],
+  "level": "pro",
+  "startDate": "2026-11-26T09:00:00+01:00",
+  "endDate": "2026-11-28T18:00:00+01:00",
+  "timezone": "Europe/Vienna",
+  "location": {
+    "venue": "Bergisel",
+    "city": "Innsbruck",
+    "country": "Austria",
+    "countryCode": "AT",
+    "continent": "europe",
+    "lat": 47.2486,
+    "lng": 11.3997
+  },
+  "description": {
+    "sv": "Park & pipe-säsongen öppnar med big air på Bergisel, hoppbacken där Air & Style började 1994. Kval torsdag, snowboardfinal lördag kväll.",
+    "en": "The park & pipe season opens with big air at Bergisel, the ski jump where Air & Style began in 1994. Qualifying on Thursday, snowboard finals on Saturday night."
+  },
+  "organizer": "FIS",
+  "disciplines": [
+    "Big Air"
+  ],
+  "source": {
+    "note": "Neveitalia (26 aug 2026): officiellt, big air för freeski och snowboard i Innsbruck 26–28 nov 2026 på Bergisel. Samma datum i FIS kalenderförslag.",
+    "url": "https://en.neveitalia.it/freestyle/news/ora-e-ufficiale-nelle-notti-di-innsbruck-i-big-air-che-apriranno-la-cdm-di-freeski-e-snowboard-dal-26-al-28-novembre",
+    "retrievedAt": "2026-10-31T00:00:00+01:00"
+  }
+}

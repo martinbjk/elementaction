@@ -1,0 +1,33 @@
+{
+  "slug": "freeride-world-tour-baqueira-2027",
+  "name": "Freeride World Tour – Baqueira Beret Pro",
+  "series": "FIS Freeride World Tour",
+  "category": [
+    "freeride"
+  ],
+  "level": "pro",
+  "startDate": "2027-01-16T09:00:00+01:00",
+  "endDate": "2027-01-21T18:00:00+01:00",
+  "timezone": "Europe/Madrid",
+  "location": {
+    "venue": "Baqueira Beret",
+    "city": "Baqueira",
+    "country": "Spain",
+    "countryCode": "ES",
+    "continent": "europe"
+  },
+  "description": {
+    "sv": "Första stoppet på Freeride World Tour 2027, turens tjugonde säsong. Tävlingsdagarna är 16–17 jan; resten av datumen är ett väderfönster.",
+    "en": "First stop of the 2027 Freeride World Tour, its 20th season. Contest days 16–17 Jan; the rest of the dates are a weather window."
+  },
+  "officialUrl": "https://www.freerideworldtour.com",
+  "organizer": "Freeride World Tour",
+  "disciplines": [
+    "Freeride"
+  ],
+  "source": {
+    "note": "FIS/Freeride World Tour (29 okt 2026), kalendern för 2027: Baqueira Beret 16–17 jan, väderfönster 16–21 jan.",
+    "url": "https://www.fis-ski.com/freeride/news/2026-27/freeride-world-tour-disclose-2027-calendar-for-landmark-20th-season",
+    "retrievedAt": "2026-10-31T00:00:00+01:00"
+  }
+}

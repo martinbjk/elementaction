@@ -6,7 +6,7 @@
     "freeride"
   ],
   "level": "pro",
-  "startDate": "2027-01-24T09:00:00+01:00",
+  "startDate": "2027-01-25T09:00:00+01:00",
   "endDate": "2027-01-30T18:00:00+01:00",
   "timezone": "Europe/Paris",
   "location": {
@@ -19,15 +19,17 @@
     "lng": 6.58
   },
   "description": {
-    "sv": "Freeride i Val Thorens. Datumen är ett tävlingsfönster – själva tävlingsdagen bestäms med 48 timmars varsel efter vädret.",
-    "en": "Freeride in Val Thorens. The dates are a competition window – the contest day is set 48 hours ahead depending on the weather."
+    "sv": "Freeride i Val Thorens. Tävlingsdagarna är 25–26 jan; resten av datumen är ett väderfönster.",
+    "en": "Freeride in Val Thorens. Contest days 25–26 Jan; the rest of the dates are a weather window."
   },
+  "officialUrl": "https://www.freerideworldtour.com",
+  "organizer": "Freeride World Tour",
   "disciplines": [
     "Freeride"
   ],
   "source": {
-    "note": "Les 3 Vallées officiella sida: 24–30 jan 2027. Sidan anger inte uttryckligen snowboardklassen – kontrollera innan publicering.",
-    "url": "https://www.les3vallees.com/en/news/freeride-world-tour",
-    "retrievedAt": "2026-10-22T00:00:00+02:00"
+    "note": "FIS/Freeride World Tour (29 okt 2026), kalendern för 2027: Val Thorens 25–26 jan, väderfönster 25–30 jan. (Ersätter tidigare uppgift 24–30 jan från Les 3 Vallées.)",
+    "url": "https://www.fis-ski.com/freeride/news/2026-27/freeride-world-tour-disclose-2027-calendar-for-landmark-20th-season",
+    "retrievedAt": "2026-10-31T00:00:00+01:00"
   }
 }

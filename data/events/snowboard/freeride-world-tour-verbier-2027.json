@@ -1,0 +1,33 @@
+{
+  "slug": "freeride-world-tour-verbier-2027",
+  "name": "Freeride World Tour – YETI Xtreme Verbier (Finals)",
+  "series": "FIS Freeride World Tour",
+  "category": [
+    "freeride"
+  ],
+  "level": "pro",
+  "startDate": "2027-03-27T09:00:00+01:00",
+  "endDate": "2027-04-04T18:00:00+02:00",
+  "timezone": "Europe/Zurich",
+  "location": {
+    "venue": "Bec des Rosses",
+    "city": "Verbier",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "continent": "europe"
+  },
+  "description": {
+    "sv": "Säsongsfinalen på Bec des Rosses, där världsmästarna koras. Tävlingsdagarna är 27–28 mars; resten av datumen är ett väderfönster.",
+    "en": "The season final on the Bec des Rosses, where the world champions are crowned. Contest days 27–28 March; the rest of the dates are a weather window."
+  },
+  "officialUrl": "https://www.freerideworldtour.com",
+  "organizer": "Freeride World Tour",
+  "disciplines": [
+    "Freeride"
+  ],
+  "source": {
+    "note": "FIS/Freeride World Tour (29 okt 2026), kalendern för 2027: Verbier (Bec des Rosses) 27–28 mars, väderfönster 27 mars–4 april.",
+    "url": "https://www.fis-ski.com/freeride/news/2026-27/freeride-world-tour-disclose-2027-calendar-for-landmark-20th-season",
+    "retrievedAt": "2026-10-31T00:00:00+01:00"
+  }
+}

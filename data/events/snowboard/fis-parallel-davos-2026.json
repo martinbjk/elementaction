@@ -1,0 +1,34 @@
+{
+  "slug": "fis-parallel-davos-2026",
+  "name": "FIS Snowboard World Cup – Parallel Davos",
+  "series": "FIS Snowboard Alpine World Cup",
+  "category": [
+    "parallel"
+  ],
+  "level": "pro",
+  "startDate": "2026-12-19T09:00:00+01:00",
+  "endDate": "2026-12-19T18:00:00+01:00",
+  "timezone": "Europe/Zurich",
+  "location": {
+    "venue": "Davos",
+    "city": "Davos",
+    "country": "Switzerland",
+    "countryCode": "CH",
+    "continent": "europe",
+    "lat": 46.8027,
+    "lng": 9.836
+  },
+  "description": {
+    "sv": "Parallelltävling i världscupen i Davos.",
+    "en": "World Cup parallel race in Davos."
+  },
+  "organizer": "FIS",
+  "disciplines": [
+    "Parallel"
+  ],
+  "source": {
+    "note": "https://www.fis-ski.com/snowboard-alpine/news/2026-27/snowboard-alpine-teams-gear-up-for-2026-27-world-cup-season: Davos 19 dec (gren ej angiven i artikeln).",
+    "url": "https://www.fis-ski.com/snowboard-alpine/news/2026-27/snowboard-alpine-teams-gear-up-for-2026-27-world-cup-season",
+    "retrievedAt": "2026-10-31T00:00:00+01:00"
+  }
+}

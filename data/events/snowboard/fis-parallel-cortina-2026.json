@@ -1,0 +1,34 @@
+{
+  "slug": "fis-parallel-cortina-2026",
+  "name": "FIS Snowboard World Cup – Parallel Cortina d'Ampezzo",
+  "series": "FIS Snowboard Alpine World Cup",
+  "category": [
+    "parallel"
+  ],
+  "level": "pro",
+  "startDate": "2026-12-12T09:00:00+01:00",
+  "endDate": "2026-12-12T18:00:00+01:00",
+  "timezone": "Europe/Rome",
+  "location": {
+    "venue": "Cortina d'Ampezzo",
+    "city": "Cortina d'Ampezzo",
+    "country": "Italy",
+    "countryCode": "IT",
+    "continent": "europe",
+    "lat": 46.5405,
+    "lng": 12.1357
+  },
+  "description": {
+    "sv": "Parallelltävling i världscupen i olympiaorten Cortina.",
+    "en": "World Cup parallel race in the Olympic resort of Cortina."
+  },
+  "organizer": "FIS",
+  "disciplines": [
+    "Parallel"
+  ],
+  "source": {
+    "note": "https://www.fis-ski.com/snowboard-alpine/news/2026-27/snowboard-alpine-teams-gear-up-for-2026-27-world-cup-season: Cortina d'Ampezzo 12 dec (gren ej angiven i artikeln).",
+    "url": "https://www.fis-ski.com/snowboard-alpine/news/2026-27/snowboard-alpine-teams-gear-up-for-2026-27-world-cup-season",
+    "retrievedAt": "2026-10-31T00:00:00+01:00"
+  }
+}

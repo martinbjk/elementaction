@@ -1,0 +1,32 @@
+{
+  "slug": "fis-parallel-rogla-2027",
+  "name": "FIS Snowboard World Cup – Parallel Rogla",
+  "series": "FIS Snowboard Alpine World Cup",
+  "category": [
+    "parallel"
+  ],
+  "level": "pro",
+  "startDate": "2027-01-23T09:00:00+01:00",
+  "endDate": "2027-01-23T18:00:00+01:00",
+  "timezone": "Europe/Ljubljana",
+  "location": {
+    "venue": "Rogla",
+    "city": "Rogla",
+    "country": "Slovenia",
+    "countryCode": "SI",
+    "continent": "europe"
+  },
+  "description": {
+    "sv": "Parallelltävling i världscupen i Rogla.",
+    "en": "World Cup parallel race in Rogla."
+  },
+  "organizer": "FIS",
+  "disciplines": [
+    "Parallel"
+  ],
+  "source": {
+    "note": "https://www.fis-ski.com/snowboard-alpine/news/2026-27/snowboard-alpine-teams-gear-up-for-2026-27-world-cup-season: Rogla 23 jan (gren ej angiven i artikeln).",
+    "url": "https://www.fis-ski.com/snowboard-alpine/news/2026-27/snowboard-alpine-teams-gear-up-for-2026-27-world-cup-season",
+    "retrievedAt": "2026-10-31T00:00:00+01:00"
+  }
+}

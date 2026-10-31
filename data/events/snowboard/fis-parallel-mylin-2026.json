@@ -1,0 +1,32 @@
+{
+  "slug": "fis-parallel-mylin-2026",
+  "name": "FIS Snowboard World Cup – Parallel Giant Slalom Mylin",
+  "series": "FIS Snowboard Alpine World Cup",
+  "category": [
+    "parallel"
+  ],
+  "level": "pro",
+  "startDate": "2026-12-05T09:00:00+08:00",
+  "endDate": "2026-12-06T18:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "location": {
+    "venue": "Mylin",
+    "city": "Mylin",
+    "country": "China",
+    "countryCode": "CN",
+    "continent": "asia"
+  },
+  "description": {
+    "sv": "Parallellstorslalom i världscupen, två tävlingsdagar i Mylin.",
+    "en": "World Cup parallel giant slalom, two race days in Mylin."
+  },
+  "organizer": "FIS",
+  "disciplines": [
+    "Parallel giant slalom"
+  ],
+  "source": {
+    "note": "https://www.fis-ski.com/snowboard-alpine/news/2026-27/snowboard-alpine-teams-gear-up-for-2026-27-world-cup-season: Mylin 5–6 dec, PGS.",
+    "url": "https://www.fis-ski.com/snowboard-alpine/news/2026-27/snowboard-alpine-teams-gear-up-for-2026-27-world-cup-season",
+    "retrievedAt": "2026-10-31T00:00:00+01:00"
+  }
+}

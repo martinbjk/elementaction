@@ -1,0 +1,33 @@
+{
+  "slug": "freeride-world-tour-fieberbrunn-2027",
+  "name": "Freeride World Tour – Fieberbrunn Pro",
+  "series": "FIS Freeride World Tour",
+  "category": [
+    "freeride"
+  ],
+  "level": "pro",
+  "startDate": "2027-03-03T09:00:00+01:00",
+  "endDate": "2027-03-09T18:00:00+01:00",
+  "timezone": "Europe/Vienna",
+  "location": {
+    "venue": "Fieberbrunn",
+    "city": "Fieberbrunn",
+    "country": "Austria",
+    "countryCode": "AT",
+    "continent": "europe"
+  },
+  "description": {
+    "sv": "Sista stoppet före finalerna. Datumen är ett väderfönster.",
+    "en": "The last stop before the finals. The dates are a weather window."
+  },
+  "officialUrl": "https://www.freerideworldtour.com",
+  "organizer": "Freeride World Tour",
+  "disciplines": [
+    "Freeride"
+  ],
+  "source": {
+    "note": "FIS/Freeride World Tour (29 okt 2026), kalendern för 2027: Fieberbrunn 3–9 mars.",
+    "url": "https://www.fis-ski.com/freeride/news/2026-27/freeride-world-tour-disclose-2027-calendar-for-landmark-20th-season",
+    "retrievedAt": "2026-10-31T00:00:00+01:00"
+  }
+}

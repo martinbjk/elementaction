@@ -1,0 +1,34 @@
+{
+  "slug": "fis-sbx-cervinia-2026",
+  "name": "FIS Snowboard Cross World Cup – Cervinia",
+  "series": "FIS Snowboard Cross World Cup",
+  "category": [
+    "boardercross"
+  ],
+  "level": "pro",
+  "startDate": "2026-12-11T09:00:00+01:00",
+  "endDate": "2026-12-13T18:00:00+01:00",
+  "timezone": "Europe/Rome",
+  "location": {
+    "venue": "Pista 26",
+    "city": "Breuil-Cervinia",
+    "country": "Italy",
+    "countryCode": "IT",
+    "continent": "europe",
+    "lat": 45.9368,
+    "lng": 7.6311
+  },
+  "description": {
+    "sv": "Säsongspremiären i snowboardcross: kval på fredagen och två individuella tävlingar för herrar och damer på lördag och söndag.",
+    "en": "The snowboard cross season opener: qualifying on Friday and two individual races for men and women on Saturday and Sunday."
+  },
+  "organizer": "FIS",
+  "disciplines": [
+    "Snowboard cross"
+  ],
+  "source": {
+    "note": "OA Sport (29 okt 2026): FIS har gett Cervinia två individuella världscuptävlingar, kval 11 dec, tävling 12 och 13 dec, Pista 26.",
+    "url": "https://oasport.it/2026/10/snowboardcross-la-fis-assegna-a-cervinia-due-gare-individuali-di-coppa-del-mondo",
+    "retrievedAt": "2026-10-31T00:00:00+01:00"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "fis-big-air-kreischberg-2027",
+  "name": "FIS Snowboard World Cup – Big Air Kreischberg",
+  "series": "FIS Snowboard Park & Pipe World Cup",
+  "category": [
+    "bigair"
+  ],
+  "level": "pro",
+  "startDate": "2027-01-07T09:00:00+01:00",
+  "endDate": "2027-01-09T18:00:00+01:00",
+  "timezone": "Europe/Vienna",
+  "location": {
+    "venue": "Kreischberg",
+    "city": "St. Georgen am Kreischberg",
+    "country": "Austria",
+    "countryCode": "AT",
+    "continent": "europe"
+  },
+  "description": {
+    "sv": "Big air i världscupen i Kreischberg, med kvällsfinaler.",
+    "en": "World Cup big air at Kreischberg, with night finals."
+  },
+  "organizer": "FIS",
+  "disciplines": [
+    "Big Air"
+  ],
+  "source": {
+    "note": "FIS kalenderförslag 2026/27: Kreischberg 7–9 jan med kvällsfinaler. Steiermarks officiella eventsida: FIS Freeski & Snowboard Big Air Weltcup 8–9 jan 2027.",
+    "url": "https://www.steiermark.com/en/Murau/Plan-your-holidays/Events/FIS-Freeski-Snowboard-Big-Air-Weltcup_ed_88168336",
+    "retrievedAt": "2026-10-31T00:00:00+01:00"
+  }
+}

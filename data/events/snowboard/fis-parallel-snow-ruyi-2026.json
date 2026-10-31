@@ -1,0 +1,33 @@
+{
+  "slug": "fis-parallel-snow-ruyi-2026",
+  "name": "FIS Snowboard World Cup – Parallel Snow Ruyi",
+  "series": "FIS Snowboard Alpine World Cup",
+  "category": [
+    "parallel"
+  ],
+  "level": "pro",
+  "startDate": "2026-11-28T09:00:00+08:00",
+  "endDate": "2026-11-29T18:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "location": {
+    "venue": "Snow Ruyi",
+    "city": "Zhangjiakou",
+    "country": "China",
+    "countryCode": "CN",
+    "continent": "asia"
+  },
+  "description": {
+    "sv": "Säsongens första parallelltävlingar: parallellstorslalom och mixed team.",
+    "en": "The season opener for parallel racing: parallel giant slalom and a mixed team event."
+  },
+  "organizer": "FIS",
+  "disciplines": [
+    "Parallel giant slalom",
+    "Mixed team parallel"
+  ],
+  "source": {
+    "note": "https://www.fis-ski.com/snowboard-alpine/news/2026-27/snowboard-alpine-teams-gear-up-for-2026-27-world-cup-season: Snow Ruyi 28–29 nov, PGS och mixed team.",
+    "url": "https://www.fis-ski.com/snowboard-alpine/news/2026-27/snowboard-alpine-teams-gear-up-for-2026-27-world-cup-season",
+    "retrievedAt": "2026-10-31T00:00:00+01:00"
+  }
+}
