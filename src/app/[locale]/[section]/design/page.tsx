@@ -21,7 +21,7 @@ export default async function DesignPage({ params: { locale, section } }: Params
   const items = getDesignWall(section, locale);
   return (
     <div>
-      <BlockHeader title={t('design.title', { section: t(`sections.${section}.name`) })} />
+      <BlockHeader as="h1" title={t('design.title', { section: t(`sections.${section}.name`) })} />
       <p className="mt-4 max-w-2xl text-sec-muted">{t('design.intro')}</p>
       <div className="mt-8">
         {items.length ? <DesignWall items={items} fromArticle={t('design.fromArticle')} /> : <EmptyState title={t('design.emptyTitle')} body={t('design.emptyBody')} />}

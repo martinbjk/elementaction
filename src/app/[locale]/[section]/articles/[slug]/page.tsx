@@ -3,8 +3,8 @@ import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { SECTIONS, isSection } from '@/lib/sections';
-import { formatArticleDate, getArticle, getArticleSlugs, type Article } from '@/lib/articles';
-import { localeAlternates } from '@/lib/seo';
+import { formatArticleDate, getArticle, getArticleLocales, getArticleSlugs, type Article } from '@/lib/articles';
+import { articleAlternates } from '@/lib/seo';
 import { SITE_URL } from '@/lib/site';
 import { withBase } from '@/lib/base-path';
 import { ARTICLE_EMBEDS } from '@/lib/article-embeds/registry';
@@ -29,11 +29,12 @@ export async function generateMetadata({ params: { locale, section, slug } }: Pa
     alt: article.title,
     ...(article.ogImageWidth && article.ogImageHeight ? { width: article.ogImageWidth, height: article.ogImageHeight } : {})
   };
+  const alternates = articleAlternates(locale, `${section}/articles/${slug}/`, getArticleLocales(section, slug));
   return {
     title: article.title,
     description,
-    alternates: localeAlternates(locale, `${section}/articles/${slug}/`),
-    openGraph: { title: article.title, description, url: `${SITE_URL}/${locale}/${section}/articles/${slug}/`, type: 'article', images: [image] },
+    alternates,
+    openGraph: { title: article.title, description, url: alternates.canonical, type: 'article', images: [image] },
     twitter: { card: 'summary_large_image', title: article.title, description, images: [image] }
   };
 }
@@ -54,7 +55,8 @@ function splice(raw: string, s: { from: string; to: string }, slug: string) {
 }
 
 function jsonLd(article: Article, locale: string) {
-  const url = `${SITE_URL}/${locale}/${article.section}/articles/${article.slug}/`;
+  // Reservsidor (engelsk text på annat språk) pekar på originalet.
+  const url = `${SITE_URL}/${article.isFallback ? article.lang : locale}/${article.section}/articles/${article.slug}/`;
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -86,7 +88,7 @@ export default async function ArticlePage({ params: { locale, section, slug } }:
           {t('backToArticles')}
         </Link>
         <p className="mt-6 text-sm text-sec-muted">{formatArticleDate(article.date, locale)}</p>
-        <h2 className="mt-2 font-head text-[clamp(2rem,5vw,3.5rem)] leading-[1.04] text-sec-ink">{article.title}</h2>
+        <h1 className="mt-2 font-head text-[clamp(2rem,5vw,3.5rem)] leading-[1.04] text-sec-ink">{article.title}</h1>
         <p className="mt-5 text-lg leading-relaxed text-sec-ink/85">{article.excerpt}</p>
         <div className="mt-6 flex flex-wrap items-center gap-3">
           <ShareButton url={`${SITE_URL}/${locale}/${section}/articles/${article.slug}/`} title={article.title} text={article.excerpt} />

@@ -22,7 +22,7 @@ export default async function VideosPage({ params: { locale, section } }: Params
   const list = videos[section];
   return (
     <div>
-      <BlockHeader title={t('videos.title', { section: t(`sections.${section}.name`) })} />
+      <BlockHeader as="h1" title={t('videos.title', { section: t(`sections.${section}.name`) })} />
       <p className="mt-4 max-w-2xl text-sec-muted">{t('videos.intro')}</p>
       <div className="mt-8">{list.length ? <VideoGrid videos={list} /> : <EmptyState title={t('videos.emptyTitle')} body={t('videos.emptyBody')} />}</div>
     </div>

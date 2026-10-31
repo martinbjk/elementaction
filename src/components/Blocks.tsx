@@ -5,10 +5,10 @@ import type { DesignItem } from '@/lib/design-wall';
 import { withBase } from '@/lib/base-path';
 
 /** Rubrik för ett innehållsblock, med valfri "se alla"-länk till höger. */
-export function BlockHeader({ title, href, linkText }: { title: string; href?: string; linkText?: string }) {
+export function BlockHeader({ title, href, linkText, as: Tag = 'h2' }: { title: string; href?: string; linkText?: string; as?: 'h1' | 'h2' }) {
   return (
     <div className="flex items-end justify-between gap-4 border-b border-sec-line/20 pb-3">
-      <h2 className="font-head text-2xl leading-tight text-sec-ink sm:text-3xl">{title}</h2>
+      <Tag className="font-head text-2xl leading-tight text-sec-ink sm:text-3xl">{title}</Tag>
       {href && linkText && (
         <Link href={href} className="shrink-0 text-sm font-medium text-sec-ink underline decoration-sec-accent decoration-2 underline-offset-4 hover:text-sec-accent">
           {linkText}

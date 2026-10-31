@@ -62,7 +62,8 @@ function jsonLd(event: ElementEvent, section: SectionId, locale: string) {
     eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
     description: pick(event, locale),
     url: `${SITE_URL}/${locale}/${section}/calendar/${event.slug}/`,
-    image: [event.image || `${SITE_URL}/brand/og-image.png`],
+    // Eventets egen delningsbild (opengraph-image.tsx) om ingen bild angetts.
+    image: [event.image || `${SITE_URL}/${locale}/${section}/calendar/${event.slug}/opengraph-image`],
     location: {
       '@type': 'Place',
       name: event.location.venue || event.location.city,
@@ -97,7 +98,7 @@ export default async function EventPage({ params: { locale, section, slug } }: P
         {t('event.backToCalendar')}
       </Link>
       {event.series && <p className="mt-6 text-sec-muted">{event.series}</p>}
-      <h2 className="mt-2 font-head text-4xl leading-[1.05] text-sec-ink sm:text-5xl">{event.name}</h2>
+      <h1 className="mt-2 font-head text-4xl leading-[1.05] text-sec-ink sm:text-5xl">{event.name}</h1>
 
       <dl className="mt-8 grid gap-4 rounded-2xl border border-sec-line/15 bg-sec-card/70 p-5 sm:grid-cols-2">
         <div>

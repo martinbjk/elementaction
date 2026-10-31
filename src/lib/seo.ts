@@ -14,3 +14,19 @@ export function localeAlternates(locale: string, path: string) {
   languages['x-default'] = `${SITE_URL}/${defaultLocale}/${path}`;
   return { canonical: `${SITE_URL}/${locale}/${path}`, languages };
 }
+
+/**
+ * canonical + hreflang för en artikel. Artiklar finns bara på vissa språk
+ * (oftast bara engelska); på övriga språk visas den engelska texten som
+ * reserv. Reservsidorna pekar på den riktiga versionen som canonical, och
+ * hreflang listar bara de språk som verkligen finns, så att Google inte ser
+ * sex kopior av samma text.
+ */
+export function articleAlternates(locale: string, path: string, available: string[]) {
+  const languages: Record<string, string> = {};
+  for (const l of available) languages[l] = `${SITE_URL}/${l}/${path}`;
+  const main = available.includes(defaultLocale) ? defaultLocale : available[0];
+  languages['x-default'] = `${SITE_URL}/${main}/${path}`;
+  const canonicalLocale = available.includes(locale) ? locale : main;
+  return { canonical: `${SITE_URL}/${canonicalLocale}/${path}`, languages };
+}

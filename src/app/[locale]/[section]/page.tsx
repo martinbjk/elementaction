@@ -38,6 +38,10 @@ export default async function SectionOverview({ params: { locale, section } }: P
 
   return (
     <div className="space-y-20">
+      {/* Sidans huvudrubrik för Google och skärmläsare. Sektionsnamnet syns redan stort i bandet ovanför. */}
+      <h1 className="sr-only">
+        {t(`sections.${s}.name`)}: {t(`sections.${s}.tagline`)}
+      </h1>
       <p className="max-w-2xl text-xl leading-relaxed text-sec-ink/90">{t(`sections.${s}.intro`)}</p>
 
       <section>

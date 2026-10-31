@@ -23,9 +23,11 @@ export async function SectionHero({ section, locale }: { section: SectionId; loc
           <SectionMark section={section} size={76} title={t('action')} />
           <span className="sr-only">{t('action')}</span>
         </p>
-        <h1 className="mt-2 max-w-3xl font-head text-[clamp(2.75rem,7vw,5.5rem)] leading-[0.92] tracking-tight text-sec-ink">
+        {/* Ingen <h1> här: bandet ligger i layouten och syns på alla sidor i
+            sektionen. Varje sida har i stället sin egen <h1> (sidans ämne). */}
+        <p className="mt-2 max-w-3xl font-head text-[clamp(2.75rem,7vw,5.5rem)] leading-[0.92] tracking-tight text-sec-ink">
           {t('name')}
-        </h1>
+        </p>
         <p className="mt-5 max-w-xl text-lg leading-relaxed text-sec-ink/85">{t('tagline')}</p>
       </div>
     </div>

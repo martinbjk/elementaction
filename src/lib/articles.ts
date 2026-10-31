@@ -112,6 +112,11 @@ export function getArticle(section: SectionId, locale: string, slug: string): Ar
   return getSectionContent(section, locale).find((a) => a.slug === slug);
 }
 
+/** Språken där artikeln finns på riktigt (inte som engelsk reserv). */
+export function getArticleLocales(section: SectionId, slug: string): string[] {
+  return locales.filter((l) => listFiles(section, l).includes(`${slug}.md`));
+}
+
 export function getArticleSlugs(section: SectionId): string[] {
   const slugs = new Set<string>();
   for (const locale of locales) for (const f of listFiles(section, locale)) slugs.add(f.replace(/\.md$/, ''));

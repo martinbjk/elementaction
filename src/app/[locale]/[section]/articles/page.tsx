@@ -27,7 +27,7 @@ export default async function ArticlesPage({ params: { locale, section } }: Para
 
   return (
     <div>
-      <BlockHeader title={t('articles.title', { section: t(`sections.${section}.name`) })} />
+      <BlockHeader as="h1" title={t('articles.title', { section: t(`sections.${section}.name`) })} />
       {!lead ? (
         <div className="mt-8">
           <EmptyState title={t('articles.emptyTitle')} body={t('articles.emptyBody')} />
