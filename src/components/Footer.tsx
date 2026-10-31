@@ -2,6 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { SECTIONS, TABS } from '@/lib/sections';
 import { Logo } from './Logo';
+import { CoffeeButton } from './CoffeeButton';
 
 export async function Footer({ locale }: { locale: string }) {
   const t = await getTranslations({ locale });
@@ -18,6 +19,7 @@ export async function Footer({ locale }: { locale: string }) {
               {t('footer.legacy')}
             </a>
           </p>
+          <CoffeeButton label={t('support.cta')} className="mt-5" />
         </div>
         {SECTIONS.map((s) => (
           <div key={s}>

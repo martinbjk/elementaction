@@ -187,5 +187,11 @@
   "privacy": {
     "title": "Política de privacidad",
     "englishNote": "Esta página está disponible en sueco e inglés. A continuación, la versión en inglés."
+  },
+  "support": {
+    "cta": "Invítame a un café",
+    "title": "Apoya Elementaction",
+    "body": "Elementaction es gratuito y lo crea y mantiene una sola persona. Si los calendarios y artículos te resultan útiles, puedes invitarme a un café a través de PayPal. Ayuda a mantener el sitio en marcha.",
+    "note": "Abre PayPal en una nueva pestaña."
   }
 }

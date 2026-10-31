@@ -18,7 +18,7 @@ import { InfoPage } from '@/components/InfoPage';
  * Övriga språk (de, fr, es, pt, ja) visar den engelska texten med en notis.
  */
 
-const UPDATED = { sv: '29 oktober 2026', en: '29 October 2026' };
+const UPDATED = { sv: '31 oktober 2026', en: '31 October 2026' };
 const ISSUES_URL = 'https://github.com/martinbjk/elementaction/issues';
 const ext = { target: '_blank', rel: 'noreferrer noopener' } as const;
 
@@ -85,6 +85,11 @@ function Sv() {
         Eventsidor länkar till Google Maps och till arrangörernas egna webbplatser för anmälan och biljetter. Två
         surfartiklar visar vågprognoser från våra egna verktyg, som också ligger på GitHub Pages. Andra webbplatser
         omfattas av sina egna integritetspolicyer.
+      </p>
+      <p>
+        Knappen ”Bjud på en kaffe” är en vanlig länk till PayPal. Inget skickas till PayPal förrän du klickar på den.
+        Om du väljer att ge ett bidrag hanteras betalningen helt av PayPal enligt deras integritetspolicy. Vi får då
+        se ditt namn och belopp i PayPal, men sparar inget av det på sajten.
       </p>
 
       <h2>Personuppgiftsansvarig och kontakt</h2>
@@ -164,6 +169,11 @@ function En() {
         Event pages link to Google Maps and to organizers’ own websites for registration and tickets. Two surf articles
         show wave forecasts from our own tools, which are also hosted on GitHub Pages. Other websites are covered by
         their own privacy policies.
+      </p>
+      <p>
+        The “Buy me a coffee” button is a plain link to PayPal. Nothing is sent to PayPal until you click it. If you
+        choose to give a contribution, the payment is handled entirely by PayPal under its own privacy policy. We then
+        see your name and the amount in PayPal, but nothing of it is stored on the site.
       </p>
 
       <h2>Data controller and contact</h2>

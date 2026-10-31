@@ -224,3 +224,9 @@ body {
   color: rgb(255 255 255 / 0.55);
   font-size: 0.9rem;
 }
+
+/* "Bjud på en kaffe"-knappen ska inte ärva textlänkarnas vita färg och understrykning */
+.info-prose a.coffee-btn {
+  color: #1c1d1f;
+  text-decoration: none;
+}

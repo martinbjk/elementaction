@@ -187,5 +187,11 @@
   "privacy": {
     "title": "Privacy policy",
     "englishNote": "This page is available in Swedish and English. You are reading the English version."
+  },
+  "support": {
+    "cta": "Buy me a coffee",
+    "title": "Support Elementaction",
+    "body": "Elementaction is free to use and is built and run by one person. If the calendars and articles help you, you can buy me a coffee via PayPal. It helps keep the site going.",
+    "note": "Opens PayPal in a new tab."
   }
 }

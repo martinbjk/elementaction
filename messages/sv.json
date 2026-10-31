@@ -187,5 +187,11 @@
   "privacy": {
     "title": "Integritetspolicy",
     "englishNote": ""
+  },
+  "support": {
+    "cta": "Bjud på en kaffe",
+    "title": "Stöd Elementaction",
+    "body": "Elementaction är gratis och byggs och drivs av en person. Om kalendrarna och artiklarna hjälper dig kan du bjuda på en kaffe via PayPal. Det hjälper sajten att fortsätta.",
+    "note": "Öppnar PayPal i en ny flik."
   }
 }

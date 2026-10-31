@@ -187,5 +187,11 @@
   "privacy": {
     "title": "Datenschutzerklärung",
     "englishNote": "Diese Seite gibt es auf Schwedisch und Englisch. Unten steht die englische Fassung."
+  },
+  "support": {
+    "cta": "Spendier mir einen Kaffee",
+    "title": "Elementaction unterstützen",
+    "body": "Elementaction ist kostenlos und wird von einer einzigen Person gebaut und betrieben. Wenn dir die Kalender und Artikel helfen, kannst du mir über PayPal einen Kaffee spendieren. Das hilft, die Seite am Laufen zu halten.",
+    "note": "Öffnet PayPal in einem neuen Tab."
   }
 }

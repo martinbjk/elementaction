@@ -187,5 +187,11 @@
   "privacy": {
     "title": "Política de privacidade",
     "englishNote": "Esta página está disponível em sueco e inglês. Abaixo, a versão em inglês."
+  },
+  "support": {
+    "cta": "Ofereça-me um café",
+    "title": "Apoie o Elementaction",
+    "body": "O Elementaction é gratuito e é criado e mantido por uma só pessoa. Se os calendários e artigos forem úteis para você, pode me oferecer um café pelo PayPal. Isso ajuda a manter o site funcionando.",
+    "note": "Abre o PayPal em uma nova aba."
   }
 }
