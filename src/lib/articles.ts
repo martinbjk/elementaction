@@ -100,8 +100,9 @@ export function getSectionContent(section: SectionId, locale: string): Article[]
   return [...primary, ...fallback].sort((a, b) => b.date.localeCompare(a.date));
 }
 
+/** Alla texter i sektionen, både vanliga artiklar och designinlägg (de senare märks "Design" på kortet). */
 export function getArticles(section: SectionId, locale: string): Article[] {
-  return getSectionContent(section, locale).filter((a) => a.kind === 'article');
+  return getSectionContent(section, locale);
 }
 
 export function getDesignPieces(section: SectionId, locale: string): Article[] {

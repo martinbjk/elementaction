@@ -36,10 +36,10 @@ export default async function ArticlesPage({ params: { locale, section } }: Para
         <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {/* Den senaste artikeln får dubbel bredd — en tydlig ingång i listan. */}
           <div className="md:col-span-2">
-            <ArticleCard article={lead} locale={locale} onlyInEnglish={t('articles.onlyInEnglish')} />
+            <ArticleCard article={lead} locale={locale} onlyInEnglish={t('articles.onlyInEnglish')} designLabel={t('tabs.design')} />
           </div>
           {rest.map((a) => (
-            <ArticleCard key={a.slug} article={a} locale={locale} onlyInEnglish={t('articles.onlyInEnglish')} />
+            <ArticleCard key={a.slug} article={a} locale={locale} onlyInEnglish={t('articles.onlyInEnglish')} designLabel={t('tabs.design')} />
           ))}
         </div>
       )}

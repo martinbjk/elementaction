@@ -61,7 +61,7 @@ export default async function SectionOverview({ params: { locale, section } }: P
           {articles.length ? (
             <div className="grid gap-6 md:grid-cols-3">
               {articles.map((a) => (
-                <ArticleCard key={a.slug} article={a} locale={locale} onlyInEnglish={t('articles.onlyInEnglish')} />
+                <ArticleCard key={a.slug} article={a} locale={locale} onlyInEnglish={t('articles.onlyInEnglish')} designLabel={t('tabs.design')} />
               ))}
             </div>
           ) : (

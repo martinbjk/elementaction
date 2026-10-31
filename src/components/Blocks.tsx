@@ -29,7 +29,17 @@ export function EmptyState({ title, body, children }: { title: string; body: str
   );
 }
 
-export function ArticleCard({ article, locale, onlyInEnglish }: { article: Article; locale: string; onlyInEnglish: string }) {
+export function ArticleCard({
+  article,
+  locale,
+  onlyInEnglish,
+  designLabel
+}: {
+  article: Article;
+  locale: string;
+  onlyInEnglish: string;
+  designLabel?: string;
+}) {
   return (
     <Link href={`/${article.section}/articles/${article.slug}`} className="group flex h-full flex-col overflow-hidden rounded-2xl border border-sec-line/15 bg-sec-card/70 transition hover:border-sec-accent/70">
       <span className="block aspect-[1200/630] overflow-hidden bg-sec-deep">
@@ -39,6 +49,9 @@ export function ArticleCard({ article, locale, onlyInEnglish }: { article: Artic
       <span className="flex flex-1 flex-col p-5">
         <span className="text-xs text-sec-muted">
           {formatArticleDate(article.date, locale)}
+          {article.kind === 'design' && designLabel && (
+            <span className="ml-2 rounded-full bg-sec-accent px-2 py-0.5 font-semibold text-sec-accent-ink">{designLabel}</span>
+          )}
           {article.isFallback && <span className="ml-2 rounded-full border border-sec-line/25 px-2 py-0.5">{onlyInEnglish}</span>}
         </span>
         <span className="mt-2 font-head text-xl leading-snug text-sec-ink group-hover:underline group-hover:decoration-sec-accent group-hover:underline-offset-4">
