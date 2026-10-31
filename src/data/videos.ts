@@ -129,3 +129,30 @@ export const videos: Record<SectionId, FeaturedVideo[]> = {
   snowboard,
   inspiration
 };
+
+/**
+ * VIDEOS PÅ DESIGNSIDAN — visas under designartiklarna på respektive
+ * sektions designsida. Samma format som ovan: { id, title, intro }.
+ */
+export const designVideos: Record<SectionId, FeaturedVideo[]> = {
+  surfing: [],
+  skateboard: [],
+  snowboard: [],
+  inspiration: [
+    {
+      id: "pujcD9OgB0A",
+      title: "The World is a Skatepark: Photographer J. Grant Brittain",
+      intro: "Legendary skateboarding photographer J. Grant Brittain shares stories from his 40-year career, which began at the Del Mar Skate Ranch and led to co-founding TransWorld SKATEboarding in 1983. Read more in our article on the photographers who framed board culture.",
+    },
+    {
+      id: "alWlPHFXlZM",
+      title: "How To: Shoot Skate Photos in a Bowl – Grant Brittain – In Focus",
+      intro: "Grant Brittain shows how he approaches photographing skateboarding in a bowl.",
+    },
+    {
+      id: "uenv7PXwvhk",
+      title: "How To: Composition – Michael Burnett – In Focus (Part 1 of 2)",
+      intro: "Skateboarding photographer Michael Burnett on composition: how to frame a skate photo. Part one of two.",
+    },
+  ],
+};
