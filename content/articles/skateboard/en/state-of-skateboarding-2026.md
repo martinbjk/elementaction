@@ -15,7 +15,7 @@ tags: ["skateboard industry", "market", "olympics", "world skate", "japan", "eur
 
 Skateboarding in 2026 is two things at once. It is an **Olympic sport** with world rankings, national teams and medal targets. It is also a **street culture** built on small brands, skate shops, video parts and magazines. The two worlds overlap, but they are moving in different directions.
 
-This article looks at the whole picture: how big the industry is, which companies matter, who governs the sport, how good skaters make money, why Asia wins so much, and what has happened to skateboarding in Europe. Everything is based on the sources listed at the bottom. Where the facts are uncertain or the sources disagree, we say so. In a few places I add what I have seen myself; those parts are written in the first person. There is a short note about me at the end of the article.
+This article looks at the whole picture: how big the industry is, which companies matter, who governs the sport, how good skaters make money, why Asia wins so much, and what has happened to skateboarding in Europe. Everything is based on the sources listed at the bottom. Where the facts are uncertain or the sources disagree, we say so. In a few places I add information from people I know in the skate world, and I say so where it appears. There is a short note about me at the end of the article.
 
 ## In short
 
@@ -104,7 +104,7 @@ Yes, there are professionals and amateurs, but in skateboarding the line is draw
 
 ## Who governs skateboarding?
 
-Formally, Olympic skateboarding is run by **World Skate**. Its official address is in Lausanne, Switzerland, but the federation is run from Italy. When I visited the Lausanne address and knocked on the door, it turned out only to receive post, which is forwarded to the staff in Italy. World Skate began in 1924 as the international federation for **roller skating**, and in 2017 it merged with the International Skateboarding Federation. It governs roller hockey, speed skating, scootering and many other wheeled sports as well. It has 130 member federations. Its president, the Italian **Sabatino Aracu**, has led the federation since 2005. He was confirmed for a new term at the congress in Rome in September 2024, and was re-elected at the World Skate Congress in Asunción, Paraguay, in October 2026, held during the World Skate Games.
+Formally, Olympic skateboarding is run by **World Skate**. Its official address is in Lausanne, Switzerland, but the federation is run from Italy. An acquaintance of mine who visited the Lausanne address and knocked on the door found that it only receives post, which is forwarded to the staff in Italy. World Skate began in 1924 as the international federation for **roller skating**, and in 2017 it merged with the International Skateboarding Federation. It governs roller hockey, speed skating, scootering and many other wheeled sports as well. It has 130 member federations. Its president, the Italian **Sabatino Aracu**, has led the federation since 2005. He was confirmed for a new term at the congress in Rome in September 2024, and was re-elected at the World Skate Congress in Asunción, Paraguay, in October 2026, held during the World Skate Games.
 
 World Skate organises the **World Skateboarding Tour**, the world championships and the Olympic qualification system. Under it are national federations, such as Skateboard GB in the UK and Sveriges Skateboardförbund in Sweden.
 
@@ -224,7 +224,7 @@ Based on the trends above, these are the most likely directions. They are our as
 
 I'm **Martin Björck**, the founder and editor of Elementaction and of the event calendar skateboardeventcalendar.com.
 
-This article was researched and written with the help of AI tools, and every fact was checked against the sources below. A few details come from my own experience instead, such as my visit to World Skate's address in Lausanne, and I say so where they appear. If you spot an error, please tell me through the contact link on the [About page](/en/about/), and I will correct it.
+This article was researched and written with the help of AI tools, and every fact was checked against the sources below. A few details come from people I know instead, such as an acquaintance's visit to World Skate's address in Lausanne, and I say so where they appear. If you spot an error, please tell me through the contact link on the [About page](/en/about/), and I will correct it.
 
 ## Sources
 
