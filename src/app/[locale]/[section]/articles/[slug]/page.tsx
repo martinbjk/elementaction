@@ -67,6 +67,7 @@ function jsonLd(article: Article, locale: string) {
     image: [`${SITE_URL}${article.ogImage}`],
     url,
     mainEntityOfPage: url,
+    ...(article.author ? { author: { '@type': 'Person', name: article.author } } : {}),
     publisher: { '@type': 'Organization', name: 'Elementaction', url: SITE_URL }
   };
 }
@@ -87,7 +88,10 @@ export default async function ArticlePage({ params: { locale, section, slug } }:
         <Link href={`/${section}/articles`} className="text-sm text-sec-muted underline-offset-4 hover:text-sec-ink hover:underline">
           {t('backToArticles')}
         </Link>
-        <p className="mt-6 text-sm text-sec-muted">{formatArticleDate(article.date, locale)}</p>
+        <p className="mt-6 text-sm text-sec-muted">
+          {formatArticleDate(article.date, locale)}
+          {article.author && <> · <span className="font-semibold text-sec-ink">{article.author}</span></>}
+        </p>
         <h1 className="mt-2 font-head text-[clamp(2rem,5vw,3.5rem)] leading-[1.04] text-sec-ink">{article.title}</h1>
         <p className="mt-5 text-lg leading-relaxed text-sec-ink/85">{article.excerpt}</p>
         <div className="mt-6 flex flex-wrap items-center gap-3">
