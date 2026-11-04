@@ -4,7 +4,7 @@ slug: "state-of-skateboarding-2026"
 category: "reportage"
 lang: "en"
 date: "2026-11-04"
-excerpt: "Vans has lost half its revenue, skate shops are closing, and Japanese teenagers win almost everything. Yet more Americans skate than a few years ago. A fact-based look at the skateboard industry, who runs the sport, how pros make a living, why Asia dominates, and what is happening in Europe."
+excerpt: "Vans has lost half its revenue, skate shops are closing, and Japanese teenagers win almost everything. Yet more Americans skate than a few years ago. A fact-based look at the skateboard industry, who runs the sport, how pros make a living, the big skate nations from the USA and Brazil to Japan and Australia, and what is happening in Europe."
 metaDescription: "Skateboarding in 2026: market size, the biggest companies, Vans' decline, tariffs and shop closures, World Skate and the Olympics, how pro skaters earn money, Japan's dominance and the state of skateboarding in Europe."
 ogImage: "/images/articles/state-of-skateboarding-2026/og-image.png"
 tags: ["skateboard industry", "market", "olympics", "world skate", "japan", "europe", "pro skateboarding", "vans"]
@@ -23,6 +23,7 @@ This article looks at the whole picture: how big the industry is, which companie
 - **Participation** in the US has grown: about **9.9 million** Americans skated in 2025. But fewer skaters enter contests, and many shops are struggling.
 - **Japan** dominates Olympic and world contests. At the first LA28 qualifier in Rome in June 2026, Japanese skaters took **7 of 12** podium places.
 - **World Skate**, a roller sports federation based in Switzerland, governs Olympic skateboarding. The culture itself is still shaped by brands, media and skaters.
+- **The USA** is still the centre of the industry and culture, **Brazil** is the second big skate nation, and **Australia** dominates Olympic park skating. But the USA has not won an Olympic skateboarding gold.
 - **A pro career is possible**, but only a small group earns a good living from skateboarding alone.
 
 ## How big is the skateboard industry?
@@ -115,19 +116,72 @@ The road to the Olympics was not smooth. When skateboarding was added for Tokyo 
 
 **LA 2028.** Skateboarding is on the programme again, with park and street for men and women, and **22 athletes per event**. Qualification started in June 2026 and runs until June 2028, with a maximum of three skaters per country in each event.
 
-## Which countries dominate?
+## Country by country: the big skateboard nations
+
+Skateboarding has three kinds of power: **industry** (where the companies and money are), **culture** (where the videos, magazines and styles come from) and **contests** (who wins medals). Very few countries have all three.
 
 ![Bar chart: Olympic skateboarding medals at Tokyo 2020 and Paris 2024 combined: Japan 9 (5 gold), Brazil 5, USA 5, Australia 3 (all gold), Great Britain 2](./chart-olympic-medals.png)
 
-- **Japan** is the clear leader in contests: 9 Olympic medals in two Games, including 5 golds, and both street world titles at the 2026 World Skate Games in Asunción.
-- **The USA** is still the centre of the industry, the media and the big brands, and it has the most skaters. But it did not win a single Olympic gold in skateboarding in Tokyo or Paris.
-- **Brazil** has a huge skate scene, Olympic medals, and the SLS Super Crown final, held in São Paulo.
-- **Australia** has won three Olympic park golds: Keegan Palmer twice and Arisa Trew in Paris.
-- **Europe** has some top skaters, such as Sky Brown (Great Britain) and Egoitz Bijueska (Spain), but no country there has dominated.
+| Nation | Industry | Culture | Contests | In one line |
+|---|---|---|---|---|
+| USA | ●●● | ●●● | ●● | Still the centre of the business and the culture, but no Olympic gold yet |
+| Japan | ● | ●● | ●●● | The contest superpower |
+| Brazil | ●● | ●●● | ●●● | Huge skate nation and home of the SLS final |
+| Australia | ● | ●● | ●●● | Olympic park specialists |
+| China | ●●● (manufacturing) | ● | ●● | Makes much of the hardware, and is building a team |
+| Canada | ●● (wood) | ●● | ● | The maple behind the decks |
+| Mexico | ●● (factories) | ●● | ● | Woodshops and a big street scene |
+| South Korea, Chinese Taipei | ● | ● | ●● | New contest nations |
+| Europe | ●● | ●●● | ●● | Strong culture, no Olympic gold |
+
+*The ratings are our own summary of the facts below, not an official ranking.*
+
+### North America
+
+**USA.** The US is still the heart of skateboarding. Most of the big brands, distributors, magazines and video productions are American, and about **9.9 million** Americans skated in 2025. The big contests are there too: Street League, the X Games and Tampa Am. But in contests, the US has fallen behind: in Tokyo and Paris it won **five of 24 Olympic medals and no gold**, and **no American woman** has yet won an Olympic skateboarding medal. In a World Skate column, Niall Neeson writes that the USA relies on its "embarrassment of professional skateboarding riches", while Brazil and Japan have more organised national selection. At **LA 2028**, in California where the sport took off, the US will be skating at home.
+
+**Canada.** Canada's biggest role is in the wood. Most decks are made from **hard rock maple**, which grows slowly in the cold winters around the Great Lakes, in Canada and the northern US. Woodshops such as **Control** in Quebec press decks for brands including Poetic Collective and Studio. In contests, Canada sent four skaters to Paris, including 14-year-old **Fay De Fazio Ebert**, who won women's park gold at the 2023 Pan American Games. She has said Canada lacks high-level training facilities.
+
+**Mexico.** Mexico is a manufacturing country for skateboarding. The large woodshop **BBS** presses decks there for many well-known American brands, which is why the 2025 US tariffs on Mexico worried the industry. Mexico City has a big street scene. The government began building skateparks in the 1980s, and brands have followed: Nike SB built an Aztec-inspired park in the city in 2014, and Vans opened a House of Vans there in 2020. In contests, Mexico is still small. According to The Boardr, **88%** of Mexican contest skaters had stopped competing, one of the highest rates.
+
+### South America
+
+**Brazil.** Brazil is the second great skate nation of the Americas. A 2023 survey by Ibope Repucom estimated that **8.5 million** Brazilians skate and more than 47 million follow the sport. Brazil has won five Olympic medals: Rayssa Leal (silver in Tokyo at 13, bronze in Paris), Kelvin Hoefler, Pedro Barros and Augusto Akio. The **SLS Super Crown** final is held in São Paulo, and at the first Pan American Games skateboarding contests in Santiago in 2023, Brazil won both street golds (Rayssa Leal and Lucas Rabelo).
+
+**The rest of South America.** Peru's **Angelo Caro** finished fifth in Tokyo, took silver at the 2023 Pan American Games, and was second at the 2025 world street championship in São Paulo, held in March 2026. Colombia's Jhancarlos González won bronze at the Pan Am Games. In October 2026, **Paraguay** hosted the World Skate Games in Asunción. South America is producing more contest skaters every year, often from public skateparks rather than private training centres.
+
+### Asia
+
+**Japan** is the strongest contest nation in the world (see the next section). At the **2026 Asian Games** in Aichi-Nagoya, Japan won **7 of 12** skateboarding medals.
+
+**China** makes a large share of the world's skate hardware and has built a national team from scratch since 2017. At the 2026 Asian Games, **Zhu Yuanling** won women's street gold and Cui Chenxi took bronze.
+
+**South Korea** formed its national team only in **January 2022**, with six skaters all under 16, and the Korea Times reported then that no park in the country was equipped for professional training. Four years later, **Kang Jun-i**, 17, won Korea's first Asian Games skateboarding gold in men's street and took silver at the World Championship in Asunción.
+
+**Chinese Taipei** won two park silvers at the 2026 Asian Games.
+
+**India** is at an early stage. It has new skateparks such as Janwaar Castle, a rural park where children skate for free on the condition that they go to school, and a 44,000-square-foot park in Chandigarh opened in 2023. No Indian skater has yet qualified for the Olympics.
+
+### Oceania
+
+**Australia** is the world's best park nation at the Olympics. **Keegan Palmer** won park gold in both Tokyo and Paris, and **Arisa Trew** won women's park gold in Paris at 14, becoming Australia's youngest Olympic gold medallist. Street skater **Chloe Covell** won the first LA28 qualifier in Rome in June 2026.
+
+### Europe
+
+Europe has a strong culture and many world-class skaters, but it does not have Japan's depth. Highlights:
+- **France:** Aurélien Giraud was street world champion in 2023, and Paris hosted the Olympic skateboarding at Place de la Concorde in 2024.
+- **Great Britain:** Sky Brown has won Olympic bronze in both Tokyo and Paris.
+- **Spain:** Egoitz Bijueska became park world champion in 2026 at 15. The Basque Country is also home to the woodshop HLC.
+- **Portugal:** Gustavo Ribeiro won the SLS Super Crown in 2022, the first Portuguese skater to do so.
+- **Sweden:** Malmö is a model skateboarding city (see the Europe section below).
+
+### Africa
+
+**South Africa** is Africa's leading contest nation in skateboarding and sent skaters to both Tokyo and Paris. Boipelo Awuah, from Kimberley, qualified for women's street in Paris after a pelvic fracture kept her out of Tokyo. Local skaters report more girls at skateparks, but also limited resources and poorly organised women's contests. The charity **Skateistan**, founded in Kabul in 2007, runs skate schools in South Africa, Cambodia and Afghanistan for more than 6,000 children a week, 54% of them girls. A film about its Kabul school won an Oscar.
 
 ## Why does Asia dominate?
 
-Above all, it is **Japan** that wins, with **China** and **South Korea** catching up. In the street world final in Asunción, South Korea's Kang Juni took silver. In Rome in June 2026, China's Cui Chenxi took bronze in women's street. These are the explanations given in the sources:
+Above all, it is **Japan** that wins, with **China**, **South Korea** and **Chinese Taipei** catching up. In the street world final in Asunción, South Korea's Kang Juni took silver. In Rome in June 2026, China's Cui Chenxi took bronze in women's street. These are the explanations given in the sources:
 
 1. **Perfect timing.** Japan's national coach, Daisuke Hayakawa, has said that the growth of Japanese skateboarding and the Olympics "crossed paths at just the right time". He told Olympics.com that from around 2010, social media and YouTube let Japanese kids see world-class skating and aim to be number one in the world, not just in Japan.
 2. **A contest pathway.** Japanese skaters were sent to international contests early. In 2018, the big American amateur contest **Tampa Am** held a qualifier in Japan, which Sora Shirai won. He went on to become world number one.
@@ -208,4 +262,21 @@ Based on the trends above, these are the most likely directions. They are our as
 - [Boardworld: CPH Open, the final chapter (2018)](https://boardworld.com.au/blogs/news/cph-open-the-final-chapter)
 - [DOSE: This was CPH Open 2023](https://doseskateboarding.com/articles/cph-open-2023)
 - [SGI News: New Boardriders licensees after Liberated bankruptcy (2025)](https://sginews.com/Content/after-liberated-bankruptcy-abg-names-new-boardriders-licensees.aspx)
+- [World Skate: Currents, Team USA's date with destiny at LA28](https://www.skateboarding.worldskate.org/news/1861-currents-team-usa-s-date-with-destiny-at-la28.html)
+- [World Skate: Asian Games 2026 park and street results](https://www.skateboarding.worldskate.org/news/1871-asian-games-2026-park-and-street-results.html)
+- [Korea Times: South Korea wins gold in men's street at the Asian Games (2026)](https://www.koreatimes.co.kr/sports/20260927/asian-games-s-korea-wins-gold-in-mens-street-skateboarding-at-asian-games)
+- [Korea Times: Korea's skateboarding scene needs more (2022)](https://www.koreatimes.co.kr/southkorea/globalcommunity/20220823/koreas-skateboarding-scene-needs-more)
+- [World Skate: Pan American Games 2023 results](https://www.skateboarding.worldskate.org/news/1635-pan-american-games-2023-street-and-park-results.html)
+- [Máquina do Esporte: Ibope Repucom survey on skateboarding in Brazil (2023)](https://maquinadoesporte.com.br/skate/ibope-repucom-brasil-ganhou-20-milhoes-de-fas-de-skate-desde-2019)
+- [Canadian Olympic Committee: Team Canada skateboarders for Paris 2024](https://develop.olympic.ca/2024/06/26/four-team-canada-skateboarders-will-take-to-the-park-and-streets-of-paris-2024/)
+- [Ripped Laces: What skateboard decks are made of](https://rippedlaces.com/skateboarding/what-are-skateboard-deck-made-of/)
+- [Latin Post: Mexico City's skateboarding scene grows (2022)](https://www.latinpost.com/articles/153630/20220117/skateboarding-scene-in-mexico-city-grows-as-parks-for-the-sport-emerge.htm)
+- [Wikipedia: Ángelo Caro](https://en.wikipedia.org/wiki/%C3%81ngelo_Caro)
+- [Ben Waterworth: Australia's most successful Olympic skate campaign (2024)](https://www.benwaterworth.com/post/sport-wrap-australia-skates-its-way-to-most-successful-olympic-campaign)
+- [Wikipedia: Aurélien Giraud](https://en.wikipedia.org/wiki/Aur%C3%A9lien_Giraud)
+- [Olympics.com: Gustavo Ribeiro](https://olympics.com/en/news/street-skateboard-gustavo-ribeiro-self-belief-dreams)
+- [Wikipedia: Skateboarding in India](https://en.wikipedia.org/wiki/Skateboarding_in_India)
+- [ESPN Africa: Boipelo Awuah (2024)](https://africa.espn.com/espn/story/_/id/40636753/south-africa-skater-boipelo-awuah-olympic-debut-looms-pelvic-fracture-tokyo)
+- [TimesLIVE: South African female skateboarders carving out space (2026)](https://www.timeslive.co.za/news/south-africa/2026-08-11-south-african-female-skateboarders-are-carving-out-space-in-a-growing-sport/)
+- [Wikipedia: Skateistan](https://en.wikipedia.org/wiki/Skateistan)
 - Our own reports: [Park World Championship, Asunción 2026](/en/skateboard/articles/park-world-championship-asuncion-2026/) and [Street World Championship, Asunción 2026](/en/skateboard/articles/street-world-championship-asuncion-2026/)

@@ -116,8 +116,8 @@ ART['boardart'] = _re.sub(r'<text[^>]*>[^<]*</text>', '', ART['board'])
 DATA = [
     dict(slug='state-of-skateboarding-2026', acc='#e0242f', art='globedeck',
          kicker='SKATEBOARD INDUSTRY — 2026', t1='The State of', t2='Skateboarding',
-         lead='Money, power, Japan\'s dominance and what is happening in Europe.',
-         tags='VANS · WORLD SKATE · JAPAN · EUROPE'),
+         lead='Money, power and the big skate nations, from the USA and Brazil to Japan.',
+         tags='INDUSTRY · NATIONS · PROS · EUROPE'),
     dict(slug='surf-spots-portugal-guide', acc='#3b8eea', art='portugal',
          kicker='SURF GUIDE — PORTUGAL', t1='Surfing', t2='Portugal',
          lead='Six regions, seven maps: from the Minho to Ericeira, Peniche and Sagres.',
