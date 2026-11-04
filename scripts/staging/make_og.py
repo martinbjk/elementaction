@@ -97,6 +97,16 @@ ART = {
       </g>''',
 }
 
+ART['globedeck'] = '''
+      <circle cx="225" cy="185" r="150" fill="none" stroke="#f5f8fb" stroke-width="5"/>
+      <ellipse cx="225" cy="185" rx="62" ry="150" fill="none" stroke="#8a8f94" stroke-width="3"/>
+      <path d="M75 185 H375 M95 110 H355 M95 260 H355" stroke="#8a8f94" stroke-width="3"/>
+      <g transform="translate(225 340)">
+        <path d="M-150 -18 Q-170 -18 -175 -34 M150 -18 Q170 -18 175 -34" stroke="ACC" stroke-width="9" fill="none" stroke-linecap="round"/>
+        <rect x="-150" y="-26" width="300" height="16" rx="8" fill="ACC"/>
+        <circle cx="-95" cy="8" r="14" fill="#f5f8fb"/><circle cx="95" cy="8" r="14" fill="#f5f8fb"/>
+      </g>
+      <circle cx="300" cy="120" r="9" fill="#f2c335"/>'''
 ART['portugal'] = '''<path d="M228.5 255.3 L237.3 223.7 L236.2 215.5 L233.5 214.1 L241.6 210.5 L251.9 197.6 L263.4 159.8 L261.0 155.2 L275.2 99.3 L274.3 87.2 L271.8 84.3 L262.5 43.6 L263.1 35.7 L265.8 32.5 L276.3 22.5 L292.7 20.0 L300.1 15.0 L301.0 21.4 L306.3 22.6 L299.1 32.2 L303.8 39.6 L315.3 34.7 L316.1 31.2 L318.0 37.0 L327.4 32.6 L333.8 34.4 L332.4 38.2 L341.1 35.6 L342.5 39.7 L355.2 34.5 L355.8 28.0 L358.2 26.7 L371.8 30.3 L375.8 29.8 L376.3 26.5 L382.5 30.7 L388.6 28.3 L390.9 30.3 L389.6 34.3 L392.6 35.1 L389.7 44.3 L390.8 48.4 L402.1 49.3 L410.0 55.0 L403.5 69.8 L399.5 69.8 L393.7 78.3 L385.3 79.6 L376.5 94.7 L369.7 95.2 L376.9 107.2 L375.3 114.9 L377.3 121.4 L374.5 128.2 L377.2 132.1 L374.2 136.3 L378.0 142.5 L373.2 149.7 L366.1 151.7 L364.3 155.2 L373.5 167.7 L371.3 177.7 L366.7 182.0 L365.1 192.0 L336.2 192.5 L349.8 207.2 L348.2 212.6 L353.2 219.9 L352.7 224.9 L358.6 227.6 L358.1 232.0 L366.2 232.7 L368.7 238.1 L363.1 246.4 L363.8 249.4 L351.7 259.4 L352.6 266.6 L347.5 280.0 L361.3 299.0 L369.7 296.2 L365.9 309.4 L360.5 307.9 L351.5 312.5 L350.4 320.4 L342.8 328.2 L338.3 339.2 L337.2 342.9 L340.5 347.6 L344.3 370.4 L334.5 372.2 L317.4 385.0 L301.1 375.9 L294.6 377.1 L277.9 373.5 L274.3 376.7 L261.8 379.2 L258.9 382.7 L256.2 380.7 L261.3 370.5 L260.8 369.2 L261.0 368.8 L260.5 368.3 L263.7 363.1 L262.8 361.2 L262.7 359.4 L264.5 357.2 L266.7 351.1 L267.2 350.7 L267.0 317.8 L262.0 314.6 L267.7 299.8 L267.7 287.0 L260.5 274.6 L254.4 279.2 L243.8 281.5 L245.9 273.4 L241.5 263.8 L248.0 262.0 L250.5 264.8 L255.0 257.1 L256.7 257.5 L258.6 256.9 L255.4 256.5 L258.6 255.1 L256.7 254.6 L257.6 253.8 L257.7 252.0 L256.2 254.5 L254.4 249.8 L249.8 260.5 L244.6 262.5 L241.9 261.1 L238.2 263.1 L230.7 261.5 L228.5 255.3 Z" fill="none" stroke="#f5f8fb" stroke-width="4" stroke-linejoin="round"/><circle cx="235.1" cy="214.4" r="7" fill="ACC" stroke="#0a0b0f" stroke-width="2"/><circle cx="232.9" cy="240.5" r="7" fill="ACC" stroke="#0a0b0f" stroke-width="2"/><circle cx="251.9" cy="196.7" r="7" fill="ACC" stroke="#0a0b0f" stroke-width="2"/><circle cx="259.3" cy="381.6" r="7" fill="ACC" stroke="#0a0b0f" stroke-width="2"/><circle cx="237.9" cy="262.6" r="7" fill="ACC" stroke="#0a0b0f" stroke-width="2"/><circle cx="273.1" cy="85.1" r="7" fill="ACC" stroke="#0a0b0f" stroke-width="2"/><path d="M20 80 q20 -14 40 0 t40 0 t40 0" stroke="ACC" stroke-opacity="0.80" stroke-width="4" fill="none"/><path d="M28 175 q20 -14 40 0 t40 0 t40 0" stroke="ACC" stroke-opacity="0.65" stroke-width="4" fill="none"/><path d="M36 270 q20 -14 40 0 t40 0 t40 0" stroke="ACC" stroke-opacity="0.50" stroke-width="4" fill="none"/>'''
 ART['portugal1992'] = ART['portugal'] + '<text x="20" y="390" font-family="DejaVu Sans" font-weight="700" font-size="44" fill="#f2c335">1992</text>'
 
@@ -104,6 +114,10 @@ import re as _re
 ART['boardart'] = _re.sub(r'<text[^>]*>[^<]*</text>', '', ART['board'])
 
 DATA = [
+    dict(slug='state-of-skateboarding-2026', acc='#e0242f', art='globedeck',
+         kicker='SKATEBOARD INDUSTRY — 2026', t1='The State of', t2='Skateboarding',
+         lead='Money, power, Japan\'s dominance and what is happening in Europe.',
+         tags='VANS · WORLD SKATE · JAPAN · EUROPE'),
     dict(slug='surf-spots-portugal-guide', acc='#3b8eea', art='portugal',
          kicker='SURF GUIDE — PORTUGAL', t1='Surfing', t2='Portugal',
          lead='Six regions, seven maps: from the Minho to Ericeira, Peniche and Sagres.',
