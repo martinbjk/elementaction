@@ -12,7 +12,7 @@ import './globals.css';
  * Cloudflare och klistra in den nya token nedan (den gamla sajtens token
  * ska INTE återanvändas, då blandas statistiken ihop).
  */
-const CF_ANALYTICS_TOKEN = '';
+const CF_ANALYTICS_TOKEN = 'a537639510274341a088dbf41b06c4e3';
 
 /**
  * Ikoner även på rotsidan "/" (den som skickar vidare till rätt språk).
