@@ -97,6 +97,41 @@ ART = {
       </g>''',
 }
 
+ART['books'] = '''
+      <g transform="translate(225 200)">
+        <rect x="-150" y="95" width="300" height="34" rx="4" fill="#1b1d22" stroke="#f5f8fb" stroke-width="5"/>
+        <rect x="-135" y="58" width="270" height="34" rx="4" fill="ACC"/>
+        <rect x="-155" y="21" width="290" height="34" rx="4" fill="#1b1d22" stroke="#f5f8fb" stroke-width="5"/>
+        <rect x="-125" y="-16" width="250" height="34" rx="4" fill="#f2c335"/>
+        <path d="M-150 112 H150 M-155 38 H135" stroke="#8a8f94" stroke-width="2"/>
+        <path d="M-60 -30 L-60 -130 Q-5 -150 0 -118 Q5 -150 60 -130 L60 -30 Q5 -48 0 -25 Q-5 -48 -60 -30 Z" fill="none" stroke="#f5f8fb" stroke-width="5" stroke-linejoin="round"/>
+        <path d="M0 -118 V-25" stroke="#f5f8fb" stroke-width="4"/>
+        <path d="M-45 -60 q12 -10 24 0 t20 0" stroke="ACC" stroke-width="5" fill="none" stroke-linecap="round"/>
+      </g>'''
+ART['film'] = '''
+      <g transform="translate(225 200)">
+        <circle cx="-70" cy="-60" r="72" fill="none" stroke="#f5f8fb" stroke-width="5"/>
+        <circle cx="70" cy="-60" r="72" fill="none" stroke="#f5f8fb" stroke-width="5"/>
+        <g fill="#f5f8fb"><circle cx="-70" cy="-60" r="10"/><circle cx="70" cy="-60" r="10"/></g>
+        <g fill="none" stroke="#8a8f94" stroke-width="4">
+          <circle cx="-70" cy="-100" r="18"/><circle cx="-110" cy="-60" r="18"/><circle cx="-30" cy="-60" r="18"/><circle cx="-70" cy="-20" r="18"/>
+          <circle cx="70" cy="-100" r="18"/><circle cx="110" cy="-60" r="18"/><circle cx="30" cy="-60" r="18"/><circle cx="70" cy="-20" r="18"/>
+        </g>
+        <rect x="-150" y="30" width="300" height="110" rx="10" fill="#1b1d22" stroke="#f5f8fb" stroke-width="5"/>
+        <path d="M-100 105 q30 -40 60 0 t60 0 t60 0" stroke="ACC" stroke-width="7" fill="none" stroke-linecap="round"/>
+        <path d="M150 55 l60 -30 v110 l-60 -30 z" fill="#f5f8fb"/>
+      </g>'''
+ART['compass'] = '''
+      <g transform="translate(225 190)">
+        <circle r="150" fill="none" stroke="#f5f8fb" stroke-width="5"/>
+        <circle r="128" fill="none" stroke="#8a8f94" stroke-width="2"/>
+        <path d="M0 -120 L22 0 L0 120 L-22 0 Z" fill="#f5f8fb"/>
+        <path d="M0 -120 L22 0 L-22 0 Z" fill="ACC"/>
+        <path d="M-120 0 L0 -16 L120 0 L0 16 Z" fill="#8a8f94"/>
+        <circle r="10" fill="#1b1d22" stroke="#f5f8fb" stroke-width="4"/>
+        <text y="-160" text-anchor="middle" font-family="DejaVu Sans" font-weight="700" font-size="30" fill="#f5f8fb">N</text>
+      </g>
+      <path d="M40 365 q40 -30 80 0 t80 0 t80 0 t80 0 t80 0" stroke="ACC" stroke-width="6" fill="none" stroke-linecap="round"/>'''
 ART['globedeck'] = '''
       <circle cx="225" cy="185" r="150" fill="none" stroke="#f5f8fb" stroke-width="5"/>
       <ellipse cx="225" cy="185" rx="62" ry="150" fill="none" stroke="#8a8f94" stroke-width="3"/>
@@ -114,6 +149,18 @@ import re as _re
 ART['boardart'] = _re.sub(r'<text[^>]*>[^<]*</text>', '', ART['board'])
 
 DATA = [
+    dict(slug='surf-skate-books', acc='#44d62c', art='books',
+         kicker='INSPIRATION — BOOKS', t1='Books for', t2='Surfers & Skaters',
+         lead='Culture, history and the road: the reading list for board riders.',
+         tags='FINNEGAN · NUNN · MULLEN · WARSHAW'),
+    dict(slug='legendary-surf-skate-films', acc='#44d62c', art='film',
+         kicker='INSPIRATION — LEGENDARY FILMS', t1='Surf & Skate', t2='Films',
+         lead='From The Endless Summer to Video Days, Dogtown and Mid90s.',
+         tags='ENDLESS SUMMER · ANIMAL CHIN · VIDEO DAYS · MID90S'),
+    dict(slug='uncrowded-surf-travel', acc='#44d62c', art='compass',
+         kicker='INSPIRATION — TRAVEL', t1='Uncrowded', t2='Waves',
+         lead='Nine surf trips away from the crowds, from the Arctic to Papua New Guinea.',
+         tags='LOFOTEN · THURSO · NAMIBIA · PNG'),
     dict(slug='state-of-skateboarding-2026', acc='#e0242f', art='globedeck',
          kicker='SKATEBOARD INDUSTRY — 2026', t1='The State of', t2='Skateboarding',
          lead='Money, power and the big skate nations, from the USA and Brazil to Japan.',
