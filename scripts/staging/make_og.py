@@ -149,6 +149,10 @@ import re as _re
 ART['boardart'] = _re.sub(r'<text[^>]*>[^<]*</text>', '', ART['board'])
 
 DATA = [
+    dict(slug='snowboard-resort-guide', acc='#5cb6ff', art='mountain',
+         kicker='SNOWBOARD GUIDE — RESORTS 2026/27', t1='Snowboard', t2='Resort Guide',
+         lead='26 resorts for park, powder, pistes and parties, from Laax to Niseko.',
+         tags='LAAX · CHAMONIX · WHISTLER · NISEKO'),
     dict(slug='surf-skate-books', acc='#44d62c', art='books',
          kicker='INSPIRATION — BOOKS', t1='Books for', t2='Surfers & Skaters',
          lead='Culture, history and the road: the reading list for board riders.',
