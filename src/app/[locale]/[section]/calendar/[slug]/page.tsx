@@ -92,7 +92,7 @@ export default async function EventPage({ params: { locale, section, slug } }: P
   const place = [event.location.venue, event.location.city, country].filter(Boolean).join(', ');
 
   return (
-    <article className="max-w-3xl">
+    <article className="max-w-3xl" data-pagefind-body>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd(event, section, locale)) }} />
       <Link href={`/${section}/calendar`} className="text-sm text-sec-muted underline-offset-4 hover:text-sec-ink hover:underline">
         {t('event.backToCalendar')}

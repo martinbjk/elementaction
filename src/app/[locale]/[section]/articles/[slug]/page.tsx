@@ -3,13 +3,14 @@ import { notFound } from 'next/navigation';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/navigation';
 import { SECTIONS, isSection } from '@/lib/sections';
-import { formatArticleDate, getArticle, getArticleLocales, getArticleSlugs, type Article } from '@/lib/articles';
+import { formatArticleDate, getArticle, getArticleLocales, getArticleSlugs, getRelatedArticles, type Article } from '@/lib/articles';
 import { articleAlternates } from '@/lib/seo';
 import { SITE_URL } from '@/lib/site';
 import { withBase } from '@/lib/base-path';
 import { ARTICLE_EMBEDS } from '@/lib/article-embeds/registry';
 import { ArticleMarkdown } from '@/components/ArticleMarkdown';
 import { ShareButton } from '@/components/ShareButton';
+import { ArticleCard, BlockHeader } from '@/components/Blocks';
 
 type Params = { params: { locale: string; section: string; slug: string } };
 
@@ -80,12 +81,14 @@ export default async function ArticlePage({ params: { locale, section, slug } }:
   const t = await getTranslations({ locale, namespace: 'articles' });
   const embed = ARTICLE_EMBEDS[article.slug];
   const parts = embed ? splice(article.content, embed.splice, article.slug) : null;
+  const related = getRelatedArticles(article, locale);
+  const tAll = await getTranslations({ locale });
 
   return (
-    <article>
+    <article data-pagefind-body>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd(article, locale)) }} />
       <div className="max-w-3xl">
-        <Link href={`/${section}/articles`} className="text-sm text-sec-muted underline-offset-4 hover:text-sec-ink hover:underline">
+        <Link data-pagefind-ignore href={`/${section}/articles`} className="text-sm text-sec-muted underline-offset-4 hover:text-sec-ink hover:underline">
           {t('backToArticles')}
         </Link>
         <p className="mt-6 text-sm text-sec-muted">
@@ -94,7 +97,7 @@ export default async function ArticlePage({ params: { locale, section, slug } }:
         </p>
         <h1 className="mt-2 font-head text-[clamp(2rem,5vw,3.5rem)] leading-[1.04] text-sec-ink">{article.title}</h1>
         <p className="mt-5 text-lg leading-relaxed text-sec-ink/85">{article.excerpt}</p>
-        <div className="mt-6 flex flex-wrap items-center gap-3">
+        <div data-pagefind-ignore className="mt-6 flex flex-wrap items-center gap-3">
           <ShareButton url={`${SITE_URL}/${locale}/${section}/articles/${article.slug}/`} title={article.title} text={article.excerpt} />
           {article.isFallback && <span className="text-sm text-sec-muted">{t('onlyInEnglishNote')}</span>}
         </div>
@@ -104,7 +107,14 @@ export default async function ArticlePage({ params: { locale, section, slug } }:
       <div className="mt-10 rounded-3xl bg-white px-5 py-8 text-neutral-900 shadow-[0_30px_80px_-40px_rgba(0,0,0,0.5)] sm:px-10 sm:py-12 lg:px-16">
         <div className="mx-auto max-w-[44rem]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src={withBase(article.ogImage)} alt="" className="mb-4 w-full rounded-xl border border-neutral-200" />
+          <img
+            src={withBase(article.ogImage)}
+            alt=""
+            width={article.ogImageWidth}
+            height={article.ogImageHeight}
+            data-pagefind-meta="image[src]"
+            className="mb-4 h-auto w-full rounded-xl border border-neutral-200"
+          />
           {embed && parts ? (
             <>
               <ArticleMarkdown content={parts.before} slug={article.slug} />
@@ -116,6 +126,18 @@ export default async function ArticlePage({ params: { locale, section, slug } }:
           )}
         </div>
       </div>
+
+      {/* Läs också: liknande artiklar från alla sektioner (se getRelatedArticles). Söks inte av Pagefind. */}
+      {related.length > 0 && (
+        <section data-pagefind-ignore className="mt-16">
+          <BlockHeader title={t('related')} />
+          <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {related.map((a) => (
+              <ArticleCard key={`${a.section}-${a.slug}`} article={a} locale={locale} onlyInEnglish={t('onlyInEnglish')} designLabel={tAll('tabs.design')} />
+            ))}
+          </div>
+        </section>
+      )}
     </article>
   );
 }

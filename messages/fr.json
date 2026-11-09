@@ -10,7 +10,8 @@
     "language": "Langue",
     "skip": "Aller au contenu",
     "about": "À propos",
-    "privacy": "Confidentialité"
+    "privacy": "Confidentialité",
+    "search": "Rechercher"
   },
   "sections": {
     "surfing": {
@@ -80,7 +81,8 @@
     "backToArticles": "Tous les articles",
     "emptyTitle": "Premiers articles bientôt",
     "emptyBody": "Des articles vérifiés, avec une source pour chaque affirmation. Les premiers de cette section sont en cours d’écriture.",
-    "seeAll": "Tous les articles"
+    "seeAll": "Tous les articles",
+    "related": "À lire aussi"
   },
   "design": {
     "title": "Design : {section}",
@@ -88,7 +90,8 @@
     "fromArticle": "Tiré de l’article",
     "emptyTitle": "Le mur design est vide — pour l’instant",
     "emptyBody": "Affiches, graphismes de planches et travaux visuels apparaîtront ici.",
-    "seeAll": "Ouvrir le mur design"
+    "seeAll": "Ouvrir le mur design",
+    "videosTitle": "Le design en vidéo"
   },
   "videos": {
     "title": "Vidéos : {section}",
@@ -193,5 +196,9 @@
     "title": "Soutenir Elementaction",
     "body": "Elementaction est gratuit et conçu et géré par une seule personne. Si les calendriers et les articles te sont utiles, tu peux m’offrir un café via PayPal. Cela aide à faire vivre le site.",
     "note": "Ouvre PayPal dans un nouvel onglet."
+  },
+  "search": {
+    "title": "Rechercher sur le site",
+    "lead": "Recherchez dans tous les articles et événements d’Elementaction."
   }
 }

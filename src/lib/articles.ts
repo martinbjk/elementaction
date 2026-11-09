@@ -131,3 +131,22 @@ export function getLatestAcrossSections(locale: string, limit: number): Article[
     .sort((a, b) => b.date.localeCompare(a.date))
     .slice(0, limit);
 }
+
+/**
+ * "Läs också": de artiklar som liknar den här mest, från alla sektioner.
+ * Poäng: 3 per gemensam tagg, 2 för samma kategori, 1 för samma sektion.
+ * Lika poäng → nyast först. Artiklar utan något gemensamt visas inte,
+ * utom när det behövs för att fylla ut listan (då nyast i samma sektion).
+ */
+export function getRelatedArticles(article: Article, locale: string, limit = 3): Article[] {
+  const tags = new Set((article.tags ?? []).map((t) => t.toLowerCase()));
+  const all = SECTIONS.flatMap((s) => getSectionContent(s, locale)).filter((a) => a.slug !== article.slug);
+  const scored = all
+    .map((a) => {
+      const shared = (a.tags ?? []).filter((t) => tags.has(t.toLowerCase())).length;
+      const score = shared * 3 + (a.category === article.category ? 2 : 0) + (a.section === article.section ? 1 : 0);
+      return { a, score };
+    })
+    .sort((x, y) => y.score - x.score || y.a.date.localeCompare(x.a.date));
+  return scored.slice(0, limit).map((x) => x.a);
+}

@@ -5,6 +5,7 @@ import { Link, usePathname } from '@/i18n/navigation';
 import { SECTIONS, SECTION_COLORS, type SectionId } from '@/lib/sections';
 import { Logo, SectionMark } from './Logo';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { Search } from 'lucide-react';
 
 /** Vilken sektion besökaren är i, utifrån sökvägen (/surfing/... osv). */
 export function useActiveSection(): SectionId | null {
@@ -59,7 +60,17 @@ export function Header() {
           </ul>
         </nav>
 
-        <LanguageSwitcher />
+        <div className="flex items-center gap-2">
+          <Link
+            href="/search"
+            aria-label={t('nav.search')}
+            title={t('nav.search')}
+            className="flex h-10 w-10 items-center justify-center rounded-full text-white/75 transition hover:bg-white/10 hover:text-white"
+          >
+            <Search size={20} aria-hidden />
+          </Link>
+          <LanguageSwitcher />
+        </div>
       </div>
     </header>
   );

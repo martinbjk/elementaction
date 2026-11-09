@@ -10,7 +10,8 @@
     "language": "言語",
     "skip": "本文へスキップ",
     "about": "サイトについて",
-    "privacy": "プライバシー"
+    "privacy": "プライバシー",
+    "search": "検索"
   },
   "sections": {
     "surfing": {
@@ -80,7 +81,8 @@
     "backToArticles": "すべての記事",
     "emptyTitle": "最初の記事は近日公開",
     "emptyBody": "すべての記述に出典を付けたファクトチェック済みの記事。このセクションの最初の記事を執筆中です。",
-    "seeAll": "すべての記事"
+    "seeAll": "すべての記事",
+    "related": "あわせて読みたい"
   },
   "design": {
     "title": "{section} のデザイン",
@@ -88,7 +90,8 @@
     "fromArticle": "掲載記事",
     "emptyTitle": "デザインウォールはまだ空です",
     "emptyBody": "ポスター、ボードグラフィック、ビジュアル作品をここに掲載します。",
-    "seeAll": "デザインウォールを開く"
+    "seeAll": "デザインウォールを開く",
+    "videosTitle": "動画で見るデザイン"
   },
   "videos": {
     "title": "{section} の動画",
@@ -193,5 +196,9 @@
     "title": "Elementactionを応援する",
     "body": "Elementactionは無料で、一人で制作・運営しています。カレンダーや記事が役に立ったら、PayPalでコーヒー1杯分の応援をいただけるとうれしいです。サイトを続ける力になります。",
     "note": "PayPalが新しいタブで開きます。"
+  },
+  "search": {
+    "title": "サイト内検索",
+    "lead": "Elementaction のすべての記事とイベントを検索できます。"
   }
 }

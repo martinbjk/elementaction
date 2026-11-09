@@ -10,7 +10,8 @@
     "language": "Language",
     "skip": "Skip to content",
     "about": "About",
-    "privacy": "Privacy"
+    "privacy": "Privacy",
+    "search": "Search"
   },
   "sections": {
     "surfing": {
@@ -80,7 +81,8 @@
     "backToArticles": "All articles",
     "emptyTitle": "First stories coming soon",
     "emptyBody": "Fact-checked articles with a source for every claim. The first ones for this section are being written.",
-    "seeAll": "All articles"
+    "seeAll": "All articles",
+    "related": "Read next"
   },
   "design": {
     "title": "{section} design",
@@ -88,7 +90,8 @@
     "fromArticle": "From the article",
     "emptyTitle": "The design wall is empty — for now",
     "emptyBody": "Posters, board graphics and visual work will appear here.",
-    "seeAll": "Open the design wall"
+    "seeAll": "Open the design wall",
+    "videosTitle": "Design on video"
   },
   "videos": {
     "title": "{section} videos",
@@ -193,5 +196,9 @@
     "title": "Support Elementaction",
     "body": "Elementaction is free to use and is built and run by one person. If the calendars and articles help you, you can buy me a coffee via PayPal. It helps keep the site going.",
     "note": "Opens PayPal in a new tab."
+  },
+  "search": {
+    "title": "Search the site",
+    "lead": "Search all articles and events on Elementaction."
   }
 }

@@ -10,7 +10,8 @@
     "language": "Språk",
     "skip": "Hoppa till innehållet",
     "about": "Om sajten",
-    "privacy": "Integritet"
+    "privacy": "Integritet",
+    "search": "Sök"
   },
   "sections": {
     "surfing": {
@@ -80,7 +81,8 @@
     "backToArticles": "Alla artiklar",
     "emptyTitle": "De första artiklarna kommer snart",
     "emptyBody": "Faktagranskade artiklar med en källa för varje påstående. De första för den här sektionen skrivs nu.",
-    "seeAll": "Alla artiklar"
+    "seeAll": "Alla artiklar",
+    "related": "Läs också"
   },
   "design": {
     "title": "Design: {section}",
@@ -88,7 +90,8 @@
     "fromArticle": "Från artikeln",
     "emptyTitle": "Designväggen är tom — än så länge",
     "emptyBody": "Affischer, brädgrafik och visuellt arbete kommer att visas här.",
-    "seeAll": "Öppna designväggen"
+    "seeAll": "Öppna designväggen",
+    "videosTitle": "Design på video"
   },
   "videos": {
     "title": "Videos: {section}",
@@ -193,5 +196,9 @@
     "title": "Stöd Elementaction",
     "body": "Elementaction är gratis och byggs och drivs av en person. Om kalendrarna och artiklarna hjälper dig kan du bjuda på en kaffe via PayPal. Det hjälper sajten att fortsätta.",
     "note": "Öppnar PayPal i en ny flik."
+  },
+  "search": {
+    "title": "Sök på sajten",
+    "lead": "Sök bland alla artiklar och event på Elementaction."
   }
 }

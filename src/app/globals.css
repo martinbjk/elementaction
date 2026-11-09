@@ -230,3 +230,20 @@ body {
   color: #1c1d1f;
   text-decoration: none;
 }
+
+/* SÖK (Pagefind UI) — mörkt tema som matchar InfoPage. Se components/SiteSearch.tsx. */
+.site-search {
+  --pagefind-ui-scale: 0.95;
+  --pagefind-ui-primary: #ffffff;
+  --pagefind-ui-text: #f2f3f5;
+  --pagefind-ui-background: #17181b;
+  --pagefind-ui-border: rgba(255, 255, 255, 0.22);
+  --pagefind-ui-tag: #26282c;
+  --pagefind-ui-border-width: 1px;
+  --pagefind-ui-border-radius: 14px;
+  --pagefind-ui-font: inherit;
+}
+.site-search .pagefind-ui__result-link { color: #fff; }
+.site-search .pagefind-ui__result-excerpt { color: rgba(255, 255, 255, 0.75); }
+.site-search mark { background: #f5c542; color: #111; border-radius: 3px; padding: 0 2px; }
+.site-search .pagefind-ui__result-thumb { border-radius: 8px; overflow: hidden; }
