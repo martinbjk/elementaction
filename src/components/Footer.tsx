@@ -39,6 +39,9 @@ export async function Footer({ locale }: { locale: string }) {
         ))}
       </div>
       <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-x-6 gap-y-2 px-4 pb-10 text-sm text-white/55 sm:px-6">
+        <Link href="/tools" className="hover:text-white">
+          {t('nav.tools')}
+        </Link>
         <Link href="/about" className="hover:text-white">
           {t('nav.about')}
         </Link>

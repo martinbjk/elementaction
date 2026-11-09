@@ -11,7 +11,8 @@
     "skip": "Aller au contenu",
     "about": "À propos",
     "privacy": "Confidentialité",
-    "search": "Rechercher"
+    "search": "Rechercher",
+    "tools": "Outils"
   },
   "sections": {
     "surfing": {
@@ -200,5 +201,56 @@
   "search": {
     "title": "Rechercher sur le site",
     "lead": "Recherchez dans tous les articles et événements d’Elementaction."
+  },
+  "tools": {
+    "title": "Outils",
+    "lead": "De petits outils pour vous aider à choisir une planche, une destination et une station. Tout fonctionne dans votre navigateur, et chaque réponse s’appuie sur les sources indiquées.",
+    "new": "Nouveaux outils",
+    "existing": "D’autres outils dans nos articles",
+    "open": "Ouvrir",
+    "back": "Tous les outils",
+    "inArticle": "Dans l’article",
+    "items": {
+      "vol": {
+        "name": "Volume de la planche de surf",
+        "desc": "Calculez combien de litres votre planche doit faire selon votre poids et votre niveau."
+      },
+      "season": {
+        "name": "Guide des saisons",
+        "desc": "Choisissez un mois et voyez où le surf et la neige sont bons dans le monde."
+      },
+      "resort": {
+        "name": "Trouver une station",
+        "desc": "Filtrez 26 stations de snowboard par pays, snowpark, halfpipe, glacier et ride en été."
+      },
+      "parks": {
+        "name": "Skateparks couverts",
+        "desc": "Recherchez des skateparks couverts vérifiés dans le monde entier."
+      },
+      "pools": {
+        "name": "Piscines à vagues",
+        "desc": "Trouvez les piscines à vagues surfables en service, avec technologie et niveau."
+      },
+      "norway": {
+        "name": "Prévisions surf Norvège",
+        "desc": "Prévisions en direct pour la côte ouest de la Norvège (Bølgeagenten)."
+      },
+      "sweden": {
+        "name": "Prévisions surf Suède et Danemark",
+        "desc": "Prévisions en direct pour le surf en Suède et au Danemark (KustVåg)."
+      },
+      "swell": {
+        "name": "Choix de la côte et calculateur de houle",
+        "desc": "Trouvez la bonne prévision et la bonne bouée pour votre côte, et calculez l’arrivée de la houle."
+      },
+      "sbsize": {
+        "name": "Taille du snowboard",
+        "desc": "Calculez la longueur et la largeur au patin selon votre poids, votre pointure et votre style."
+      },
+      "wetsuit": {
+        "name": "Guide des combinaisons",
+        "desc": "Indiquez la température de l’eau et obtenez la bonne épaisseur, et s’il faut chaussons, gants et cagoule."
+      }
+    }
   }
 }

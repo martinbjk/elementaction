@@ -11,7 +11,8 @@
     "skip": "Hoppa till innehållet",
     "about": "Om sajten",
     "privacy": "Integritet",
-    "search": "Sök"
+    "search": "Sök",
+    "tools": "Verktyg"
   },
   "sections": {
     "surfing": {
@@ -200,5 +201,56 @@
   "search": {
     "title": "Sök på sajten",
     "lead": "Sök bland alla artiklar och event på Elementaction."
+  },
+  "tools": {
+    "title": "Verktyg",
+    "lead": "Små verktyg som hjälper dig välja bräda, resmål och ort. Allt räknas i din webbläsare, och varje svar bygger på källor som anges.",
+    "new": "Nya verktyg",
+    "existing": "Fler verktyg i våra artiklar",
+    "open": "Öppna",
+    "back": "Alla verktyg",
+    "inArticle": "I artikeln",
+    "items": {
+      "vol": {
+        "name": "Surfbrädans volym",
+        "desc": "Räkna ut hur många liter din surfbräda bör ha utifrån vikt och nivå."
+      },
+      "season": {
+        "name": "Säsongsguiden",
+        "desc": "Välj en månad och se var det är bra surf och bra snö i världen just då."
+      },
+      "resort": {
+        "name": "Resortfinnaren",
+        "desc": "Filtrera 26 snowboardorter efter land, park, halfpipe, glaciär och sommaråkning."
+      },
+      "parks": {
+        "name": "Inomhusskateparker",
+        "desc": "Sök bland kontrollerade inomhusparker i hela världen."
+      },
+      "pools": {
+        "name": "Vågpooler",
+        "desc": "Hitta surfbara vågpooler som är i drift, med teknik och svårighetsgrad."
+      },
+      "norway": {
+        "name": "Vågprognos Norge",
+        "desc": "Liveprognos för den norska västkusten (Bølgeagenten)."
+      },
+      "sweden": {
+        "name": "Vågprognos Sverige och Danmark",
+        "desc": "Liveprognos för surf i Sverige och Danmark (KustVåg)."
+      },
+      "swell": {
+        "name": "Kustväljare och dyningskalkylator",
+        "desc": "Hitta rätt prognos och boj för din kust, och räkna ut när dyningen kommer fram."
+      },
+      "sbsize": {
+        "name": "Snowboardens storlek",
+        "desc": "Räkna ut brädlängd och midjebredd utifrån vikt, skostorlek och åkstil."
+      },
+      "wetsuit": {
+        "name": "Våtdräktsguiden",
+        "desc": "Vattentemperatur in, rätt tjocklek ut, och om du behöver skor, handskar och huva."
+      }
+    }
   }
 }

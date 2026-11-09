@@ -11,7 +11,8 @@
     "skip": "Zum Inhalt springen",
     "about": "Über uns",
     "privacy": "Datenschutz",
-    "search": "Suche"
+    "search": "Suche",
+    "tools": "Tools"
   },
   "sections": {
     "surfing": {
@@ -200,5 +201,56 @@
   "search": {
     "title": "Website durchsuchen",
     "lead": "Durchsuche alle Artikel und Events auf Elementaction."
+  },
+  "tools": {
+    "title": "Tools",
+    "lead": "Kleine Tools, die dir helfen, ein Board, ein Reiseziel und ein Skigebiet zu wählen. Alles läuft in deinem Browser, und jede Antwort beruht auf den angegebenen Quellen.",
+    "new": "Neue Tools",
+    "existing": "Weitere Tools in unseren Artikeln",
+    "open": "Öffnen",
+    "back": "Alle Tools",
+    "inArticle": "Im Artikel",
+    "items": {
+      "vol": {
+        "name": "Surfboard-Volumen",
+        "desc": "Berechne, wie viele Liter dein Surfboard nach Gewicht und Können haben sollte."
+      },
+      "season": {
+        "name": "Saison-Guide",
+        "desc": "Wähle einen Monat und sieh, wo Surf und Schnee gerade gut sind."
+      },
+      "resort": {
+        "name": "Skigebiet-Finder",
+        "desc": "Filtere 26 Snowboard-Skigebiete nach Land, Park, Halfpipe, Gletscher und Sommerfahren."
+      },
+      "parks": {
+        "name": "Indoor-Skateparks",
+        "desc": "Durchsuche geprüfte Indoor-Skateparks weltweit."
+      },
+      "pools": {
+        "name": "Wellenbecken",
+        "desc": "Finde surfbare Wellenbecken in Betrieb, mit Technik und Schwierigkeitsgrad."
+      },
+      "norway": {
+        "name": "Surfvorhersage Norwegen",
+        "desc": "Live-Vorhersage für die norwegische Westküste (Bølgeagenten)."
+      },
+      "sweden": {
+        "name": "Surfvorhersage Schweden und Dänemark",
+        "desc": "Live-Vorhersage für Surfen in Schweden und Dänemark (KustVåg)."
+      },
+      "swell": {
+        "name": "Küstenwahl und Dünungsrechner",
+        "desc": "Finde die richtige Vorhersage und Boje für deine Küste und berechne, wann die Dünung ankommt."
+      },
+      "sbsize": {
+        "name": "Snowboard-Größe",
+        "desc": "Berechne Boardlänge und Taillenbreite nach Gewicht, Schuhgröße und Fahrstil."
+      },
+      "wetsuit": {
+        "name": "Neoprenanzug-Guide",
+        "desc": "Wassertemperatur eingeben und die richtige Dicke erhalten, dazu ob du Schuhe, Handschuhe und Haube brauchst."
+      }
+    }
   }
 }

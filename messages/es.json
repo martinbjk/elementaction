@@ -11,7 +11,8 @@
     "skip": "Saltar al contenido",
     "about": "Acerca de",
     "privacy": "Privacidad",
-    "search": "Buscar"
+    "search": "Buscar",
+    "tools": "Herramientas"
   },
   "sections": {
     "surfing": {
@@ -200,5 +201,56 @@
   "search": {
     "title": "Buscar en el sitio",
     "lead": "Busca en todos los artículos y eventos de Elementaction."
+  },
+  "tools": {
+    "title": "Herramientas",
+    "lead": "Pequeñas herramientas que te ayudan a elegir tabla, destino y estación. Todo funciona en tu navegador, y cada respuesta se basa en las fuentes indicadas.",
+    "new": "Herramientas nuevas",
+    "existing": "Más herramientas en nuestros artículos",
+    "open": "Abrir",
+    "back": "Todas las herramientas",
+    "inArticle": "En el artículo",
+    "items": {
+      "vol": {
+        "name": "Volumen de la tabla de surf",
+        "desc": "Calcula cuántos litros debe tener tu tabla según tu peso y tu nivel."
+      },
+      "season": {
+        "name": "Guía de temporadas",
+        "desc": "Elige un mes y mira dónde hay buen surf y buena nieve en el mundo."
+      },
+      "resort": {
+        "name": "Buscador de estaciones",
+        "desc": "Filtra 26 estaciones de snowboard por país, snowpark, halfpipe, glaciar y nieve en verano."
+      },
+      "parks": {
+        "name": "Skateparks cubiertos",
+        "desc": "Busca skateparks cubiertos verificados en todo el mundo."
+      },
+      "pools": {
+        "name": "Piscinas de olas",
+        "desc": "Encuentra piscinas de olas surfeables en funcionamiento, con tecnología y nivel."
+      },
+      "norway": {
+        "name": "Previsión de surf Noruega",
+        "desc": "Previsión en directo para la costa oeste de Noruega (Bølgeagenten)."
+      },
+      "sweden": {
+        "name": "Previsión de surf Suecia y Dinamarca",
+        "desc": "Previsión en directo para el surf en Suecia y Dinamarca (KustVåg)."
+      },
+      "swell": {
+        "name": "Selector de costa y calculadora de mar de fondo",
+        "desc": "Encuentra la previsión y la boya adecuadas para tu costa y calcula cuándo llega el swell."
+      },
+      "sbsize": {
+        "name": "Talla de snowboard",
+        "desc": "Calcula el largo de la tabla y el ancho de cintura según tu peso, talla de bota y estilo."
+      },
+      "wetsuit": {
+        "name": "Guía de neoprenos",
+        "desc": "Indica la temperatura del agua y obtén el grosor adecuado, y si necesitas escarpines, guantes y capucha."
+      }
+    }
   }
 }

@@ -11,7 +11,8 @@
     "skip": "Skip to content",
     "about": "About",
     "privacy": "Privacy",
-    "search": "Search"
+    "search": "Search",
+    "tools": "Tools"
   },
   "sections": {
     "surfing": {
@@ -200,5 +201,56 @@
   "search": {
     "title": "Search the site",
     "lead": "Search all articles and events on Elementaction."
+  },
+  "tools": {
+    "title": "Tools",
+    "lead": "Small tools that help you choose a board, a trip and a resort. Everything runs in your browser, and every answer is based on the sources listed.",
+    "new": "New tools",
+    "existing": "More tools in our articles",
+    "open": "Open",
+    "back": "All tools",
+    "inArticle": "In the article",
+    "items": {
+      "vol": {
+        "name": "Surfboard volume",
+        "desc": "Work out how many litres your surfboard should have from your weight and level."
+      },
+      "season": {
+        "name": "Season guide",
+        "desc": "Pick a month and see where the surf and the snow are good around the world."
+      },
+      "resort": {
+        "name": "Resort finder",
+        "desc": "Filter 26 snowboard resorts by country, park, halfpipe, glacier and summer riding."
+      },
+      "parks": {
+        "name": "Indoor skateparks",
+        "desc": "Search verified indoor skateparks around the world."
+      },
+      "pools": {
+        "name": "Wave pools",
+        "desc": "Find surfable wave pools that are open, with technology and difficulty."
+      },
+      "norway": {
+        "name": "Surf forecast Norway",
+        "desc": "Live forecast for the Norwegian west coast (Bølgeagenten)."
+      },
+      "sweden": {
+        "name": "Surf forecast Sweden and Denmark",
+        "desc": "Live forecast for surfing in Sweden and Denmark (KustVåg)."
+      },
+      "swell": {
+        "name": "Coast picker and swell calculator",
+        "desc": "Find the right forecast and buoy for your coast, and work out when the swell arrives."
+      },
+      "sbsize": {
+        "name": "Snowboard size",
+        "desc": "Work out board length and waist width from your weight, boot size and riding style."
+      },
+      "wetsuit": {
+        "name": "Wetsuit guide",
+        "desc": "Enter the water temperature and get the right thickness, plus whether you need boots, gloves and a hood."
+      }
+    }
   }
 }

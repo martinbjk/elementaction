@@ -82,7 +82,7 @@ Verbier is the best-known resort in the **4 Vallées**: **1,350 m to 3,330 m**, 
 
 ### Zermatt
 
-Zermatt shares its ski area with **Breuil-Cervinia and Valtournenche** in Italy, under the Matterhorn: **1,562 m to 3,899 m**, the highest in this guide, with **322 km** of pistes, **38 km** of ski routes and **51 lifts**. The area is listed as open **all year**, thanks to the summer ski area on the **Theodul glacier**. It has three parks: **Snowpark Zermatt**, the **Indianpark** in Cervinia, and a **Funslope**. Like Saas-Fee, Zermatt is car-free.
+Zermatt shares its ski area with **Breuil-Cervinia and Valtournenche** in Italy, under the Matterhorn: **1,562 m to 3,899 m**, the highest in Europe in this guide, with **322 km** of pistes, **38 km** of ski routes and **51 lifts**. The area is listed as open **all year**, thanks to the summer ski area on the **Theodul glacier**. It has three parks: **Snowpark Zermatt**, the **Indianpark** in Cervinia, and a **Funslope**. Like Saas-Fee, Zermatt is car-free.
 
 ## Austria
 

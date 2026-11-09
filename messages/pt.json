@@ -11,7 +11,8 @@
     "skip": "Ir para o conteúdo",
     "about": "Sobre",
     "privacy": "Privacidade",
-    "search": "Pesquisar"
+    "search": "Pesquisar",
+    "tools": "Ferramentas"
   },
   "sections": {
     "surfing": {
@@ -200,5 +201,56 @@
   "search": {
     "title": "Pesquisar no site",
     "lead": "Pesquise todos os artigos e eventos da Elementaction."
+  },
+  "tools": {
+    "title": "Ferramentas",
+    "lead": "Pequenas ferramentas que ajudam a escolher prancha, destino e estância. Tudo funciona no seu navegador, e cada resposta baseia-se nas fontes indicadas.",
+    "new": "Ferramentas novas",
+    "existing": "Mais ferramentas nos nossos artigos",
+    "open": "Abrir",
+    "back": "Todas as ferramentas",
+    "inArticle": "No artigo",
+    "items": {
+      "vol": {
+        "name": "Volume da prancha de surf",
+        "desc": "Calcule quantos litros a sua prancha deve ter com base no peso e no nível."
+      },
+      "season": {
+        "name": "Guia de estações",
+        "desc": "Escolha um mês e veja onde o surf e a neve estão bons no mundo."
+      },
+      "resort": {
+        "name": "Localizador de estâncias",
+        "desc": "Filtre 26 estâncias de snowboard por país, snowpark, halfpipe, glaciar e neve no verão."
+      },
+      "parks": {
+        "name": "Skateparks cobertos",
+        "desc": "Pesquise skateparks cobertos verificados em todo o mundo."
+      },
+      "pools": {
+        "name": "Piscinas de ondas",
+        "desc": "Encontre piscinas de ondas surfáveis em funcionamento, com tecnologia e nível."
+      },
+      "norway": {
+        "name": "Previsão de surf Noruega",
+        "desc": "Previsão ao vivo para a costa oeste da Noruega (Bølgeagenten)."
+      },
+      "sweden": {
+        "name": "Previsão de surf Suécia e Dinamarca",
+        "desc": "Previsão ao vivo para o surf na Suécia e na Dinamarca (KustVåg)."
+      },
+      "swell": {
+        "name": "Seletor de costa e calculadora de ondulação",
+        "desc": "Encontre a previsão e a boia certas para a sua costa e calcule quando chega a ondulação."
+      },
+      "sbsize": {
+        "name": "Tamanho do snowboard",
+        "desc": "Calcule o comprimento e a largura da prancha com base no peso, tamanho da bota e estilo."
+      },
+      "wetsuit": {
+        "name": "Guia de fatos de surf",
+        "desc": "Indique a temperatura da água e obtenha a espessura certa, e se precisa de botas, luvas e capuz."
+      }
+    }
   }
 }

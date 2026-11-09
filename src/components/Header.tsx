@@ -5,7 +5,7 @@ import { Link, usePathname } from '@/i18n/navigation';
 import { SECTIONS, SECTION_COLORS, type SectionId } from '@/lib/sections';
 import { Logo, SectionMark } from './Logo';
 import { LanguageSwitcher } from './LanguageSwitcher';
-import { Search } from 'lucide-react';
+import { Search, Wrench } from 'lucide-react';
 
 /** Vilken sektion besökaren är i, utifrån sökvägen (/surfing/... osv). */
 export function useActiveSection(): SectionId | null {
@@ -60,7 +60,16 @@ export function Header() {
           </ul>
         </nav>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1 sm:gap-2">
+          <Link
+            href="/tools"
+            title={t('nav.tools')}
+            className="flex h-10 items-center gap-2 rounded-full px-2.5 text-white/75 transition hover:bg-white/10 hover:text-white"
+          >
+            <Wrench size={19} aria-hidden />
+            <span className="hidden text-[15px] lg:inline">{t('nav.tools')}</span>
+            <span className="sr-only lg:hidden">{t('nav.tools')}</span>
+          </Link>
           <Link
             href="/search"
             aria-label={t('nav.search')}
