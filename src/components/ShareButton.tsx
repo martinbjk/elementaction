@@ -13,20 +13,31 @@ import { Share2, Check } from 'lucide-react';
  *
  * `text` är valfri — eventsidorna delar bara titel + URL, artikelsidorna
  * skickar även med utdraget (excerpt) som delningstext.
+ *
+ * Verktygen skickar `getUrl`/`getText` i stället: de läses först vid klick,
+ * så länken får med besökarens aktuella val (?kg=80&level=… osv).
  */
 export function ShareButton({
-  url,
+  url: fixedUrl,
   title,
-  text
+  text: fixedText,
+  getUrl,
+  getText,
+  className
 }: {
-  url: string;
+  url?: string;
   title: string;
   text?: string;
+  getUrl?: () => string;
+  getText?: () => string;
+  className?: string;
 }) {
   const t = useTranslations('event');
   const [copied, setCopied] = useState(false);
 
   async function handleShare() {
+    const url = getUrl ? getUrl() : fixedUrl ?? window.location.href;
+    const text = getText ? getText() : fixedText;
     if (typeof navigator !== 'undefined' && navigator.share) {
       try {
         await navigator.share({ title, url, ...(text ? { text } : {}) });
@@ -48,7 +59,10 @@ export function ShareButton({
     <button
       type="button"
       onClick={handleShare}
-      className="flex items-center gap-2 rounded-full border border-sec-line/30 px-5 py-2.5 text-sm font-semibold text-sec-ink transition hover:border-sec-accent"
+      className={
+        className ??
+        'flex items-center gap-2 rounded-full border border-sec-line/30 px-5 py-2.5 text-sm font-semibold text-sec-ink transition hover:border-sec-accent'
+      }
     >
       {copied ? <Check size={15} /> : <Share2 size={15} />}
       {copied ? t('linkCopied') : t('share')}

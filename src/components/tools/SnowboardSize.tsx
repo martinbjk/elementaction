@@ -4,6 +4,8 @@ import { useState } from 'react';
 import clsx from 'clsx';
 import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import { ShareButton } from '@/components/ShareButton';
+import { num, oneOf, useInitFromUrl, useSyncUrl } from '@/lib/tools/url';
 
 /**
  * STORLEKSKALKYLATOR FÖR SNOWBOARD
@@ -48,7 +50,9 @@ const T = {
     wide: 'Med EU 44 eller större: överväg en mid-wide eller wide (W) bräda.',
     widthNote: 'Kängorna ska sticka ut 1–2 cm över kanten på varje sida.',
     volumeShift: 'Volume-shifted brädor (kortare och bredare) åks kortare. Följ tillverkarens tabell för dem.',
-    readMore: 'Läs hela guiden: brädtyper, camber, rocker och storlek'
+    readMore: 'Läs hela guiden: brädtyper, camber, rocker och storlek',
+    share: 'Snowboardens storlek – Elementaction',
+    shareText: 'Min snowboard:'
   },
   en: {
     weight: 'Your weight (kg)', height: 'Your height (cm), optional', boot: 'Boot size (EU)', style: 'How you ride most',
@@ -64,7 +68,9 @@ const T = {
     wide: 'With EU 44 or bigger: consider a mid-wide or wide (W) board.',
     widthNote: 'Your boots should stick out 1–2 cm over the edge on each side.',
     volumeShift: 'Volume-shifted boards (shorter and wider) are ridden shorter. Follow the brand’s chart for those.',
-    readMore: 'Read the full guide: board types, camber, rocker and size'
+    readMore: 'Read the full guide: board types, camber, rocker and size',
+    share: 'Snowboard size – Elementaction',
+    shareText: 'My snowboard:'
   }
 };
 
@@ -86,6 +92,19 @@ export function SnowboardSize() {
   const [eu, setEu] = useState(43);
   const [style, setStyle] = useState<Style>('all');
   const [beginner, setBeginner] = useState(false);
+
+  const ready = useInitFromUrl((p) => {
+    const k = num(p.get('kg'), 20, 200);
+    if (k !== undefined) setKg(k);
+    const e = num(p.get('eu'), 30, 52);
+    if (e !== undefined) setEu(e);
+    const h = num(p.get('h'), 100, 230);
+    if (h !== undefined) setHeight(h);
+    const st = oneOf(p.get('style'), ['all', 'park', 'powder'] as const);
+    if (st) setStyle(st);
+    if (p.get('beg') === '1') setBeginner(true);
+  });
+  useSyncUrl({ kg: Number.isFinite(kg) ? kg : null, eu: Number.isFinite(eu) ? eu : null, h: height === '' ? null : height, style: style === 'all' ? null : style, beg: beginner }, ready);
 
   const row = lengthFor(kg);
   const adj = style === 'park' ? [-4, -2] : style === 'powder' ? [2, 4] : [0, 0];
@@ -152,6 +171,16 @@ export function SnowboardSize() {
         {eu >= 44 && <p className="mt-2 text-sm font-medium text-white">{t.wide}</p>}
 
         <p className="mt-6 text-xs leading-relaxed text-white/50">{t.volumeShift}</p>
+        <div className="mt-6">
+          <ShareButton
+            title={t.share}
+            getText={() =>
+              row === 'under' || row === 'over'
+                ? t.share
+                : `${t.shareText} ${row.cmMin + adj[0]!}–${row.cmMax + adj[1]!} cm, ${t.width.toLowerCase()} ${width.mm} mm`
+            }
+          />
+        </div>
         <Link href="/snowboard/articles/snowboard-types-how-to-choose" className="mt-5 inline-block text-sm font-medium text-white underline decoration-white/40 underline-offset-4 hover:decoration-white">
           {t.readMore} →
         </Link>

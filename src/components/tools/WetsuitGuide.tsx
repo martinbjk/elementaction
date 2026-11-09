@@ -4,6 +4,8 @@ import { useState } from 'react';
 import clsx from 'clsx';
 import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import { ShareButton } from '@/components/ShareButton';
+import { num, useInitFromUrl, useSyncUrl } from '@/lib/tools/url';
 
 /**
  * VÅTDRÄKTSGUIDEN — vattentemperatur → tjocklek och tillbehör.
@@ -30,7 +32,7 @@ const T = {
     hood10: 'Under 10 °C föreslår Rip Curl huva, även om tabellen drar gränsen lite lägre.',
     note: 'Fryser du lätt, surfar länge eller blåser det kallt: välj en tjockare dräkt. Lufttemperatur och vind spelar också in.',
     mm: 'mm',
-    examples: 'Typiskt vatten',
+    share: 'Våtdräktsguiden – Elementaction',
     links: 'Läs om kallvattensurf i Sverige, Danmark och Norge'
   },
   en: {
@@ -42,7 +44,7 @@ const T = {
     hood10: 'Below 10 °C Rip Curl suggests a hood, even though its chart sets the line a little lower.',
     note: 'If you get cold easily, surf long sessions or the wind is cold, go thicker. Air temperature and wind matter too.',
     mm: 'mm',
-    examples: 'Typical water',
+    share: 'Wetsuit guide – Elementaction',
     links: 'Read about cold-water surf in Sweden, Denmark and Norway'
   }
 };
@@ -52,6 +54,12 @@ export function WetsuitGuide() {
   const t = locale === 'sv' ? T.sv : T.en;
   const [unit, setUnit] = useState<'c' | 'f'>('c');
   const [c, setC] = useState(12);
+  const ready = useInitFromUrl((p) => {
+    const v = num(p.get('c'), 0, 30);
+    if (v !== undefined) setC(Math.round(v));
+    if (p.get('unit') === 'f') setUnit('f');
+  });
+  useSyncUrl({ c, unit: unit === 'f' ? 'f' : null }, ready);
   const f = c * 1.8 + 32;
   const row = ROWS.find((r) => f >= r.minF) ?? ROWS[ROWS.length - 1]!;
   const hood = row.hood === 'yes' || c < 10;
@@ -105,6 +113,9 @@ export function WetsuitGuide() {
         </dl>
         {c < 10 && row.hood !== 'yes' && <p className="mt-3 text-sm text-white/70">{t.hood10}</p>}
         <p className="mt-5 text-sm leading-relaxed text-white/60">{t.note}</p>
+        <div className="mt-6">
+          <ShareButton title={t.share} getText={() => `${show(c)}: ${row.mm} mm, ${t.suits[row.suit]!.toLowerCase()}`} />
+        </div>
         <div className="mt-5 flex flex-col gap-2 text-sm">
           <Link href="/surfing/articles/cold-water-surf-spots-sweden-denmark" className="font-medium text-white underline decoration-white/40 underline-offset-4 hover:decoration-white">
             {t.links} →

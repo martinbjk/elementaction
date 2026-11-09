@@ -1,9 +1,11 @@
 'use client';
 
-import { Fragment, useEffect, useState } from 'react';
+import { Fragment, useState } from 'react';
 import clsx from 'clsx';
 import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import { ShareButton } from '@/components/ShareButton';
+import { num, useInitFromUrl, useSyncUrl } from '@/lib/tools/url';
 import { SEASONS, type SeasonKind } from '@/lib/tools/seasons';
 
 /**
@@ -32,6 +34,7 @@ const T = {
     legendPeak: 'Bäst',
     source: 'Källa',
     article: 'Läs artikeln',
+    share: 'Säsongsguiden – Elementaction',
     note: 'Säsonger är genomsnitt. Kolla alltid prognosen och ortens egen webbplats innan du bokar.'
   },
   en: {
@@ -46,6 +49,7 @@ const T = {
     legendPeak: 'Best',
     source: 'Source',
     article: 'Read the article',
+    share: 'Season guide – Elementaction',
     note: 'Seasons are averages. Always check the forecast and the resort’s own website before you book.'
   }
 };
@@ -57,7 +61,9 @@ export function SeasonGuide() {
   // Startar på januari i den statiska HTML:en och hoppar till aktuell månad i webbläsaren
   // (annars skulle byggets månad och besökarens månad krocka vid hydrering).
   const [month, setMonth] = useState(1);
-  useEffect(() => setMonth(new Date().getMonth() + 1), []);
+  // ?m=7 i adressen (delad länk) vinner över aktuell månad.
+  const ready = useInitFromUrl((p) => setMonth(num(p.get('m'), 1, 12) ?? new Date().getMonth() + 1));
+  useSyncUrl({ m: month }, ready);
 
   const list = (kind: SeasonKind) =>
     SEASONS.filter((x) => x.kind === kind && x.good.includes(month)).sort(
@@ -84,7 +90,10 @@ export function SeasonGuide() {
         ))}
       </div>
 
-      <h2 className="mt-10 text-2xl font-bold text-white">{t.goodIn(MONTHS_LONG[lang][month - 1] ?? '')}</h2>
+      <div className="mt-10 flex flex-wrap items-center justify-between gap-4">
+        <h2 className="text-2xl font-bold text-white">{t.goodIn(MONTHS_LONG[lang][month - 1] ?? '')}</h2>
+        <ShareButton title={t.share} getText={() => t.goodIn(MONTHS_LONG[lang][month - 1] ?? '')} />
+      </div>
       <div className="mt-5 grid gap-6 md:grid-cols-2">
         {(['surf', 'snow'] as SeasonKind[]).map((kind) => {
           const items = list(kind);

@@ -4,6 +4,8 @@ import { useMemo, useState } from 'react';
 import clsx from 'clsx';
 import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import { ShareButton } from '@/components/ShareButton';
+import { num, oneOf, useInitFromUrl, useSyncUrl } from '@/lib/tools/url';
 
 /**
  * VOLYMKALKYLATOR FÖR SURFBRÄDA
@@ -62,6 +64,8 @@ const T = {
       intAdv: ['Fish', 'Groveller / hybrid', 'Shortboard'],
       advanced: ['Shortboard', 'Step-up', 'Groveller / hybrid']
     } as Record<Level, string[]>,
+    share: 'Surfbrädans volym – Elementaction',
+    shareText: 'Min surfbräda borde ha',
     disclaimer: 'Ett riktvärde, inte ett facit. Två brädor med samma volym kan kännas olika beroende på var volymen sitter.'
   },
   en: {
@@ -100,6 +104,8 @@ const T = {
       intAdv: ['Fish', 'Groveller / hybrid', 'Shortboard'],
       advanced: ['Shortboard', 'Step-up', 'Groveller / hybrid']
     } as Record<Level, string[]>,
+    share: 'Surfboard volume – Elementaction',
+    shareText: 'My surfboard should have',
     disclaimer: 'A starting point, not a final answer. Two boards with the same volume can feel different depending on where the volume sits.'
   }
 };
@@ -116,6 +122,17 @@ export function SurfboardVolume() {
   const [weight, setWeight] = useState(75);
   const [level, setLevel] = useState<Level>('intermediate');
   const [epoxy, setEpoxy] = useState(false);
+
+  const ready = useInitFromUrl((p) => {
+    const u = oneOf(p.get('unit'), ['kg', 'lb'] as const);
+    if (u) setUnit(u);
+    const w = num(p.get('w'), 20, 450);
+    if (w !== undefined) setWeight(w);
+    const l = oneOf(p.get('level'), LEVELS);
+    if (l) setLevel(l);
+    if (p.get('epoxy') === '1') setEpoxy(true);
+  });
+  useSyncUrl({ w: Number.isFinite(weight) ? weight : null, unit: unit === 'lb' ? 'lb' : null, level, epoxy }, ready);
 
   const kg = unit === 'kg' ? weight : weight * 0.45359237;
   const res = useMemo(() => {
@@ -238,6 +255,14 @@ export function SurfboardVolume() {
 
         <p className="mt-6 text-sm leading-relaxed text-white/70">{level === 'beginner' ? t.beginnerMore : t.more}</p>
         <p className="mt-3 text-xs leading-relaxed text-white/50">{t.disclaimer}</p>
+        <div className="mt-6">
+          <ShareButton
+            title={t.share}
+            getText={() =>
+              `${t.shareText} ${res.hi === null ? `${t.atLeast} ${comma(fmt(res.lo))}` : `${comma(fmt(res.lo))}–${comma(fmt(res.hi))}`} ${t.litres} (${t.levels[level]}, ${Math.round(kg)} kg)`
+            }
+          />
+        </div>
         <Link href="/surfing/articles/surfboards-explained-volume-shape" className="mt-5 inline-block text-sm font-medium text-white underline decoration-white/40 underline-offset-4 hover:decoration-white">
           {t.readMore} →
         </Link>

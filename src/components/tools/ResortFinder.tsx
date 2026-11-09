@@ -4,6 +4,8 @@ import { useMemo, useState } from 'react';
 import clsx from 'clsx';
 import { useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import { ShareButton } from '@/components/ShareButton';
+import { oneOf, useInitFromUrl, useSyncUrl } from '@/lib/tools/url';
 import { RESORTS, type Resort, type ResortRegion } from '@/lib/tools/resorts';
 
 /**
@@ -36,6 +38,7 @@ const T = {
     unknown: 'okänt',
     reset: 'Rensa filter',
     guide: 'Läs resortguiden med mer om varje ort',
+    share: 'Resortfinnaren – Elementaction',
     note: 'Flaggorna sätts bara när källan uttryckligen nämner saken. Saknas en flagga kan orten ändå ha det, kolla ortens egen webbplats. Siffrorna gäller hela liftsystemet.'
   },
   en: {
@@ -57,6 +60,7 @@ const T = {
     unknown: 'unknown',
     reset: 'Clear filters',
     guide: 'Read the resort guide for more on each resort',
+    share: 'Resort finder – Elementaction',
     note: 'Flags are only set when the source mentions the feature. A missing flag does not mean the resort lacks it, so check its own website. Figures are for the whole lift system.'
   }
 };
@@ -79,6 +83,17 @@ export function ResortFinder() {
   const [features, setFeatures] = useState<Feature[]>([]);
   const [minTop, setMinTop] = useState(0);
   const [sort, setSort] = useState<Sort>('top');
+
+  const ready = useInitFromUrl((p) => {
+    const list = <V extends string>(v: string | null, all: readonly V[]) => (v ?? '').split(',').filter((x): x is V => (all as readonly string[]).includes(x));
+    setRegions(list(p.get('r'), REGIONS));
+    setFeatures(list(p.get('f'), FEATURES));
+    const h = Number(p.get('min'));
+    if (HEIGHTS.includes(h)) setMinTop(h);
+    const so = oneOf(p.get('sort'), ['top', 'km', 'name'] as const);
+    if (so) setSort(so);
+  });
+  useSyncUrl({ r: regions.join(','), f: features.join(','), min: minTop || null, sort: sort === 'top' ? null : sort }, ready);
 
   const toggle = <V,>(list: V[], v: V) => (list.includes(v) ? list.filter((x) => x !== v) : [...list, v]);
 
@@ -144,11 +159,14 @@ export function ResortFinder() {
 
       <div className="mt-6 flex items-center justify-between gap-4" aria-live="polite">
         <p className="text-sm text-white/70">{t.count(result.length)}</p>
+        <div className="flex items-center gap-4">
+        <ShareButton title={t.share} getText={() => `${t.count(result.length)}: ${result.slice(0, 3).map((x) => x.name).join(', ')}${result.length > 3 ? ' …' : ''}`} />
         {filtered && (
           <button type="button" onClick={() => { setRegions([]); setFeatures([]); setMinTop(0); }} className="text-sm text-white underline decoration-white/40 underline-offset-4">
             {t.reset}
           </button>
         )}
+        </div>
       </div>
 
       {result.length === 0 ? (
