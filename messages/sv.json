@@ -250,7 +250,19 @@
       "wetsuit": {
         "name": "Våtdräktsguiden",
         "desc": "Vattentemperatur in, rätt tjocklek ut, och om du behöver skor, handskar och huva."
+      },
+      "parkjudge": {
+        "name": "Park Judge",
+        "desc": "AI-domare för park-skateboarding: bygg ett åk utifrån en bild av parken, eller få ditt åk bedömt enligt World Skates sju kriterier.",
+        "note": "Text och bild skickas till Google Gemini. Bedömningen är en uppskattning, inte officiell domning."
       }
-    }
+    },
+    "groups": {
+      "surf": "Surf",
+      "skate": "Skateboard",
+      "snow": "Snowboard",
+      "travel": "Resor"
+    },
+    "external": "Egen app, öppnas i ny flik"
   }
 }

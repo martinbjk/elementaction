@@ -250,7 +250,19 @@
       "wetsuit": {
         "name": "Guide des combinaisons",
         "desc": "Indiquez la température de l’eau et obtenez la bonne épaisseur, et s’il faut chaussons, gants et cagoule."
+      },
+      "parkjudge": {
+        "name": "Park Judge",
+        "desc": "Un juge IA pour le skate en park : créez un run à partir d’une photo du park, ou faites noter votre run selon les sept critères de World Skate.",
+        "note": "Le texte et les photos sont envoyés à Google Gemini. Les notes sont des estimations, pas un jugement officiel."
       }
-    }
+    },
+    "groups": {
+      "surf": "Surf",
+      "skate": "Skateboard",
+      "snow": "Snowboard",
+      "travel": "Voyages"
+    },
+    "external": "Application séparée, s’ouvre dans un nouvel onglet"
   }
 }

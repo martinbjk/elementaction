@@ -250,7 +250,19 @@
       "wetsuit": {
         "name": "Wetsuit guide",
         "desc": "Enter the water temperature and get the right thickness, plus whether you need boots, gloves and a hood."
+      },
+      "parkjudge": {
+        "name": "Park Judge",
+        "desc": "An AI judge for park skateboarding: build a run from a photo of the park, or get your run scored on World Skate’s seven criteria.",
+        "note": "Text and photos are sent to Google Gemini. Scores are estimates, not official judging."
       }
-    }
+    },
+    "groups": {
+      "surf": "Surf",
+      "skate": "Skateboard",
+      "snow": "Snowboard",
+      "travel": "Travel"
+    },
+    "external": "Separate app, opens in a new tab"
   }
 }

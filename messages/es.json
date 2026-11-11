@@ -250,7 +250,19 @@
       "wetsuit": {
         "name": "Guía de neoprenos",
         "desc": "Indica la temperatura del agua y obtén el grosor adecuado, y si necesitas escarpines, guantes y capucha."
+      },
+      "parkjudge": {
+        "name": "Park Judge",
+        "desc": "Un juez con IA para el skate de park: crea una ronda a partir de una foto del park o haz que puntúen tu ronda según los siete criterios de World Skate.",
+        "note": "El texto y las fotos se envían a Google Gemini. Las notas son estimaciones, no un juicio oficial."
       }
-    }
+    },
+    "groups": {
+      "surf": "Surf",
+      "skate": "Skateboard",
+      "snow": "Snowboard",
+      "travel": "Viajes"
+    },
+    "external": "App aparte, se abre en una pestaña nueva"
   }
 }

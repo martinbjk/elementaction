@@ -250,7 +250,19 @@
       "wetsuit": {
         "name": "Guia de fatos de surf",
         "desc": "Indique a temperatura da água e obtenha a espessura certa, e se precisa de botas, luvas e capuz."
+      },
+      "parkjudge": {
+        "name": "Park Judge",
+        "desc": "Um juiz com IA para skate de park: crie uma volta a partir de uma foto do park ou receba uma nota segundo os sete critérios da World Skate.",
+        "note": "O texto e as fotos são enviados para o Google Gemini. As notas são estimativas, não um julgamento oficial."
       }
-    }
+    },
+    "groups": {
+      "surf": "Surf",
+      "skate": "Skate",
+      "snow": "Snowboard",
+      "travel": "Viagens"
+    },
+    "external": "App separada, abre num novo separador"
   }
 }

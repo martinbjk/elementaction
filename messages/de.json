@@ -250,7 +250,19 @@
       "wetsuit": {
         "name": "Neoprenanzug-Guide",
         "desc": "Wassertemperatur eingeben und die richtige Dicke erhalten, dazu ob du Schuhe, Handschuhe und Haube brauchst."
+      },
+      "parkjudge": {
+        "name": "Park Judge",
+        "desc": "Ein KI-Kampfrichter für Park-Skateboarding: Erstelle einen Run anhand eines Fotos vom Park oder lass deinen Run nach den sieben Kriterien von World Skate bewerten.",
+        "note": "Text und Fotos werden an Google Gemini gesendet. Die Bewertung ist eine Schätzung, keine offizielle Wertung."
       }
-    }
+    },
+    "groups": {
+      "surf": "Surfen",
+      "skate": "Skateboard",
+      "snow": "Snowboard",
+      "travel": "Reisen"
+    },
+    "external": "Eigene App, öffnet in neuem Tab"
   }
 }
