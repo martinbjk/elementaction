@@ -7,7 +7,7 @@ import { WetsuitGuide } from '@/components/tools/WetsuitGuide';
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'tools' });
-  const title = t('items.wetsuit.name');
+  const title = t('items.wetsuit.seoTitle');
   const description = t('items.wetsuit.desc');
   const alternates = localeAlternates(locale, 'tools/wetsuit-guide/');
   const images = [{ url: `${SITE_URL}/images/tools/wetsuit-guide.png`, width: 1200, height: 630, alt: title }];

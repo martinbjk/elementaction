@@ -212,16 +212,19 @@
     "inArticle": "I artikeln",
     "items": {
       "vol": {
-        "name": "Surfbrädans volym",
-        "desc": "Räkna ut hur många liter din surfbräda bör ha utifrån vikt och nivå."
+        "name": "Volymkalkylator för surfbräda",
+        "desc": "Räkna ut vilken volym din surfbräda ska ha. Ange vikt och nivå och få rekommenderad volym i liter, plus vilka brädtyper som passar.",
+        "seoTitle": "Volymkalkylator surfbräda: liter efter vikt och nivå"
       },
       "season": {
-        "name": "Säsongsguiden",
-        "desc": "Välj en månad och se var det är bra surf och bra snö i världen just då."
+        "name": "Säsongskalender för surf och snö",
+        "desc": "När är bästa tiden att surfa eller åka snowboard? Välj en månad och se var det är bra vågor och bra snö i världen just då.",
+        "seoTitle": "Bästa tiden att surfa och åka snowboard, månad för månad"
       },
       "resort": {
-        "name": "Resortfinnaren",
-        "desc": "Filtrera 26 snowboardorter efter land, park, halfpipe, glaciär och sommaråkning."
+        "name": "Hitta snowboardort",
+        "desc": "Hitta rätt snowboardort. Filtrera 26 orter i Alperna, Nordamerika, Japan och Nya Zeeland efter snowpark, halfpipe, glaciär och sommaråkning.",
+        "seoTitle": "Bästa snowboardorterna: park, halfpipe och glaciär"
       },
       "parks": {
         "name": "Inomhusskateparker",
@@ -244,12 +247,14 @@
         "desc": "Hitta rätt prognos och boj för din kust, och räkna ut när dyningen kommer fram."
       },
       "sbsize": {
-        "name": "Snowboardens storlek",
-        "desc": "Räkna ut brädlängd och midjebredd utifrån vikt, skostorlek och åkstil."
+        "name": "Snowboard storlek – kalkylator",
+        "desc": "Vilken storlek på snowboard ska du ha? Räkna ut brädlängd och midjebredd efter vikt, skostorlek och åkstil.",
+        "seoTitle": "Snowboard storlek: längd och bredd efter vikt"
       },
       "wetsuit": {
-        "name": "Våtdräktsguiden",
-        "desc": "Vattentemperatur in, rätt tjocklek ut, och om du behöver skor, handskar och huva."
+        "name": "Våtdräkt tjocklek – guide",
+        "desc": "Vilken tjocklek på våtdräkt behöver du? Ange vattentemperaturen och se om du ska ha 3/2, 4/3 eller 5/4 mm, och om du behöver skor, handskar och huva.",
+        "seoTitle": "Våtdräkt tjocklek efter vattentemperatur"
       },
       "parkjudge": {
         "name": "Park Judge",
@@ -263,6 +268,8 @@
       "snow": "Snowboard",
       "travel": "Resor"
     },
-    "external": "Egen app, öppnas i ny flik"
+    "external": "Egen app, öppnas i ny flik",
+    "seoTitle": "Verktyg för surf, skateboard och snowboard",
+    "seoDesc": "Gratis verktyg för surf, skateboard och snowboard: volymkalkylator för surfbräda, snowboard storlek, våtdräkt tjocklek, säsongskalender och resortfinnare."
   }
 }

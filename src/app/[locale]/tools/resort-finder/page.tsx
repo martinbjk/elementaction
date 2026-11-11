@@ -7,7 +7,7 @@ import { ResortFinder } from '@/components/tools/ResortFinder';
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'tools' });
-  const title = t('items.resort.name');
+  const title = t('items.resort.seoTitle');
   const description = t('items.resort.desc');
   const alternates = localeAlternates(locale, 'tools/resort-finder/');
   const images = [{ url: `${SITE_URL}/images/tools/resort-finder.png`, width: 1200, height: 630, alt: title }];

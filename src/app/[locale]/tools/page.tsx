@@ -8,7 +8,7 @@ import { ToolFrame } from '@/components/tools/ToolFrame';
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'tools' });
-  return { title: t('title'), description: t('lead'), alternates: localeAlternates(locale, 'tools/') };
+  return { title: t('seoTitle'), description: t('seoDesc'), alternates: localeAlternates(locale, 'tools/') };
 }
 
 export default async function ToolsPage({ params: { locale } }: { params: { locale: string } }) {

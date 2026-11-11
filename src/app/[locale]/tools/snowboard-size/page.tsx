@@ -7,7 +7,7 @@ import { SnowboardSize } from '@/components/tools/SnowboardSize';
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'tools' });
-  const title = t('items.sbsize.name');
+  const title = t('items.sbsize.seoTitle');
   const description = t('items.sbsize.desc');
   const alternates = localeAlternates(locale, 'tools/snowboard-size/');
   const images = [{ url: `${SITE_URL}/images/tools/snowboard-size.png`, width: 1200, height: 630, alt: title }];

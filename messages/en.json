@@ -212,16 +212,19 @@
     "inArticle": "In the article",
     "items": {
       "vol": {
-        "name": "Surfboard volume",
-        "desc": "Work out how many litres your surfboard should have from your weight and level."
+        "name": "Surfboard volume calculator",
+        "desc": "What volume surfboard do you need? Enter your weight and level to get the recommended volume in litres, plus the board types that suit you.",
+        "seoTitle": "Surfboard Volume Calculator: Litres by Weight & Level"
       },
       "season": {
-        "name": "Season guide",
-        "desc": "Pick a month and see where the surf and the snow are good around the world."
+        "name": "Surf and snow season calendar",
+        "desc": "When is the best time to surf or snowboard? Pick a month and see where the waves and the snow are good around the world.",
+        "seoTitle": "Best Time to Surf and Snowboard: Month by Month"
       },
       "resort": {
-        "name": "Resort finder",
-        "desc": "Filter 26 snowboard resorts by country, park, halfpipe, glacier and summer riding."
+        "name": "Snowboard resort finder",
+        "desc": "Find the right snowboard resort. Filter 26 resorts in the Alps, North America, Japan and New Zealand by snowpark, halfpipe, glacier and summer riding.",
+        "seoTitle": "Best Snowboard Resorts: Park, Halfpipe & Glacier Finder"
       },
       "parks": {
         "name": "Indoor skateparks",
@@ -244,12 +247,14 @@
         "desc": "Find the right forecast and buoy for your coast, and work out when the swell arrives."
       },
       "sbsize": {
-        "name": "Snowboard size",
-        "desc": "Work out board length and waist width from your weight, boot size and riding style."
+        "name": "Snowboard size calculator",
+        "desc": "What size snowboard do you need? Work out board length and waist width from your weight, boot size and riding style.",
+        "seoTitle": "Snowboard Size Calculator: Length & Width by Weight"
       },
       "wetsuit": {
-        "name": "Wetsuit guide",
-        "desc": "Enter the water temperature and get the right thickness, plus whether you need boots, gloves and a hood."
+        "name": "Wetsuit thickness guide",
+        "desc": "What wetsuit thickness do you need? Enter the water temperature to see whether you need a 3/2, 4/3 or 5/4 mm suit, plus boots, gloves and a hood.",
+        "seoTitle": "Wetsuit Thickness Chart by Water Temperature"
       },
       "parkjudge": {
         "name": "Park Judge",
@@ -263,6 +268,8 @@
       "snow": "Snowboard",
       "travel": "Travel"
     },
-    "external": "Separate app, opens in a new tab"
+    "external": "Separate app, opens in a new tab",
+    "seoTitle": "Surf, Skate and Snowboard Tools",
+    "seoDesc": "Free surf, skate and snowboard tools: surfboard volume calculator, snowboard size calculator, wetsuit thickness chart, season calendar and resort finder."
   }
 }

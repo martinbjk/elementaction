@@ -212,16 +212,19 @@
     "inArticle": "Im Artikel",
     "items": {
       "vol": {
-        "name": "Surfboard-Volumen",
-        "desc": "Berechne, wie viele Liter dein Surfboard nach Gewicht und Können haben sollte."
+        "name": "Surfboard-Volumenrechner",
+        "desc": "Welches Volumen braucht dein Surfboard? Gib Gewicht und Können ein und erhalte das empfohlene Volumen in Litern sowie passende Boardtypen.",
+        "seoTitle": "Surfboard-Volumenrechner: Liter nach Gewicht und Können"
       },
       "season": {
-        "name": "Saison-Guide",
-        "desc": "Wähle einen Monat und sieh, wo Surf und Schnee gerade gut sind."
+        "name": "Saisonkalender für Surf und Schnee",
+        "desc": "Wann ist die beste Zeit zum Surfen oder Snowboarden? Wähle einen Monat und sieh, wo Wellen und Schnee gerade gut sind.",
+        "seoTitle": "Beste Zeit zum Surfen und Snowboarden nach Monat"
       },
       "resort": {
-        "name": "Skigebiet-Finder",
-        "desc": "Filtere 26 Snowboard-Skigebiete nach Land, Park, Halfpipe, Gletscher und Sommerfahren."
+        "name": "Snowboard-Skigebiet-Finder",
+        "desc": "Finde das richtige Snowboard-Skigebiet. Filtere 26 Orte in den Alpen, Nordamerika, Japan und Neuseeland nach Snowpark, Halfpipe, Gletscher und Sommerfahren.",
+        "seoTitle": "Beste Snowboard-Skigebiete: Park, Halfpipe, Gletscher"
       },
       "parks": {
         "name": "Indoor-Skateparks",
@@ -244,12 +247,14 @@
         "desc": "Finde die richtige Vorhersage und Boje für deine Küste und berechne, wann die Dünung ankommt."
       },
       "sbsize": {
-        "name": "Snowboard-Größe",
-        "desc": "Berechne Boardlänge und Taillenbreite nach Gewicht, Schuhgröße und Fahrstil."
+        "name": "Snowboard-Größenrechner",
+        "desc": "Welche Snowboard-Größe brauchst du? Berechne Boardlänge und Taillenbreite nach Gewicht, Schuhgröße und Fahrstil.",
+        "seoTitle": "Snowboard-Größe berechnen: Länge und Breite nach Gewicht"
       },
       "wetsuit": {
-        "name": "Neoprenanzug-Guide",
-        "desc": "Wassertemperatur eingeben und die richtige Dicke erhalten, dazu ob du Schuhe, Handschuhe und Haube brauchst."
+        "name": "Neoprenanzug-Dicke",
+        "desc": "Welche Neoprendicke brauchst du? Gib die Wassertemperatur ein und sieh, ob du 3/2, 4/3 oder 5/4 mm brauchst, dazu Schuhe, Handschuhe und Haube.",
+        "seoTitle": "Neoprenanzug-Dicke nach Wassertemperatur"
       },
       "parkjudge": {
         "name": "Park Judge",
@@ -263,6 +268,8 @@
       "snow": "Snowboard",
       "travel": "Reisen"
     },
-    "external": "Eigene App, öffnet in neuem Tab"
+    "external": "Eigene App, öffnet in neuem Tab",
+    "seoTitle": "Tools für Surfen, Skateboard und Snowboard",
+    "seoDesc": "Kostenlose Tools für Surfen, Skateboard und Snowboard: Surfboard-Volumenrechner, Snowboard-Größenrechner, Neoprenanzug-Dicke, Saisonkalender und Skigebiet-Finder."
   }
 }

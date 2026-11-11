@@ -7,7 +7,7 @@ import { SeasonGuide } from '@/components/tools/SeasonGuide';
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'tools' });
-  const title = t('items.season.name');
+  const title = t('items.season.seoTitle');
   const description = t('items.season.desc');
   const alternates = localeAlternates(locale, 'tools/season-guide/');
   const images = [{ url: `${SITE_URL}/images/tools/season-guide.png`, width: 1200, height: 630, alt: title }];

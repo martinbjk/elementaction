@@ -212,16 +212,19 @@
     "inArticle": "En el artículo",
     "items": {
       "vol": {
-        "name": "Volumen de la tabla de surf",
-        "desc": "Calcula cuántos litros debe tener tu tabla según tu peso y tu nivel."
+        "name": "Calculadora de volumen de tabla de surf",
+        "desc": "¿Qué volumen de tabla de surf necesitas? Indica tu peso y tu nivel y obtén el volumen recomendado en litros y los tipos de tabla adecuados.",
+        "seoTitle": "Volumen de tabla de surf: litros según peso y nivel"
       },
       "season": {
-        "name": "Guía de temporadas",
-        "desc": "Elige un mes y mira dónde hay buen surf y buena nieve en el mundo."
+        "name": "Calendario de temporadas de surf y nieve",
+        "desc": "¿Cuál es la mejor época para surfear o hacer snowboard? Elige un mes y mira dónde hay buenas olas y buena nieve.",
+        "seoTitle": "Mejor época para surfear y hacer snowboard, mes a mes"
       },
       "resort": {
-        "name": "Buscador de estaciones",
-        "desc": "Filtra 26 estaciones de snowboard por país, snowpark, halfpipe, glaciar y nieve en verano."
+        "name": "Buscador de estaciones de snowboard",
+        "desc": "Encuentra la estación de snowboard adecuada. Filtra 26 estaciones de los Alpes, Norteamérica, Japón y Nueva Zelanda por snowpark, halfpipe, glaciar y nieve en verano.",
+        "seoTitle": "Mejores estaciones de snowboard: park, halfpipe, glaciar"
       },
       "parks": {
         "name": "Skateparks cubiertos",
@@ -244,12 +247,14 @@
         "desc": "Encuentra la previsión y la boya adecuadas para tu costa y calcula cuándo llega el swell."
       },
       "sbsize": {
-        "name": "Talla de snowboard",
-        "desc": "Calcula el largo de la tabla y el ancho de cintura según tu peso, talla de bota y estilo."
+        "name": "Calculadora de talla de snowboard",
+        "desc": "¿Qué talla de snowboard necesitas? Calcula el largo de la tabla y el ancho de cintura según tu peso, talla de bota y estilo.",
+        "seoTitle": "Talla de snowboard: largo y ancho según tu peso"
       },
       "wetsuit": {
-        "name": "Guía de neoprenos",
-        "desc": "Indica la temperatura del agua y obtén el grosor adecuado, y si necesitas escarpines, guantes y capucha."
+        "name": "Grosor del neopreno",
+        "desc": "¿Qué grosor de neopreno necesitas? Indica la temperatura del agua y mira si necesitas 3/2, 4/3 o 5/4 mm, además de escarpines, guantes y capucha.",
+        "seoTitle": "Grosor del neopreno según la temperatura del agua"
       },
       "parkjudge": {
         "name": "Park Judge",
@@ -263,6 +268,8 @@
       "snow": "Snowboard",
       "travel": "Viajes"
     },
-    "external": "App aparte, se abre en una pestaña nueva"
+    "external": "App aparte, se abre en una pestaña nueva",
+    "seoTitle": "Herramientas de surf, skate y snowboard",
+    "seoDesc": "Herramientas gratis de surf, skate y snowboard: calculadora de volumen de tabla, talla de snowboard, grosor del neopreno, calendario de temporadas y buscador de estaciones."
   }
 }

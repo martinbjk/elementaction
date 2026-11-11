@@ -212,16 +212,19 @@
     "inArticle": "No artigo",
     "items": {
       "vol": {
-        "name": "Volume da prancha de surf",
-        "desc": "Calcule quantos litros a sua prancha deve ter com base no peso e no nível."
+        "name": "Calculadora de volume de prancha de surf",
+        "desc": "Que volume de prancha de surf precisa? Indique o peso e o nível e obtenha o volume recomendado em litros e os tipos de prancha adequados.",
+        "seoTitle": "Volume de prancha de surf: litros por peso e nível"
       },
       "season": {
-        "name": "Guia de estações",
-        "desc": "Escolha um mês e veja onde o surf e a neve estão bons no mundo."
+        "name": "Calendário de épocas de surf e neve",
+        "desc": "Qual é a melhor época para surfar ou fazer snowboard? Escolha um mês e veja onde há boas ondas e boa neve.",
+        "seoTitle": "Melhor época para surfar e fazer snowboard, mês a mês"
       },
       "resort": {
-        "name": "Localizador de estâncias",
-        "desc": "Filtre 26 estâncias de snowboard por país, snowpark, halfpipe, glaciar e neve no verão."
+        "name": "Localizador de estâncias de snowboard",
+        "desc": "Encontre a estância de snowboard certa. Filtre 26 estâncias nos Alpes, América do Norte, Japão e Nova Zelândia por snowpark, halfpipe, glaciar e neve no verão.",
+        "seoTitle": "Melhores estâncias de snowboard: park, halfpipe, glaciar"
       },
       "parks": {
         "name": "Skateparks cobertos",
@@ -244,12 +247,14 @@
         "desc": "Encontre a previsão e a boia certas para a sua costa e calcule quando chega a ondulação."
       },
       "sbsize": {
-        "name": "Tamanho do snowboard",
-        "desc": "Calcule o comprimento e a largura da prancha com base no peso, tamanho da bota e estilo."
+        "name": "Calculadora de tamanho de snowboard",
+        "desc": "Que tamanho de snowboard precisa? Calcule o comprimento e a largura da prancha com base no peso, tamanho da bota e estilo.",
+        "seoTitle": "Tamanho de snowboard: comprimento e largura por peso"
       },
       "wetsuit": {
-        "name": "Guia de fatos de surf",
-        "desc": "Indique a temperatura da água e obtenha a espessura certa, e se precisa de botas, luvas e capuz."
+        "name": "Espessura do fato de surf",
+        "desc": "Que espessura de fato precisa? Indique a temperatura da água e veja se precisa de 3/2, 4/3 ou 5/4 mm, além de botas, luvas e capuz.",
+        "seoTitle": "Espessura do fato de surf por temperatura da água"
       },
       "parkjudge": {
         "name": "Park Judge",
@@ -263,6 +268,8 @@
       "snow": "Snowboard",
       "travel": "Viagens"
     },
-    "external": "App separada, abre num novo separador"
+    "external": "App separada, abre num novo separador",
+    "seoTitle": "Ferramentas de surf, skate e snowboard",
+    "seoDesc": "Ferramentas gratuitas de surf, skate e snowboard: calculadora de volume de prancha, tamanho de snowboard, espessura do fato, calendário de épocas e estâncias."
   }
 }

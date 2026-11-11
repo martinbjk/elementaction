@@ -212,16 +212,19 @@
     "inArticle": "Dans l’article",
     "items": {
       "vol": {
-        "name": "Volume de la planche de surf",
-        "desc": "Calculez combien de litres votre planche doit faire selon votre poids et votre niveau."
+        "name": "Calculateur de volume de planche de surf",
+        "desc": "Quel volume de planche de surf vous faut-il ? Indiquez votre poids et votre niveau pour obtenir le volume conseillé en litres et les types de planches adaptés.",
+        "seoTitle": "Volume de planche de surf : litres selon poids et niveau"
       },
       "season": {
-        "name": "Guide des saisons",
-        "desc": "Choisissez un mois et voyez où le surf et la neige sont bons dans le monde."
+        "name": "Calendrier des saisons surf et neige",
+        "desc": "Quelle est la meilleure période pour surfer ou faire du snowboard ? Choisissez un mois et voyez où les vagues et la neige sont bonnes.",
+        "seoTitle": "Meilleure période pour surfer et faire du snowboard"
       },
       "resort": {
-        "name": "Trouver une station",
-        "desc": "Filtrez 26 stations de snowboard par pays, snowpark, halfpipe, glacier et ride en été."
+        "name": "Trouver une station de snowboard",
+        "desc": "Trouvez la bonne station de snowboard. Filtrez 26 stations des Alpes, d’Amérique du Nord, du Japon et de Nouvelle-Zélande par snowpark, halfpipe, glacier et ride en été.",
+        "seoTitle": "Meilleures stations de snowboard : park, halfpipe, glacier"
       },
       "parks": {
         "name": "Skateparks couverts",
@@ -244,12 +247,14 @@
         "desc": "Trouvez la bonne prévision et la bonne bouée pour votre côte, et calculez l’arrivée de la houle."
       },
       "sbsize": {
-        "name": "Taille du snowboard",
-        "desc": "Calculez la longueur et la largeur au patin selon votre poids, votre pointure et votre style."
+        "name": "Calculateur de taille de snowboard",
+        "desc": "Quelle taille de snowboard choisir ? Calculez la longueur et la largeur au patin selon votre poids, votre pointure et votre style.",
+        "seoTitle": "Taille de snowboard : longueur et largeur selon le poids"
       },
       "wetsuit": {
-        "name": "Guide des combinaisons",
-        "desc": "Indiquez la température de l’eau et obtenez la bonne épaisseur, et s’il faut chaussons, gants et cagoule."
+        "name": "Épaisseur de combinaison de surf",
+        "desc": "Quelle épaisseur de combinaison choisir ? Indiquez la température de l’eau pour savoir s’il vous faut 3/2, 4/3 ou 5/4 mm, et des chaussons, gants et cagoule.",
+        "seoTitle": "Épaisseur de combinaison selon la température de l’eau"
       },
       "parkjudge": {
         "name": "Park Judge",
@@ -263,6 +268,8 @@
       "snow": "Snowboard",
       "travel": "Voyages"
     },
-    "external": "Application séparée, s’ouvre dans un nouvel onglet"
+    "external": "Application séparée, s’ouvre dans un nouvel onglet",
+    "seoTitle": "Outils pour le surf, le skate et le snowboard",
+    "seoDesc": "Outils gratuits pour le surf, le skate et le snowboard : calculateur de volume de planche, taille de snowboard, épaisseur de combinaison, calendrier des saisons et stations."
   }
 }

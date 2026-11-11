@@ -7,7 +7,7 @@ import { SurfboardVolume } from '@/components/tools/SurfboardVolume';
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'tools' });
-  const title = t('items.vol.name');
+  const title = t('items.vol.seoTitle');
   const description = t('items.vol.desc');
   const alternates = localeAlternates(locale, 'tools/surfboard-volume/');
   const images = [{ url: `${SITE_URL}/images/tools/surfboard-volume.png`, width: 1200, height: 630, alt: title }];
