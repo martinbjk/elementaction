@@ -4,7 +4,7 @@
  * `article`: verktyg som ligger inbäddade i en artikel (länkas dit).
  * `key` pekar på texten i messages/*.json → tools.items.<key>.
  */
-export type ToolKey = 'vol' | 'season' | 'resort' | 'sbsize' | 'wetsuit' | 'parkjudge' | 'parks' | 'pools' | 'norway' | 'sweden' | 'swell';
+export type ToolKey = 'vol' | 'season' | 'resort' | 'sbsize' | 'wetsuit' | 'parkjudge' | 'parks' | 'shops' | 'pools' | 'norway' | 'sweden' | 'swell';
 
 export type ToolGroup = 'surf' | 'skate' | 'snow' | 'travel';
 
@@ -38,6 +38,7 @@ export const TOOLS: ToolEntry[] = [
   // Skateboard
   { key: 'parkjudge', href: 'https://park-judge.vercel.app/', kind: 'external', group: 'skate', color: '#e0242f' },
   { key: 'parks', href: '/skateboard/articles/verified-indoor-skateparks-world', kind: 'article', group: 'skate', color: '#e0242f' },
+  { key: 'shops', href: '/skate-shop-finder.html', kind: 'external', group: 'skate', color: '#e0242f' },
   // Snowboard
   { key: 'sbsize', href: `/tools/${TOOL_PAGES.sbsize}`, kind: 'page', group: 'snow', color: '#5cb6ff' },
   { key: 'resort', href: `/tools/${TOOL_PAGES.resort}`, kind: 'page', group: 'snow', color: '#5cb6ff' },

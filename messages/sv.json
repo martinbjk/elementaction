@@ -260,6 +260,11 @@
         "name": "Park Judge",
         "desc": "AI-domare för park-skateboarding: bygg ett åk utifrån en bild av parken, eller få ditt åk bedömt enligt World Skates sju kriterier.",
         "note": "Text och bild skickas till Google Gemini. Bedömningen är en uppskattning, inte officiell domning."
+      },
+      "shops": {
+        "name": "Skateshop-sök",
+        "desc": "Sök oberoende skateshoppar i Norden och Europa efter stad, land eller namn, med adresser och kartlänkar.",
+        "note": "Öppnas som en egen sida. Butiksinformationen är på engelska."
       }
     },
     "groups": {

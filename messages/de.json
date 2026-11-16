@@ -260,6 +260,11 @@
         "name": "Park Judge",
         "desc": "Ein KI-Kampfrichter für Park-Skateboarding: Erstelle einen Run anhand eines Fotos vom Park oder lass deinen Run nach den sieben Kriterien von World Skate bewerten.",
         "note": "Text und Fotos werden an Google Gemini gesendet. Die Bewertung ist eine Schätzung, keine offizielle Wertung."
+      },
+      "shops": {
+        "name": "Skateshop-Finder",
+        "desc": "Unabhängige Skateshops in Skandinavien und Europa nach Stadt, Land oder Name suchen, mit Adressen und Kartenlinks.",
+        "note": "Öffnet sich als eigene Seite. Die Shop-Infos sind auf Englisch."
       }
     },
     "groups": {
