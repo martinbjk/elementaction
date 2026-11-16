@@ -267,7 +267,7 @@ These shops are well known in their scenes, but I couldn't confirm a current add
 | Shop | City | What's known | What's missing |
 |---|---|---|---|
 | Surfers Paradise (surf + skate) | Varberg, SE | Surf shop since 1985, listed at Södergatan 22 by one source, surfers.se. Varberg's board-sports hub near Apelviken | A second source for the address, and whether there is more than one store |
-| Street Style | Stockholm, SE | Skateboards, streetwear and a second-hand section, listed at Hamngatan 10 by one source | A second matching source, and whether it is independent |
+| Street Style | Stockholm, SE | Skateboards, streetwear and a second-hand section, run by a small Stockholm company registered in 2000; store listed at Hamngatan 10 by one source | A second source for the store address |
 | Coyote Grind Lounge | Stockholm, SE | Founded 2005 by three older skaters | Current street address |
 | Stuntwood | Stockholm, SE | Skate and snowboard shop on Södermalm, stuntwood.se | Street address |
 | Kahalani Boards | Stockholm, SE | Skateboard, longboard and roller derby shop, listed at Östgötagatan 20 by one source | A second matching source |
