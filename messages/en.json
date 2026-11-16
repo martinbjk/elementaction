@@ -261,6 +261,11 @@
         "name": "Park Judge",
         "desc": "An AI judge for park skateboarding: build a run from a photo of the park, or get your run scored on World Skate’s seven criteria.",
         "note": "Text and photos are sent to Google Gemini. Scores are estimates, not official judging."
+      },
+      "shops": {
+        "name": "Skate Shop Finder",
+        "seoTitle": "Skate Shops Near You: Nordics and Europe by City",
+        "desc": "Find independent skate shops in the Nordics and Europe. Search by city, country or shop name and get the address, website and a map link. 65 fact-checked shops."
       }
     },
     "groups": {

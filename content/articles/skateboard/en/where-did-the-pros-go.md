@@ -135,7 +135,7 @@ This is a forecast, not a fact. Based on how the industry recovered last time, a
 
 The cheapest way to support the next generation of skaters is to **buy from a real skate shop** when you can, and from skater-owned brands.
 
-We've put together a fact-checked list of [independent skate shops in the Nordics and Europe](/en/skateboard/articles/independent-skate-shops-europe/). You can also search all of them by city in the [Skate Shop Finder](/skate-shop-finder.html).
+We've put together a fact-checked list of [independent skate shops in the Nordics and Europe](/en/skateboard/articles/independent-skate-shops-europe/). You can also search all of them by city in the [Skate Shop Finder](/en/tools/skate-shop-finder/).
 
 ## About the author
 

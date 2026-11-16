@@ -24,7 +24,8 @@ export const TOOL_PAGES = {
   season: 'season-guide',
   resort: 'resort-finder',
   sbsize: 'snowboard-size',
-  wetsuit: 'wetsuit-guide'
+  wetsuit: 'wetsuit-guide',
+  shops: 'skate-shop-finder'
 } as const;
 
 export const TOOLS: ToolEntry[] = [
@@ -38,7 +39,7 @@ export const TOOLS: ToolEntry[] = [
   // Skateboard
   { key: 'parkjudge', href: 'https://park-judge.vercel.app/', kind: 'external', group: 'skate', color: '#e0242f' },
   { key: 'parks', href: '/skateboard/articles/verified-indoor-skateparks-world', kind: 'article', group: 'skate', color: '#e0242f' },
-  { key: 'shops', href: '/skate-shop-finder.html', kind: 'external', group: 'skate', color: '#e0242f' },
+  { key: 'shops', href: `/tools/${TOOL_PAGES.shops}`, kind: 'page', group: 'skate', color: '#e0242f' },
   // Snowboard
   { key: 'sbsize', href: `/tools/${TOOL_PAGES.sbsize}`, kind: 'page', group: 'snow', color: '#5cb6ff' },
   { key: 'resort', href: `/tools/${TOOL_PAGES.resort}`, kind: 'page', group: 'snow', color: '#5cb6ff' },

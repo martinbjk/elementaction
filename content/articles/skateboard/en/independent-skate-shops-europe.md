@@ -17,7 +17,7 @@ Skateboarding has more riders than ever, but fewer people who can make a living 
 
 The independent shop is where that money used to turn into something real: a team, a video, a jam, a free board for the kid who can't afford one. Every shop below does at least some of that.
 
-**🔎 Looking for a shop near you?** Use the [Skate Shop Finder](/skate-shop-finder.html) to search every shop on this list by city, country or name, with a map link for each one.
+**🔎 Looking for a shop near you?** Use the [Skate Shop Finder](/en/tools/skate-shop-finder/) to search every shop on this list by city, country or name, with a map link for each one.
 
 **What counts as "independent" here:** a physical store, run by skaters or with skateboarding at its core, and not part of a big retail chain. Independent surf shops with a real skateboard section count too, since along the coast they often are the local skate shop. Chains like Blue Tomato, Junkyard, Zumiez, doodah and Decathlon, and pure web shops, are left out on purpose.
 

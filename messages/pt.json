@@ -261,6 +261,11 @@
         "name": "Park Judge",
         "desc": "Um juiz com IA para skate de park: crie uma volta a partir de uma foto do park ou receba uma nota segundo os sete critérios da World Skate.",
         "note": "O texto e as fotos são enviados para o Google Gemini. As notas são estimativas, não um julgamento oficial."
+      },
+      "shops": {
+        "name": "Skate Shop Finder",
+        "seoTitle": "Skateshops na Europa e países nórdicos por cidade",
+        "desc": "Encontre skateshops independentes na Europa e nos países nórdicos. Pesquise por cidade, país ou loja e obtenha morada, site e link para o mapa. 65 lojas verificadas."
       }
     },
     "groups": {
