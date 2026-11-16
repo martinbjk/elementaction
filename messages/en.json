@@ -12,7 +12,8 @@
     "about": "About",
     "privacy": "Privacy",
     "search": "Search",
-    "tools": "Tools"
+    "tools": "Tools",
+    "tip": "Submit an event"
   },
   "sections": {
     "surfing": {
@@ -260,11 +261,6 @@
         "name": "Park Judge",
         "desc": "An AI judge for park skateboarding: build a run from a photo of the park, or get your run scored on World Skate’s seven criteria.",
         "note": "Text and photos are sent to Google Gemini. Scores are estimates, not official judging."
-      },
-      "shops": {
-        "name": "Skate Shop Finder",
-        "desc": "Search independent skate shops in the Nordics and Europe by city, country or name, with addresses and map links.",
-        "note": "Opens as its own page. Shop names and addresses are in English."
       }
     },
     "groups": {
@@ -276,5 +272,34 @@
     "external": "Separate app, opens in a new tab",
     "seoTitle": "Surf, Skate and Snowboard Tools",
     "seoDesc": "Free surf, skate and snowboard tools: surfboard volume calculator, snowboard size calculator, wetsuit thickness chart, season calendar and resort finder."
+  },
+  "tip": {
+    "cta": "Submit an event",
+    "bannerTitle": "Missing an event? Tell us!",
+    "bannerBody": "Contests, jams, premieres, festivals – big or small. We add the tips to the calendar.",
+    "inline": "Know an event that is missing from the calendar?",
+    "subject": "Event tip for Elementaction",
+    "send": "Send a tip by email",
+    "showAddress": "Show the email address",
+    "title": "Submit an event",
+    "lead": "Every tip makes the calendar better. Do you know a contest, a jam, a film premiere or a festival in skateboarding, surfing or snowboarding? Send it to us and we will add it.",
+    "needTitle": "What we need",
+    "need": [
+      "Name of the event",
+      "Date (and times, if you have them)",
+      "Place: city and country, ideally the address",
+      "Sport: skateboarding, surfing, snowboarding or other",
+      "Link to the official page, Instagram or registration",
+      "Organizer"
+    ],
+    "howTitle": "How it works",
+    "how": [
+      "The button opens your email app with a ready-made template. Fill in what you know.",
+      "We check the details against the organizer’s own pages before anything is published.",
+      "Want to be credited as the tipster? Add your name in the email; otherwise nothing about you is shown."
+    ],
+    "privacy": "We only use your email address to ask about the tip, and it is never stored on the site. Read more in the privacy policy.",
+    "privacyLink": "privacy policy",
+    "template": "Event name:\nDate:\nPlace (city, country):\nSport (skateboarding / surfing / snowboarding / other):\nLink (official page, Instagram or registration):\nOrganizer:\nOther info:\n\nYour name, if you want to be credited as the tipster:\n"
   }
 }

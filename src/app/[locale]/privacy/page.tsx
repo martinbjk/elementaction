@@ -9,6 +9,7 @@ import { InfoPage } from '@/components/InfoPage';
  * Skriven för sajtens FAKTISKA datapraxis i oktober 2026: statisk sajt på
  * GitHub Pages, inga konton, inga formulär, inga cookies, cookiefri
  * besöksstatistik via Cloudflare Web Analytics (sedan 5 november 2026),
+ * eventtips via e-post (sedan 16 november 2026),
  * typsnitten ligger på egen server (inga Google Fonts-anrop), YouTube-
  * miniatyrer på videosidorna.
  *
@@ -19,7 +20,7 @@ import { InfoPage } from '@/components/InfoPage';
  * Övriga språk (de, fr, es, pt, ja) visar den engelska texten med en notis.
  */
 
-const UPDATED = { sv: '5 november 2026', en: '5 November 2026' };
+const UPDATED = { sv: '16 november 2026', en: '16 November 2026' };
 const ISSUES_URL = 'https://github.com/martinbjk/elementaction/issues';
 const ext = { target: '_blank', rel: 'noreferrer noopener' } as const;
 
@@ -36,6 +37,7 @@ function Sv() {
       <h2>Kort sagt</h2>
       <p>
         Elementaction är en statisk webbplats. Det finns inga konton, ingen inloggning, inga formulär och inga cookies.
+        Eventtips skickas med vanlig e-post, och bara om du själv väljer det.
         Vi använder en cookiefri besöksräknare för att se hur många som besöker sajten, och vi visar inga annonser.
         Nedan står exakt vad som händer när du besöker sajten.
       </p>
@@ -94,6 +96,14 @@ function Sv() {
         .
       </p>
 
+      <h2>Om du tipsar oss om ett event</h2>
+      <p>
+        Knappen ”Tipsa om ett event” öppnar ditt eget e-postprogram. Skickar du mejlet får vi din e-postadress och det
+        du skriver. Vi använder det bara för att kontrollera tipset och kunna fråga dig om något är oklart. Din
+        e-postadress publiceras aldrig. Ditt namn visas bara om du själv ber om att bli nämnd som tipsare. Vill du att
+        vi raderar ditt mejl, svara på det eller skriv till samma adress.
+      </p>
+
       <h2>Länkar till andra webbplatser</h2>
       <p>
         Eventsidor länkar till Google Maps och till arrangörernas egna webbplatser för anmälan och biljetter. Två
@@ -132,7 +142,8 @@ function En() {
 
       <h2>In short</h2>
       <p>
-        Elementaction is a static website. There are no accounts, no login, no forms and no cookies. We use a
+        Elementaction is a static website. There are no accounts, no login, no forms and no cookies. Event tips are sent
+        by ordinary email, and only if you choose to. We use a
         cookie-free visitor counter to see how many people visit the site, and we show no ads. Below is exactly what happens when you visit the site.
       </p>
 
@@ -187,6 +198,14 @@ function En() {
           Google’s privacy policy
         </a>
         .
+      </p>
+
+      <h2>If you send us an event tip</h2>
+      <p>
+        The “Submit an event” button opens your own email app. If you send the email, we receive your email address
+        and what you write. We only use it to check the tip and to ask you if something is unclear. Your email address
+        is never published. Your name is only shown if you ask to be credited as the tipster. If you want us to delete
+        your email, reply to it or write to the same address.
       </p>
 
       <h2>Links to other websites</h2>

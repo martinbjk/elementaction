@@ -5,6 +5,7 @@ import { getEvents } from '@/lib/events';
 import { localeAlternates } from '@/lib/seo';
 import { CalendarExplorer } from '@/components/CalendarExplorer';
 import { BlockHeader, EmptyState } from '@/components/Blocks';
+import { TipEvent } from '@/components/TipEvent';
 
 type Params = { params: { locale: string; section: string } };
 
@@ -26,6 +27,9 @@ export default async function CalendarPage({ params: { locale, section } }: Para
   return (
     <div>
       <BlockHeader as="h1" title={t('calendar.title', { section: name })} />
+      <div className="mt-8">
+        <TipEvent variant="banner" sectionName={name} />
+      </div>
       <div className="mt-8">
         {events.length ? (
           <CalendarExplorer events={events} section={section} buildTime={new Date().toISOString()} />

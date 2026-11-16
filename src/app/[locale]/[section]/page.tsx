@@ -7,6 +7,7 @@ import { getDesignWall } from '@/lib/design-wall';
 import { localeAlternates } from '@/lib/seo';
 import { videos } from '@/data/videos';
 import { ArticleCard, BlockHeader, DesignWall, EmptyState } from '@/components/Blocks';
+import { TipEvent } from '@/components/TipEvent';
 import { EventPreview } from '@/components/EventPreview';
 import { VideoGrid } from '@/components/VideoGrid';
 
@@ -52,6 +53,9 @@ export default async function SectionOverview({ params: { locale, section } }: P
           ) : (
             <EmptyState title={t('calendar.emptyTitle')} body={t('calendar.emptyBody', { section: name })} />
           )}
+        </div>
+        <div className="mt-6">
+          <TipEvent variant="banner" sectionName={name} />
         </div>
       </section>
 

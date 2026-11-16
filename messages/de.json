@@ -12,7 +12,8 @@
     "about": "Über uns",
     "privacy": "Datenschutz",
     "search": "Suche",
-    "tools": "Tools"
+    "tools": "Tools",
+    "tip": "Event melden"
   },
   "sections": {
     "surfing": {
@@ -260,11 +261,6 @@
         "name": "Park Judge",
         "desc": "Ein KI-Kampfrichter für Park-Skateboarding: Erstelle einen Run anhand eines Fotos vom Park oder lass deinen Run nach den sieben Kriterien von World Skate bewerten.",
         "note": "Text und Fotos werden an Google Gemini gesendet. Die Bewertung ist eine Schätzung, keine offizielle Wertung."
-      },
-      "shops": {
-        "name": "Skateshop-Finder",
-        "desc": "Unabhängige Skateshops in Skandinavien und Europa nach Stadt, Land oder Name suchen, mit Adressen und Kartenlinks.",
-        "note": "Öffnet sich als eigene Seite. Die Shop-Infos sind auf Englisch."
       }
     },
     "groups": {
@@ -276,5 +272,34 @@
     "external": "Eigene App, öffnet in neuem Tab",
     "seoTitle": "Tools für Surfen, Skateboard und Snowboard",
     "seoDesc": "Kostenlose Tools für Surfen, Skateboard und Snowboard: Surfboard-Volumenrechner, Snowboard-Größenrechner, Neoprenanzug-Dicke, Saisonkalender und Skigebiet-Finder."
+  },
+  "tip": {
+    "cta": "Event melden",
+    "bannerTitle": "Fehlt ein Event? Sag es uns!",
+    "bannerBody": "Contests, Jams, Premieren, Festivals – groß oder klein. Wir tragen die Tipps in den Kalender ein.",
+    "inline": "Kennst du ein Event, das im Kalender fehlt?",
+    "subject": "Event-Tipp für Elementaction",
+    "send": "Tipp per E-Mail senden",
+    "showAddress": "E-Mail-Adresse anzeigen",
+    "title": "Event melden",
+    "lead": "Jeder Tipp macht den Kalender besser. Kennst du einen Contest, einen Jam, eine Filmpremiere oder ein Festival im Skateboarden, Surfen oder Snowboarden? Schick es uns, und wir tragen es ein.",
+    "needTitle": "Das brauchen wir",
+    "need": [
+      "Name des Events",
+      "Datum (und Uhrzeiten, falls bekannt)",
+      "Ort: Stadt und Land, gern mit Adresse",
+      "Sport: Skateboard, Surfen, Snowboard oder anderes",
+      "Link zur offiziellen Seite, zu Instagram oder zur Anmeldung",
+      "Veranstalter"
+    ],
+    "howTitle": "So funktioniert es",
+    "how": [
+      "Der Button öffnet dein E-Mail-Programm mit einer fertigen Vorlage. Füll aus, was du weißt.",
+      "Wir prüfen die Angaben auf den Seiten des Veranstalters, bevor etwas veröffentlicht wird.",
+      "Möchtest du als Tippgeber genannt werden? Schreib deinen Namen in die E-Mail, sonst erscheint nichts über dich."
+    ],
+    "privacy": "Wir nutzen deine E-Mail-Adresse nur für Rückfragen zum Tipp und speichern sie nicht auf der Website. Mehr dazu in der Datenschutzerklärung.",
+    "privacyLink": "Datenschutzerklärung",
+    "template": "Name des Events:\nDatum:\nOrt (Stadt, Land):\nSport (Skateboard / Surfen / Snowboard / anderes):\nLink (offizielle Seite, Instagram oder Anmeldung):\nVeranstalter:\nSonstiges:\n\nDein Name, falls du als Tippgeber genannt werden möchtest:\n"
   }
 }

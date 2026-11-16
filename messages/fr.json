@@ -12,7 +12,8 @@
     "about": "À propos",
     "privacy": "Confidentialité",
     "search": "Rechercher",
-    "tools": "Outils"
+    "tools": "Outils",
+    "tip": "Proposer un événement"
   },
   "sections": {
     "surfing": {
@@ -260,11 +261,6 @@
         "name": "Park Judge",
         "desc": "Un juge IA pour le skate en park : créez un run à partir d’une photo du park, ou faites noter votre run selon les sept critères de World Skate.",
         "note": "Le texte et les photos sont envoyés à Google Gemini. Les notes sont des estimations, pas un jugement officiel."
-      },
-      "shops": {
-        "name": "Trouver un skateshop",
-        "desc": "Cherchez des skateshops indépendants dans les pays nordiques et en Europe par ville, pays ou nom, avec adresses et liens vers la carte.",
-        "note": "S'ouvre sur une page séparée. Les infos des boutiques sont en anglais."
       }
     },
     "groups": {
@@ -276,5 +272,34 @@
     "external": "Application séparée, s’ouvre dans un nouvel onglet",
     "seoTitle": "Outils pour le surf, le skate et le snowboard",
     "seoDesc": "Outils gratuits pour le surf, le skate et le snowboard : calculateur de volume de planche, taille de snowboard, épaisseur de combinaison, calendrier des saisons et stations."
+  },
+  "tip": {
+    "cta": "Proposer un événement",
+    "bannerTitle": "Il manque un événement ? Dites-le-nous !",
+    "bannerBody": "Compétitions, jams, avant-premières, festivals – grands ou petits. Nous ajoutons vos idées au calendrier.",
+    "inline": "Vous connaissez un événement absent du calendrier ?",
+    "subject": "Proposition d’événement pour Elementaction",
+    "send": "Envoyer par e-mail",
+    "showAddress": "Afficher l’adresse e-mail",
+    "title": "Proposer un événement",
+    "lead": "Chaque proposition améliore le calendrier. Vous connaissez une compétition, un jam, une avant-première ou un festival de skate, de surf ou de snowboard ? Envoyez-le-nous et nous l’ajouterons.",
+    "needTitle": "Ce dont nous avons besoin",
+    "need": [
+      "Nom de l’événement",
+      "Date (et horaires si possible)",
+      "Lieu : ville et pays, idéalement l’adresse",
+      "Sport : skate, surf, snowboard ou autre",
+      "Lien vers le site officiel, Instagram ou l’inscription",
+      "Organisateur"
+    ],
+    "howTitle": "Comment ça marche",
+    "how": [
+      "Le bouton ouvre votre messagerie avec un modèle prêt à remplir. Indiquez ce que vous savez.",
+      "Nous vérifions les informations sur les pages de l’organisateur avant toute publication.",
+      "Vous voulez être cité ? Ajoutez votre nom dans l’e-mail ; sinon, rien ne vous concernant n’apparaît."
+    ],
+    "privacy": "Nous utilisons votre adresse e-mail uniquement pour vous poser des questions sur l’événement, et elle n’est jamais enregistrée sur le site. En savoir plus dans la politique de confidentialité.",
+    "privacyLink": "politique de confidentialité",
+    "template": "Nom de l’événement :\nDate :\nLieu (ville, pays) :\nSport (skate / surf / snowboard / autre) :\nLien (site officiel, Instagram ou inscription) :\nOrganisateur :\nAutres infos :\n\nVotre nom, si vous voulez être cité :\n"
   }
 }

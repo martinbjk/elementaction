@@ -12,6 +12,7 @@ import { localeAlternates } from '@/lib/seo';
 import { SITE_URL } from '@/lib/site';
 import type { ElementEvent } from '@/lib/schema';
 import { AddToCalendar } from '@/components/AddToCalendar';
+import { TipEvent } from '@/components/TipEvent';
 import { ShareButton } from '@/components/ShareButton';
 
 type Params = { params: { locale: string; section: string; slug: string } };
@@ -174,6 +175,7 @@ export default async function EventPage({ params: { locale, section, slug } }: P
           </a>
         </p>
       )}
+      <TipEvent variant="inline" />
     </article>
   );
 }

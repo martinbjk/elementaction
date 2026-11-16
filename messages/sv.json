@@ -12,7 +12,8 @@
     "about": "Om sajten",
     "privacy": "Integritet",
     "search": "Sök",
-    "tools": "Verktyg"
+    "tools": "Verktyg",
+    "tip": "Tipsa om event"
   },
   "sections": {
     "surfing": {
@@ -260,11 +261,6 @@
         "name": "Park Judge",
         "desc": "AI-domare för park-skateboarding: bygg ett åk utifrån en bild av parken, eller få ditt åk bedömt enligt World Skates sju kriterier.",
         "note": "Text och bild skickas till Google Gemini. Bedömningen är en uppskattning, inte officiell domning."
-      },
-      "shops": {
-        "name": "Skateshop-sök",
-        "desc": "Sök oberoende skateshoppar i Norden och Europa efter stad, land eller namn, med adresser och kartlänkar.",
-        "note": "Öppnas som en egen sida. Butiksinformationen är på engelska."
       }
     },
     "groups": {
@@ -276,5 +272,34 @@
     "external": "Egen app, öppnas i ny flik",
     "seoTitle": "Verktyg för surf, skateboard och snowboard",
     "seoDesc": "Gratis verktyg för surf, skateboard och snowboard: volymkalkylator för surfbräda, snowboard storlek, våtdräkt tjocklek, säsongskalender och resortfinnare."
+  },
+  "tip": {
+    "cta": "Tipsa om ett event",
+    "bannerTitle": "Saknas ett event? Tipsa oss!",
+    "bannerBody": "Tävlingar, jam, premiärer, festivaler – stora som små. Vi lägger in tipsen i kalendern.",
+    "inline": "Känner du till ett event som saknas i kalendern?",
+    "subject": "Eventtips till Elementaction",
+    "send": "Skicka tips via e-post",
+    "showAddress": "Visa e-postadressen",
+    "title": "Tipsa om ett event",
+    "lead": "Kalendern blir bättre för varje tips. Känner du till en tävling, ett jam, en filmpremiär eller en festival inom skateboard, surf eller snowboard? Skicka det till oss, så lägger vi in det.",
+    "needTitle": "Det här behöver vi",
+    "need": [
+      "Eventets namn",
+      "Datum (och gärna tider)",
+      "Plats: stad och land, gärna adress",
+      "Sport: skateboard, surf, snowboard eller annat",
+      "Länk till officiell sida, Instagram eller anmälan",
+      "Arrangör"
+    ],
+    "howTitle": "Så går det till",
+    "how": [
+      "Knappen öppnar ditt e-postprogram med en färdig mall. Fyll i det du vet.",
+      "Vi kontrollerar uppgifterna mot arrangörens egna sidor innan något publiceras.",
+      "Vill du bli nämnd som tipsare? Skriv ditt namn i mejlet, annars syns inget om dig."
+    ],
+    "privacy": "Vi använder din e-postadress bara för att kunna fråga om tipset och sparar den inte på sajten. Läs mer i integritetspolicyn.",
+    "privacyLink": "integritetspolicyn",
+    "template": "Eventets namn:\nDatum:\nPlats (stad, land):\nSport (skateboard / surf / snowboard / annat):\nLänk (officiell sida, Instagram eller anmälan):\nArrangör:\nÖvrigt:\n\nDitt namn, om du vill bli nämnd som tipsare:\n"
   }
 }
