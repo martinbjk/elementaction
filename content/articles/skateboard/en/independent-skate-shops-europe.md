@@ -57,6 +57,17 @@ The independent shop is where that money used to turn into something real: a tea
 - **Note:** Open Wednesday to Saturday only, so check the website for hours.
 - A skateboard and vintage shop run by the EVA Skateboards crew. It made a first-of-its-kind metal riser pad for Ville Wester.
 
+#### Street Style — Stockholm ✅
+- **Address:** Hamngatan 10 (PK-huset), 111 47 Stockholm
+- **Web:** streetstyle08.com
+- **Since:** 1988
+- A skateboard and streetwear store in the PK-huset arcade in central Stockholm, with decks, hardware, clothing and a second-hand section. Its roots go back to the Stockholm skate scene of the late 1980s.
+
+#### FuckIt Skateboards — Norrköping ✅
+- **Address:** Tenngatan 13, 602 23 Norrköping (inside the Ladan skatehall)
+- **Web:** fuckitskateboards.com
+- A small local board brand that prints its own graphics in Norrköping. You can pick graphic, shape and width for a custom board. The boards are sold in the Ladan indoor skatehall and online.
+
 ### Norway
 
 #### SHIT® Skate Shop — Stavanger ✅
@@ -267,7 +278,6 @@ These shops are well known in their scenes, but I couldn't confirm a current add
 | Shop | City | What's known | What's missing |
 |---|---|---|---|
 | Surfers Paradise (surf + skate) | Varberg, SE | Surf shop since 1985, listed at Södergatan 22 by one source, surfers.se. Varberg's board-sports hub near Apelviken | A second source for the address, and whether there is more than one store |
-| Street Style | Stockholm, SE | Skateboards, streetwear and a second-hand section, run by a small Stockholm company registered in 2000; store listed at Hamngatan 10 by one source | A second source for the store address |
 | Coyote Grind Lounge | Stockholm, SE | Founded 2005 by three older skaters | Current street address |
 | Stuntwood | Stockholm, SE | Skate and snowboard shop on Södermalm, stuntwood.se | Street address |
 | Kahalani Boards | Stockholm, SE | Skateboard, longboard and roller derby shop, listed at Östgötagatan 20 by one source | A second matching source |
