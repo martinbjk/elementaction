@@ -63,6 +63,13 @@ The independent shop is where that money used to turn into something real: a tea
 - **Since:** 1988
 - A skateboard and streetwear store in the PK-huset arcade in central Stockholm, with decks, hardware, clothing and a second-hand section. Its roots go back to the Stockholm skate scene of the late 1980s.
 
+#### Kahalani Boardstore — Stockholm ✅
+- **Address:** Östgötagatan 20, 116 25 Stockholm (Södermalm)
+- **Web:** kahalani.se
+- **Since:** 1998
+- **Note:** Open Monday to Friday 12–18 and Saturday 12–16, closed Sundays.
+- Skateboards, longboards, surfskates and fingerboards, plus roller skates and roller derby gear. It has served the Stockholm scene since 1998.
+
 #### FuckIt Skateboards — Norrköping ✅
 - **Address:** Tenngatan 13, 602 23 Norrköping (inside the Ladan skatehall)
 - **Web:** fuckitskateboards.com
@@ -280,7 +287,6 @@ These shops are well known in their scenes, but I couldn't confirm a current add
 | Surfers Paradise (surf + skate) | Varberg, SE | Surf shop since 1985, listed at Södergatan 22 by one source, surfers.se. Varberg's board-sports hub near Apelviken | A second source for the address, and whether there is more than one store |
 | Coyote Grind Lounge | Stockholm, SE | Founded 2005 by three older skaters | Current street address |
 | Stuntwood | Stockholm, SE | Skate and snowboard shop on Södermalm, stuntwood.se | Street address |
-| Kahalani Boards | Stockholm, SE | Skateboard, longboard and roller derby shop, listed at Östgötagatan 20 by one source | A second matching source |
 | Boardlife | Jönköping, SE | Shop profile from earlier years | Confirmation that the physical store is still open |
 | Annex (Hunting Lodge) | Oslo, NO | Skate department of a Grünerløkka streetwear store, opened around 2020 | Current status and address |
 | Eightynine | Voss, NO | Skate and snowboard shop founded 2024; company address Vangsgata 6 | Confirmation that this is the shop's own street address |

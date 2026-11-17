@@ -39,7 +39,7 @@ export const SHOPS: Shop[] = [
   {n:"Street Style", c:"Stockholm", k:"Sweden", a:"Hamngatan 10 (PK-huset), 111 47 Stockholm", w:"streetstyle08.com", y:"1988", s:"v", t:"indie", d:"Skateboard and streetwear store in the PK-huset arcade, with decks, hardware, clothing and a second-hand section. Roots in the Stockholm skate scene of the late 1980s."},
   {n:"Coyote Grind Lounge", c:"Stockholm", k:"Sweden", a:"", y:"2005", s:"u", t:"indie", d:"Core shop founded by three older skaters. Street address not confirmed."},
   {n:"Stuntwood", c:"Stockholm", k:"Sweden", a:"Södermalm", w:"stuntwood.se", s:"u", t:"indie", d:"Skate and snowboard shop on Södermalm. Street address not confirmed."},
-  {n:"Kahalani Boards", c:"Stockholm", k:"Sweden", a:"Östgötagatan 20, Stockholm", s:"u", t:"indie", d:"Skateboard, longboard and roller derby shop. Address from one source."},
+  {n:"Kahalani Boardstore", c:"Stockholm", k:"Sweden", a:"Östgötagatan 20, 116 25 Stockholm", w:"kahalani.se", y:"1998", s:"v", t:"indie", d:"Skateboards, longboards, surfskates, roller skates and roller derby gear on Södermalm. Open Mon–Fri 12–18, Sat 12–16."},
   {n:"FuckIt Skateboards", c:"Norrköping", k:"Sweden", a:"Tenngatan 13 (Ladan skatehall), 602 23 Norrköping", w:"fuckitskateboards.com", s:"v", t:"indie", d:"Local board brand that prints its own graphics in Norrköping. Pick graphic, shape and width for a custom board. Sold in the Ladan skatehall and online."},
   {n:"Boardlife", c:"Jönköping", k:"Sweden", a:"", w:"boardlife.se", s:"u", t:"indie", d:"Not confirmed whether the physical store is still open."},
 
