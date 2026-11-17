@@ -1,6 +1,6 @@
 // AUTO-GENERERAD av scripts/extract-skateparks.ts (körs som `prebuild`) — redigera inte för hand.
 // Källa: content/articles/skateboard/en/verified-indoor-skateparks-world.md
-// Senast genererad: 2026-10-22
+// Senast genererad: 2026-11-17
 
 import type { Skatepark } from './types';
 
@@ -258,7 +258,7 @@ export const verifiedIndoorSkateparks: Skatepark[] = [
     ],
     "website": "dalbanan.se",
     "email": null,
-    "warning": "Official hours table currently shows summer closure — check current status."
+    "warning": null
   },
   {
     "id": "aktivitetshuset-jutan-skatepark",
@@ -318,6 +318,21 @@ export const verifiedIndoorSkateparks: Skatepark[] = [
     ],
     "website": null,
     "email": "streetsportsnordanstig@gmail.com",
+    "warning": null
+  },
+  {
+    "id": "ladan-norrkopings-skatehall",
+    "name": "Ladan (Norrköpings skatehall)",
+    "location": "Norrköping, Sweden",
+    "city": "Norrköping",
+    "country": "Sweden",
+    "region": "Europe",
+    "description": "Street-focused hall with a large floor, a mini ramp and a bowl. Run by the association Aktiv Ungdom i Norrköping (Peking Skaters). Membership card 100 SEK a year, plus a small entry fee. The local board brand FuckIt Skateboards sells boards in the hall.",
+    "addresses": [
+      "Tenngatan 13, 602 23 Norrköping"
+    ],
+    "website": "pekingskaters.se",
+    "email": null,
     "warning": null
   },
   {

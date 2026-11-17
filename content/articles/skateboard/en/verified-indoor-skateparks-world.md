@@ -127,6 +127,11 @@ Built inside a former chapel. Opened May 2022, run by Föreningen Streetsport No
 📍 Bergevägen 16, 820 77 Gnarp
 ✉️ streetsportsnordanstig@gmail.com
 
+**Ladan (Norrköpings skatehall) – Norrköping, Sweden**
+Street-focused hall with a large floor, a mini ramp and a bowl. Run by the association Aktiv Ungdom i Norrköping (Peking Skaters). Membership card 100 SEK a year, plus a small entry fee. The local board brand FuckIt Skateboards sells boards in the hall.
+📍 Tenngatan 13, 602 23 Norrköping
+🌐 pekingskaters.se
+
 **Area 51 – Eindhoven, Netherlands**
 2,800–3,000 m² in a converted Philips factory; Benelux's largest indoor park.
 📍 Leidingstraat 30, 5617 AJ Eindhoven
@@ -438,7 +443,6 @@ Sweden runs an unusually dense network of small municipal and club-run indoor "s
 | Hofors X-Park | Hofors | 900 m² |
 | Karlshamn skatehall | Karlshamn | 853 m² |
 | The Dome | Gävle | 850 m² |
-| Norrköping skatehall (Ladan) | Norrköping | unknown |
 | Fläkten | Växjö | unknown |
 | Emmaboda skatehall | Emmaboda | 800 m² |
 | Skellefteå skatehall | Skellefteå | ~750 m² |

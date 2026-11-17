@@ -40,6 +40,7 @@ export const SHOPS: Shop[] = [
   {n:"Coyote Grind Lounge", c:"Stockholm", k:"Sweden", a:"", y:"2005", s:"u", t:"indie", d:"Core shop founded by three older skaters. Street address not confirmed."},
   {n:"Stuntwood", c:"Stockholm", k:"Sweden", a:"Södermalm", w:"stuntwood.se", s:"u", t:"indie", d:"Skate and snowboard shop on Södermalm. Street address not confirmed."},
   {n:"Kahalani Boards", c:"Stockholm", k:"Sweden", a:"Östgötagatan 20, Stockholm", s:"u", t:"indie", d:"Skateboard, longboard and roller derby shop. Address from one source."},
+  {n:"FuckIt Skateboards", c:"Norrköping", k:"Sweden", a:"Tenngatan 13 (Ladan skatehall), 602 23 Norrköping", w:"fuckitskateboards.com", s:"v", t:"indie", d:"Local board brand that prints its own graphics in Norrköping. Pick graphic, shape and width for a custom board. Sold in the Ladan skatehall and online."},
   {n:"Boardlife", c:"Jönköping", k:"Sweden", a:"", w:"boardlife.se", s:"u", t:"indie", d:"Not confirmed whether the physical store is still open."},
 
   // ---------- NORWAY ----------
