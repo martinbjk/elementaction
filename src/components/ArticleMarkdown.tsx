@@ -17,7 +17,17 @@ export function ArticleMarkdown({ content, slug }: { content: string; slug: stri
     p: ({ children }) => <p className="mt-4 text-[1.0625rem] leading-[1.7] text-neutral-800">{children}</p>,
     ul: ({ children }) => <ul className="mt-4 list-disc space-y-2 pl-5 text-[1.0625rem] leading-[1.65] text-neutral-800">{children}</ul>,
     ol: ({ children }) => <ol className="mt-4 list-decimal space-y-2 pl-5 text-[1.0625rem] leading-[1.65] text-neutral-800">{children}</ol>,
-    li: ({ children }) => <li className="marker:text-sec-paper">{children}</li>,
+    // Checklistor (GFM "- [ ]") visas utan punkt och med klickbar ruta.
+    li: ({ children, className }) =>
+      className?.includes('task-list-item') ? (
+        <li className="relative -ml-5 list-none pl-7">{children}</li>
+      ) : (
+        <li className="marker:text-sec-paper">{children}</li>
+      ),
+    input: ({ type, checked }) =>
+      type === 'checkbox' ? (
+        <input type="checkbox" defaultChecked={!!checked} aria-label="Bocka av" className="absolute left-0 top-[0.3em] h-4 w-4 accent-[rgb(var(--sec-paper-accent))]" />
+      ) : null,
     a: ({ href, children }) => (
       <a
         href={href}
