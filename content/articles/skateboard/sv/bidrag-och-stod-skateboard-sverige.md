@@ -24,6 +24,7 @@ Guiden bygger på två sorters källor. Den första är uppgifter som **Sveriges
 | Du är… | Börja här |
 |---|---|
 | Åkare i landslaget eller utvecklingslandslaget (street eller park) | Förbundet står för resor, boende, fysio och prylar |
+| Åkare eller förening som reser till tävlingar i Sverige | Övernattning i gympasal, som erbjuds på nästan alla tävlingar |
 | Åkare som tävlar internationellt utanför landslaget | Skatestödet (pausat 2026, håll koll på om det öppnar igen) |
 | Åkare som pluggar på högskola och åker i landslaget | Elitidrottsstipendiet från RF och Svenska Spel |
 | Ledare eller förening som vill utbilda sig | Stipendier via Riksidrottsförbundet och idrottens stiftelser |
@@ -56,9 +57,11 @@ Så här såg reglerna ut senast stödet var öppet:
 
 **Tips:** gå Ren Vinnare redan nu och se till att din förening är ansluten till förbundet. Då är du redo om stödet öppnar igen.
 
-### Gympasalen på tävlingarna
+### Övernattning i gympasal på tävlingarna
 
-Det här är ett stöd som inte kostar något att använda. Enligt generalsekreteraren erbjuder förbundet en **gympasal på nästan alla tävlingar**, men **få väljer att använda den**. Värm upp där innan ditt heat. Det är det enklaste sättet att minska risken för skador.
+Det här kan spara mycket pengar. Enligt generalsekreteraren erbjuder förbundet **övernattning i gympasal på nästan alla tävlingar**, som ett billigt alternativ till dyra hotell. Ändå är det **få som väljer att använda det**.
+
+Ta med liggunderlag och sovsäck, så blir en tävlingshelg på annan ort betydligt billigare för dig, för föräldrar och för föreningar som reser med en grupp. Kolla i tävlingsinbjudan eller fråga arrangören vad det kostar och hur man anmäler sig.
 
 ### Stipendier via Riksidrottsförbundet
 
@@ -159,7 +162,7 @@ Sparbanksstiftelser och andra lokala stiftelser kan ge pengar eller medfinansier
 7. **Spara alla kvitton** och dokumentera med bilder och film.
 8. **Redovisa i tid.** Annars kan ni bli tvungna att betala tillbaka.
 9. **Fråga förbundet.** Om ni är osäkra på om projektet passar, kontakta förbundet innan ni söker.
-10. **Använd det som är gratis.** Gympasalen på tävlingarna, förbundets webbutbildning och mallarna för föreningsarbete kostar ingenting.
+10. **Använd det som är billigt eller gratis.** Övernattning i gympasal på tävlingarna i stället för hotell, förbundets webbutbildning och mallarna för föreningsarbete.
 
 ## Kontakt
 
@@ -169,7 +172,7 @@ Se också vår [lista över kontrollerade inomhusskateparker](/sv/skateboard/art
 
 ## Källor
 
-- Uppgifter från Sveriges Skateboardförbunds generalsekreterare till Elementaction, november 2026 (landslagets stöd, Skatestödets paus 2026, gympasal på tävlingar, resor för utveckling)
+- Uppgifter från Sveriges Skateboardförbunds generalsekreterare till Elementaction, november 2026 (landslagets stöd, Skatestödets paus 2026, övernattning i gympasal på tävlingar, resor för utveckling)
 - [Sveriges Skateboardförbund: Skatestödet](https://sverigesskateboardforbund.se/skatestodet/)
 - [Sveriges Skateboardförbund: Ekonomiskt stöd](https://sverigesskateboardforbund.se/ekonomiskt-stod/)
 - [Sveriges Skateboardförbund: Skatelyftet 26/27](https://sverigesskateboardforbund.se/skatelyftet/)
