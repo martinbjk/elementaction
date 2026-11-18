@@ -28,7 +28,7 @@ Guiden bygger på [förbundets egna sidor om ekonomiskt stöd](https://sverigess
 | Åkare som tävlar internationellt utanför landslaget | Skatestödet (stängt, håll koll på om det öppnar igen) |
 | Åkare som pluggar på högskola och åker i landslaget | Elitidrottsstipendiet från RF och Svenska Spel |
 | Ledare eller förening som vill utbilda sig | Stipendier via Riksidrottsförbundet och idrottens stiftelser |
-| Förälder till ett barn 7–16 år | Fritidskortet, som kan användas i föreningar med LOK-stöd |
+| Förälder till ett barn 6–16 år | Fritidskortet, som kan användas i föreningar med LOK-stöd |
 | Förening som vill utveckla verksamheten | LOK-stöd först, sedan Skatelyftet |
 | Förening som vill bygga eller renovera | Byggstödet (stängt 2026) och anläggningsstöd via RF-SISU |
 | Förening med en större idé | Allmänna arvsfonden, kommunen och lokala stiftelser |
@@ -101,7 +101,7 @@ Många kommuner har egna stipendier eller elitstöd för idrottare som bor i kom
 
 ### Fritidskortet, för barn och föräldrar
 
-Alla barn som är **7–16 år** får **550 kr per år** på Fritidskortet, och barn i hushåll som fick bostadsbidrag året innan kan få **2 500 kr**. Pengarna kan bara användas hos föreningar som får **LOK-stöd** från Riksidrottsförbundet och som har anslutit sig till Fritidskortet ([RF:s frågor och svar](https://www.rf.se/download/18.5d5c7bca19b57916e6a9bf6c/1767088068063/Fr%C3%A5gor%20och%20svar%20-%20Fritidskortet.pdf)). Fråga din skateboardförening om ni kan använda kortet till medlemsavgift eller kurser.
+Barn får **550 kr per år** på Fritidskortet, från det år de fyller **6** till och med det år de fyller **16**. Sexåringarna kom med den [10 augusti 2026](https://www.regeringen.se/pressmeddelanden/2026/08/fritidskortet-oppnar-for-alla-6-aringar/), tidigare gällde 7–16 år. Barn i hushåll som fick bostadsbidrag året innan kan få **2 500 kr**, och sedan i augusti 2026 gäller det även när vårdnadshavaren har bostadstillägg. Pengarna kan inte sparas till nästa år och kan användas fram till **30 november**. De kan bara användas hos föreningar som får **LOK-stöd** från Riksidrottsförbundet och som har anslutit sig till Fritidskortet ([RF:s frågor och svar](https://www.rf.se/download/18.5d5c7bca19b57916e6a9bf6c/1767088068063/Fr%C3%A5gor%20och%20svar%20-%20Fritidskortet.pdf)). Fråga din skateboardförening om ni kan använda kortet till medlemsavgift eller kurser.
 
 ### Ungdomsutbyten i Europa: Erasmus+
 
@@ -127,11 +127,11 @@ Ha det här klart, gärna samlat i en mapp på datorn, **innan** du loggar in i 
 
 ### 1. LOK-stöd: grunden för allt annat
 
-**LOK-stöd** (statligt lokalt aktivitetsstöd) ger pengar för ledarledda aktiviteter för deltagare **7–25 år**, och för personer med funktionsnedsättning oavsett ålder. Varje deltagartillfälle ger i genomsnitt [runt 10–11 kronor](https://www.orientering.se/media/a5xdpzyu/lok-stöd-under-20-år-dalarna.pdf). Det låter lite, men det blir mycket över ett år.
+**LOK-stöd** (statligt lokalt aktivitetsstöd) ger pengar för ledarledda aktiviteter för deltagare **6–25 år**, och för personer med funktionsnedsättning oavsett ålder. Den nedre gränsen sänktes från 7 till 6 år genom [nya regler från 1 juli 2025](https://www.friidrott.se/media/csilwxod/2025-nyhetsbrev-4.pdf), så äldre texter som skriver 7–25 år är inaktuella. Varje deltagartillfälle ger i genomsnitt [runt 10–11 kronor](https://www.orientering.se/media/a5xdpzyu/lok-stöd-under-20-år-dalarna.pdf). Det låter lite, men det blir mycket över ett år.
 
 Ännu viktigare är att LOK-stödet öppnar andra dörrar. Det ger möjlighet att söka bland annat anläggningsbidrag, det är ett krav för Byggstödet och för att få ta emot Fritidskortet, och många kommuner följer samma redovisning. Ansökan görs två gånger per år: **25 februari** för hösten och **25 augusti** för våren ([exempel från Klätterförbundet](https://www.klatterforbundet.se/app/uploads/2024/03/LOK-stod_SKF_2024.pdf)).
 
-**Bytet till Idrottsarenan:** IdrottOnline stängdes 10 november 2026 och Idrottsarenan ska enligt plan öppna 23 november 2026. Under uppehållet går det inte att registrera närvaro digitalt i RF:s system, så dokumentera närvaron manuellt och för in den när Idrottsarenan är igång. Läs mer på [RF:s sida om Idrottsarenan](https://www.rf.se/rf-arbetar-med/digitalisering/idrottsarenan).
+**Bytet till Idrottsarenan:** IdrottOnline stängdes 10 november 2026 och Idrottsarenan ska enligt plan öppna 23 november 2026. Det är ett planerat datum, och starten kan påverkas av tekniska justeringar. Under uppehållet går det inte att registrera närvaro digitalt i RF:s system, så dokumentera närvaron manuellt och för in den när Idrottsarenan är igång. Läs mer på [RF:s sida om Idrottsarenan](https://www.rf.se/rf-arbetar-med/digitalisering/idrottsarenan).
 
 ### 2. Skatelyftet 26/27: förbundets projektstöd
 
@@ -148,7 +148,7 @@ Ha det här klart, gärna samlat i en mapp på datorn, **innan** du loggar in i 
 
 ### 3. Byggstödet: stängt för 2026
 
-Byggstödet är förbundets stöd för att bygga inomhus eller utomhus. För 2026 är ansökningstiden **slut**. Så här såg det ut i år, som en fingervisning om nästa år:
+Byggstödet är [förbundets eget stöd](https://sverigesskateboardforbund.se/ekonomiskt-stod/) för att bygga inomhus eller utomhus. Det ska inte förväxlas med RF:s anläggningsstöd, som beskrivs i nästa avsnitt. Uppgifterna nedan kommer från förbundets sida. För 2026 är ansökningstiden **slut**. Så här såg det ut i år, som en fingervisning om nästa år:
 
 - Förbundet stöttade **6 föreningar med upp till 50 000 kr** var.
 - Nytt för 2026: föreningen måste själv stå för **50 procent**, med egna pengar eller till exempel anläggningsstöd från RF-SISU.
