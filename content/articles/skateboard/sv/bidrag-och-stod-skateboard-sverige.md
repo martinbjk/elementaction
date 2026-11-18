@@ -5,7 +5,7 @@ category: "guide"
 lang: "sv"
 date: "2026-11-18"
 author: "Martin Björck"
-excerpt: "Landslagsresor, skatestöd, Skatelyftet, byggstöd, LOK-stöd, stipendier och kommunens bidrag. Här är de stöd som finns för svenska skateboardåkare och skateboardföreningar, vem som kan söka, hur mycket det handlar om och vad som har ändrats under 2026."
+excerpt: "Landslaget, skatestöd, Skatelyftet, byggstöd, LOK-stöd, stipendier och kommunens bidrag. Här är de stöd som finns för svenska skateboardåkare och skateboardföreningar, vem som kan söka, hur mycket det handlar om och vad som har ändrats under 2026."
 metaDescription: "Guide till bidrag och stöd för skateboard i Sverige 2026: landslaget, Skatestödet, Skatelyftet, Byggstödet, LOK-stöd, Elitidrottsstipendiet, Fritidskortet, Arvsfonden och kommunala bidrag."
 ogImage: "/images/articles/bidrag-och-stod-skateboard-sverige/og-image.png"
 tags: ["bidrag", "stöd", "skateboard", "sverige", "förening", "landslag", "skatestödet", "skatelyftet", "lok-stöd"]
@@ -15,7 +15,7 @@ tags: ["bidrag", "stöd", "skateboard", "sverige", "förening", "landslag", "ska
 
 Det finns pengar att söka för den som åker skateboard i Sverige. Problemet är att de ligger utspridda hos förbundet, Riksidrottsförbundet, kommunen, stiftelser och sponsorer, och att reglerna ändras från år till år. Den här guiden samlar det viktigaste på ett ställe.
 
-Guiden bygger på två sorters källor. Den första är uppgifter som **Sveriges Skateboardförbunds generalsekreterare** har lämnat till Elementaction i november 2026. Den andra är förbundets egna sidor och de offentliga regelverken från Riksidrottsförbundet och andra bidragsgivare, som listas längst ner.
+Guiden bygger på förbundets egna sidor och på de offentliga regelverken från Riksidrottsförbundet och andra bidragsgivare. Alla källor listas längst ner.
 
 **Viktigt:** belopp, villkor och ansökningstider ändras ofta. Kontrollera alltid hos bidragsgivaren innan du söker.
 
@@ -23,9 +23,9 @@ Guiden bygger på två sorters källor. Den första är uppgifter som **Sveriges
 
 | Du är… | Börja här |
 |---|---|
-| Åkare i landslaget eller utvecklingslandslaget (street eller park) | Förbundet står för resor, boende, fysio och prylar |
-| Åkare eller förening som reser till tävlingar i Sverige | Övernattning i gympasal, som erbjuds på nästan alla tävlingar |
-| Åkare som tävlar internationellt utanför landslaget | Skatestödet (pausat 2026, håll koll på om det öppnar igen) |
+| Åkare som siktar på landslaget | Resultat i Skateboardcupen och på SM, och förbundets landslagsverksamhet |
+| Åkare eller förening som reser till tävlingar i Sverige | Övernattning i gympasal, om tävlingen erbjuder det |
+| Åkare som tävlar internationellt utanför landslaget | Skatestödet (stängt, håll koll på om det öppnar igen) |
 | Åkare som pluggar på högskola och åker i landslaget | Elitidrottsstipendiet från RF och Svenska Spel |
 | Ledare eller förening som vill utbilda sig | Stipendier via Riksidrottsförbundet och idrottens stiftelser |
 | Förälder till ett barn 7–16 år | Fritidskortet, som kan användas i föreningar med LOK-stöd |
@@ -37,15 +37,13 @@ Guiden bygger på två sorters källor. Den första är uppgifter som **Sveriges
 
 ### Landslaget och utvecklingslandslaget
 
-Enligt förbundets generalsekreterare stöttar Sveriges Skateboardförbund **landslaget och utvecklingslandslaget i street och park** med **resor, boende, fysioterapi och prylar**. För de åkarna är alltså de största kostnaderna för internationella tävlingar redan täckta.
-
 Vägen in går via resultat. Tävla i Skateboardcupen och på SM, och håll koll på förbundets nyheter om landslaget. Åkare **under 18 år** har tidigare hänvisats till ett särskilt elitstöd som hanteras av förbundskaptenen, inte till Skatestödet.
 
-### Skatestödet: pausat 2026
+### Skatestödet: stängt just nu
 
-Åkare i andra grenar, eller åkare utanför landslaget, har kunnat söka **Skatestödet**. Det är ett elitstöd som ger pengar till resor för den som tävlar internationellt och samtidigt visar upp svensk skateboard.
+**Skatestödet** är förbundets elitstöd som ger pengar till resor för den som tävlar internationellt och samtidigt visar upp svensk skateboard.
 
-Förbundets sida säger att stödet **stängdes 6 maj 2025**, och enligt generalsekreteraren **har det pausats under 2026**. Därför står det inget om det under förbundets aktuella nyheter. Det kan komma tillbaka, så sök på förbundets webbplats efter "skatestöd" då och då.
+Förbundets sida säger att stödet **stängdes 6 maj 2025**. Det kan komma tillbaka, så sök på förbundets webbplats efter "skatestöd" då och då.
 
 Så här såg reglerna ut senast stödet var öppet:
 
@@ -59,9 +57,9 @@ Så här såg reglerna ut senast stödet var öppet:
 
 ### Övernattning i gympasal på tävlingarna
 
-Det här kan spara mycket pengar. Enligt generalsekreteraren erbjuder förbundet **övernattning i gympasal på nästan alla tävlingar**, som ett billigt alternativ till dyra hotell. Ändå är det **få som väljer att använda det**.
+Vissa tävlingar erbjuder **övernattning i gympasal** som ett billigt alternativ till hotell. Om det finns står det i **tävlingens information** eller inbjudan, tillsammans med vad det kostar och hur man anmäler sig. Läs den innan du bokar boende.
 
-Ta med liggunderlag och sovsäck, så blir en tävlingshelg på annan ort betydligt billigare för dig, för föräldrar och för föreningar som reser med en grupp. Kolla i tävlingsinbjudan eller fråga arrangören vad det kostar och hur man anmäler sig.
+Ta med liggunderlag och sovsäck, så blir en tävlingshelg på annan ort betydligt billigare för dig, för föräldrar och för föreningar som reser med en grupp.
 
 ### Stipendier via Riksidrottsförbundet
 
@@ -109,17 +107,13 @@ Skatelyftet är förbundets version av Riksidrottsförbundets projektstöd till 
 
 - **Belopp:** upp till **20 000 kr**.
 - **Målgrupp:** barn och unga **6–25 år** samt vuxna med funktionsnedsättning (**26+**).
-- **Vad som går att söka för:** anpassningar av anläggningen (paraskate, nybörjare, avancerade åkare, säkerhet, tävling), satsningar på grupper som är underrepresenterade, och **förnyelseprojekt**, till exempel **utbytesresor**, sociala projekt och nya sätt att träna och tävla.
+- **Vad som går att söka för:** anpassningar av anläggningen (paraskate, nybörjare, avancerade åkare, säkerhet, tävling), satsningar på grupper som är underrepresenterade, och **förnyelseprojekt**, till exempel **utbytesresor** till andra föreningar, sociala projekt och nya sätt att träna och tävla. Ha en tydlig plan för vad föreningen ska lära sig av en resa, inte bara vart ni ska åka.
 - **Vad som inte går:** **ordinarie verksamhet** som läger eller individuella avgifter. Projektet ska tillföra något nytt och vara tidsbegränsat.
 - **Krav:** medlemsavgiften till förbundet är betald, medlemmarna är registrerade, och föreningen har skickat in senaste årsmötesprotokoll, verksamhetsberättelse och bokslut till förbundet.
 - **Ansökan:** fyll i förbundets föreningsutvärdering och sök sedan via **Idrottsarenan**, som har ersatt IdrottOnline.
 - **Redovisning:** senast **en månad** efter projektets slut. Annars kan föreningen behöva betala tillbaka pengarna.
 
-### 3. Resor för utveckling
-
-Enligt generalsekreteraren kan föreningar söka stöd för att **resa för utveckling**, till exempel studiebesök eller utbyten med andra föreningar. Men det är **stramare nu**, eftersom de extra pengarna från pandemiåren och återstartsstödet är slut. I praktiken är det Skatelyftets kategori för utbytesresor som gäller. Ha en tydlig plan för vad föreningen lär sig av resan, inte bara vart ni ska åka.
-
-### 4. Byggstödet: stängt för 2026
+### 3. Byggstödet: stängt för 2026
 
 Byggstödet är förbundets stöd för att bygga inomhus eller utomhus. För 2026 är ansökningstiden **slut**. Så här såg det ut i år, som en fingervisning om nästa år:
 
@@ -129,25 +123,25 @@ Byggstödet är förbundets stöd för att bygga inomhus eller utomhus. För 202
 - Föreningar som fått Byggstödet något av åren 2021–2025 prioriterades lägre.
 - Byggstödet bestäms av förbundets årsmöte i **mars**, så håll utkik efter det inför 2027.
 
-### 5. Anläggningsstöd via RF-SISU-distriktet
+### 4. Anläggningsstöd via RF-SISU-distriktet
 
 Riksidrottsförbundet har ett eget **projektstöd för anläggningar** för 2026–2027. Det söks i Idrottsarenan och hanteras av RF-SISU-distrikten, som beslutar om ansökningar upp till **1 miljon kronor**. Det kan kombineras med förbundets byggstöd för att nå de 50 procent i egen finansiering.
 
-### 6. Särskilda satsningar från förbundet
+### 5. Särskilda satsningar från förbundet
 
 - **NPF-satsning:** upp till **10 000 kr** till **10 föreningar** som inte tidigare har gjort en satsning för barn och unga med NPF (till exempel adhd eller autism). Pengarna kan gå till ledararvoden, marknadsföring och anpassningar av anläggningen.
 - **Skateboard för äldre:** föreningar kan söka upp till **25 000 kr** via RF-SISU-distrikten för verksamhet för personer **över 65 år**.
 - **Paraskate:** förbundet har öppnat för föreningar att söka stöd för en paraskate-satsning.
 
-### 7. Allmänna arvsfonden
+### 6. Allmänna arvsfonden
 
 Arvsfonden är den vanligaste fonden för föreningar. Den ger stöd till **utvecklingsprojekt**, inte till löpande verksamhet, och bara till ideella föreningar och stiftelser, inte till privatpersoner eller företag. Räkna med cirka **sex månader** från ansökan till beslut. Under fem år har drygt 1,8 miljarder kronor gått till idrottsföreningar.
 
-### 8. Kommunen
+### 7. Kommunen
 
 Kommunerna har egna bidrag: aktivitetsstöd, lokalbidrag, lovbidrag, bidrag till drop-in-verksamhet med mera. Reglerna och systemen skiljer sig mellan kommunerna. Malmö hanterar till exempel sina bidrag i systemet Rbok. Boka ett möte med fritidsförvaltningen. Många skateboardföreningar missar pengar som de har rätt till.
 
-### 9. Lokala stiftelser och sparbanksstiftelser
+### 8. Lokala stiftelser och sparbanksstiftelser
 
 Sparbanksstiftelser och andra lokala stiftelser kan ge pengar eller medfinansiera ett bygge. De flesta har ansökningsperioder på **hösten**. Länsstyrelsens stiftelseregister är ett bra ställe att börja leta.
 
@@ -162,7 +156,7 @@ Sparbanksstiftelser och andra lokala stiftelser kan ge pengar eller medfinansier
 7. **Spara alla kvitton** och dokumentera med bilder och film.
 8. **Redovisa i tid.** Annars kan ni bli tvungna att betala tillbaka.
 9. **Fråga förbundet.** Om ni är osäkra på om projektet passar, kontakta förbundet innan ni söker.
-10. **Använd det som är billigt eller gratis.** Övernattning i gympasal på tävlingarna i stället för hotell, förbundets webbutbildning och mallarna för föreningsarbete.
+10. **Använd det som är billigt eller gratis.** Övernattning i gympasal när tävlingen erbjuder det, förbundets webbutbildning och mallarna för föreningsarbete.
 
 ## Kontakt
 
@@ -172,7 +166,6 @@ Se också vår [lista över kontrollerade inomhusskateparker](/sv/skateboard/art
 
 ## Källor
 
-- Uppgifter från Sveriges Skateboardförbunds generalsekreterare till Elementaction, november 2026 (landslagets stöd, Skatestödets paus 2026, övernattning i gympasal på tävlingar, resor för utveckling)
 - [Sveriges Skateboardförbund: Skatestödet](https://sverigesskateboardforbund.se/skatestodet/)
 - [Sveriges Skateboardförbund: Ekonomiskt stöd](https://sverigesskateboardforbund.se/ekonomiskt-stod/)
 - [Sveriges Skateboardförbund: Skatelyftet 26/27](https://sverigesskateboardforbund.se/skatelyftet/)
