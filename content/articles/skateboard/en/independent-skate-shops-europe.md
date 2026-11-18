@@ -57,12 +57,6 @@ The independent shop is where that money used to turn into something real: a tea
 - **Note:** Open Wednesday to Saturday only, so check the website for hours.
 - A skateboard and vintage shop run by the EVA Skateboards crew. It made a first-of-its-kind metal riser pad for Ville Wester.
 
-#### Street Style — Stockholm ✅
-- **Address:** Hamngatan 10 (PK-huset), 111 47 Stockholm
-- **Web:** streetstyle08.com
-- **Since:** 1988
-- A skateboard and streetwear store in the PK-huset arcade in central Stockholm, with decks, hardware, clothing and a second-hand section. Its roots go back to the Stockholm skate scene of the late 1980s.
-
 #### Kahalani Boardstore — Stockholm ✅
 - **Address:** Östgötagatan 20, 116 25 Stockholm (Södermalm)
 - **Web:** kahalani.se
@@ -74,6 +68,8 @@ The independent shop is where that money used to turn into something real: a tea
 - **Address:** Tenngatan 13, 602 23 Norrköping (inside the Ladan skatehall)
 - **Web:** fuckitskateboards.com
 - A small local board brand that prints its own graphics in Norrköping. You can pick graphic, shape and width for a custom board. The boards are sold in the Ladan indoor skatehall and online.
+
+**Online only:** Street Style, a Stockholm skate shop with roots in the late 1980s, closed its store in the PK-huset arcade in December 2025 after a short lease, according to the owner. The webshop is still open at streetstyle08.se.
 
 ### Norway
 
