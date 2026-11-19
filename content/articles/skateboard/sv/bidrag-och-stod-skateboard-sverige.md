@@ -93,7 +93,7 @@ Kontrollera aktuella ansökningsdatum direkt på stiftelsernas webbplatser.
 
 ### Sveriges Olympiska Kommittés Topp och Talang
 
-SOK:s långsiktiga satsning på idrottare med potential att ta internationella medaljer. Förutom pengar får idrottarna tillgång till experter på fysisk träning, återhämtning, medicin och prestationspsykologi. Programmet finansieras av sponsorer, och i juni 2026 [rapporterades att SOK inte får några nya statliga pengar](https://www.realtid.se/bors-finans/inga-pengar-till-os-talanger/) till det. Platserna är få.
+SOK:s långsiktiga satsning på idrottare med potential att ta internationella medaljer. Förutom pengar får idrottarna tillgång till experter på fysisk träning, återhämtning, medicin och prestationspsykologi. Programmet finansieras av [sponsorer och kommersiella aktörer](https://www.tv4.se/artikel/tt-240612-osekonomi-64cf9a1c/larmet-os-idrottarna-far-betala-for-att-tavla), inte av staten. Platserna är få.
 
 ### Kommunens idrottsstipendier
 
