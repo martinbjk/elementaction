@@ -9,6 +9,18 @@ ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUT = ROOT / 'public/images/articles'
 
 ART = {
+    'ledge': '''
+      <path d="M20 330 H430" stroke="#8a8f94" stroke-width="3" stroke-linecap="round"/>
+      <rect x="40" y="250" width="170" height="80" fill="#2a2d33" stroke="#8a8f94" stroke-width="4"/>
+      <g fill="#8a8f94"><rect x="60" y="236" width="14" height="14" rx="3"/><rect x="100" y="236" width="14" height="14" rx="3"/><rect x="140" y="236" width="14" height="14" rx="3"/><rect x="180" y="236" width="14" height="14" rx="3"/></g>
+      <path d="M75 120 l80 80 M155 120 l-80 80" stroke="#e0242f" stroke-width="8" stroke-linecap="round" opacity=".85"/>
+      <rect x="240" y="250" width="190" height="80" fill="#2a2d33" stroke="#f5f8fb" stroke-width="4"/>
+      <path d="M240 250 H430" stroke="ACC" stroke-width="9" stroke-linecap="round"/>
+      <g transform="translate(335 206) rotate(-8)">
+        <rect x="-80" y="-11" width="160" height="22" rx="11" fill="#1b1d22" stroke="#f5f8fb" stroke-width="4"/>
+        <circle cx="-48" cy="20" r="11" fill="ACC"/><circle cx="48" cy="20" r="11" fill="ACC"/>
+      </g>
+      <path d="M300 150 q40 -40 90 -10" fill="none" stroke="ACC" stroke-width="4" stroke-dasharray="8 8"/>''',
     'museum': '''
       <path d="M40 60 H410" stroke="#8a8f94" stroke-width="4" stroke-linecap="round"/>
       <g fill="none" stroke-width="5">
@@ -218,6 +230,10 @@ DATA = [
          kicker='SKATEBOARD HISTORY — LA 1975–1990', t1='Skate & Destroy', t2='LA Punk',
          lead='Dogtown pools, Black Flag, Suicidal Tendencies and the Skate Rock tapes.',
          tags='Z-BOYS · SST · VENICE · THRASHER'),
+    dict(slug='skateboarding-and-the-city', acc='#44d62c', art='ledge',
+         kicker='DESIGN — URBAN SPACE', t1='Skateboarding', t2='and the City',
+         lead='Skatestoppers, bans and the cities that design skaters in.',
+         tags='MALMÖ · BORDEAUX · SÃO PAULO · TOKYO'),
     dict(slug='guggenheim-history-museums', acc='#44d62c', art='spiral',
          kicker='INSPIRATION — ARCHITECTURE & ART', t1='The Guggenheim', t2='Story',
          lead='From a spiral on Fifth Avenue to titanium in Bilbao and a new museum in Abu Dhabi.',
