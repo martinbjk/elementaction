@@ -9,6 +9,13 @@ ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUT = ROOT / 'public/images/articles'
 
 ART = {
+    'sundeck': '''
+      <circle cx="225" cy="200" r="150" fill="#e0242f"/>
+      <g transform="translate(225 215) rotate(-18)">
+        <rect x="-190" y="-26" width="380" height="52" rx="26" fill="#1b1d22" stroke="#f5f8fb" stroke-width="6"/>
+        <circle cx="-120" cy="40" r="20" fill="#f5f8fb"/><circle cx="120" cy="40" r="20" fill="#f5f8fb"/>
+      </g>
+      <path d="M40 380 H410" stroke="#8a8f94" stroke-width="3" stroke-linecap="round"/>''',
     'ledge': '''
       <path d="M20 330 H430" stroke="#8a8f94" stroke-width="3" stroke-linecap="round"/>
       <rect x="40" y="250" width="170" height="80" fill="#2a2d33" stroke="#8a8f94" stroke-width="4"/>
@@ -181,6 +188,10 @@ DATA = [
          kicker='INSPIRATION — TRAVEL', t1='Uncrowded', t2='Waves',
          lead='Nine surf trips away from the crowds, from the Arctic to Papua New Guinea.',
          tags='LOFOTEN · THURSO · NAMIBIA · PNG'),
+    dict(slug='japan-skateboarding-olympic-powerhouse', acc='#e0242f', art='sundeck',
+         kicker='SKATEBOARD — JAPAN', t1="Japan's Skate", t2='Machine',
+         lead='How the Olympic powerhouse organises, trains and selects its skaters.',
+         tags='HORIGOME · YOSHIZAWA · ONODERA · HIRAKI'),
     dict(slug='la28-olympic-skateboarding-how-nations-prepare', acc='#e0242f', art='globedeck',
          kicker='SKATEBOARD — ROAD TO LA28', t1='The Skate', t2='Nations',
          lead='Money, squads and talent: how the countries prepare for LA28.',
