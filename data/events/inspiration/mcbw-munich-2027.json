@@ -1,0 +1,34 @@
+{
+  "slug": "mcbw-munich-2027",
+  "name": "Munich Creative Business Week 2027",
+  "category": [
+    "design",
+    "festival"
+  ],
+  "level": "open",
+  "startDate": "2027-05-10T09:00:00+02:00",
+  "endDate": "2027-05-16T20:00:00+02:00",
+  "timezone": "Europe/Berlin",
+  "location": {
+    "venue": "Hela stan",
+    "city": "Munich",
+    "country": "Germany",
+    "countryCode": "DE",
+    "continent": "europe",
+    "lat": 48.1351,
+    "lng": 11.582
+  },
+  "description": {
+    "sv": "Tysklands största designevenemang, 16:e upplagan. Runt 200 programpunkter i hela München, de flesta gratis.",
+    "en": "Germany's largest design event, 16th edition. Around 200 events across Munich, most of them free."
+  },
+  "organizer": "bayern design",
+  "disciplines": [
+    "Design"
+  ],
+  "source": {
+    "note": "München Tourismus (officiell turistsida): 10–16 maj 2027.",
+    "url": "https://www.munich.travel/en/pois/urban-districts/the-largest-design-event-in-germany",
+    "retrievedAt": "2026-11-19T00:00:00+01:00"
+  }
+}

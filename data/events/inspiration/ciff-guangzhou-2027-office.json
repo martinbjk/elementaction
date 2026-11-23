@@ -1,0 +1,36 @@
+{
+  "slug": "ciff-guangzhou-2027-office",
+  "name": "CIFF Guangzhou 2027 – fas 2 (Office)",
+  "category": [
+    "design",
+    "fair"
+  ],
+  "level": "open",
+  "startDate": "2027-03-28T09:00:00+08:00",
+  "endDate": "2027-03-31T18:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "location": {
+    "venue": "China Import & Export Fair Pazhou Complex",
+    "city": "Guangzhou",
+    "country": "China",
+    "countryCode": "CN",
+    "continent": "asia",
+    "lat": 23.1059,
+    "lng": 113.3653
+  },
+  "description": {
+    "sv": "Fas 2 av CIFF: kontors-, hotell- och offentliga miljöer, samt maskiner och material (CIFM / interzum guangzhou).",
+    "en": "CIFF phase 2: office, hospitality and commercial spaces, plus machinery and materials (CIFM / interzum guangzhou)."
+  },
+  "officialUrl": "https://www.ciff-gz.com/",
+  "organizer": "CIFF / China Foreign Trade Guangzhou Exhibition",
+  "disciplines": [
+    "Furniture",
+    "Office"
+  ],
+  "source": {
+    "note": "CIFF:s officiella registreringssida: fas 2 28–31 mars 2027. Öppettider ungefärliga.",
+    "url": "https://registeren.ciff-gz.com/",
+    "retrievedAt": "2026-11-19T00:00:00+01:00"
+  }
+}

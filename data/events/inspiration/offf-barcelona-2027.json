@@ -1,0 +1,37 @@
+{
+  "slug": "offf-barcelona-2027",
+  "name": "OFFF Barcelona 2027",
+  "category": [
+    "design",
+    "festival"
+  ],
+  "level": "open",
+  "startDate": "2027-05-06T10:00:00+02:00",
+  "endDate": "2027-05-08T20:00:00+02:00",
+  "timezone": "Europe/Madrid",
+  "location": {
+    "venue": "Disseny Hub Barcelona, Plaça de les Glòries Catalanes 37",
+    "city": "Barcelona",
+    "country": "Spain",
+    "countryCode": "ES",
+    "continent": "europe",
+    "lat": 41.4027,
+    "lng": 2.1874
+  },
+  "description": {
+    "sv": "En av världens stora festivaler för digital kreativitet, grafisk design och motion design.",
+    "en": "One of the world's big festivals for digital creativity, graphic design and motion design."
+  },
+  "officialUrl": "https://www.offf.barcelona/",
+  "organizer": "OFFF",
+  "disciplines": [
+    "Graphic design",
+    "Motion design",
+    "Digital"
+  ],
+  "source": {
+    "note": "OFFF:s officiella sida: 6–8 maj 2027, Disseny Hub Barcelona.",
+    "url": "https://www.offf.barcelona/",
+    "retrievedAt": "2026-11-19T00:00:00+01:00"
+  }
+}

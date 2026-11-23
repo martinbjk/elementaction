@@ -1,0 +1,35 @@
+{
+  "slug": "perth-design-week-2027",
+  "name": "Perth Design Week 2027",
+  "category": [
+    "design",
+    "festival"
+  ],
+  "level": "open",
+  "startDate": "2027-03-11T09:00:00+08:00",
+  "endDate": "2027-03-18T18:00:00+08:00",
+  "timezone": "Australia/Perth",
+  "location": {
+    "venue": "The Liberty Theatre, 81 Barrack St",
+    "city": "Perth",
+    "country": "Australia",
+    "countryCode": "AU",
+    "continent": "oceania",
+    "lat": -31.9546,
+    "lng": 115.8601
+  },
+  "description": {
+    "sv": "Femte upplagan av Perths designvecka, med nav i The Liberty Theatre och utställning på WA Museum Boola Bardip.",
+    "en": "The fifth Perth Design Week, with its hub at The Liberty Theatre and an exhibition at WA Museum Boola Bardip."
+  },
+  "disciplines": [
+    "Design",
+    "Architecture",
+    "Interior"
+  ],
+  "source": {
+    "note": "ArchitectureAU: 11–18 mars 2027, nav i The Liberty Theatre. Öppettider ungefärliga.",
+    "url": "https://architectureau.com/",
+    "retrievedAt": "2026-11-19T00:00:00+01:00"
+  }
+}

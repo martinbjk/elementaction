@@ -1,0 +1,36 @@
+{
+  "slug": "designthinkers-vancouver-2027",
+  "name": "DesignThinkers Vancouver 2027",
+  "category": [
+    "design",
+    "workshop"
+  ],
+  "level": "open",
+  "startDate": "2027-05-04T09:00:00-07:00",
+  "endDate": "2027-05-05T18:00:00-07:00",
+  "timezone": "America/Vancouver",
+  "location": {
+    "venue": "Vancouver Playhouse, 600 Hamilton St",
+    "city": "Vancouver",
+    "country": "Canada",
+    "countryCode": "CA",
+    "continent": "north-america",
+    "lat": 49.2804,
+    "lng": -123.1131
+  },
+  "description": {
+    "sv": "Kanadas stora konferens för grafisk design och kommunikation, arrangerad av RGD. Går även att följa via livestream.",
+    "en": "Canada's major graphic design and communication conference, run by RGD. Also available via live stream."
+  },
+  "officialUrl": "https://www.designthinkers.com/",
+  "organizer": "RGD",
+  "disciplines": [
+    "Graphic design",
+    "Branding"
+  ],
+  "source": {
+    "note": "RGD:s officiella sida: 4–5 maj 2027, Vancouver Playhouse. (Toronto-upplagan 21–22 okt 2027.)",
+    "url": "https://rgd.ca/connecting-learning/events-training/designthinkers-2027-vancouver",
+    "retrievedAt": "2026-11-19T00:00:00+01:00"
+  }
+}

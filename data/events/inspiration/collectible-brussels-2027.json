@@ -1,0 +1,36 @@
+{
+  "slug": "collectible-brussels-2027",
+  "name": "COLLECTIBLE Brussels 2027",
+  "category": [
+    "design",
+    "fair"
+  ],
+  "level": "open",
+  "startDate": "2027-03-11T11:00:00+01:00",
+  "endDate": "2027-03-14T19:00:00+01:00",
+  "timezone": "Europe/Brussels",
+  "location": {
+    "venue": "Vanderborght Building, Rue de l'Ecuyer 50",
+    "city": "Brussels",
+    "country": "Belgium",
+    "countryCode": "BE",
+    "continent": "europe",
+    "lat": 50.8478,
+    "lng": 4.3553
+  },
+  "description": {
+    "sv": "Mässa för samlardesign från 2000-talet: unika objekt, små upplagor och unga studios. Tionde upplagan, VIP-visning 10 mars.",
+    "en": "Fair for 21st-century collectible design: unique pieces, limited editions and young studios. Tenth edition, VIP preview on 10 March."
+  },
+  "officialUrl": "https://collectible.design/",
+  "organizer": "COLLECTIBLE",
+  "disciplines": [
+    "Design",
+    "Collectible design"
+  ],
+  "source": {
+    "note": "Datum enligt ArchUp och mässkalendrar (11–14 mars 2027, Vanderborght). Arrangörens sida visade ännu 2026 vid kontrollen – dubbelkolla före resa.",
+    "url": "https://archup.net/",
+    "retrievedAt": "2026-11-19T00:00:00+01:00"
+  }
+}

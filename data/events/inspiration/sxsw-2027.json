@@ -1,0 +1,38 @@
+{
+  "slug": "sxsw-2027",
+  "name": "SXSW 2027",
+  "category": [
+    "festival",
+    "workshop"
+  ],
+  "level": "open",
+  "startDate": "2027-03-15T09:00:00-05:00",
+  "endDate": "2027-03-21T23:00:00-05:00",
+  "timezone": "America/Chicago",
+  "location": {
+    "venue": "Downtown Austin",
+    "city": "Austin, Texas",
+    "country": "USA",
+    "countryCode": "US",
+    "continent": "north-america",
+    "lat": 30.2635,
+    "lng": -97.7396
+  },
+  "description": {
+    "sv": "Konferens och festival om teknik, design, film och musik. Innovationskonferensen pågår 15–20 mars.",
+    "en": "Conference and festival for tech, design, film and music. The Innovation Conference runs 15–20 March."
+  },
+  "officialUrl": "https://www.sxsw.com/",
+  "organizer": "SXSW",
+  "disciplines": [
+    "Design",
+    "Interactive",
+    "Film",
+    "Music"
+  ],
+  "source": {
+    "note": "SXSW:s officiella pressmeddelande: 15–21 mars 2027 (SXSW EDU 13–16 mars).",
+    "url": "https://www.sxsw.com/news/",
+    "retrievedAt": "2026-11-19T00:00:00+01:00"
+  }
+}

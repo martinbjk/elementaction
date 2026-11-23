@@ -1,0 +1,35 @@
+{
+  "slug": "munich-design-days-2027",
+  "name": "Munich Design Days 2027",
+  "category": [
+    "design",
+    "fair"
+  ],
+  "level": "open",
+  "startDate": "2027-03-11T10:00:00+01:00",
+  "endDate": "2027-03-14T17:00:00+01:00",
+  "timezone": "Europe/Berlin",
+  "location": {
+    "venue": "Praterinsel 3–4",
+    "city": "Munich",
+    "country": "Germany",
+    "countryCode": "DE",
+    "continent": "europe",
+    "lat": 48.1365,
+    "lng": 11.5899
+  },
+  "description": {
+    "sv": "Kurerad inredningsmässa på Praterinsel mitt i München, kopplad till textilmässan Münchner Stoff Frühling. Tredje upplagan, plus visningsrum i innerstaden.",
+    "en": "Curated interior design event on Prater Island in central Munich, linked to the Munich Fabric Spring textile fair. Third edition, plus showrooms across the city centre."
+  },
+  "officialUrl": "https://www.munichdesigndays.de/en/homepage-en/",
+  "disciplines": [
+    "Design",
+    "Interior"
+  ],
+  "source": {
+    "note": "in-muenchen.de (Münchens stadsportal): tredje upplagan 11–14 mars 2027, Praterinsel. Öppettider ungefärliga (2026: 10–18, sön 10–17).",
+    "url": "https://www.in-muenchen.de/events/munich-design-days.html",
+    "retrievedAt": "2026-11-19T00:00:00+01:00"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "design-shanghai-2027",
+  "name": "Design Shanghai 2027",
+  "category": [
+    "design",
+    "fair"
+  ],
+  "level": "open",
+  "startDate": "2027-03-04T10:00:00+08:00",
+  "endDate": "2027-03-07T18:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "location": {
+    "venue": "Shanghai Exhibition Centre",
+    "city": "Shanghai",
+    "country": "China",
+    "countryCode": "CN",
+    "continent": "asia",
+    "lat": 31.2253,
+    "lng": 121.4466
+  },
+  "description": {
+    "sv": "Asiens stora designmässa för möbler, inredning och belysning i Shanghai Exhibition Centre. Programmet Design in the City pågår i staden 22 februari–7 mars.",
+    "en": "Asia's major design fair for furniture, interiors and lighting at Shanghai Exhibition Centre. The Design in the City programme runs across the city 22 February–7 March."
+  },
+  "officialUrl": "https://www.designshanghai.com/",
+  "organizer": "Clarion Events",
+  "disciplines": [
+    "Design",
+    "Interior",
+    "Furniture"
+  ],
+  "source": {
+    "note": "Design Shanghais officiella sida: 4–7 mars 2027, Shanghai Exhibition Centre. Öppettider ungefärliga.",
+    "url": "https://www.designshanghai.com/shanghai-homepage",
+    "retrievedAt": "2026-11-19T00:00:00+01:00"
+  }
+}

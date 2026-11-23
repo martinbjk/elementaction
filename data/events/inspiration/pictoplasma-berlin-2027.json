@@ -1,0 +1,37 @@
+{
+  "slug": "pictoplasma-berlin-2027",
+  "name": "Pictoplasma 2027",
+  "category": [
+    "design",
+    "festival"
+  ],
+  "level": "open",
+  "startDate": "2027-04-29T10:00:00+02:00",
+  "endDate": "2027-05-02T22:00:00+02:00",
+  "timezone": "Europe/Berlin",
+  "location": {
+    "venue": "Plats meddelas senare",
+    "city": "Berlin",
+    "country": "Germany",
+    "countryCode": "DE",
+    "continent": "europe",
+    "lat": 52.52,
+    "lng": 13.405
+  },
+  "description": {
+    "sv": "Festival och konferens om figurdesign, illustration och animation. Plats för 2027 är inte klar (2026 var silent green).",
+    "en": "Festival and conference for character design, illustration and animation. The 2027 venue is not yet announced (2026 was silent green)."
+  },
+  "officialUrl": "https://conference.pictoplasma.com/",
+  "organizer": "Pictoplasma",
+  "disciplines": [
+    "Illustration",
+    "Animation",
+    "Character design"
+  ],
+  "source": {
+    "note": "Pictoplasmas officiella sida: 29 april–2 maj 2027. En nyhetssida skriver 29 april–1 maj, så slutdatum kan ändras.",
+    "url": "https://conference.pictoplasma.com/",
+    "retrievedAt": "2026-11-19T00:00:00+01:00"
+  }
+}

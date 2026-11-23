@@ -1,0 +1,36 @@
+{
+  "slug": "ciff-guangzhou-2027-home",
+  "name": "CIFF Guangzhou 2027 – fas 1 (Home)",
+  "category": [
+    "design",
+    "fair"
+  ],
+  "level": "open",
+  "startDate": "2027-03-18T09:00:00+08:00",
+  "endDate": "2027-03-21T18:00:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "location": {
+    "venue": "China Import & Export Fair Pazhou Complex / PWTC Expo",
+    "city": "Guangzhou",
+    "country": "China",
+    "countryCode": "CN",
+    "continent": "asia",
+    "lat": 23.1059,
+    "lng": 113.3653
+  },
+  "description": {
+    "sv": "En av världens största möbelmässor, 59:e upplagan. Fas 1: hemmamöbler, heminredning, textil och utemöbler.",
+    "en": "One of the world's largest furniture fairs, 59th edition. Phase 1: home furniture, home decor, textiles and outdoor furniture."
+  },
+  "officialUrl": "https://www.ciff-gz.com/",
+  "organizer": "CIFF / China Foreign Trade Guangzhou Exhibition",
+  "disciplines": [
+    "Furniture",
+    "Interior"
+  ],
+  "source": {
+    "note": "CIFF:s officiella registreringssida: fas 1 18–21 mars 2027. Öppettider ungefärliga.",
+    "url": "https://registeren.ciff-gz.com/",
+    "retrievedAt": "2026-11-19T00:00:00+01:00"
+  }
+}
