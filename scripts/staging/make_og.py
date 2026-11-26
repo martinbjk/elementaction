@@ -9,6 +9,52 @@ ROOT = pathlib.Path(__file__).resolve().parents[2]
 OUT = ROOT / 'public/images/articles'
 
 ART = {
+    'sweflag': '''
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1f7fd4"/><stop offset="1" stop-color="#a8dcff"/></linearGradient>
+        <linearGradient id="ramp" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#d9dbdf"/><stop offset="1" stop-color="#9da1a8"/></linearGradient>
+        <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c4c7cc"/><stop offset="1" stop-color="#8f939a"/></linearGradient>
+        <radialGradient id="sunglow"><stop offset="0" stop-color="#fff3b0" stop-opacity=".9"/><stop offset="1" stop-color="#fff3b0" stop-opacity="0"/></radialGradient>
+        <clipPath id="scene"><rect x="0" y="0" width="450" height="400" rx="20"/></clipPath>
+      </defs>
+      <g clip-path="url(#scene)">
+        <rect x="0" y="0" width="450" height="400" fill="url(#sky)"/>
+        <circle cx="88" cy="82" r="90" fill="url(#sunglow)"/>
+        <circle cx="88" cy="82" r="34" fill="#FFD43B"/>
+        <g fill="#ffffff" opacity=".85">
+          <ellipse cx="205" cy="70" rx="46" ry="15"/><ellipse cx="232" cy="58" rx="28" ry="16"/>
+          <ellipse cx="140" cy="168" rx="36" ry="11"/><ellipse cx="160" cy="159" rx="20" ry="11"/>
+        </g>
+        <rect x="0" y="330" width="450" height="70" fill="url(#ground)"/>
+        <path d="M0 330 H450" stroke="#7d8189" stroke-width="2"/>
+        <path d="M235 330 Q 392 330 392 128 L 450 128 L 450 330 Z" fill="url(#ramp)"/>
+        <path d="M235 330 Q 392 330 392 128" fill="none" stroke="#6f737b" stroke-width="2"/>
+        <rect x="386" y="121" width="64" height="11" rx="5.5" fill="#e9ebee" stroke="#6f737b" stroke-width="1.5"/>
+        <path d="M434 122 V 22" stroke="#e9ebee" stroke-width="4" stroke-linecap="round"/>
+        <g>
+          <rect x="314" y="24" width="120" height="75" fill="#006AA7"/>
+          <rect x="314" y="54" width="120" height="15" fill="#FECC02"/>
+          <rect x="381" y="24" width="15" height="75" fill="#FECC02"/>
+        </g>
+        <g stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".7">
+          <path d="M-4 250 H22"/><path d="M-4 272 H14"/><path d="M-4 294 H20"/>
+        </g>
+        <g transform="translate(-24 -99) scale(1.3)">
+          <path d="M52 288 L66 298" fill="none" stroke="#9097a0" stroke-width="5" stroke-linejoin="round"/>
+          <path d="M172 298 L186 288" fill="none" stroke="#9097a0" stroke-width="5" stroke-linejoin="round"/>
+          <rect x="59" y="296" width="26" height="6" rx="1.5" fill="#6f747c"/>
+          <rect x="153" y="296" width="26" height="6" rx="1.5" fill="#6f747c"/>
+          <path d="M64 302 L72 315 L80 302 Z" fill="#b8bec6" stroke="#5c6168" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M158 302 L166 315 L174 302 Z" fill="#b8bec6" stroke="#5c6168" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M40 278 Q 52 296 76 296 H162 Q 186 296 198 278" fill="none" stroke="#006AA7" stroke-width="10" stroke-linecap="round"/>
+          <path d="M40 278 Q 52 296 76 296 H162 Q 186 296 198 278" fill="none" stroke="#FECC02" stroke-width="2.5" stroke-linecap="round" transform="translate(0 2.5)"/>
+          <path d="M40 274 Q 52 292 76 292 H162 Q 186 292 198 274" fill="none" stroke="#1b1d22" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="72" cy="318" r="12" fill="#f4f1e8" stroke="#3b3f45" stroke-width="2"/>
+          <circle cx="72" cy="318" r="4" fill="#9097a0"/>
+          <circle cx="166" cy="318" r="12" fill="#f4f1e8" stroke="#3b3f45" stroke-width="2"/>
+          <circle cx="166" cy="318" r="4" fill="#9097a0"/>
+        </g>
+      </g>''',
     'sundeck': '''
       <circle cx="225" cy="200" r="150" fill="#e0242f"/>
       <g transform="translate(225 215) rotate(-18)">
@@ -188,7 +234,7 @@ DATA = [
          kicker='INSPIRATION — TRAVEL', t1='Uncrowded', t2='Waves',
          lead='Nine surf trips away from the crowds, from the Arctic to Papua New Guinea.',
          tags='LOFOTEN · THURSO · NAMIBIA · PNG'),
-    dict(slug='skateparks-sweden-travel-guide', acc='#44d62c', art='deck',
+    dict(slug='skateparks-sweden-travel-guide', acc='#FECC02', art='sweflag',
          kicker='SKATEBOARD — TRAVEL', t1='Skating', t2='Sweden',
          lead='A searchable guide to the country\'s concrete skateparks.',
          tags='SKÅNE · WEST · DALARNA · NORRLAND'),
