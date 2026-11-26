@@ -1,10 +1,12 @@
 import type { ReactNode } from 'react';
 import { NorwaySurfForecastEmbed } from '@/components/article-embeds/NorwaySurfForecastEmbed';
 import { SkateparkFinder } from '@/components/article-embeds/SkateparkFinder';
+import { SwedenSkateparkFinder } from '@/components/article-embeds/SwedenSkateparkFinder';
 import { SurfForecastEmbed } from '@/components/article-embeds/SurfForecastEmbed';
 import { SurfToolsEmbed } from '@/components/article-embeds/SurfToolsEmbed';
 import { WavePoolFinder } from '@/components/article-embeds/WavePoolFinder';
 import { verifiedIndoorSkateparks } from './skateparks/verified-indoor-skateparks-world.data';
+import { swedenSkateparks } from './skateparks/sweden-concrete-parks.data';
 import { verifiedWavePools } from './wavepools/verified-wave-pools-world.data';
 
 /**
@@ -70,5 +72,11 @@ export const ARTICLE_EMBEDS: Record<string, ArticleEmbed> = {
     // technology" med den sök-/filterbara wave-pool-listan.
     splice: { from: '\n<!-- wave-pool-finder-embed -->\n', to: '\n## A note on the technology' },
     render: () => <WavePoolFinder pools={verifiedWavePools} />
-  } satisfies ArticleEmbed
+  } satisfies ArticleEmbed,
+  'skateparks-sweden-travel-guide': {
+    // Ersätter markörraden före "## Planning your trip" med den sökbara
+    // listan över svenska betongparker (data från Skateparksguiden).
+    splice: { from: '\n<!-- sweden-skatepark-finder -->\n', to: '\n## Planning your trip' },
+    render: () => <SwedenSkateparkFinder parks={swedenSkateparks} />
+  } satisfies ArticleEmbed,
 };
