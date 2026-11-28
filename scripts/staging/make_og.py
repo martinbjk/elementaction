@@ -162,6 +162,23 @@ ART = {
       </g>''',
 }
 
+ART['ladder'] = '''
+      <path d="M20 370 H430" stroke="#8a8f94" stroke-width="3" stroke-linecap="round"/>
+      <g stroke="#f5f8fb" stroke-width="4">
+        <rect x="40" y="300" width="90" height="70" fill="#2a2d33"/>
+        <rect x="130" y="230" width="90" height="140" fill="#2a2d33"/>
+        <rect x="220" y="160" width="90" height="210" fill="#2a2d33"/>
+        <rect x="310" y="90" width="90" height="280" fill="#2a2d33"/>
+      </g>
+      <g fill="ACC"><rect x="40" y="296" width="90" height="9"/><rect x="130" y="226" width="90" height="9"/><rect x="220" y="156" width="90" height="9"/><rect x="310" y="86" width="90" height="9"/></g>
+      <g font-family="DejaVu Sans" font-weight="700" font-size="40" fill="#f5f8fb" text-anchor="middle">
+        <text x="85" y="352">1</text><text x="175" y="318">2</text><text x="265" y="283">3</text><text x="355" y="248">4</text>
+      </g>
+      <g transform="translate(355 52) rotate(-6)">
+        <rect x="-62" y="-10" width="124" height="20" rx="10" fill="#1b1d22" stroke="#f5f8fb" stroke-width="4"/>
+        <circle cx="-38" cy="19" r="10" fill="ACC"/><circle cx="38" cy="19" r="10" fill="ACC"/>
+      </g>
+      <path d="M70 270 q60 -90 150 -150" fill="none" stroke="ACC" stroke-width="4" stroke-dasharray="8 8"/>'''
 ART['books'] = '''
       <g transform="translate(225 200)">
         <rect x="-150" y="95" width="300" height="34" rx="4" fill="#1b1d22" stroke="#f5f8fb" stroke-width="5"/>
@@ -238,6 +255,10 @@ DATA = [
          kicker='SKATEBOARD — TRAVEL', t1='Skating', t2='Sweden',
          lead='A searchable guide to the country\'s concrete skateparks.',
          tags='SKÅNE · WEST · DALARNA · NORRLAND'),
+    dict(slug='world-skate-skateboard-coaching-pathway', acc='#2fbf2f', art='ladder',
+         kicker='SKATEBOARD — COACHING', t1='The Coaching', t2='Ladder',
+         lead="World Skate's four-level path from grassroots to Olympic coach.",
+         tags='LEVEL 1 · LEVEL 2 · CEAS · OLYMPIC SOLIDARITY'),
     dict(slug='japan-skateboarding-olympic-powerhouse', acc='#e0242f', art='sundeck',
          kicker='SKATEBOARD — JAPAN', t1="Japan's Skate", t2='Machine',
          lead='How the Olympic powerhouse organises, trains and selects its skaters.',
